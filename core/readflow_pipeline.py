@@ -5,76 +5,18 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-from PIL import Image
-from vllm import LLM, SamplingParams
-from vllm.model_executor.models.deepseek_ocr import NGramPerReqLogitsProcessor
+from vllm import LLM
 
-from ocr_redacted_placeholders import EXTS, MODEL_ID, PROMPT_FREE_OCR, _binarize_dark, detect_redaction_boxes
+from core.ocr_shared import MODEL_ID, PROMPT_FREE_OCR, build_llm, collect_images, ocr_with_model
+from core.redaction_detection import binarize_dark, detect_redaction_boxes
 
 LINE_COVERAGE_MIN = 0.50
 FIRST_LINE_INDENT_SPACES = 5
 BOX_LINE_CHARS_DEFAULT = 64
 
 
-def clean_ds_output(raw) -> str:
-    if raw is None:
-        return ""
-    s = str(raw)
-    s = re.sub(r"<\|ref\|>.*?<\|/ref\|>", "", s, flags=re.DOTALL)
-    s = re.sub(r"<\|det\|>.*?<\|/det\|>", "", s, flags=re.DOTALL)
-    return s.strip()
-
-
-def build_llm(model_id: str, max_model_len: int | None) -> LLM:
-    kwargs = dict(
-        model=model_id,
-        enable_prefix_caching=False,
-        mm_processor_cache_gb=0,
-        logits_processors=[NGramPerReqLogitsProcessor],
-    )
-    if max_model_len is not None:
-        kwargs["max_model_len"] = max_model_len
-    return LLM(**kwargs)
-
-
-def ocr_with_model(
-    llm: LLM,
-    image_path: Path,
-    prompt: str,
-    max_tokens: int,
-    temperature: float,
-    ngram_size: int,
-    window_size: int,
-) -> str:
-    img = Image.open(image_path).convert("RGB")
-    model_input = [{
-        "prompt": prompt,
-        "multi_modal_data": {"image": img},
-    }]
-    sampling = SamplingParams(
-        temperature=temperature,
-        max_tokens=max_tokens,
-        extra_args=dict(
-            ngram_size=ngram_size,
-            window_size=window_size,
-            whitelist_token_ids={128821, 128822},
-        ),
-        skip_special_tokens=False,
-    )
-    out = llm.generate(model_input, sampling)
-    return clean_ds_output(out[0].outputs[0].text)
-
-
-def _collect_images(in_path: Path) -> list[Path]:
-    if in_path.is_file() and in_path.suffix.lower() in EXTS:
-        return [in_path]
-    if in_path.is_dir():
-        return [p for p in sorted(in_path.iterdir()) if p.is_file() and p.suffix.lower() in EXTS]
-    raise SystemExit(f"Input not found or not an image/folder: {in_path}")
-
-
 def build_text_merged_mask(gray: np.ndarray, redaction_boxes: list[tuple[int, int, int, int]]) -> np.ndarray:
-    dark = _binarize_dark(gray)
+    dark = binarize_dark(gray)
     mask = dark.copy()
 
     # Remove redaction regions from text-mask estimation.
@@ -88,7 +30,7 @@ def build_text_merged_mask(gray: np.ndarray, redaction_boxes: list[tuple[int, in
 
 def build_structural_lines_mask(gray: np.ndarray) -> np.ndarray:
     # Matches the line-extraction logic used by redaction detection/debug_lines.
-    dark = _binarize_dark(gray)
+    dark = binarize_dark(gray)
     h, w = gray.shape
     h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (max(24, w // 10), 1))
     v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(10, h // 4)))
@@ -374,10 +316,10 @@ def save_debug_line_model(
 
     vis_mask = cv2.cvtColor(merged_region_mask, cv2.COLOR_GRAY2BGR)
     cv2.rectangle(vis_mask, (x1, y1), (x2, y2), (255, 0, 255), 1)
-    cv2.imwrite(str(debug_dir / "debug_text_merged.png"), merged)
-    cv2.imwrite(str(debug_dir / "debug_percentile_region.png"), vis_mask)
-    cv2.imwrite(str(debug_dir / "debug_structural_lines_mask.png"), structural_lines_mask)
-    cv2.imwrite(str(debug_dir / "debug_text_merged_no_structural_lines.png"), merged_region_mask)
+    cv2.imwrite(str(debug_dir / "11_text_merged.png"), merged)
+    cv2.imwrite(str(debug_dir / "12_structural_lines_mask.png"), structural_lines_mask)
+    cv2.imwrite(str(debug_dir / "13_text_merged_no_structural_lines.png"), merged_region_mask)
+    cv2.imwrite(str(debug_dir / "14_percentile_region.png"), vis_mask)
 
     vis = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
     cv2.rectangle(vis, (x1, y1), (x2, y2), (255, 0, 255), 1)
@@ -411,7 +353,7 @@ def save_debug_line_model(
             cv2.LINE_AA,
         )
 
-    cv2.imwrite(str(debug_dir / "debug_line_model_overlay.png"), vis)
+    cv2.imwrite(str(debug_dir / "15_line_model_overlay.png"), vis)
 
 
 def process_image(
@@ -594,7 +536,7 @@ def main() -> None:
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    images = _collect_images(in_path)
+    images = collect_images(in_path)
     llm = build_llm(args.model, args.max_model_len)
 
     for img_path in images:
