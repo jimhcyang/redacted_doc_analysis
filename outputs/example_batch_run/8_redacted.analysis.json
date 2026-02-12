@@ -1,0 +1,102 @@
+{
+  "image": "example_batch/8_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      396,
+      58,
+      526,
+      74
+    ],
+    [
+      9,
+      79,
+      134,
+      95
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    17,
+    8,
+    527,
+    292
+  ],
+  "percentile_q": 0.5,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 86517,
+  "merged_region_nonzero_px": 84537,
+  "line_width_px": 510,
+  "line_count": 1,
+  "avg_line_height_px": 285.0,
+  "lines": [
+    {
+      "line_1based": 1,
+      "text": "Col. Maung Maung, an influential army officer who is one of General Ne Win's closest political advisers, ______ stated recently that six months was too short a time in which to establish stability in Burma, and that it would be impossible to hold elections before 1960. Maung Maung indicated that the army was searching for \"constitutional\" means of extending the tenure of the Ne Win government beyond the six-month period stipulated under the terms of the \"transfer of power\" agreement which enabled Ne Win to come to power with a semblance of constitutionality in late October. The general tenor of Maung Maung's remarks suggests that the army is determined to remain in power indefinitely beyond the achievement of its stated objectives of pacifying the country and limiting the Communist threat.",
+      "char_len": 800,
+      "line_box_xyxy": [
+        17,
+        8,
+        527,
+        292
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 2,
+      "line_1based": 1,
+      "line_char_capacity": 800,
+      "char_start": 0,
+      "char_end": 177,
+      "char_len": 177,
+      "full_line": false,
+      "bbox_xyxy": [
+        9,
+        79,
+        134,
+        95
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2_________]",
+      "layout_token_pixel": "[BOX2__112/505]",
+      "line_overlap_ratio": 0.0596,
+      "line_cover_ratio_x": 0.2218,
+      "clipped_span_px": 112,
+      "line_width_effective_px": 505,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 800,
+      "char_start": 592,
+      "char_end": 798,
+      "char_len": 206,
+      "full_line": false,
+      "bbox_xyxy": [
+        396,
+        58,
+        526,
+        74
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________]",
+      "layout_token_pixel": "[BOX1__130/505]",
+      "line_overlap_ratio": 0.0596,
+      "line_cover_ratio_x": 0.2574,
+      "clipped_span_px": 130,
+      "line_width_effective_px": 505,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses percentile text region + uniform line boxes from OCR line count"
+}

@@ -1,0 +1,146 @@
+{
+  "image": "example_batch/3_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      478,
+      202,
+      555,
+      220
+    ],
+    [
+      4,
+      220,
+      556,
+      272
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    8,
+    8,
+    525,
+    382
+  ],
+  "percentile_q": 0.5,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 107225,
+  "merged_region_nonzero_px": 104264,
+  "line_width_px": 517,
+  "line_count": 5,
+  "avg_line_height_px": 75.0,
+  "lines": [
+    {
+      "line_1based": 1,
+      "text": "Nasar Facing New Difficulties",
+      "char_len": 29,
+      "line_box_xyxy": [
+        8,
+        8,
+        525,
+        82
+      ]
+    },
+    {
+      "line_1based": 2,
+      "text": "",
+      "char_len": 0,
+      "line_box_xyxy": [
+        8,
+        83,
+        525,
+        157
+      ]
+    },
+    {
+      "line_1based": 3,
+      "text": "Nasir has received the resignation of Egyptian Vice President for Economic Affairs Abd al-Latif Baghdadi, but has not as yet indicated that he will accept it. Baghdadi, a member of the original Revolutionary Command Council and one of the regime's most competent officials, has been accused of profiteering, following an official investigation presumably ordered by Nasir. Acceptance of the popular Baghdadi's resignation, combined with present rumors of a serious misunderstanding between Nasir and his chief adviser, Ali Sabri, would probably lower the regime's prestige and add to public discontent.",
+      "char_len": 602,
+      "line_box_xyxy": [
+        8,
+        158,
+        525,
+        232
+      ]
+    },
+    {
+      "line_1based": 4,
+      "text": "",
+      "char_len": 0,
+      "line_box_xyxy": [
+        8,
+        233,
+        525,
+        307
+      ]
+    },
+    {
+      "line_1based": 5,
+      "text": "Differences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of ...",
+      "char_len": 376,
+      "line_box_xyxy": [
+        8,
+        308,
+        525,
+        382
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 3,
+      "line_char_capacity": 602,
+      "char_start": 547,
+      "char_end": 602,
+      "char_len": 55,
+      "full_line": false,
+      "bbox_xyxy": [
+        478,
+        202,
+        555,
+        220
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__]",
+      "layout_token_pixel": "[BOX1__47/517]",
+      "line_overlap_ratio": 0.2533,
+      "line_cover_ratio_x": 0.0909,
+      "clipped_span_px": 47,
+      "line_width_effective_px": 517,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 4,
+      "line_char_capacity": 602,
+      "char_start": 0,
+      "char_end": 602,
+      "char_len": 602,
+      "full_line": true,
+      "bbox_xyxy": [
+        4,
+        220,
+        556,
+        272
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__517/517]",
+      "line_overlap_ratio": 0.5333,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 517,
+      "line_width_effective_px": 517,
+      "touches_left_border": true,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses percentile text region + uniform line boxes from OCR line count"
+}

@@ -1,5 +1,5 @@
 {
-  "image": "0_redacted.png",
+  "image": "example_batch/0_redacted.png",
   "model": "deepseek-ai/DeepSeek-OCR",
   "prompt": "<image>\nFree OCR. Preserve original line breaks.",
   "redaction_boxes_xyxy": [

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / archive artifacts
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+
+# Windows Mark-of-the-Web sidecar artifacts that appear as files in WSL
+*:Zone.Identifier
+*Zone.Identifier
+
+# Runtime outputs
+inputs/
+
