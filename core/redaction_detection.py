@@ -24,6 +24,23 @@ def binarize_dark(gray: np.ndarray) -> np.ndarray:
     return _binarize_dark(gray)
 
 
+def build_lines_mask(gray: np.ndarray) -> np.ndarray:
+    dark = _binarize_dark(gray)
+    h, w = gray.shape
+    h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (max(24, w // 10), 1))
+    v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(10, h // 4)))
+    h_lines = cv2.morphologyEx(dark, cv2.MORPH_OPEN, h_kernel, iterations=1)
+    v_lines = cv2.morphologyEx(dark, cv2.MORPH_OPEN, v_kernel, iterations=1)
+    lines = cv2.bitwise_or(h_lines, v_lines)
+    lines = cv2.morphologyEx(
+        lines,
+        cv2.MORPH_CLOSE,
+        cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)),
+        iterations=1,
+    )
+    return lines
+
+
 def _inner_region(x1: int, y1: int, x2: int, y2: int, pad: int) -> tuple[int, int, int, int]:
     return x1 + pad, y1 + pad, x2 - pad, y2 - pad
 
