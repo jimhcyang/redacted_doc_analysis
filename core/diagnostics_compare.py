@@ -380,3 +380,43 @@ def summarize_mapping(
             }
         )
     return rows
+
+
+def annotate_text_with_redaction_mask(
+    raw_text: str,
+    token_mask: list[int],
+    label_prefix: str = "REDACTION",
+) -> str:
+    # Build markup directly on the original OCR text (preserve formatting).
+    token_spans = list(WORD_RE.finditer(raw_text))
+    if not token_spans or not token_mask:
+        return raw_text
+
+    n = min(len(token_spans), len(token_mask))
+    runs: list[tuple[int, int]] = []
+    i = 0
+    while i < n:
+        if token_mask[i] != 1:
+            i += 1
+            continue
+        j = i
+        while j + 1 < n and token_mask[j + 1] == 1:
+            j += 1
+        runs.append((i, j))
+        i = j + 1
+
+    if not runs:
+        return raw_text
+
+    out: list[str] = []
+    cursor = 0
+    for rid, (s, e) in enumerate(runs, start=1):
+        start_char = token_spans[s].start()
+        end_char = token_spans[e].end()
+        out.append(raw_text[cursor:start_char])
+        out.append(f"[[{label_prefix}_{rid}]]")
+        out.append(raw_text[start_char:end_char])
+        out.append(f"[[/{label_prefix}_{rid}]]")
+        cursor = end_char
+    out.append(raw_text[cursor:])
+    return "".join(out)

@@ -1,0 +1,13 @@
+PATCHES: torch.Size([6, 144, 1280])
+
+
+
+Indian Congress Party Plans Major Drive to [[PRED_REDACTION_1]]Oust[[/PRED_REDACTION_1]] Communist Government in Kerala
+
+The Congress party branch in Kerala State plans, in co-operation with other groups opposing the Communist government there, to launch a major campaign on 12 June aimed at eventually forcing the Communists out of office. This drive is expected to tie in with separate agitation planned by the Hindu Nair and Catholic communities to begin on 15 June to protest the Communists' unpopular education policies. Leaders of these groups decided some time ago that when the annual school vacation ends in June they would refuse to reopen the large number of private schools under their control.
+
+[[PRED_REDACTION_2]]The national leadership of the Congress party has instructed the Kerala branch not to participate officially in the school demonstrations, but has consented to the opposition front's political agitation on condition that it remain nonviolent[[/PRED_REDACTION_2]]. Prime Minister Nehru has had some misgivings about the campaign, apparently because there is little assurance that the Congress party is strong enough to win the elections which would eventually follow ouster of the Communist government.
+
+Communist leaders have also shown growing concern over the planned demonstrations. They have put off the reopening date for schools from 1 June to 15 June and have appealed--apparently without success--for additional standby army contingents for use in an emergency. A [[PRED_REDACTION_3]]section of the national Communist leadership reportedly argued at a recent party conclave in Kerala in favor of resignation of the Communist government, on grounds that its conduct had already had a detrimental effect on the party in the rest of India and that the forceful measures needed to contain the coming agitation would further damage Communist prestige.
+
+A[[/PRED_REDACTION_3]] showdown in Kerala seems likely in the near future. Continued demonstrations by various groups may lead to violence, particularly if extremist agitators provoke Communist police units into using force. Serious disturbances could lead New Delhi to suspend parliamentary government in Kerala and invoke President's Rule.

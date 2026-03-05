@@ -13,6 +13,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from core.diagnostics_compare import (
+    annotate_text_with_redaction_mask,
     apply_redactions_to_context,
     clean_ocr_text,
     compact_ws,
@@ -120,6 +121,7 @@ def _build_demo_bundle(
     redacted_raw_file: Path,
     unredacted_raw_file: Path,
     chunk_report_path: Path,
+    unredacted_bracketed_path: Path,
     gt_item: dict[str, Any] | None,
     examples_jsonl: Path,
 ) -> tuple[Path, dict[str, str], list[str]]:
@@ -148,6 +150,11 @@ def _build_demo_bundle(
         copied["chunk_report_txt"] = str(doc_dir / chunk_report_path.name)
     else:
         missing.append("chunk_report_txt")
+
+    if _copy_if_exists(unredacted_bracketed_path, doc_dir / unredacted_bracketed_path.name):
+        copied["unredacted_bracketed_txt"] = str(doc_dir / unredacted_bracketed_path.name)
+    else:
+        missing.append("unredacted_bracketed_txt")
 
     # Source images from dataset metadata.
     red_img_src = _resolve_reference_path(
@@ -247,6 +254,7 @@ def _write_tsv(path: Path, rows: list[dict[str, Any]]) -> None:
         "relaxed_gt_found_count",
         "relaxed_gt_found_rate",
         "relaxed_avg_best_f1_over_gt",
+        "unredacted_bracketed_file",
         "demo_folder",
     ]
     with path.open("w", encoding="utf-8") as f:
@@ -276,6 +284,7 @@ def _write_tsv(path: Path, rows: list[dict[str, Any]]) -> None:
                         str(row.get("redaction_eval", {}).get("relaxed_gt_found_count", "")),
                         str(row.get("redaction_eval", {}).get("relaxed_gt_found_rate", "")),
                         str(row.get("redaction_eval", {}).get("relaxed_avg_best_f1_over_gt", "")),
+                        str(row.get("unredacted_bracketed_file", "")),
                         str(row.get("demo_folder", "")),
                     ]
                 )
@@ -720,6 +729,8 @@ def main() -> None:
     per_example_dir.mkdir(parents=True, exist_ok=True)
     demo_dir = out_dir / "demo"
     demo_dir.mkdir(parents=True, exist_ok=True)
+    annotated_dir = out_dir / "annotated_unredacted"
+    annotated_dir.mkdir(parents=True, exist_ok=True)
 
     pairs = _collect_pairs(outputs_dir)
     if args.max_examples is not None:
@@ -735,6 +746,20 @@ def main() -> None:
         stem = str(row["stem"])
         red_raw = Path(row["redacted_file"]).read_text(encoding="utf-8")
         unred_raw = Path(row["unredacted_file"]).read_text(encoding="utf-8")
+
+        # Build a directly-readable artifact over raw OCR text:
+        # bracket candidate redaction spans in the unredacted document.
+        raw_red_tokens = tokenize_words(red_raw)
+        raw_unred_tokens = tokenize_words(unred_raw)
+        raw_unred_to_red = align_monotonic(raw_unred_tokens, raw_red_tokens)
+        raw_unred_mask = [1 if m < 0 else 0 for m in raw_unred_to_red]
+        unred_bracketed_text = annotate_text_with_redaction_mask(
+            unred_raw,
+            raw_unred_mask,
+            label_prefix="PRED_REDACTION",
+        )
+        unred_bracketed_path = annotated_dir / f"{ex_id:03d}.unredacted_bracketed.txt"
+        unred_bracketed_path.write_text(unred_bracketed_text, encoding="utf-8")
 
         red_clean = clean_ocr_text(red_raw, strip_noise_lines=not args.keep_noise_lines)
         unred_clean = clean_ocr_text(unred_raw, strip_noise_lines=not args.keep_noise_lines)
@@ -844,6 +869,7 @@ def main() -> None:
             redacted_raw_file=Path(row["redacted_file"]),
             unredacted_raw_file=Path(row["unredacted_file"]),
             chunk_report_path=chunk_report_path,
+            unredacted_bracketed_path=unred_bracketed_path,
             gt_item=gt_item,
             examples_jsonl=examples_jsonl,
         )
@@ -854,6 +880,7 @@ def main() -> None:
                 "example_id": ex_id,
                 "detail_file": str(detail_path),
                 "chunk_report_file": str(chunk_report_path),
+                "unredacted_bracketed_file": str(unred_bracketed_path),
                 "demo_folder": str(demo_folder),
                 "demo_copied_artifacts": demo_copied,
                 "demo_missing_artifacts": demo_missing,
@@ -889,6 +916,7 @@ def main() -> None:
             f.write(f"### example_id={row['example_id']}\n")
             f.write(f"structure_preserved={row['structure'].get('structure_preserved')}\n")
             f.write(f"chunk_report_file={row.get('chunk_report_file', '')}\n")
+            f.write(f"unredacted_bracketed_file={row.get('unredacted_bracketed_file', '')}\n")
             f.write(f"demo_folder={row.get('demo_folder', '')}\n")
             f.write(f"line_similarity={row['structure'].get('line_similarity')}\n")
             f.write(f"unred_only_words={row['unredacted_only'].get('word_count')}\n")
@@ -916,6 +944,7 @@ def main() -> None:
     print(f"[INFO] wrote: {summary_path}")
     print(f"[INFO] wrote per-example folder: {per_example_dir}")
     print(f"[INFO] wrote redaction chunk reports: {chunk_report_count}")
+    print(f"[INFO] wrote bracketed unredacted files: {annotated_dir}")
     print(f"[INFO] wrote demo bundles: {demo_bundle_count} -> {demo_dir}")
     _print_terminal_tables(summary_rows, summary, max_rows=args.table_max_rows)
 
