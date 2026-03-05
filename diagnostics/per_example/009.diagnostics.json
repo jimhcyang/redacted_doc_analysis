@@ -1,0 +1,3062 @@
+{
+  "example_id": 9,
+  "stem": "9",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/9_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/9_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 1,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [
+      "---"
+    ],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 11,
+    "unredacted_raw_line_count": 9,
+    "redacted_nonempty_line_count": 5,
+    "unredacted_nonempty_line_count": 4,
+    "line_count_ratio": 0.8,
+    "line_similarity": 0.444444,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 178,
+    "unredacted": 216
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 39,
+    "chunk_count": 3,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 14,
+        "end_token_idx_0based": 14,
+        "token_count": 1,
+        "text": "and",
+        "tokens": [
+          "and"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 106,
+        "end_token_idx_0based": 106,
+        "token_count": 1,
+        "text": "higher",
+        "tokens": [
+          "higher"
+        ]
+      },
+      {
+        "chunk_id": 3,
+        "start_token_idx_0based": 109,
+        "end_token_idx_0based": 145,
+        "token_count": 37,
+        "text": "shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes",
+        "tokens": [
+          "shia",
+          "moslem",
+          "tribesmen",
+          "employed",
+          "in",
+          "coastal",
+          "areas",
+          "left",
+          "abruptly",
+          "for",
+          "the",
+          "biqa",
+          "around",
+          "12",
+          "december",
+          "on",
+          "the",
+          "orders",
+          "of",
+          "their",
+          "leader",
+          "this",
+          "move",
+          "may",
+          "be",
+          "connected",
+          "with",
+          "the",
+          "prevailing",
+          "shia-sunni",
+          "tension",
+          "and",
+          "could",
+          "lead",
+          "to",
+          "further",
+          "clashes"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.180556
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 1,
+    "word_pct_vs_unredacted": 0.00463
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "feuding",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "may",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2,
+        156
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "cause",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3,
+        172
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "lebanese",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4,
+        8
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5,
+        177
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "crisis",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "the",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "lebanese",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        4,
+        8
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "army's",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "strong",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "action",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11,
+        111,
+        135
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "last",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "week",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "against",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15,
+        35
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "former",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16,
+        146
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "rebel",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17,
+        147
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "villagers",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20,
+        54
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "in",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "the",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "biqa",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "valley",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "is",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "likely",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "to",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "arouse",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "a",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29,
+        47,
+        64
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "storm",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "of",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "criticism",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "against",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        15,
+        35
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "the",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "government",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37,
+        144
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "moslems",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "killed",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "an",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        41,
+        140
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "army",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42,
+        56,
+        76,
+        110
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "officer",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "seeking",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "to",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "end",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        14,
+        46
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "a",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        29,
+        47,
+        64
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "fight",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        48
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "between",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "and",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "shia",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        52
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "villagers",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        20,
+        54
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "the",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "army",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        42,
+        56,
+        76,
+        110
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "in",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "reprisal",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "destroyed",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "the",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 61,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "village",
+      "mapped_redacted_index_0based": 62,
+      "candidate_redacted_positions_0based": [
+        62
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "causing",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        63
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "a",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        29,
+        47,
+        64
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "large",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        65
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "number",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        66
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "of",
+      "mapped_redacted_index_0based": 67,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "casualties",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        69
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "news",
+      "mapped_redacted_index_0based": 70,
+      "candidate_redacted_positions_0based": [
+        70
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "of",
+      "mapped_redacted_index_0based": 71,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "the",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "attack",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        73,
+        141
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "which",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        74,
+        170
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "the",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "army",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        42,
+        56,
+        76,
+        110
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "tried",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        77
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "to",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "keep",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        79
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "out",
+      "mapped_redacted_index_0based": 80,
+      "candidate_redacted_positions_0based": [
+        80
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "of",
+      "mapped_redacted_index_0based": 81,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "the",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "press",
+      "mapped_redacted_index_0based": 83,
+      "candidate_redacted_positions_0based": [
+        83,
+        153
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "stirred",
+      "mapped_redacted_index_0based": 84,
+      "candidate_redacted_positions_0based": [
+        84
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "violent",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        85
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "popular",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        86
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "reaction",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        87
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "in",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "the",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "basta",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        90
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "quarter",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        91
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "of",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "beirut",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        93
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "and",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "large-scale",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        95
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "demonstrations",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        96
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "on",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        97,
+        142
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "15",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        98
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "december",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        99
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "were",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        100
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "averted",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        101
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "only",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        102
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "by",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        103,
+        145
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "pressure",
+      "mapped_redacted_index_0based": 104,
+      "candidate_redacted_positions_0based": [
+        104
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "from",
+      "mapped_redacted_index_0based": 105,
+      "candidate_redacted_positions_0based": [
+        105
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "higher",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 106,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "leaders",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        107
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "shia",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        52
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "moslem",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "tribesmen",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "employed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "coastal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "areas",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "left",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "abruptly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "for",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "biqa",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "around",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "12",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "december",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        99
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        97,
+        142
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "orders",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "their",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "leader",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        148
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "this",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        134
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "move",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "may",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        156
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "be",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "connected",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        128
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "prevailing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "shia-sunni",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "tension",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "could",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        171
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "lead",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "further",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "clashes",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "apparently",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        108
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "the",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "army",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        42,
+        56,
+        76,
+        110
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "action",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        11,
+        111,
+        135
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "was",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        112
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "taken",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        113
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "without",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        114
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "the",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "knowledge",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        116
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "of",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "sunni",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        18,
+        32,
+        38,
+        50,
+        61,
+        68,
+        118
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        0,
+        19,
+        33,
+        53,
+        106,
+        119
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "prime",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        120
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "minister",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        121,
+        123,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "and",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "minister",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        121,
+        123,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "of",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "defense",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        125
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "karami",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        126,
+        155
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "but",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        127
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "with",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        128
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "the",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "approval",
+      "mapped_redacted_index_0based": 130,
+      "candidate_redacted_positions_0based": [
+        130
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "of",
+      "mapped_redacted_index_0based": 131,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "president",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        132
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "shihab",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "this",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        134
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "action",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        11,
+        111,
+        135
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "has",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        136
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "already",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        137
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "resulted",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        138
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "in",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "an",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        41,
+        140
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "attack",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        73,
+        141
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "on",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        97,
+        142
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "the",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "government",
+      "mapped_redacted_index_0based": 144,
+      "candidate_redacted_positions_0based": [
+        37,
+        144
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "by",
+      "mapped_redacted_index_0based": 145,
+      "candidate_redacted_positions_0based": [
+        103,
+        145
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "former",
+      "mapped_redacted_index_0based": 146,
+      "candidate_redacted_positions_0based": [
+        16,
+        146
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "rebel",
+      "mapped_redacted_index_0based": 147,
+      "candidate_redacted_positions_0based": [
+        17,
+        147
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "leader",
+      "mapped_redacted_index_0based": 148,
+      "candidate_redacted_positions_0based": [
+        148
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "abdullah",
+      "mapped_redacted_index_0based": 149,
+      "candidate_redacted_positions_0based": [
+        149
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "yafi",
+      "mapped_redacted_index_0based": 150,
+      "candidate_redacted_positions_0based": [
+        150
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "and",
+      "mapped_redacted_index_0based": 151,
+      "candidate_redacted_positions_0based": [
+        51,
+        94,
+        122,
+        151
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "adverse",
+      "mapped_redacted_index_0based": 152,
+      "candidate_redacted_positions_0based": [
+        152
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "press",
+      "mapped_redacted_index_0based": 153,
+      "candidate_redacted_positions_0based": [
+        83,
+        153
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "comment",
+      "mapped_redacted_index_0based": 154,
+      "candidate_redacted_positions_0based": [
+        154
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "karami",
+      "mapped_redacted_index_0based": 155,
+      "candidate_redacted_positions_0based": [
+        126,
+        155
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "may",
+      "mapped_redacted_index_0based": 156,
+      "candidate_redacted_positions_0based": [
+        2,
+        156
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "attempt",
+      "mapped_redacted_index_0based": 157,
+      "candidate_redacted_positions_0based": [
+        157
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "to",
+      "mapped_redacted_index_0based": 158,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "shift",
+      "mapped_redacted_index_0based": 159,
+      "candidate_redacted_positions_0based": [
+        159
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "the",
+      "mapped_redacted_index_0based": 160,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "blame",
+      "mapped_redacted_index_0based": 161,
+      "candidate_redacted_positions_0based": [
+        161
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "to",
+      "mapped_redacted_index_0based": 162,
+      "candidate_redacted_positions_0based": [
+        27,
+        45,
+        78,
+        158,
+        162
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "the",
+      "mapped_redacted_index_0based": 163,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "christian",
+      "mapped_redacted_index_0based": 164,
+      "candidate_redacted_positions_0based": [
+        164
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "minister",
+      "mapped_redacted_index_0based": 165,
+      "candidate_redacted_positions_0based": [
+        121,
+        123,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "of",
+      "mapped_redacted_index_0based": 166,
+      "candidate_redacted_positions_0based": [
+        31,
+        67,
+        71,
+        81,
+        92,
+        117,
+        124,
+        131,
+        166
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "interior",
+      "mapped_redacted_index_0based": 167,
+      "candidate_redacted_positions_0based": [
+        167
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "raymond",
+      "mapped_redacted_index_0based": 168,
+      "candidate_redacted_positions_0based": [
+        168
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "edde",
+      "mapped_redacted_index_0based": 169,
+      "candidate_redacted_positions_0based": [
+        169
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "which",
+      "mapped_redacted_index_0based": 170,
+      "candidate_redacted_positions_0based": [
+        74,
+        170
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "could",
+      "mapped_redacted_index_0based": 171,
+      "candidate_redacted_positions_0based": [
+        171
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "cause",
+      "mapped_redacted_index_0based": 172,
+      "candidate_redacted_positions_0based": [
+        3,
+        172
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "serious",
+      "mapped_redacted_index_0based": 173,
+      "candidate_redacted_positions_0based": [
+        173
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "dissension",
+      "mapped_redacted_index_0based": 174,
+      "candidate_redacted_positions_0based": [
+        174
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "in",
+      "mapped_redacted_index_0based": 175,
+      "candidate_redacted_positions_0based": [
+        21,
+        57,
+        88,
+        139,
+        175
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "the",
+      "mapped_redacted_index_0based": 176,
+      "candidate_redacted_positions_0based": [
+        7,
+        22,
+        36,
+        55,
+        60,
+        72,
+        75,
+        82,
+        89,
+        109,
+        115,
+        129,
+        143,
+        160,
+        163,
+        176
+      ],
+      "candidate_count": 16
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 177,
+      "candidate_redacted_positions_0based": [
+        5,
+        177
+      ],
+      "candidate_count": 2
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Moslem Feuding May Cause Lebanese Cabinet Crisis The Lebanese Army's strong action last week end against former rebel Sunni Moslem villagers in the Biqa Valley is likely to arouse a storm of Sunni Moslem criticism against the government. Sunni Moslems killed an army officer seeking to end a fight between Sunni and Shia Moslem villagers. The army in reprisal destroyed the Sunni village, causing a large number of Sunni casualties. News of the attack, which the army tried to keep out of the press, stirred violent popular reaction in the Basta quarter of Beirut, and large-scale demonstrations on 15 December were averted only by pressure from higher Moslem leaders. Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes. Apparently, the army action was taken without the knowledge of Sunni Moslem Prime Minister and Minister of Defense Karami, but with the approval of President Shihab. This action has already resulted in an attack on the government by former rebel leader Abdullah Yafi and adverse press comment. Karami may attempt to shift the blame to the Christian minister of interior, Raymond Edde, which could cause serious dissension in the cabinet.",
+    "redactions": [
+      "Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes."
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 216,
+    "hypothesis_token_total": 216,
+    "matched_tokens": 215,
+    "missing_tokens": 1,
+    "hallucinated_tokens": 1,
+    "recall": 0.99537,
+    "precision": 0.99537,
+    "f1": 0.99537,
+    "net_recovery_minus_hallucination": 0.990741
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 1,
+    "predicted_redaction_count": 3,
+    "correctly_found_redactions": 1,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 2,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 1.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 1,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 1.0,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 0.0,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 3,
+        "pred_index_0based": 2,
+        "gt_index_0based": 0,
+        "score_f1": 1.0,
+        "exact_text_match": false,
+        "pred_text": "shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes",
+        "gt_text": "Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.",
+        "word_metrics": {
+          "reference_token_total": 37,
+          "hypothesis_token_total": 37,
+          "matched_tokens": 37,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.",
+        "best_score_f1": 1.0,
+        "best_chunk_start_0based": 2,
+        "best_chunk_end_0based": 2,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 37,
+          "hypothesis_token_total": 37,
+          "matched_tokens": 37,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ]
+  }
+}

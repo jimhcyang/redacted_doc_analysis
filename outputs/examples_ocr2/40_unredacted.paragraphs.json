@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 24,
+    "line_count": 24,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      28,
+      5,
+      524,
+      485
+    ],
+    "text": "Developments in Kuwait\n\nThe growth of Communist influence and pro-Western agitation together with last month's public call by Kuwaiti nationalists for an end to rule by the Subah family, have impressed the Subah sheiks with their total dependence on British military protection. At the same time, the younger \"liberal\" Subahs have rallied in support of the family's old guard.\n\nRelations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait. The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.\n\nKuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailing of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' firm repressive action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The Ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\n\nWhile the pro-UAR nationalists have been temporarily brought under control, a Kuwaiti Government official has reported a sharp increase in complaints to the Ruler by Iraqis resident in Kuwait. The official fears that the pattern may reflect Communist inspiration, and the American consul comments that the Kuwaiti public security department is not adequately staffed for effective countersubversion work.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      571,
+      533
+    ],
+    "crop_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Any line breaks or other changes must be accurately captured and recreated with the original text in the image.\nThe growth of Communist movements in regions along the Silk Road has been significant. The Kuwaiti nationalists, for example, have been pressing the Kuwaiti family, which has a long history of resistance, to return to the old order. The British military presence has also contributed to the situation. The British government has also been accused of using its military presence to suppress the local population's demand for more autonomy.\nRelations between the Kuwaiti Government and the British have been tense at times. The British military adviser has been accused of being too pro-American and too willing to use force. The British military has also been accused of using its presence in the Kuwaiti region to suppress local aspirations for self-determination.\nThe Kuwaiti authorities have cracked down hard on anti-Qasim activism by pro-UAR Kuwaiti nationalists, and otherwise striven to avoid antagonizing Iraq. The main impetus to the current anti-Qasim sentiment in the Kuwaiti region is the public attack on the Kuwaiti regime at a nationalist rally on 1 February honoring formation of the UAR. If the Kuwaiti regime's repression is not followed by a meaningful attempt to liberalize the apparatus of government, however, the hitherto moderate nationalist opposition may be driven to advocate more uncompromising resistance. The ruler of Kuwaiti has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\nWhile the pro-UAR nationalists have been temporarily",
+    "ocr_text_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 26,
+    "line_end_1based": 26,
+    "line_count": 1,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      28,
+      490,
+      524,
+      507
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      482,
+      571,
+      515
+    ],
+    "crop_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 28,
+    "line_end_1based": 34,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      28,
+      512,
+      524,
+      628
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      500,
+      571,
+      640
+    ],
+    "crop_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is a quote from a document. The quote is about the pro-UAR nationalists and their opposition to the pro-UAR government. The quote is about the pro-UAR nationalists' belief that the pro-UAR government is corrupt and that the pro-UAR nationalists are trying to bring down the government. The quote is about the pro-UAR nationalists' belief that the pro-UAR nationalists are trying to bring down the government.",
+    "ocr_text_path": "outputs/examples_ocr2/40_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

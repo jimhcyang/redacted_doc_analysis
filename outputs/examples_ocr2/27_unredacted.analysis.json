@@ -1,0 +1,1478 @@
+{
+  "image": "inputs/images/27_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    27,
+    0,
+    550,
+    815
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 235220,
+  "merged_region_nonzero_px": 235220,
+  "line_width_px": 523,
+  "line_count": 43,
+  "paragraph_crops_dir": "outputs/examples_ocr2/27_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/27_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/27_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 43,
+      "line_count": 43,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        27,
+        2,
+        550,
+        810
+      ],
+      "text": "PATCHES: torch.Size([6, 144, 1280])\n\n\n\n\nCyprus Situation\n\n[An emergency meeting at the foreign ministers' level was called in London on the evening of 18 February to prevent the threatened collapse of the conference seeking agreement on the terms for an independent Cyprus. The urgent meeting follows reports that Archbishop Makarios has broken with the Greek Government and no longer accepts the Cyprus agreement reached between Athens and Ankara on 11 February. The future of the conference now depends on Makarios, as Britain, Greece, Turkey, and the Turkish Cypriots have agreed on the terms for a settlement. Failure to secure the archbishop's approval would eliminate hope for a solution at present and could lead to a renewal of the struggle on Cyprus. The possibility cannot be precluded that Makarios is maneuvering for further concessions, which would also enhance his political stature in both Cyprus and Greece.]\n\nMakarios' opposition to the agreement appears concentrated on the terms providing for British base rights on Cyprus, and the right of Britain, Greece, and Turkey to intervene if Cypriot independence is threatened. There may also be problems in London regarding the timing and method of execution of the agreement, the degree of Turkish Cypriot participation in the government, and the question of whether or not Cyprus will remain within the British Commonwealth. Makarios' advisers reportedly are pressuring the archbishop to submit any plan for Cyprus' future to a plebiscite on the island.\n\n[If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey, will order the return of the Greek NATO contingent withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.]\n\n[A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.]",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        585,
+        815
+      ],
+      "crop_path": "outputs/examples_ocr2/27_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "PATCHES: torch.Size([6, 144, 1280])",
+      "ocr_text_path": "outputs/examples_ocr2/27_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.6512,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 12,
+  "row_scan_line_band_count": 41,
+  "row_scan_gap_band_count": 40,
+  "row_scan_linebreak_band_count": 38,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        27,
+        4,
+        550,
+        16
+      ],
+      "kind": "blankline",
+      "height_px": 13,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.9569,
+      "height_to_avg_full_line_ratio": 0.6692,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 13,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        37,
+        550,
+        53
+      ],
+      "kind": "blankline",
+      "height_px": 17,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 1.2513,
+      "height_to_avg_full_line_ratio": 0.875,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        67,
+        550,
+        71
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        85,
+        550,
+        89
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        103,
+        550,
+        108
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        121,
+        550,
+        125
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        139,
+        550,
+        144
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        158,
+        550,
+        162
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        178,
+        550,
+        180
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.2208,
+      "height_to_avg_full_line_ratio": 0.1544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        196,
+        550,
+        198
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.2208,
+      "height_to_avg_full_line_ratio": 0.1544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        212,
+        550,
+        217
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        233,
+        550,
+        235
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.2208,
+      "height_to_avg_full_line_ratio": 0.1544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        248,
+        550,
+        254
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        267,
+        550,
+        271
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        285,
+        550,
+        290
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        305,
+        550,
+        309
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        339,
+        550,
+        345
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        357,
+        550,
+        363
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        376,
+        550,
+        380
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        394,
+        550,
+        399
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        412,
+        550,
+        418
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        430,
+        550,
+        436
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        448,
+        550,
+        454
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        467,
+        550,
+        472
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        485,
+        550,
+        490
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        503,
+        550,
+        509
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        539,
+        550,
+        545
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        557,
+        550,
+        563
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        576,
+        550,
+        581
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        594,
+        550,
+        599
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        612,
+        550,
+        617
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        630,
+        550,
+        634
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        648,
+        550,
+        654
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        666,
+        550,
+        672
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        704,
+        550,
+        708
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.368,
+      "height_to_avg_full_line_ratio": 0.2574,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        721,
+        550,
+        726
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        739,
+        550,
+        744
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        757,
+        550,
+        762
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        775,
+        550,
+        780
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.4417,
+      "height_to_avg_full_line_ratio": 0.3088,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        27,
+        793,
+        550,
+        799
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5854,
+      "avg_linebreak_height_px": 5.8421,
+      "avg_full_line_height_px": 19.4275,
+      "height_to_avg_line_ratio": 0.5153,
+      "height_to_avg_full_line_ratio": 0.3603,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 41,
+    "blankline": 2,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "PATCHES: torch.Size([6, 144, 1280])",
+      "char_len": 35,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        2,
+        550,
+        3
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "BL2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        27,
+        4,
+        550,
+        16
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        17,
+        550,
+        36
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "BL4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        27,
+        37,
+        550,
+        53
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        54,
+        550,
+        66
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Cyprus Situation",
+      "char_len": 16,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        72,
+        550,
+        84
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        90,
+        550,
+        102
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "[An emergency meeting at the foreign ministers' level was called in London on the evening of 18 February to prevent the threatened collapse of the conference seeking agreement on the terms for an independent Cyprus. The urgent meeting follows reports that Archbishop Makarios has broken with the Greek Government and no longer accepts the Cyprus agreement reached between Athens and Ankara on 11 February. The future of the conference now depends on Makarios, as Britain, Greece, Turkey, and the Turkish Cypriots have agreed on the terms for a settlement. Failure to secure the archbishop's approval would eliminate hope for a solution at present and could lead to a renewal of the struggle on Cyprus. The possibility cannot be precluded that Makarios is maneuvering for further concessions, which would also enhance his political stature in both Cyprus and Greece.]",
+      "char_len": 866,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        109,
+        550,
+        120
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        126,
+        550,
+        138
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "Makarios' opposition to the agreement appears concentrated on the terms providing for British base rights on Cyprus, and the right of Britain, Greece, and Turkey to intervene if Cypriot independence is threatened. There may also be problems in London regarding the timing and method of execution of the agreement, the degree of Turkish Cypriot participation in the government, and the question of whether or not Cyprus will remain within the British Commonwealth. Makarios' advisers reportedly are pressuring the archbishop to submit any plan for Cyprus' future to a plebiscite on the island.",
+      "char_len": 592,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        145,
+        550,
+        157
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        163,
+        550,
+        177
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "[If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey, will order the return of the Greek NATO contingent withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.]",
+      "char_len": 487,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        181,
+        550,
+        195
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        199,
+        550,
+        211
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "[A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.]",
+      "char_len": 357,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        218,
+        550,
+        232
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        236,
+        550,
+        247
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        255,
+        550,
+        266
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        272,
+        550,
+        284
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        291,
+        550,
+        304
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        310,
+        550,
+        338
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        346,
+        550,
+        356
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        364,
+        550,
+        375
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        381,
+        550,
+        393
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        400,
+        550,
+        411
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        419,
+        550,
+        429
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        437,
+        550,
+        447
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        455,
+        550,
+        466
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        473,
+        550,
+        484
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        491,
+        550,
+        502
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        510,
+        550,
+        538
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        546,
+        550,
+        556
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        564,
+        550,
+        575
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        582,
+        550,
+        593
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        600,
+        550,
+        611
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        618,
+        550,
+        629
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        635,
+        550,
+        647
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        655,
+        550,
+        665
+      ]
+    },
+    {
+      "line_1based": 37,
+      "serial_label": "L37",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        673,
+        550,
+        703
+      ]
+    },
+    {
+      "line_1based": 38,
+      "serial_label": "L38",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        709,
+        550,
+        720
+      ]
+    },
+    {
+      "line_1based": 39,
+      "serial_label": "L39",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        727,
+        550,
+        738
+      ]
+    },
+    {
+      "line_1based": 40,
+      "serial_label": "L40",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        745,
+        550,
+        756
+      ]
+    },
+    {
+      "line_1based": 41,
+      "serial_label": "L41",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        763,
+        550,
+        774
+      ]
+    },
+    {
+      "line_1based": 42,
+      "serial_label": "L42",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        781,
+        550,
+        792
+      ]
+    },
+    {
+      "line_1based": 43,
+      "serial_label": "L43",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        27,
+        800,
+        550,
+        810
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,361 @@
+{
+  "image": "inputs/images/25_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      242,
+      68,
+      578,
+      173
+    ],
+    [
+      18,
+      92,
+      262,
+      179
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    31,
+    0,
+    557,
+    496
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 118853,
+  "merged_region_nonzero_px": 118197,
+  "line_width_px": 526,
+  "line_count": 7,
+  "paragraph_crops_dir": "outputs/examples_ocr2/25_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/25_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/25_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 7,
+      "line_count": 7,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        31,
+        0,
+        557,
+        490
+      ],
+      "text": "Ignore any obsolete or crossed lines.\n\nFrance to Propose Extension of NATO Area to Include Sahara\n\n\nThe French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara,\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        589,
+        496
+      ],
+      "crop_path": "outputs/examples_ocr2/25_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara.\"",
+      "ocr_text_path": "outputs/examples_ocr2/25_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 64.5714,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 6,
+  "row_scan_gap_band_count": 5,
+  "row_scan_linebreak_band_count": 4,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        31,
+        23,
+        557,
+        34
+      ],
+      "kind": "linebreak",
+      "height_px": 12,
+      "avg_text_line_height_px": 60.6667,
+      "avg_linebreak_height_px": 9.75,
+      "avg_full_line_height_px": 70.4167,
+      "height_to_avg_line_ratio": 0.1978,
+      "height_to_avg_full_line_ratio": 0.1704,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 12,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        73,
+        557,
+        75
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 60.6667,
+      "avg_linebreak_height_px": 9.75,
+      "avg_full_line_height_px": 70.4167,
+      "height_to_avg_line_ratio": 0.0495,
+      "height_to_avg_full_line_ratio": 0.0426,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.5996,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        89,
+        557,
+        176
+      ],
+      "kind": "blankline",
+      "height_px": 88,
+      "avg_text_line_height_px": 60.6667,
+      "avg_linebreak_height_px": 9.75,
+      "avg_full_line_height_px": 70.4167,
+      "height_to_avg_line_ratio": 1.4505,
+      "height_to_avg_full_line_ratio": 1.2497,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 88,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.5792,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        345,
+        557,
+        361
+      ],
+      "kind": "linebreak",
+      "height_px": 17,
+      "avg_text_line_height_px": 60.6667,
+      "avg_linebreak_height_px": 9.75,
+      "avg_full_line_height_px": 70.4167,
+      "height_to_avg_line_ratio": 0.2802,
+      "height_to_avg_full_line_ratio": 0.2414,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        473,
+        557,
+        479
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 60.6667,
+      "avg_linebreak_height_px": 9.75,
+      "avg_full_line_height_px": 70.4167,
+      "height_to_avg_line_ratio": 0.1154,
+      "height_to_avg_full_line_ratio": 0.0994,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 6,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore any obsolete or crossed lines.",
+      "char_len": 37,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        0,
+        557,
+        22
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        35,
+        557,
+        72
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "France to Propose Extension of NATO Area to Include Sahara",
+      "char_len": 58,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        76,
+        557,
+        88
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "BL4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        31,
+        89,
+        557,
+        176
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        177,
+        557,
+        344
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara,\"",
+      "char_len": 145,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        362,
+        557,
+        472
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        480,
+        557,
+        490
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 3,
+      "line_char_capacity": 58,
+      "char_start": 23,
+      "char_end": 58,
+      "char_len": 35,
+      "full_line": false,
+      "bbox_xyxy": [
+        242,
+        68,
+        578,
+        173
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_________________________________]",
+      "layout_token_pixel": "[BOX1__315/526]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5989,
+      "clipped_span_px": 315,
+      "line_width_effective_px": 526,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 4,
+      "line_char_capacity": 145,
+      "char_start": 0,
+      "char_end": 64,
+      "char_len": 64,
+      "full_line": false,
+      "bbox_xyxy": [
+        18,
+        92,
+        262,
+        179
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2_______________________]",
+      "layout_token_pixel": "[BOX2__231/526]",
+      "line_overlap_ratio": 0.9659,
+      "line_cover_ratio_x": 0.4392,
+      "clipped_span_px": 231,
+      "line_width_effective_px": 526,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 4,
+      "line_char_capacity": 145,
+      "char_start": 58,
+      "char_end": 145,
+      "char_len": 87,
+      "full_line": false,
+      "bbox_xyxy": [
+        242,
+        68,
+        578,
+        173
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_________________________________]",
+      "layout_token_pixel": "[BOX1__315/526]",
+      "line_overlap_ratio": 0.9659,
+      "line_cover_ratio_x": 0.5989,
+      "clipped_span_px": 315,
+      "line_width_effective_px": 526,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

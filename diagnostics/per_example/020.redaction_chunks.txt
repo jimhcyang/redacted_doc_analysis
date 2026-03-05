@@ -1,0 +1,24 @@
+Example ID: 20
+Stem: 20
+Redacted OCR file: outputs/examples_ocr2/20_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/20_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=119..238, len=120)
+Predicted chunk text: there are also reports of intensive telephone traffic between the iranian foreign ministry and the soviet embassy in tehran during the past few days as well as of numerous meetings between pegov and iranian ambassador-designate to moscow masud ansuri ambassador wailes regards the situation as serious and believes it has passed the stage of mere pressure for budget assistance he recently reported however that the shah realizing the serious consequences of signing any agreement with the ussr may be trying to clarify vague soviet proposals in the shah's present state of depression and apparent disillusionment confused by conflicting advice from those around him and enticed by attractive soviet offers he may blunder into a situation which is beyond his control
+Unredacted context: exceptionally pressing business [UNRED_ONLY: there are also reports of intensive telephone traffic between the iranian foreign ministry and the soviet embassy in tehran during the past few days as well as of numerous meetings between pegov and iranian ambassador-designate to moscow masud ansuri ambassador wailes regards the situation as serious and believes it has passed the stage of mere pressure for budget assistance he recently reported however that the shah realizing the serious consequences of signing any agreement with the ussr may be trying to clarify vague soviet proposals in the shah's present state of depression and apparent disillusionment confused by conflicting advice from those around him and enticed by attractive soviet offers he may blunder into a situation which is beyond his control]
+Redacted anchor context: [L_ANCHOR_ONLY @ 118] for exceptionally pressing business
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.04878 joined_pred_chunks=0..0
+  -> GT text: "intensive" telephone traffic
+  -> Relaxed best pred text: there are also reports of intensive telephone traffic between the iranian foreign ministry and the soviet embassy in tehran during the past few days as well as of numerous meetings between pegov and iranian ambassador-designate to moscow masud ansuri ambassador wailes regards the situation as serious and believes it has passed the stage of mere pressure for budget assistance he recently reported however that the shah realizing the serious consequences of signing any agreement with the ussr may be trying to clarify vague soviet proposals in the shah's present state of depression and apparent disillusionment confused by conflicting advice from those around him and enticed by attractive soviet offers he may blunder into a situation which is beyond his control
+  -> Relaxed word metrics: recall=1.0 precision=0.025 f1=0.04878

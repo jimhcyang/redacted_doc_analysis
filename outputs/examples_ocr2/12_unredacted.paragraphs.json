@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      30,
+      19,
+      535,
+      52
+    ],
+    "text": "Moroccan Dissidents Step Up Activities",
+    "expanded_crop_box_xyxy": [
+      0,
+      11,
+      559,
+      60
+    ],
+    "crop_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 36,
+    "line_count": 34,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      58,
+      535,
+      758
+    ],
+    "text": "\n[Predominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissent activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.\n\nConcerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago. The King, however, appears to have been fully aware of Lyoussi's complicity in the affair and, moreover, to have deliberately permitted him to leave Rabat following his resignation and to take refuge among his tribal followers in the Middle Atlas region. This action, coupled with the King's apparent protection of two other anti-Istiqlal leaders implicated in the present Berber dissidence, may hasten a reckoning between Mohamed V and republic-minded Istiqlal extremists.\n\nMeanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      559,
+      759
+    ],
+    "crop_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Any numerical or capitalization errors should be disregarded.\nMoroccan Dissidents Step Up Activities\nPredominantly Berber elements in northern Morocco\nhostile to the dominant Istiqlal party--and especially to its\nleft wing which took over the premiership and other important\nposts in the cabinet invested on 24 December--appear to have\nstepped up both the pace and the boldness of their dissident ac-\ntivities. Istiqlal's principal newspaper, Al Aiam, has in recent\ndays carried an increasing number of articles concerning\nviolent incidents, and on 2 January it asserted that \"many at-\ntacks\" have been perpetrated against party offices and person-\nnel as part of a foreign-supported plot against the party.\nConcerned but apparently undaunted by this increasingly\nserious security problem, Premier Ibrahim's government has\nso far pursued an uncompromising, even provocative, course\nwhich could precipitate an early showdown between the contend-\ning forces. Immediately after its investiture a former Berber\ngovernor of an outlying province, who was forcibly removed and\narrested in January 1957 for defying orders from Rabat and\nleading an abortive anti-Ismaili revolt, was finally brought to\ntrial. This led in turn to accusations that the chief \"plotter\"\nin the 1957 affair--which Istiqlal leaders claim was supported\nby France--was another and much more important Berber lead-\ner, Lahcen Lyoussi, a partisan of King Mohamed V and a crown\ncounselor until his resignation was forced two weeks ago. The\nKing, however, appears to have been fully aware of Lyoussi's\ncomplicity in the affair and, moreover, to have deliberately\npermitted him to leave Rabat following his resignation and to\ntake refuge among his tribal followers in the Middle Atlas\nregion. This action coupled with the King's apparent protection\nof two other anti-Ismaili leaders implicated in the present Berber\ndissidence, may hasten a reckoning between Mohamed V and\nrepublic-minded Istiqlal extremists.\nMeanwhile, elements of the royal army suspected of\nsympathizing with the local populations in the disaffected areas\nhave been replaced by other, non-indigenous troops.",
+    "ocr_text_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

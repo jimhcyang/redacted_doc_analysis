@@ -1,0 +1,568 @@
+{
+  "image": "inputs/images/18_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    13,
+    8,
+    531,
+    645
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 176145,
+  "merged_region_nonzero_px": 176145,
+  "line_width_px": 518,
+  "line_count": 15,
+  "paragraph_crops_dir": "outputs/examples_ocr2/18_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/18_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/18_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 15,
+      "line_count": 15,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        13,
+        17,
+        531,
+        630
+      ],
+      "text": "Japanese Conservatives Reach Compromise\n\nPrime Minister Kishi and his rivals in the governing Liberal-Democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded Kishi's exercise of effective leadership. The principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishi to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.\n\nThe prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishi's term expires on 21 March, have announced that they intend to nominate former Education Minister Kenzo Matsumura as a candidate to challenge Kishi. Although Kishi's re-election as party president seems assured, the compromise gives him only a temporary respite from the bitter factional struggle.\n\nKishi probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishi on the police-powers bill during the last session and by the schism within conservative ranks, will harass the government on every occasion. The Socialists may carry out a plan to implicate Kishi in an alleged reparations scandal.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        551,
+        660
+      ],
+      "crop_path": "outputs/examples_ocr2/18_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "No line breaks or punctuation should be altered or removed.\nJapanese Conservatives Reach Compromise\nPrime Minister Kishl and his rivals in the governing Liberal Democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded Kishl's exercise of effective leadership. The principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishl to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.\nThe prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishl's term expires on 21 March, have announced that they intend to nominate former Education Minister Kenzo Matsumura as a candidate to challenge Kishl. Although Kishl's re-election as party president seems assured, the compromise gives him only a temporary respite from the bitter factional struggle.\nKishl probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishl on the police-powers bill during the last session and by the schism within conservative ranks, will harass the government on every occasion. The Socialists may carry out a plan to implicate Kishl in an alleged reparations scandal.",
+      "ocr_text_path": "outputs/examples_ocr2/18_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 35.5333,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 15,
+  "row_scan_gap_band_count": 14,
+  "row_scan_linebreak_band_count": 14,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        13,
+        37,
+        531,
+        49
+      ],
+      "kind": "linebreak",
+      "height_px": 13,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.3659,
+      "height_to_avg_full_line_ratio": 0.3146,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 13,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        85,
+        531,
+        86
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        103,
+        531,
+        104
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        121,
+        531,
+        122
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        140,
+        531,
+        141
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        158,
+        531,
+        159
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        177,
+        531,
+        178
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        250,
+        531,
+        254
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.1407,
+      "height_to_avg_full_line_ratio": 0.121,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        269,
+        531,
+        285
+      ],
+      "kind": "linebreak",
+      "height_px": 17,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.4784,
+      "height_to_avg_full_line_ratio": 0.4114,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        395,
+        531,
+        399
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.1407,
+      "height_to_avg_full_line_ratio": 0.121,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        415,
+        531,
+        430
+      ],
+      "kind": "linebreak",
+      "height_px": 16,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.4503,
+      "height_to_avg_full_line_ratio": 0.3872,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 16,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        540,
+        531,
+        541
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0563,
+      "height_to_avg_full_line_ratio": 0.0484,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        593,
+        531,
+        595
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.0844,
+      "height_to_avg_full_line_ratio": 0.0726,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        613,
+        531,
+        620
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 35.5333,
+      "avg_linebreak_height_px": 5.7857,
+      "avg_full_line_height_px": 41.319,
+      "height_to_avg_line_ratio": 0.2251,
+      "height_to_avg_full_line_ratio": 0.1936,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 15,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Japanese Conservatives Reach Compromise",
+      "char_len": 39,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        17,
+        531,
+        36
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        50,
+        531,
+        84
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Prime Minister Kishi and his rivals in the governing Liberal-Democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded Kishi's exercise of effective leadership. The principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishi to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.",
+      "char_len": 698,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        87,
+        531,
+        102
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        105,
+        531,
+        120
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "The prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishi's term expires on 21 March, have announced that they intend to nominate former Education Minister Kenzo Matsumura as a candidate to challenge Kishi. Although Kishi's re-election as party president seems assured, the compromise gives him only a temporary respite from the bitter factional struggle.",
+      "char_len": 412,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        123,
+        531,
+        139
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        142,
+        531,
+        157
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "Kishi probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishi on the police-powers bill during the last session and by the schism within conservative ranks, will harass the government on every occasion. The Socialists may carry out a plan to implicate Kishi in an alleged reparations scandal.",
+      "char_len": 603,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        160,
+        531,
+        176
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        179,
+        531,
+        249
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        255,
+        531,
+        268
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        286,
+        531,
+        394
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        400,
+        531,
+        414
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        431,
+        531,
+        539
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        542,
+        531,
+        592
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        596,
+        531,
+        612
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        621,
+        531,
+        630
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

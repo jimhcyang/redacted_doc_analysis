@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 18,
+    "line_count": 18,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      23,
+      28,
+      534,
+      464
+    ],
+    "text": "Friction Reported Among Thai Military Leaders\n\nFriction between Thai Premier Marshal Sarit and his principal deputies, Generals Thanom and Prapat, appears to be growing. There is some danger that an estrangement may ensue which might upset the precarious stability within the ruling military group. It is also reported that dissatisfaction is increasing throughout Sarit's Revolutionary party--which includes both military and civilian elements--over his performance as Thailand's dictator. Sarit is said again to be ignoring the party's advice on matters of state, and his continued delay in forming an interim government is meeting with criticism.\n\nThanom and Prapat, who seem to have submerged their past differences, would prefer to avoid trouble since they expect that Sarit's declining health will soon force him to give up power. They may, however, feel forced to move against Sarit in self-defense. Recently he is reported to have drawn up orders for the arrest of Thanom and Prapat, only to tear them up a few minutes later. He has apparently been piqued because they questioned certain of his official decisions. Some weeks ago, on the basis of rumors, he actually detained for a short time Air Marshal Dawee, a popular figure in the military group.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      581,
+      480
+    ],
+    "crop_path": "outputs/examples_ocr2/19_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "No line breaks should be altered or truncated.\nFriction Reported Among Thai Military Leaders\nFriction between Thai Premier Marshal Sarit and his principal deputies, Generals Thanom and Prapat, appears to be growing. There is some danger that an estrangement may ensue which might upset the precarious stability within the ruling military group. It is also reported that dissatisfaction is increasing throughout Sarit's Revolutionary party—which includes both military and civilian elements—over his performance as Thailand's dictator. Sarit is said again to be ignoring the party's advice on matters of state, and his continued delay in forming an interim government is meeting with criticism.\nThanom and Prapat, who seem to have submerged their past differences, would prefer to avoid trouble since they expect that Sarit's declining health will soon force him to give up power. They may, however, feel forced to move against Sarit in self-defense. Recently he is reported to have drawn up orders for the arrest of Thanom and Prapat, only to tear them up a few minutes later. He has apparently been piqued because they questioned certain of his official decisions. Some weeks ago, on the basis of rumors, he actually detained for a short time Air Marshal Dawee, a popular figure in the military group.",
+    "ocr_text_path": "outputs/examples_ocr2/19_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

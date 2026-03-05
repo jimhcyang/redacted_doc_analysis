@@ -1,0 +1,1266 @@
+{
+  "image": "inputs/images/54_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      193,
+      222,
+      551,
+      240
+    ],
+    [
+      20,
+      240,
+      53,
+      263
+    ],
+    [
+      144,
+      385,
+      363,
+      408
+    ],
+    [
+      129,
+      637,
+      507,
+      657
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    18,
+    0,
+    537,
+    679
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 179671,
+  "merged_region_nonzero_px": 177839,
+  "line_width_px": 519,
+  "line_count": 33,
+  "paragraph_crops_dir": "outputs/examples_ocr2/54_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/54_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/54_redacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        18,
+        7,
+        537,
+        26
+      ],
+      "text": "New Soviet Proposal for a \"Provisional Status\" for West Berlin",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        566,
+        34
+      ],
+      "crop_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "New Soviet Proposal for a \"Provisional Status\" for West Berlin.",
+      "ocr_text_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 14,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        46,
+        537,
+        291
+      ],
+      "text": "\nAfter nearly two weeks ofstalemated restricted sessions in Geneva, Foreign Minister Gromyko has offered to recognize certain drastically limited Western rights in Berlin for one year in a major bid to crack the hitherto unified Western position that any new solution must contain an explicit Soviet reaffirmation of Allied rights. The USSR seems to be estimating that unless there were some prospects of Western concessions on the issue of Allied rights, a summit meeting in the next few months would be less desirable than waiting for possible advantages which might be derived from an increase in political pressures on the British Government,\n\nand the continued erosion of the NATO military organization as a result of French national policies.\n\nAlthough the Soviet leaders undoubtedly expect rejection of their conditions, they probably hope that a combination of threats and inducements will prompt an initiative by at least one of the Allies to prevent a breakdown and a subsequent sharpening of the Berlin crisis.\n\nGromyko had hinted at a compromise interim arrangement which would leave aside the deadlocked question of Western rights in Berlin for later negotiation, presumably at a summit meeting. However, on the possibility that further pressure might produce eventual if not immediate change in the Western position, each condition of the new Soviet package was tailored to take advantage of differences in Western willingness to make concessions on these points.\n\nGromyko also threatened to conclude a separate peace treaty with East Germany should the West, during the one-year grace period, prevent agreement on an all-German peace treaty.",
+      "expanded_crop_box_xyxy": [
+        0,
+        21,
+        566,
+        316
+      ],
+      "crop_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "After nearly two weeks of stapled restricted sessions in Geneva, Foreign Minister Gromyko has offered to recognize certain drastically limited Western rights in Berlin for one year in a major bid to crack the hitherto unified Western position that any new solution must contain an explicit Soviet reaffirmation of Allied rights. The USSR seems to be estimating that unless there were some prospects of Western concessions on the issue of Allied rights, a summit meeting in the next few months would be less desirable than waiting for possible advantages which might be derived from an increase in political pressures on the British Government, and the continued erosion of the NATO military organization as a result of French national policies.",
+      "ocr_text_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 16,
+      "line_end_1based": 28,
+      "line_count": 13,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        317,
+        537,
+        546
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        294,
+        566,
+        569
+      ],
+      "crop_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The Soviet leaders undoubtedly expected rejection of their conditions, they probably hope that a combination of threats and inducements will prompt an initiative by at least one of the Allies to prevent a breakoff and a subsequent sharpening of the Berlin crisis.",
+      "ocr_text_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 30,
+      "line_end_1based": 33,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        571,
+        537,
+        634
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        563,
+        566,
+        642
+      ],
+      "crop_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "Gromyko also threatened to conclude a separate peace treaty with East Germany should the West, during the one-year grace period, prevent agreement on an all-German peace treaty.",
+      "ocr_text_path": "outputs/examples_ocr2/54_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 15.5152,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 11,
+  "row_scan_line_band_count": 29,
+  "row_scan_gap_band_count": 29,
+  "row_scan_linebreak_band_count": 23,
+  "row_scan_blankline_band_count": 4,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        18,
+        27,
+        537,
+        45
+      ],
+      "kind": "blankline",
+      "height_px": 19,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 1.2934,
+      "height_to_avg_full_line_ratio": 0.9868,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        57,
+        537,
+        62
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        75,
+        537,
+        80
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        93,
+        537,
+        98
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        112,
+        537,
+        117
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        148,
+        537,
+        153
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        184,
+        537,
+        189
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        203,
+        537,
+        207
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.3404,
+      "height_to_avg_full_line_ratio": 0.2597,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        221,
+        537,
+        223
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2042,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4423,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        240,
+        537,
+        262
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 1.5657,
+      "height_to_avg_full_line_ratio": 1.1945,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 23,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0654,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        292,
+        537,
+        316
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 1.7019,
+      "height_to_avg_full_line_ratio": 1.2984,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        330,
+        537,
+        334
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.3404,
+      "height_to_avg_full_line_ratio": 0.2597,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        350,
+        537,
+        352
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2042,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        366,
+        537,
+        370
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.3404,
+      "height_to_avg_full_line_ratio": 0.2597,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        385,
+        537,
+        386
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.1362,
+      "height_to_avg_full_line_ratio": 0.1039,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4231,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        403,
+        537,
+        406
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2723,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4231,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        421,
+        537,
+        422
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.1362,
+      "height_to_avg_full_line_ratio": 0.1039,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        438,
+        537,
+        443
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        456,
+        537,
+        459
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2723,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        475,
+        537,
+        478
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2723,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        494,
+        537,
+        497
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2723,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        512,
+        537,
+        514
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2042,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        530,
+        537,
+        532
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.2042,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        547,
+        537,
+        570
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 1.6338,
+      "height_to_avg_full_line_ratio": 1.2464,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        583,
+        537,
+        587
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.3404,
+      "height_to_avg_full_line_ratio": 0.2597,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        601,
+        537,
+        606
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.4085,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        619,
+        537,
+        623
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.6897,
+      "avg_linebreak_height_px": 4.5652,
+      "avg_full_line_height_px": 19.2549,
+      "height_to_avg_line_ratio": 0.3404,
+      "height_to_avg_full_line_ratio": 0.2597,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 29,
+    "blankline": 1,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "New Soviet Proposal for a \"Provisional Status\" for West Berlin",
+      "char_len": 62,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        7,
+        537,
+        26
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        27,
+        537,
+        45
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        46,
+        537,
+        56
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "After nearly two weeks ofstalemated restricted sessions in Geneva, Foreign Minister Gromyko has offered to recognize certain drastically limited Western rights in Berlin for one year in a major bid to crack the hitherto unified Western position that any new solution must contain an explicit Soviet reaffirmation of Allied rights. The USSR seems to be estimating that unless there were some prospects of Western concessions on the issue of Allied rights, a summit meeting in the next few months would be less desirable than waiting for possible advantages which might be derived from an increase in political pressures on the British Government,",
+      "char_len": 645,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        63,
+        537,
+        74
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        81,
+        537,
+        92
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "and the continued erosion of the NATO military organization as a result of French national policies.",
+      "char_len": 100,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        99,
+        537,
+        111
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        118,
+        537,
+        147
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Although the Soviet leaders undoubtedly expect rejection of their conditions, they probably hope that a combination of threats and inducements will prompt an initiative by at least one of the Allies to prevent a breakdown and a subsequent sharpening of the Berlin crisis.",
+      "char_len": 271,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        154,
+        537,
+        165
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        172,
+        537,
+        183
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "Gromyko had hinted at a compromise interim arrangement which would leave aside the deadlocked question of Western rights in Berlin for later negotiation, presumably at a summit meeting. However, on the possibility that further pressure might produce eventual if not immediate change in the Western position, each condition of the new Soviet package was tailored to take advantage of differences in Western willingness to make concessions on these points.",
+      "char_len": 454,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        190,
+        537,
+        202
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        208,
+        537,
+        220
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "Gromyko also threatened to conclude a separate peace treaty with East Germany should the West, during the one-year grace period, prevent agreement on an all-German peace treaty.",
+      "char_len": 177,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        224,
+        537,
+        239
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "BL13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        18,
+        240,
+        537,
+        262
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        263,
+        537,
+        291
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "PB15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        295,
+        537,
+        316
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        317,
+        537,
+        329
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        335,
+        537,
+        349
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        353,
+        537,
+        365
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        371,
+        537,
+        384
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        387,
+        537,
+        402
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        407,
+        537,
+        420
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        423,
+        537,
+        437
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        444,
+        537,
+        455
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        460,
+        537,
+        474
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        479,
+        537,
+        493
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        498,
+        537,
+        511
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        515,
+        537,
+        529
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        533,
+        537,
+        546
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "PB29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        549,
+        537,
+        570
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        571,
+        537,
+        582
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        588,
+        537,
+        600
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        607,
+        537,
+        618
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        624,
+        537,
+        634
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 12,
+      "line_char_capacity": 177,
+      "char_start": 60,
+      "char_end": 177,
+      "char_len": 117,
+      "full_line": false,
+      "bbox_xyxy": [
+        193,
+        222,
+        551,
+        240
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_____________________________________]",
+      "layout_token_pixel": "[BOX1__344/519]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.6628,
+      "clipped_span_px": 344,
+      "line_width_effective_px": 519,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 13,
+      "line_char_capacity": 645,
+      "char_start": 2,
+      "char_end": 43,
+      "char_len": 41,
+      "full_line": false,
+      "bbox_xyxy": [
+        20,
+        240,
+        53,
+        263
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2__]",
+      "layout_token_pixel": "[BOX2__33/519]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0636,
+      "clipped_span_px": 33,
+      "line_width_effective_px": 519,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 20,
+      "line_char_capacity": 645,
+      "char_start": 157,
+      "char_end": 429,
+      "char_len": 272,
+      "full_line": false,
+      "bbox_xyxy": [
+        144,
+        385,
+        363,
+        408
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3______________________]",
+      "layout_token_pixel": "[BOX3__219/519]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.422,
+      "clipped_span_px": 219,
+      "line_width_effective_px": 519,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 33,
+      "line_char_capacity": 645,
+      "char_start": 138,
+      "char_end": 608,
+      "char_len": 470,
+      "full_line": false,
+      "bbox_xyxy": [
+        129,
+        637,
+        507,
+        657
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4__________________________________________]",
+      "layout_token_pixel": "[BOX4__378/519]",
+      "line_overlap_ratio": 0.0,
+      "line_cover_ratio_x": 0.7283,
+      "clipped_span_px": 378,
+      "line_width_effective_px": 519,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

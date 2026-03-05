@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      55,
+      8,
+      572,
+      26
+    ],
+    "text": "Haitian President's Illness May Spark Serious Unrest",
+    "expanded_crop_box_xyxy": [
+      3,
+      0,
+      604,
+      34
+    ],
+    "crop_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text is written in a sans-serif font, and the words \"Haitian President's Illness\" are bolded.",
+    "ocr_text_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 8,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      55,
+      45,
+      572,
+      154
+    ],
+    "text": "\nThe sudden serious illness of Haitian President Duvalier may endanger the tenuous political stability which has existed in Haiti since the abortive seven-man invasion attempt last July. The government has minimized the President's illness.\n\nOpposition elements, which have recently become increasingly active inside Haiti as well as abroad, may now be encouraged to move against the weak and unpopular regime. Although all leading opposition figures are in exile, dissident elements within the country, particularly the followers of former provisional president Daniel Fignolé, have recently engaged in organized acts of harassment, including strikes, against the government. The various groups might combine forces in an attempt to oust the government, but there undoubtedly would be a sharp struggle for power if the government should fall. An attempt to unify the opposition earlier this year failed.",
+    "expanded_crop_box_xyxy": [
+      3,
+      34,
+      604,
+      165
+    ],
+    "crop_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The sudden serious illness of Haitian President Duvalier may endanger the tenuous political stability which has existed in Haiti since the abortive seven-man invasion attempt last July. The government has minimized the President's illness,",
+    "ocr_text_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 10,
+    "line_end_1based": 20,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      55,
+      173,
+      572,
+      365
+    ],
+    "text": "\nThe Duvalier regime has long been almost totally dependent on the President's repressive security police for survival. The armed forces, weakened and alienated by a series of purges designed to eliminate officers of questionable loyalty to Duvalier, could not be relied on to support the government. A prolonged economic and financial crisis and inefficient administration have further weakened the government, and it seems doubtful that the regime could hold together if Duvalier's illness should spark serious disorders.",
+    "expanded_crop_box_xyxy": [
+      3,
+      154,
+      604,
+      384
+    ],
+    "crop_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Opposition elements, which have recently become increasingly active inside Haiti as well as abroad, may now be encouraged to move against the weak and unpopular regime. Although all leading opposition figures are in exile, dissident elements within the country, particularly the followers of former provisional president Daniel Fignole, have recently engaged in organized acts of harassment, including strikes, against the government. The various groups might combine forces in an attempt to oust the government, but there undoubtedly would be a sharp struggle for power if the government should fall. An attempt to unify the opposition earlier this year failed.",
+    "ocr_text_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 22,
+    "line_end_1based": 30,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      55,
+      391,
+      572,
+      545
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      3,
+      375,
+      604,
+      561
+    ],
+    "crop_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The Dualier regime has long been almost totally depend-",
+    "ocr_text_path": "outputs/examples_ocr2/49_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

@@ -1,0 +1,1084 @@
+{
+  "image": "inputs/images/55_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    25,
+    13,
+    546,
+    596
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 162995,
+  "merged_region_nonzero_px": 162995,
+  "line_width_px": 521,
+  "line_count": 30,
+  "paragraph_crops_dir": "outputs/examples_ocr2/55_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/55_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/55_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        25,
+        19,
+        546,
+        56
+      ],
+      "text": "Costa Rican President's Neutrality in Nicaragua Affair Leads To Threat Against His Government",
+      "expanded_crop_box_xyxy": [
+        0,
+        11,
+        580,
+        64
+      ],
+      "crop_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Costa Rican President's Neutrality in Nicaraguan Affair Leads To Threat Against His Government",
+      "ocr_text_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 12,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        25,
+        75,
+        546,
+        231
+      ],
+      "text": "Frank Marshall, Costa Rican revolutionary veteran, warned President Ebandi on 17 June that he has a substantial military force in the country ready to attack Nicaragua and that if Ebandi attempts to stop it, \"there will be plenty of trouble in Costa Rica.\" The President immediately called in his cabinet and the leaders of various political parties. Fragmentary Costa Rican news-casts have subsequently indicated that, despite the threat, Ebandi may be sending elements of the Civil Guard to prevent an attack on Nicaragua by Marshall.\n\nEbandi's efforts to maintain neutrality in the Nicaraguan affair have been highly unpopular in Costa Rica, where public opinion strongly backs the Nicaraguan opposition. Former President Jose Figueres' partisans, who dominate the legislature, have openly supported the Nicaraguan rebels and Figueres is believed to have aided the Nicaraguans who took part in the ill-fated invasions of 31 May and 1 June. However, Figueres could not back Marshall's threat without negating the basis of a political creed that has gained him wide prestige throughout the hemisphere. Marshall, a rash and unstable man, is capable of violent action, but would have little support for an attempt against the Costa Rican government.\n\nIf Marshall's forces succeeded in invading Nicaragua they probably could not be themselves defeat the 5,000-man Nicaraguan National Guard. However, the Somoza regime is faced with the threat of further incursions from Honduras in the north.",
+      "expanded_crop_box_xyxy": [
+        0,
+        59,
+        580,
+        247
+      ],
+      "crop_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Frank Marshall, Costa Rican revolutionary veteran, warned President Echandi on 17 June that he has a substantial military force in the country ready to attack Nicaragua and that if Echandi attempts to stop it, \"there will be plenty of trouble in Costa Rica.\" The President immediately called in his cabinet and the leaders of various political parties. Fragmentary Costa Rican news-casts have subsequently indicated that, despite the threat, Echandi may be sending elements of the Civil Guard to prevent an attack on Nicaragua by Marshall.",
+      "ocr_text_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 14,
+      "line_end_1based": 25,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        25,
+        257,
+        546,
+        466
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        236,
+        580,
+        487
+      ],
+      "crop_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Echandi's efforts to maintain neutrality in the Nicaraguan affair have been highly unpopular in Costa Rica, where public opinion strongly backs the Nicaraguan opposition. Former President Jose Figueres' partisans, who dominate the legislature, have openly supported the Nicaraguan rebels and Figueres is believed to have aided the Nicaraguans who took part in the ill-fated invasions of 31 May and 1 June. However, Figueres could not back Marshall's threat without negating the basis of a political creed that has gained him wide prestige throughout the hemisphere. Marshall, a rash and unstable man, is capable of violent action, but would have little support for an attempt against the Costa Rican government.",
+      "ocr_text_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 27,
+      "line_end_1based": 30,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        25,
+        493,
+        546,
+        558
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        485,
+        580,
+        566
+      ],
+      "crop_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "If Marshall's forces succeeded in invading Nicaragua they probably could not be themselves defeat the 5,000-man Nicaragua National Guard. However, the Somoza regime is faced with the threat of further incursions from Honduras in the north.",
+      "ocr_text_path": "outputs/examples_ocr2/55_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.6333,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 27,
+  "row_scan_gap_band_count": 26,
+  "row_scan_linebreak_band_count": 23,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        25,
+        50,
+        546,
+        51
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.1538,
+      "height_to_avg_full_line_ratio": 0.1098,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        57,
+        546,
+        74
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 1.3846,
+      "height_to_avg_full_line_ratio": 0.9881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        25,
+        87,
+        546,
+        91
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        109,
+        546,
+        110
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.1538,
+      "height_to_avg_full_line_ratio": 0.1098,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        124,
+        546,
+        128
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        142,
+        546,
+        146
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        161,
+        546,
+        165
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        178,
+        546,
+        183
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        197,
+        546,
+        202
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        215,
+        546,
+        218
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3077,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        232,
+        546,
+        256
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 1.9231,
+      "height_to_avg_full_line_ratio": 1.3723,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        25,
+        269,
+        546,
+        274
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        287,
+        546,
+        292
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        305,
+        546,
+        310
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        323,
+        546,
+        328
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        341,
+        546,
+        346
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        359,
+        546,
+        362
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3077,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        377,
+        546,
+        382
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        395,
+        546,
+        401
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.5385,
+      "height_to_avg_full_line_ratio": 0.3842,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        414,
+        546,
+        419
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        432,
+        546,
+        437
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        450,
+        546,
+        455
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.4615,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        467,
+        546,
+        492
+      ],
+      "kind": "blankline",
+      "height_px": 26,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 2.0,
+      "height_to_avg_full_line_ratio": 1.4272,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        25,
+        505,
+        546,
+        509
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        523,
+        546,
+        527
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        25,
+        541,
+        546,
+        545
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.0,
+      "avg_linebreak_height_px": 5.2174,
+      "avg_full_line_height_px": 18.2174,
+      "height_to_avg_line_ratio": 0.3846,
+      "height_to_avg_full_line_ratio": 0.2745,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 27,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Costa Rican President's Neutrality in Nicaragua Affair Leads To Threat Against His Government",
+      "char_len": 93,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        19,
+        546,
+        49
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        52,
+        546,
+        56
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        25,
+        57,
+        546,
+        74
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Frank Marshall, Costa Rican revolutionary veteran, warned President Ebandi on 17 June that he has a substantial military force in the country ready to attack Nicaragua and that if Ebandi attempts to stop it, \"there will be plenty of trouble in Costa Rica.\" The President immediately called in his cabinet and the leaders of various political parties. Fragmentary Costa Rican news-casts have subsequently indicated that, despite the threat, Ebandi may be sending elements of the Civil Guard to prevent an attack on Nicaragua by Marshall.",
+      "char_len": 536,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        75,
+        546,
+        86
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        92,
+        546,
+        108
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Ebandi's efforts to maintain neutrality in the Nicaraguan affair have been highly unpopular in Costa Rica, where public opinion strongly backs the Nicaraguan opposition. Former President Jose Figueres' partisans, who dominate the legislature, have openly supported the Nicaraguan rebels and Figueres is believed to have aided the Nicaraguans who took part in the ill-fated invasions of 31 May and 1 June. However, Figueres could not back Marshall's threat without negating the basis of a political creed that has gained him wide prestige throughout the hemisphere. Marshall, a rash and unstable man, is capable of violent action, but would have little support for an attempt against the Costa Rican government.",
+      "char_len": 710,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        111,
+        546,
+        123
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        129,
+        546,
+        141
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "If Marshall's forces succeeded in invading Nicaragua they probably could not be themselves defeat the 5,000-man Nicaraguan National Guard. However, the Somoza regime is faced with the threat of further incursions from Honduras in the north.",
+      "char_len": 240,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        147,
+        546,
+        160
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        166,
+        546,
+        177
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        184,
+        546,
+        196
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        203,
+        546,
+        214
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        219,
+        546,
+        231
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "PB13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        25,
+        237,
+        546,
+        256
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        257,
+        546,
+        268
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        275,
+        546,
+        286
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        293,
+        546,
+        304
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        311,
+        546,
+        322
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        329,
+        546,
+        340
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        347,
+        546,
+        358
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        363,
+        546,
+        376
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        383,
+        546,
+        394
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        402,
+        546,
+        413
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        420,
+        546,
+        431
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        438,
+        546,
+        449
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        456,
+        546,
+        466
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "PB26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        25,
+        473,
+        546,
+        492
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        493,
+        546,
+        504
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        510,
+        546,
+        522
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        528,
+        546,
+        540
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        25,
+        546,
+        546,
+        558
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

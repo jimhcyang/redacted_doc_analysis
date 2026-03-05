@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      14,
+      19,
+      509,
+      55
+    ],
+    "text": "Consider adding a period at the end of each sentence.",
+    "expanded_crop_box_xyxy": [
+      0,
+      11,
+      526,
+      63
+    ],
+    "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival.",
+    "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 6,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      74,
+      509,
+      123
+    ],
+    "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival\n\nA concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.",
+    "expanded_crop_box_xyxy": [
+      0,
+      66,
+      526,
+      131
+    ],
+    "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 8,
+    "line_end_1based": 13,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      126,
+      509,
+      232
+    ],
+    "text": "**only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.** The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+    "expanded_crop_box_xyxy": [
+      0,
+      115,
+      526,
+      243
+    ],
+    "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Drimmel favored a ban on the festival when it was discussed\nat a cabinet meeting on 3 February, and further government\nconsideration is unlikely. The only remaining possibility of\npreventing the Vienna meeting is to maneuver the preparatory\ncommittee itself into withdrawing.",
+    "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

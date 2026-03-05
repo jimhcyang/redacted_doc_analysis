@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 19,
+    "line_count": 19,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      22,
+      7,
+      527,
+      367
+    ],
+    "text": "Nasi'r's Anti-Communist Campaign\n\nNasi'r's campaign against Communists throughout the UAR\nhas reached major proportions. This campaign, unlike pre-\nvious ones, has included arrests of prominent party members,\nand it would appear that Communist leadership has been se-\nverely crippled. ______ about 550 members\nhave been arrested in Syria, including Mustafa Amin, one of\nthe highest in the party. Also reportedly picked up was Abd\nal-Majid Jamal al-Din, a leader of the Syrian-Lebanese Com-\nmunist party and head of the Syrian passports and immigration\ndepartment. Khalid Bakdash, the Arab world's number-one\nCommunist, reportedly has fled from Damascus to Baghdad.\n\n______ in Egypt, where Cairo newspapers are keeping up a con-\nstant barrage of criticism of Iraqi Communist activity, the num-\nber of arrests has exceeded 200, including several central com-\nmittee members of Egypt's three Communist factions, as well as\nCommunist members of the staff of the extreme leftist Cairo",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      565,
+      403
+    ],
+    "crop_path": "outputs/examples_ocr2/14_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is a newspaper article.",
+    "ocr_text_path": "outputs/examples_ocr2/14_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

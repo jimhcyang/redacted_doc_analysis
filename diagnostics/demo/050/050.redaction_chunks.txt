@@ -1,0 +1,24 @@
+Example ID: 50
+Stem: 50
+Redacted OCR file: outputs/examples_ocr2/50_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/50_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=107..131, len=25)
+Predicted chunk text: in addition to djuanda's statement army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution
+Unredacted context: or 30 may [UNRED_ONLY: in addition to djuanda's statement army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution] army chief of
+Redacted anchor context: 29 or 30 [L@106:may] [RED_GAP:<empty>] [R@107:army] chief of staff
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.148148 joined_pred_chunks=0..0
+  -> GT text: army leaders
+  -> Relaxed best pred text: in addition to djuanda's statement army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution
+  -> Relaxed word metrics: recall=1.0 precision=0.08 f1=0.148148

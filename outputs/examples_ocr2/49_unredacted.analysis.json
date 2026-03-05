@@ -1,0 +1,1084 @@
+{
+  "image": "inputs/images/49_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    29,
+    7,
+    541,
+    620
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 153845,
+  "merged_region_nonzero_px": 153845,
+  "line_width_px": 512,
+  "line_count": 30,
+  "paragraph_crops_dir": "outputs/examples_ocr2/49_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/49_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/49_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        29,
+        14,
+        541,
+        30
+      ],
+      "text": "Haitian President's Illness May Spark Serious Unrest",
+      "expanded_crop_box_xyxy": [
+        0,
+        6,
+        561,
+        38
+      ],
+      "crop_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text is written in a sans-serif font.",
+      "ocr_text_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 8,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        29,
+        51,
+        541,
+        151
+      ],
+      "text": "\nThe sudden serious illness of Haitian President Duvalier may endanger the tenuous political stability which has existed in Haiti since the abortive seven-man invasion attempt last July. The government has minimized the President's illness, but a medical specialist has been called in from the United States.\n\nOpposition elements, which have recently become increasingly active inside Haiti as well as abroad, may now be encouraged to move against the weak and unpopular regime. Although all leading opposition figures are in exile, dissident elements within the country, particularly the followers of former provisional president Daniel Fignolé, have recently engaged in organized acts of harassment, including strikes, against the government. The various groups might combine forces in an attempt to oust the government, but there undoubtedly would be a sharp struggle for power if the government should fall. An attempt to unify the opposition earlier this year failed.\n\nThe Duvalier regime has long been almost totally dependent on the President's repressive security police for survival. The armed forces, weakened and alienated by a series of purges designed to eliminate officers of questionable loyalty to Duvalier, could not be relied on to support the government. A prolonged economic and financial crisis and inefficient administration have further weakened the government, and it seems doubtful that the regime could hold together if Duvalier's illness should spark serious disorders.",
+      "expanded_crop_box_xyxy": [
+        0,
+        41,
+        561,
+        161
+      ],
+      "crop_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The sudden serious illness of Haitian President Duvalier may endanger the tenuous political stability which has existed in Haiti since the abortive seven-man invasion attempt last July. The government has minimized the President's illness, but a medical specialist has been called in from the United States.",
+      "ocr_text_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 10,
+      "line_end_1based": 20,
+      "line_count": 11,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        29,
+        178,
+        541,
+        370
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        159,
+        561,
+        389
+      ],
+      "crop_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "No line breaks, bullet points, or other\nmarkdown syntax.\nOpposition elements, which have recently become increasingly active inside Haiti as well as abroad, may now be encouraged to move against the weak and unpopular regime. Although all leading opposition figures are in exile, dissident elements within the country, particularly the followers of former provisional president Daniel F. Fignolé, have recently engaged in organized acts of harassment, including strikes, against the government. The various groups might combine forces in an attempt to oust the government, but there undoubtedly would be a sharp struggle for power if the government should fall. An attempt to unify the opposition earlier this year failed.",
+      "ocr_text_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 22,
+      "line_end_1based": 30,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        29,
+        395,
+        541,
+        549
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        379,
+        561,
+        565
+      ],
+      "crop_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The Dualier regime has long been almost totally dependent on the President's repressive security police for survival. The armed forces, weakened and alienated by a series of purges designed to eliminate officers of questionable loyalty to Duvalier, could not be relied on to support the government. A prolonged economic and financial crisis and inefficient administration have further weakened the government, and it seems doubtful that the regime could hold together if Duvalier's illness should spark serious disorders.",
+      "ocr_text_path": "outputs/examples_ocr2/49_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 12.6667,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 27,
+  "row_scan_gap_band_count": 26,
+  "row_scan_linebreak_band_count": 23,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        29,
+        31,
+        541,
+        50
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 1.6564,
+      "height_to_avg_full_line_ratio": 1.1013,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        29,
+        63,
+        541,
+        69
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        81,
+        541,
+        87
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        99,
+        541,
+        105
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        117,
+        541,
+        123
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        135,
+        541,
+        138
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.3313,
+      "height_to_avg_full_line_ratio": 0.2203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        152,
+        541,
+        177
+      ],
+      "kind": "blankline",
+      "height_px": 26,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 2.1534,
+      "height_to_avg_full_line_ratio": 1.4316,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        29,
+        189,
+        541,
+        195
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        208,
+        541,
+        213
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        226,
+        541,
+        231
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        244,
+        541,
+        249
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        262,
+        541,
+        268
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        280,
+        541,
+        286
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        299,
+        541,
+        304
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        318,
+        541,
+        322
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4141,
+      "height_to_avg_full_line_ratio": 0.2753,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        334,
+        541,
+        340
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.5798,
+      "height_to_avg_full_line_ratio": 0.3854,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        353,
+        541,
+        358
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        371,
+        541,
+        394
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 1.9877,
+      "height_to_avg_full_line_ratio": 1.3215,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        29,
+        407,
+        541,
+        412
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        425,
+        541,
+        430
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        443,
+        541,
+        448
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        461,
+        541,
+        466
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        480,
+        541,
+        484
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4141,
+      "height_to_avg_full_line_ratio": 0.2753,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        498,
+        541,
+        502
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4141,
+      "height_to_avg_full_line_ratio": 0.2753,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        515,
+        541,
+        520
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4969,
+      "height_to_avg_full_line_ratio": 0.3304,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        29,
+        534,
+        541,
+        538
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0741,
+      "avg_linebreak_height_px": 6.087,
+      "avg_full_line_height_px": 18.161,
+      "height_to_avg_line_ratio": 0.4141,
+      "height_to_avg_full_line_ratio": 0.2753,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 27,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Haitian President's Illness May Spark Serious Unrest",
+      "char_len": 52,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        14,
+        541,
+        30
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        29,
+        33,
+        541,
+        50
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        51,
+        541,
+        62
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The sudden serious illness of Haitian President Duvalier may endanger the tenuous political stability which has existed in Haiti since the abortive seven-man invasion attempt last July. The government has minimized the President's illness, but a medical specialist has been called in from the United States.",
+      "char_len": 307,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        70,
+        541,
+        80
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        88,
+        541,
+        98
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Opposition elements, which have recently become increasingly active inside Haiti as well as abroad, may now be encouraged to move against the weak and unpopular regime. Although all leading opposition figures are in exile, dissident elements within the country, particularly the followers of former provisional president Daniel Fignolé, have recently engaged in organized acts of harassment, including strikes, against the government. The various groups might combine forces in an attempt to oust the government, but there undoubtedly would be a sharp struggle for power if the government should fall. An attempt to unify the opposition earlier this year failed.",
+      "char_len": 662,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        106,
+        541,
+        116
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        124,
+        541,
+        134
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "The Duvalier regime has long been almost totally dependent on the President's repressive security police for survival. The armed forces, weakened and alienated by a series of purges designed to eliminate officers of questionable loyalty to Duvalier, could not be relied on to support the government. A prolonged economic and financial crisis and inefficient administration have further weakened the government, and it seems doubtful that the regime could hold together if Duvalier's illness should spark serious disorders.",
+      "char_len": 522,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        139,
+        541,
+        151
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "PB9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        29,
+        160,
+        541,
+        177
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        178,
+        541,
+        188
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        196,
+        541,
+        207
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        214,
+        541,
+        225
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        232,
+        541,
+        243
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        250,
+        541,
+        261
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        269,
+        541,
+        279
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        287,
+        541,
+        298
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        305,
+        541,
+        317
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        323,
+        541,
+        333
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        341,
+        541,
+        352
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        359,
+        541,
+        370
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "PB21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        29,
+        377,
+        541,
+        394
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        395,
+        541,
+        406
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        413,
+        541,
+        424
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        431,
+        541,
+        442
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        449,
+        541,
+        460
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        467,
+        541,
+        479
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        485,
+        541,
+        497
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        503,
+        541,
+        514
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        521,
+        541,
+        533
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        29,
+        539,
+        541,
+        549
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

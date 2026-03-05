@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 9,
+    "line_count": 9,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      11,
+      11,
+      518,
+      172
+    ],
+    "text": "Katay D. Sasorith\nis the most powerful individual in the cabinet.\nHe is vice pre-\n\nmier and holds both Defense and Interior portfolios.\n\njudging from his past performance, he\nis unlikely to undertake a vigorous reform of the security\nforces and provincial administration.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      551,
+      183
+    ],
+    "crop_path": "outputs/examples_ocr2/0_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is a quote from Katay D. Sasorith.",
+    "ocr_text_path": "outputs/examples_ocr2/0_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

@@ -1,0 +1,17 @@
+Example ID: 10
+Doc stem: 10
+Date: December 30, 1958
+doc_id_r: CIA-RDP79T00975A004200230001-9
+doc_id_u: 3010223
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+New Afghan-Soviet Military Assistance Agreement May Be Concluded Afghan-Foreign Minister Naim, who left on 29 December for Moscow, apparently intends to conclude a new agreement to expand the Soviet military assistance program in Afghanistan. The Afghan Government may regard such a move as a calculated risk necessary to strengthen its position against what it regards as an increasingly unfavorable Western attitude toward Afghanistan. Afghanistan has been slow in training its troops to use Soviet weapons which have already been delivered. Any new military assistance agreement will therefore probably include an expanded training program, involving the use of additional Soviet military instructors. It would also provide for additional Soviet weapons, including heavy arms and more modern aircraft, The new agreement for a reported <redaction 1> would probably be financed by a long-term Soviet loan, ending the year-old Afghan policy of refusing to accept further loans in favor of grant aid. Because of discount prices, Afghanistan has apparently received bloc arms worth about <redaction 2> under the <redaction 3> and the <redaction 4>.
+
+=== REDACTIONS ===
+[redaction 1] $50,000,000
+[redaction 2] $75,000,000
+[redaction 3] $25,000,000 Soviet arms-assistance agreement signed in 1956
+[redaction 4] $7,000,000,000 Czech arms agreement of 1954
+
+=== CONTEXT (REDACTIONS FILLED) ===
+New Afghan-Soviet Military Assistance Agreement May Be Concluded Afghan-Foreign Minister Naim, who left on 29 December for Moscow, apparently intends to conclude a new agreement to expand the Soviet military assistance program in Afghanistan. The Afghan Government may regard such a move as a calculated risk necessary to strengthen its position against what it regards as an increasingly unfavorable Western attitude toward Afghanistan. Afghanistan has been slow in training its troops to use Soviet weapons which have already been delivered. Any new military assistance agreement will therefore probably include an expanded training program, involving the use of additional Soviet military instructors. It would also provide for additional Soviet weapons, including heavy arms and more modern aircraft, The new agreement for a reported $50,000,000 would probably be financed by a long-term Soviet loan, ending the year-old Afghan policy of refusing to accept further loans in favor of grant aid. Because of discount prices, Afghanistan has apparently received bloc arms worth about $75,000,000 under the $25,000,000 Soviet arms-assistance agreement signed in 1956 and the $7,000,000,000 Czech arms agreement of 1954.

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      15,
+      528,
+      33
+    ],
+    "text": "# Moslem Feuding May Cause Lebanese Cabinet Crisis",
+    "expanded_crop_box_xyxy": [
+      0,
+      7,
+      558,
+      41
+    ],
+    "crop_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Moslem Feuding May Cause Lebanese Cabinet Crisis",
+    "ocr_text_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 9,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      53,
+      528,
+      175
+    ],
+    "text": "\nThe Lebanese Army's strong action last week and against former rebel Sunni Moslem villagers in the Biqa Valley is likely to arouse a storm of Sunni Moslem criticism against the government. Sunni Moslems killed an army officer seeking to end a fight between Sunni and Shia Moslem villagers. The army in reprisal destroyed the Sunni village, causing a large number of Sunni casualties.\n\nNews of the attack, which the army tried to keep out of the press, stirred violent popular reaction in the Basta quarter of Beirut, and large-scale demonstrations on 15 December were averted only by pressure from higher Moslem leaders. Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.\n\nApparently, the army action was taken without the knowledge of Sunni Moslem Prime Minister and Minister of Defense Karami, but with the approval of President Shihab. This action has already resulted in an attack on the government by former rebel leader Abdullah Yafi and adverse press comment. Karami may attempt to shift the blame to the Christian minister of interior, Raymond Edde, which could cause serious dissension in the cabinet.",
+    "expanded_crop_box_xyxy": [
+      0,
+      41,
+      558,
+      187
+    ],
+    "crop_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The Lebanese Army's strong action last week end against former rebel Sunni Moslem villagers in the Biqa Valley is likely to arouse a storm of Sunni Moslem criticism against the government. Sunni Moslems killed an army officer seeking to end a fight between Sunni and Shia Moslem villagers. The army in reprisal destroyed the Sunni village, causing a large number of Sunni casualties.",
+    "ocr_text_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 11,
+    "line_end_1based": 18,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      198,
+      528,
+      336
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      184,
+      558,
+      350
+    ],
+    "crop_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "News of the attack, which the army tried to keep out of the press, stirred violent popular reaction in the Basta quarter of Beirut, and large-scale demonstrations on 15 December were averted only by pressure from higher Moslem leaders. Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.",
+    "ocr_text_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 20,
+    "line_end_1based": 27,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      361,
+      528,
+      500
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      347,
+      558,
+      511
+    ],
+    "crop_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Apparently, the army action was taken without the knowledge of Sunni Moslem Prime Minister and Minister of Defense Karami, but with the approval of President Shihab. This action has already resulted in an attack on the government by former rebel leader Abdullah Yafi and adverse press comment. Karami may attempt to shift the blame to the Christian minister of interior, Raymond Edde, which could cause serious dissension in the cabinet.",
+    "ocr_text_path": "outputs/examples_ocr2/9_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

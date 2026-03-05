@@ -1,0 +1,60 @@
+Example ID: 36
+Stem: 36
+Redacted OCR file: outputs/examples_ocr2/36_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/36_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=17..17, len=1)
+Predicted chunk text: die-hard
+Unredacted context: indications that some [UNRED_ONLY: die-hard] elements in the
+Redacted anchor context: are indications that [L@30:some] [RED_GAP:dfe-hard] [R@32:elements] in the french
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:dfe-hard]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=86..119, len=34)
+Predicted chunk text: air force chief of staff general jouhouad who was born in algeria and played a leading role in the revolt is reported to have made more visits to algeria recently than his position warrants
+Unredacted context: of its objectives [UNRED_ONLY: air force chief of staff general jouhouad who was born in algeria and played a leading role in the revolt is reported to have made more visits to algeria recently than his position warrants] there have been
+Redacted anchor context: one of its [L@99:objectives] [RED_GAP:<empty>] [R@100:there] have been numerous
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.970588 exact=False
+  -> GT text: Air Force Chief of Staff General Jouhaud, who was born in Algeria and played a leading role in the revolt, is reported to have made more visits to Algeria recently than his position warrants.
+  -> Word metrics: recall=0.970588 precision=0.970588 f1=0.970588 matched=33
+Relaxed best GT candidate: GT[0] best_f1=0.970588 joined_pred_chunks=1..1
+  -> GT text: Air Force Chief of Staff General Jouhaud, who was born in Algeria and played a leading role in the revolt, is reported to have made more visits to Algeria recently than his position warrants.
+  -> Relaxed best pred text: air force chief of staff general jouhouad who was born in algeria and played a leading role in the revolt is reported to have made more visits to algeria recently than his position warrants
+  -> Relaxed word metrics: recall=0.970588 precision=0.970588 f1=0.970588
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=227..239, len=13)
+Predicted chunk text: rumors of secret french-rebel contacts also have upset these military and rightist circles
+Unredacted context: gaulle proposed one [UNRED_ONLY: rumors of secret french-rebel contacts also have upset these military and rightist circles] extremist european settlers
+Redacted anchor context: de gaulle proposed [L@206:one] [RED_GAP:<empty>] [R@207:extremist] european settlers in
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: Rumors of secret French-rebel contacts also have upset these military and rightist circles.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=13
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: Rumors of secret French-rebel contacts also have upset these military and rightist circles.
+  -> Relaxed best pred text: rumors of secret french-rebel contacts also have upset these military and rightist circles
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=327..327, len=1)
+Predicted chunk text: jouhouad
+Unredacted context: 22 march when [UNRED_ONLY: jouhouad] decorates air force
+Redacted anchor context: on 22 march [L@293:when] [RED_GAP:jouhoad] [R@295:decorates] air force reservists
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:jouhoad]
+Strict GT match: NO
+Relaxed best GT candidate: none

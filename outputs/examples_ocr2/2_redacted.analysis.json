@@ -1,0 +1,1229 @@
+{
+  "image": "inputs/images/2_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      355,
+      143,
+      551,
+      159
+    ],
+    [
+      27,
+      159,
+      551,
+      219
+    ],
+    [
+      3,
+      337,
+      554,
+      407
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    3,
+    11,
+    551,
+    408
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 77834,
+  "merged_region_nonzero_px": 76214,
+  "line_width_px": 548,
+  "line_count": 30,
+  "paragraph_crops_dir": "outputs/examples_ocr2/2_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/2_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/2_redacted.paragraphs.json",
+  "paragraph_count": 14,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        3,
+        16,
+        551,
+        27
+      ],
+      "text": "Ignore any poetry if present.",
+      "expanded_crop_box_xyxy": [
+        0,
+        8,
+        558,
+        35
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text is not legible.",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 3,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        50,
+        551,
+        59
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        42,
+        558,
+        67
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 5,
+      "line_end_1based": 5,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        66,
+        551,
+        75
+      ],
+      "text": "---",
+      "expanded_crop_box_xyxy": [
+        0,
+        58,
+        558,
+        83
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 7,
+      "line_end_1based": 7,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        82,
+        551,
+        91
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        74,
+        558,
+        99
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    },
+    {
+      "paragraph_1based": 5,
+      "line_start_1based": 9,
+      "line_end_1based": 9,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        98,
+        551,
+        108
+      ],
+      "text": "### Iraqi Struggle for Power Breaks Into Open",
+      "expanded_crop_box_xyxy": [
+        0,
+        90,
+        558,
+        116
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_005.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_005.ocr.txt"
+    },
+    {
+      "paragraph_1based": 6,
+      "line_start_1based": 11,
+      "line_end_1based": 11,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        114,
+        551,
+        124
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        106,
+        558,
+        132
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_006.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_006.ocr.txt"
+    },
+    {
+      "paragraph_1based": 7,
+      "line_start_1based": 13,
+      "line_end_1based": 13,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        130,
+        551,
+        140
+      ],
+      "text": "The removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Arif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+      "expanded_crop_box_xyxy": [
+        0,
+        122,
+        558,
+        148
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_007.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_007.ocr.txt"
+    },
+    {
+      "paragraph_1based": 8,
+      "line_start_1based": 15,
+      "line_end_1based": 18,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        147,
+        551,
+        209
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        139,
+        558,
+        217
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_008.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_008.ocr.txt"
+    },
+    {
+      "paragraph_1based": 9,
+      "line_start_1based": 20,
+      "line_end_1based": 20,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        227,
+        551,
+        237
+      ],
+      "text": "Nasir has indicated his support of Arif and will probably be alarmed that he is apparently losing ground. He may contend that the removal of Arif, whom he claims to be the only Iraqi capable of combating Communist influence, is a victory for the pro-Soviet and anti-UAR faction. This claim could serve Nasir as an excuse for active interference in Iraqi affairs.",
+      "expanded_crop_box_xyxy": [
+        0,
+        219,
+        558,
+        245
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_009.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_009.ocr.txt"
+    },
+    {
+      "paragraph_1based": 10,
+      "line_start_1based": 22,
+      "line_end_1based": 22,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        244,
+        551,
+        253
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        236,
+        558,
+        261
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_010.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_010.ocr.txt"
+    },
+    {
+      "paragraph_1based": 11,
+      "line_start_1based": 24,
+      "line_end_1based": 24,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        260,
+        551,
+        269
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        252,
+        558,
+        277
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_011.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_011.ocr.txt"
+    },
+    {
+      "paragraph_1based": 12,
+      "line_start_1based": 26,
+      "line_end_1based": 26,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        276,
+        551,
+        285
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        268,
+        558,
+        293
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_012.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_012.ocr.txt"
+    },
+    {
+      "paragraph_1based": 13,
+      "line_start_1based": 28,
+      "line_end_1based": 28,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        292,
+        551,
+        301
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        284,
+        558,
+        309
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_013.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_013.ocr.txt"
+    },
+    {
+      "paragraph_1based": 14,
+      "line_start_1based": 30,
+      "line_end_1based": 30,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        3,
+        308,
+        551,
+        333
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        300,
+        558,
+        341
+      ],
+      "crop_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_014.png",
+      "ocr_text": "The text in the image is a sentence from a book.",
+      "ocr_text_path": "outputs/examples_ocr2/2_redacted.paragraph_crops/paragraph_014.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 10.4333,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 14,
+  "row_scan_gap_band_count": 13,
+  "row_scan_linebreak_band_count": 11,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 13,
+  "indentation_band_count": 14,
+  "gap_markers": [
+    {
+      "box": [
+        3,
+        28,
+        551,
+        49
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 1.9012,
+      "height_to_avg_full_line_ratio": 1.2651,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 17,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        60,
+        551,
+        65
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        76,
+        551,
+        81
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        92,
+        551,
+        97
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        109,
+        551,
+        113
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.4321,
+      "height_to_avg_full_line_ratio": 0.2875,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 5,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        125,
+        551,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.4321,
+      "height_to_avg_full_line_ratio": 0.2875,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 5,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        141,
+        551,
+        146
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.2392,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        157,
+        551,
+        226
+      ],
+      "kind": "blankline",
+      "height_px": 70,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 6.0494,
+      "height_to_avg_full_line_ratio": 4.0254,
+      "blankline_line_slots": 3,
+      "paragraphblank_height_px": 17,
+      "remaining_blank_height_px": 53,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.8333,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        238,
+        551,
+        243
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        254,
+        551,
+        259
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        270,
+        551,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        286,
+        551,
+        291
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        3,
+        302,
+        551,
+        307
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5714,
+      "avg_linebreak_height_px": 5.8182,
+      "avg_full_line_height_px": 17.3896,
+      "height_to_avg_line_ratio": 0.5185,
+      "height_to_avg_full_line_ratio": 0.345,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 6,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 14,
+    "blankline": 3,
+    "paragraphblank": 13
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore any poetry if present.",
+      "char_len": 29,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        16,
+        551,
+        27
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        33,
+        551,
+        49
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        50,
+        551,
+        59
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "PB4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        60,
+        551,
+        65
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        66,
+        551,
+        75
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "PB6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        76,
+        551,
+        81
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        82,
+        551,
+        91
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "PB8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        92,
+        551,
+        97
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "### Iraqi Struggle for Power Breaks Into Open",
+      "char_len": 45,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        98,
+        551,
+        108
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "PB10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        109,
+        551,
+        113
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        114,
+        551,
+        124
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "PB12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        125,
+        551,
+        129
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "The removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Arif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+      "char_len": 385,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        130,
+        551,
+        140
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "PB14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        141,
+        551,
+        146
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        147,
+        551,
+        156
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "BL16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        3,
+        157,
+        551,
+        174
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "BL17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        3,
+        175,
+        551,
+        191
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "BL18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        3,
+        192,
+        551,
+        209
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "PB19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        210,
+        551,
+        226
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "Nasir has indicated his support of Arif and will probably be alarmed that he is apparently losing ground. He may contend that the removal of Arif, whom he claims to be the only Iraqi capable of combating Communist influence, is a victory for the pro-Soviet and anti-UAR faction. This claim could serve Nasir as an excuse for active interference in Iraqi affairs.",
+      "char_len": 362,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        227,
+        551,
+        237
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "PB21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        238,
+        551,
+        243
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        244,
+        551,
+        253
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "PB23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        254,
+        551,
+        259
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        260,
+        551,
+        269
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "PB25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        270,
+        551,
+        275
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        276,
+        551,
+        285
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "PB27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        286,
+        551,
+        291
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        292,
+        551,
+        301
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "PB29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        3,
+        302,
+        551,
+        307
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        3,
+        308,
+        551,
+        333
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 14,
+      "line_char_capacity": 385,
+      "char_start": 247,
+      "char_end": 385,
+      "char_len": 138,
+      "full_line": false,
+      "bbox_xyxy": [
+        355,
+        143,
+        551,
+        159
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__________________]",
+      "layout_token_pixel": "[BOX1__196/548]",
+      "line_overlap_ratio": 0.6667,
+      "line_cover_ratio_x": 0.3577,
+      "clipped_span_px": 196,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 15,
+      "line_char_capacity": 385,
+      "char_start": 247,
+      "char_end": 385,
+      "char_len": 138,
+      "full_line": false,
+      "bbox_xyxy": [
+        355,
+        143,
+        551,
+        159
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__________________]",
+      "layout_token_pixel": "[BOX1__196/548]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3577,
+      "clipped_span_px": 196,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 16,
+      "line_char_capacity": 385,
+      "char_start": 17,
+      "char_end": 385,
+      "char_len": 368,
+      "full_line": false,
+      "bbox_xyxy": [
+        27,
+        159,
+        551,
+        219
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________________________________________________]",
+      "layout_token_pixel": "[BOX2__524/548]",
+      "line_overlap_ratio": 0.8889,
+      "line_cover_ratio_x": 0.9562,
+      "clipped_span_px": 524,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 17,
+      "line_char_capacity": 385,
+      "char_start": 17,
+      "char_end": 385,
+      "char_len": 368,
+      "full_line": false,
+      "bbox_xyxy": [
+        27,
+        159,
+        551,
+        219
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________________________________________________]",
+      "layout_token_pixel": "[BOX2__524/548]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.9562,
+      "clipped_span_px": 524,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 18,
+      "line_char_capacity": 385,
+      "char_start": 17,
+      "char_end": 385,
+      "char_len": 368,
+      "full_line": false,
+      "bbox_xyxy": [
+        27,
+        159,
+        551,
+        219
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________________________________________________]",
+      "layout_token_pixel": "[BOX2__524/548]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.9562,
+      "clipped_span_px": 524,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 19,
+      "line_char_capacity": 385,
+      "char_start": 17,
+      "char_end": 385,
+      "char_len": 368,
+      "full_line": false,
+      "bbox_xyxy": [
+        27,
+        159,
+        551,
+        219
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________________________________________________]",
+      "layout_token_pixel": "[BOX2__524/548]",
+      "line_overlap_ratio": 0.5882,
+      "line_cover_ratio_x": 0.9562,
+      "clipped_span_px": 524,
+      "line_width_effective_px": 548,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 30,
+      "line_char_capacity": 385,
+      "char_start": 0,
+      "char_end": 385,
+      "char_len": 385,
+      "full_line": true,
+      "bbox_xyxy": [
+        3,
+        337,
+        554,
+        407
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3___________________________________________________________]",
+      "layout_token_pixel": "[BOX3__548/548]",
+      "line_overlap_ratio": 0.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 548,
+      "line_width_effective_px": 548,
+      "touches_left_border": true,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 43,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

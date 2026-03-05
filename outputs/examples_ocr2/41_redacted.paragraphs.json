@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 13,
+    "line_count": 13,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      26,
+      14,
+      543,
+      266
+    ],
+    "text": "Greek Elections\n\n\nThe United Democratic Left (EDA), legal front for the pro-\nscribed Communist party of Greece, is trying to make the\nmunicipal elections scheduled for 5 April a test of the pro-West-\nern government's popularity.\n\nEDA leaders are seeking collaboration of non-Communist\nopposition parties in sponsoring joint slates of candidates for\nthe municipal councils. While EDA has been rebuffed by spokes-\nmen for several minor nationalist opposition parties, it appar-",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      562,
+      291
+    ],
+    "crop_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The United Democratic Left (EDA), legal front for the pro-scribed Communist party of Greece, is trying to make the municipal elections scheduled for 5 April a test of the pro-West-ern government's popularity.",
+    "ocr_text_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 15,
+    "line_end_1based": 25,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      287,
+      543,
+      495
+    ],
+    "text": "ently has achieved some success with Liberal leader Sophocles\nVenízelos.\n\nThis co-\noperation, even if not effective in the council elections, may\nbecome evident in the subsequent election of mayors by the\ncouncillors.\n\nVenízelos, however, is spokesman for only one faction of\nthe rapidly deteriorating Liberal party. Several prominent\nLiberals have denounced collaboration with EDA and are work-",
+    "expanded_crop_box_xyxy": [
+      0,
+      266,
+      562,
+      516
+    ],
+    "crop_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "This co- operation, even if not effective in the council elections, may become evident in the subsequent election of mayors by the councilors.",
+    "ocr_text_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 27,
+    "line_end_1based": 35,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      521,
+      543,
+      675
+    ],
+    "text": "ing with other nationalist leaders to defeat the Communists.\nThis grouping may hold the balance of power in some cities if\nthe elections result in approximately equal distribution of coun-\ncil seats between EDA and the government.\n\nThe government favors holding \"nonpolitical\" elections,\n--emphasizing candidates rather than parties--apparently for fear\nthat EDA, which captured 25 percent of the popular vote in the\ngeneral elections in May 1958, has continued to gain strength",
+    "expanded_crop_box_xyxy": [
+      0,
+      505,
+      562,
+      691
+    ],
+    "crop_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The government favors holding \"nonpolitical\" elections, emphasizing candidates rather than parties - apparently for fear that EDA, which captured 25 percent of the popular vote in the general elections in May 1958, has continued to gain strength among the electorate. EDA will probably gain new respectability from its association with the Venzielos wing of the Liberals. It will take credit for the victories of several non-Communist candidates and will probably increase its representation in local governments throughout Greece.",
+    "ocr_text_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 37,
+    "line_end_1based": 37,
+    "line_count": 1,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      680,
+      543,
+      713
+    ],
+    "text": "among the electorate. EDA will probably gain new respectabil-",
+    "expanded_crop_box_xyxy": [
+      0,
+      672,
+      562,
+      713
+    ],
+    "crop_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/41_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

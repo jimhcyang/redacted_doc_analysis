@@ -1,0 +1,1529 @@
+{
+  "image": "inputs/images/12_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      476,
+      219,
+      539,
+      236
+    ],
+    [
+      8,
+      236,
+      542,
+      296
+    ],
+    [
+      489,
+      531,
+      555,
+      547
+    ],
+    [
+      1,
+      547,
+      555,
+      703
+    ],
+    [
+      442,
+      748,
+      551,
+      775
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    1,
+    0,
+    524,
+    774
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 169656,
+  "merged_region_nonzero_px": 166389,
+  "line_width_px": 523,
+  "line_count": 38,
+  "paragraph_crops_dir": "outputs/examples_ocr2/12_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/12_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/12_redacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        1,
+        22,
+        524,
+        38
+      ],
+      "text": "PATCHES: torch.Size([6, 144, 1280])",
+      "expanded_crop_box_xyxy": [
+        0,
+        14,
+        567,
+        46
+      ],
+      "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 13,
+      "line_count": 11,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        1,
+        59,
+        524,
+        295
+      ],
+      "text": "\n\nMoroccan Dissidents Step Up Activities\n\nPredominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissident activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.\n\nConcerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago.\n\nMeanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,",
+      "expanded_crop_box_xyxy": [
+        0,
+        35,
+        567,
+        319
+      ],
+      "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The image is a photograph of a newspaper article. The article is about the terrorist attacks of September 11, 2001. The article is written in a formal style, and it is intended to inform the reader about the events of the attack. The article is written in a clear and concise manner, and it is easy to understand. The article is also visually appealing, and it is easy to read.",
+      "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 15,
+      "line_end_1based": 34,
+      "line_count": 20,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        1,
+        314,
+        524,
+        691
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        276,
+        567,
+        729
+      ],
+      "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The text in the image is a quote from a newspaper article.",
+      "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 36,
+      "line_end_1based": 38,
+      "line_count": 3,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        1,
+        714,
+        524,
+        761
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        706,
+        567,
+        769
+      ],
+      "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "Meanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,",
+      "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 16.1316,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 10,
+  "row_scan_line_band_count": 28,
+  "row_scan_gap_band_count": 27,
+  "row_scan_linebreak_band_count": 24,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        1,
+        39,
+        524,
+        58
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 1.3793,
+      "height_to_avg_full_line_ratio": 1.0105,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        1,
+        70,
+        524,
+        76
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4828,
+      "height_to_avg_full_line_ratio": 0.3537,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        89,
+        524,
+        94
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        107,
+        524,
+        112
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        126,
+        524,
+        130
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        144,
+        524,
+        149
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        163,
+        524,
+        165
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.2069,
+      "height_to_avg_full_line_ratio": 0.1516,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        182,
+        524,
+        185
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.2759,
+      "height_to_avg_full_line_ratio": 0.2021,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        198,
+        524,
+        204
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4828,
+      "height_to_avg_full_line_ratio": 0.3537,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        217,
+        524,
+        222
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0623,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        237,
+        524,
+        243
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4828,
+      "height_to_avg_full_line_ratio": 0.3537,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.9866,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        296,
+        524,
+        313
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 1.2414,
+      "height_to_avg_full_line_ratio": 0.9095,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0548,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        1,
+        326,
+        524,
+        331
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        344,
+        524,
+        349
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        363,
+        524,
+        367
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        381,
+        524,
+        386
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        399,
+        524,
+        404
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        418,
+        524,
+        422
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        436,
+        524,
+        440
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        454,
+        524,
+        456
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.2069,
+      "height_to_avg_full_line_ratio": 0.1516,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        473,
+        524,
+        476
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.2759,
+      "height_to_avg_full_line_ratio": 0.2021,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        494,
+        524,
+        495
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.1379,
+      "height_to_avg_full_line_ratio": 0.1011,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        509,
+        524,
+        513
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        527,
+        524,
+        532
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0229,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        545,
+        524,
+        713
+      ],
+      "kind": "blankline",
+      "height_px": 169,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 11.6552,
+      "height_to_avg_full_line_ratio": 8.5389,
+      "blankline_line_slots": 7,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 147,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.929,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        1,
+        726,
+        524,
+        730
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.3448,
+      "height_to_avg_full_line_ratio": 0.2526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        1,
+        744,
+        524,
+        749
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5,
+      "avg_linebreak_height_px": 5.2917,
+      "avg_full_line_height_px": 19.7917,
+      "height_to_avg_line_ratio": 0.4138,
+      "height_to_avg_full_line_ratio": 0.3032,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0528,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 28,
+    "blankline": 7,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "PATCHES: torch.Size([6, 144, 1280])",
+      "char_len": 35,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        22,
+        524,
+        38
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        1,
+        39,
+        524,
+        58
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        59,
+        524,
+        69
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        77,
+        524,
+        88
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Moroccan Dissidents Step Up Activities",
+      "char_len": 38,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        95,
+        524,
+        106
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        113,
+        524,
+        125
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "Predominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissident activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.",
+      "char_len": 600,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        131,
+        524,
+        143
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        150,
+        524,
+        162
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "Concerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago.",
+      "char_len": 787,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        166,
+        524,
+        181
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        186,
+        524,
+        197
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "Meanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,",
+      "char_len": 167,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        205,
+        524,
+        216
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        223,
+        524,
+        236
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        244,
+        524,
+        295
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "PB14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        1,
+        296,
+        524,
+        313
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        314,
+        524,
+        325
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        332,
+        524,
+        343
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        350,
+        524,
+        362
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        368,
+        524,
+        380
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        387,
+        524,
+        398
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        405,
+        524,
+        417
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        423,
+        524,
+        435
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        441,
+        524,
+        453
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        457,
+        524,
+        472
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        477,
+        524,
+        493
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        496,
+        524,
+        508
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        514,
+        524,
+        526
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        533,
+        524,
+        544
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "BL28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        545,
+        524,
+        565
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "BL29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        566,
+        524,
+        586
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "BL30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        587,
+        524,
+        607
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "BL31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        608,
+        524,
+        628
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "BL32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        629,
+        524,
+        649
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "BL33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        650,
+        524,
+        670
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "BL34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        1,
+        671,
+        524,
+        691
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "PB35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        1,
+        692,
+        524,
+        713
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        714,
+        524,
+        725
+      ]
+    },
+    {
+      "line_1based": 37,
+      "serial_label": "L37",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        731,
+        524,
+        743
+      ]
+    },
+    {
+      "line_1based": 38,
+      "serial_label": "L38",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        1,
+        750,
+        524,
+        761
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 12,
+      "line_char_capacity": 787,
+      "char_start": 715,
+      "char_end": 787,
+      "char_len": 72,
+      "full_line": false,
+      "bbox_xyxy": [
+        476,
+        219,
+        539,
+        236
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__]",
+      "layout_token_pixel": "[BOX1__48/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0918,
+      "clipped_span_px": 48,
+      "line_width_effective_px": 523,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 13,
+      "line_char_capacity": 787,
+      "char_start": 11,
+      "char_end": 787,
+      "char_len": 776,
+      "full_line": false,
+      "bbox_xyxy": [
+        8,
+        236,
+        542,
+        296
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2__________________________________________________________]",
+      "layout_token_pixel": "[BOX2__516/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.9866,
+      "clipped_span_px": 516,
+      "line_width_effective_px": 523,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 27,
+      "line_char_capacity": 787,
+      "char_start": 734,
+      "char_end": 787,
+      "char_len": 53,
+      "full_line": false,
+      "bbox_xyxy": [
+        489,
+        531,
+        555,
+        547
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3__]",
+      "layout_token_pixel": "[BOX3__35/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0669,
+      "clipped_span_px": 35,
+      "line_width_effective_px": 523,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 28,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 0.9048,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 29,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 30,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 31,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 32,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 33,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 34,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 35,
+      "line_char_capacity": 787,
+      "char_start": 0,
+      "char_end": 787,
+      "char_len": 787,
+      "full_line": true,
+      "bbox_xyxy": [
+        1,
+        547,
+        555,
+        703
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__523/523]",
+      "line_overlap_ratio": 0.5455,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 5,
+      "line_1based": 38,
+      "line_char_capacity": 787,
+      "char_start": 664,
+      "char_end": 787,
+      "char_len": 123,
+      "full_line": false,
+      "bbox_xyxy": [
+        442,
+        748,
+        551,
+        775
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5_____]",
+      "layout_token_pixel": "[BOX5__82/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1568,
+      "clipped_span_px": 82,
+      "line_width_effective_px": 523,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

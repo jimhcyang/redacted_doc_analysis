@@ -1,0 +1,636 @@
+{
+  "image": "inputs/images/38_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      319,
+      606,
+      582,
+      627
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    40,
+    0,
+    557,
+    652
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 182435,
+  "merged_region_nonzero_px": 181839,
+  "line_width_px": 517,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/38_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/38_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/38_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 10,
+      "line_count": 10,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        40,
+        15,
+        557,
+        410
+      ],
+      "text": "Morocco Indicates Desire to Purchase US Arms\n\nMoroccan Defense Minister Mohamed Aouad inquired on\n23 March whether the United States would supply some\n$19,000,000 to $23,000,000 worth of military equipment to\nmodernize Morocco’s 31,000-man army. Aouad said Morocco\nwants tanks, trucks, communications equipment, machine guns,\nsubmachine guns and ammunition, fighter and observation air-\ncraft, and helicopters. He implied that the King is under con-\nsiderable pressure--presumably from the left-wing members",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        600,
+        450
+      ],
+      "crop_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text in the image is a screenshot of a document.",
+      "ocr_text_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 12,
+      "line_end_1based": 16,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        40,
+        429,
+        557,
+        626
+      ],
+      "text": "of the Ibrahim government--to continue to procure arms from\nthe Soviet bloc, and indicated that the government has made a\nfirm decision not to rely any longer on France as its primary\nsource of materiel.",
+      "expanded_crop_box_xyxy": [
+        0,
+        409,
+        600,
+        646
+      ],
+      "crop_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The text in the image is a quote from a book.",
+      "ocr_text_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 34.1875,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 34,
+  "row_scan_line_band_count": 15,
+  "row_scan_gap_band_count": 14,
+  "row_scan_linebreak_band_count": 14,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        40,
+        37,
+        557,
+        47
+      ],
+      "kind": "linebreak",
+      "height_px": 11,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.3119,
+      "height_to_avg_full_line_ratio": 0.267,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 11,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        65,
+        557,
+        66
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        173,
+        557,
+        174
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        210,
+        557,
+        211
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        247,
+        557,
+        253
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.1985,
+      "height_to_avg_full_line_ratio": 0.1699,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        264,
+        557,
+        282
+      ],
+      "kind": "linebreak",
+      "height_px": 19,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.5388,
+      "height_to_avg_full_line_ratio": 0.4612,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 19,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        355,
+        557,
+        359
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.1418,
+      "height_to_avg_full_line_ratio": 0.1214,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        371,
+        557,
+        372
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        390,
+        557,
+        392
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0851,
+      "height_to_avg_full_line_ratio": 0.0728,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        411,
+        557,
+        428
+      ],
+      "kind": "linebreak",
+      "height_px": 18,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.5104,
+      "height_to_avg_full_line_ratio": 0.4369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        40,
+        443,
+        557,
+        445
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0851,
+      "height_to_avg_full_line_ratio": 0.0728,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        536,
+        557,
+        537
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        553,
+        557,
+        554
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.0567,
+      "height_to_avg_full_line_ratio": 0.0485,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        40,
+        609,
+        557,
+        613
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 35.2667,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 41.1952,
+      "height_to_avg_line_ratio": 0.1418,
+      "height_to_avg_full_line_ratio": 0.1214,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4614,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 15,
+    "blankline": 0,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Morocco Indicates Desire to Purchase US Arms",
+      "char_len": 44,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        15,
+        557,
+        36
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        48,
+        557,
+        64
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Moroccan Defense Minister Mohamed Aouad inquired on",
+      "char_len": 51,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        67,
+        557,
+        172
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "23 March whether the United States would supply some",
+      "char_len": 52,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        175,
+        557,
+        209
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "$19,000,000 to $23,000,000 worth of military equipment to",
+      "char_len": 57,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        212,
+        557,
+        246
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "modernize Morocco’s 31,000-man army. Aouad said Morocco",
+      "char_len": 55,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        254,
+        557,
+        263
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "wants tanks, trucks, communications equipment, machine guns,",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        283,
+        557,
+        354
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "submachine guns and ammunition, fighter and observation air-",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        360,
+        557,
+        370
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "craft, and helicopters. He implied that the King is under con-",
+      "char_len": 62,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        373,
+        557,
+        389
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "siderable pressure--presumably from the left-wing members",
+      "char_len": 57,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        393,
+        557,
+        410
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "PB11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        40,
+        411,
+        557,
+        428
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "of the Ibrahim government--to continue to procure arms from",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        429,
+        557,
+        442
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "the Soviet bloc, and indicated that the government has made a",
+      "char_len": 61,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        446,
+        557,
+        535
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "firm decision not to rely any longer on France as its primary",
+      "char_len": 61,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        538,
+        557,
+        552
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "source of materiel.",
+      "char_len": 19,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        555,
+        557,
+        608
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        40,
+        614,
+        557,
+        626
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 16,
+      "line_char_capacity": 62,
+      "char_start": 33,
+      "char_end": 62,
+      "char_len": 29,
+      "full_line": false,
+      "bbox_xyxy": [
+        319,
+        606,
+        582,
+        627
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________________________]",
+      "layout_token_pixel": "[BOX1__238/517]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4603,
+      "clipped_span_px": 238,
+      "line_width_effective_px": 517,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

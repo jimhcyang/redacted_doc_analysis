@@ -1,0 +1,48 @@
+Example ID: 15
+Stem: 15
+Redacted OCR file: outputs/examples_ocr2/15_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/15_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=41..42, len=2)
+Predicted chunk text: un favorable
+Unredacted context: in a particularly [UNRED_ONLY: un favorable] position when british-uar
+Redacted anchor context: sudan in a [L@40:particularly] [RED_GAP:unfavorable] [R@42:position] when british-uar economic
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:unfavorable]
+Strict GT match: NO
+Relaxed best GT candidate: GT[1] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: 6
+  -> Relaxed best pred text: un favorable
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=48..48, len=1)
+Predicted chunk text: secret
+Unredacted context: british-uar economic relations [UNRED_ONLY: secret] 13 jan 59
+Redacted anchor context: when british-uar economic [L@46:relations] [RED_GAP:<empty>] [R@47:13] jan 59 central
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: SECRET
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=1
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: SECRET
+  -> Relaxed best pred text: secret
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=52..57, len=6)
+Predicted chunk text: af nsa int ic icn cfr
+Unredacted context: 13 jan 59 [UNRED_ONLY: af nsa int ic icn cfr] bulletin
+Redacted anchor context: relations 13 jan [L@49:59] [RED_GAP:central intelligence] [R@52:bulletin] page 6 return
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:central intelligence]
+Strict GT match: NO
+Relaxed best GT candidate: none

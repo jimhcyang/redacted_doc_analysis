@@ -1,0 +1,513 @@
+{
+  "image": "inputs/images/24_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    21,
+    7,
+    563,
+    507
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 159394,
+  "merged_region_nonzero_px": 159394,
+  "line_width_px": 542,
+  "line_count": 14,
+  "paragraph_crops_dir": "outputs/examples_ocr2/24_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/24_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/24_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 14,
+      "line_count": 14,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        21,
+        11,
+        563,
+        501
+      ],
+      "text": "Ignore line breaks for readability.\n\n# Tension Surrounds Venezuelan Presidential Inauguration\n\nThe explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela on 13 February is pointed up by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.\n\nSources close to Betancourt are particularly concerned over the presence in Caracas of defeated presidential candidate Admiral Larrazabal and doubt that his backers--who include the Communists--have fully accepted his defeat. Larrazabal, the popular former junta president, has kept himself in the political spotlight by appearances at public ceremonies, especially during the recent visit of Fidel Castro. There is some indication that he may postpone assuming his ambassadorial assignment in Chile until after the inauguration. His presence in Caracas on 13 February would be an embarrassment to Betancourt and could possibly provoke disorders.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        597,
+        507
+      ],
+      "crop_path": "outputs/examples_ocr2/24_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Incorrectly recognized text has been kept intact as is.\nTension Surrounds Venezuelan Presidential Inauguration\nThe explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela...\non 13 February is pointed up; by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.\nSources close to Betancourt are particularly concerned over the presence in Caracas of defeated presidential candidate Admiral Larrazabal and doubt that his backers--who include the Communists--have fully accepted his defeat. Larrazabal, the popular former junta president, has kept himself in the political spotlight by appearances at public ceremonies, especially during the recent visit of Fidel Castro. There is some indication that he may postpone assuming his ambassadorial assignment in Chile until after the Inauguration. His presence in Caracas on 13 February would be an embarrassment to Betancourt and could possibly provoke disorders.",
+      "ocr_text_path": "outputs/examples_ocr2/24_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 30.4286,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 14,
+  "row_scan_gap_band_count": 14,
+  "row_scan_linebreak_band_count": 12,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        21,
+        67,
+        563,
+        69
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0986,
+      "height_to_avg_full_line_ratio": 0.0876,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        86,
+        563,
+        87
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        104,
+        563,
+        105
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        123,
+        563,
+        125
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0986,
+      "height_to_avg_full_line_ratio": 0.0876,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        141,
+        563,
+        142
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        160,
+        563,
+        161
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        177,
+        563,
+        179
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0986,
+      "height_to_avg_full_line_ratio": 0.0876,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        196,
+        563,
+        197
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        215,
+        563,
+        216
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        232,
+        563,
+        233
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        303,
+        563,
+        323
+      ],
+      "kind": "linebreak",
+      "height_px": 21,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.6901,
+      "height_to_avg_full_line_ratio": 0.6129,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 21,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        341,
+        563,
+        342
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 30.4286,
+      "avg_linebreak_height_px": 3.8333,
+      "avg_full_line_height_px": 34.2619,
+      "height_to_avg_line_ratio": 0.0657,
+      "height_to_avg_full_line_ratio": 0.0584,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 14,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore line breaks for readability.",
+      "char_len": 35,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        11,
+        563,
+        33
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        53,
+        563,
+        66
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "# Tension Surrounds Venezuelan Presidential Inauguration",
+      "char_len": 56,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        70,
+        563,
+        85
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        88,
+        563,
+        103
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "The explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela on 13 February is pointed up by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.",
+      "char_len": 876,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        106,
+        563,
+        122
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        126,
+        563,
+        140
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "Sources close to Betancourt are particularly concerned over the presence in Caracas of defeated presidential candidate Admiral Larrazabal and doubt that his backers--who include the Communists--have fully accepted his defeat. Larrazabal, the popular former junta president, has kept himself in the political spotlight by appearances at public ceremonies, especially during the recent visit of Fidel Castro. There is some indication that he may postpone assuming his ambassadorial assignment in Chile until after the inauguration. His presence in Caracas on 13 February would be an embarrassment to Betancourt and could possibly provoke disorders.",
+      "char_len": 646,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        143,
+        563,
+        159
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        162,
+        563,
+        176
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        180,
+        563,
+        195
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        198,
+        563,
+        214
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        217,
+        563,
+        231
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        234,
+        563,
+        302
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        324,
+        563,
+        340
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        343,
+        563,
+        501
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 42,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

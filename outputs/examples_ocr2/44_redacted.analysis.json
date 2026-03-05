@@ -1,0 +1,467 @@
+{
+  "image": "inputs/images/44_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      22,
+      405,
+      580,
+      492
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    28,
+    0,
+    546,
+    671
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 162411,
+  "merged_region_nonzero_px": 161242,
+  "line_width_px": 518,
+  "line_count": 11,
+  "paragraph_crops_dir": "outputs/examples_ocr2/44_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/44_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/44_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 11,
+      "line_count": 11,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        28,
+        0,
+        546,
+        665
+      ],
+      "text": "France Considering Naval Action to Check Flow of Soviet\nBlock Arms to Guinea\n\nParis is studying means, including interception at sea,\nto control the flow of Soviet block arms to Guinea, and intends\nto raise the matter in later Western tripartite talks on policy\ncoordination, according to French officials participating in\n\nthe current series of tripartite talks on Africa. French civilian\nand military officials in West Africa allege that Guinea, as part\nof an \"arms bargain\" with the bloc, is arming guerrilla bands",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        581,
+        671
+      ],
+      "crop_path": "outputs/examples_ocr2/44_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "French Considering Naval Action to Check Flow of Soviet\nBlock Arms to Guinea\nParis is studying means, including interception at sea,\nto control the flow of Soviet block arms to Guinea, and intends\nto raise the matter in later Western tripartite talks on policy\ncoordination, according to French officials participating in\nthe current series of tripartite talks on Africa. French civilian\nand military officials in West Africa allege that Guinea, as part\nof an \"arms bargain\" with the bloc, is arming guerrilla bands\nfor operations against neighboring states of the French Commu-\nnity\nHigh Paris officials, in arguing for closer Western policy\ncoordination, have cited Guinea as a focal point for Communist\npenetration of Africa and as a potential security threat to its\nneighbors. In the tripartite talks, French representatives have\ncharacterized the area from France's southern coast to the\nequator as a single strategic zone of vital importance to French\nnational interests\nAn initial gift shipment of military materiel from Czecho-\nslovakia arrived in Conakry aboard a Polish ship on 18 March.\nA subsequent Czech ship-\nment including two or three light tanks and some army field\nkitchens, presumably part of the same gift arrangement, re-\nportedly arrived late last week, also via a Polish vessel. In\naddition to re-equipping and perhaps expanding Guinea's pres-\nent 2,000-man security force, Touré may assign some of this\nmateriel to militant members of Guinea's single political party.\nAny Western interference with bloc shipments consigned to\nGuinea would be bitterly resented and vehemently protested by\nTouré and might make him even more receptive to close ties",
+      "ocr_text_path": "outputs/examples_ocr2/44_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 54.4545,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 37,
+  "row_scan_line_band_count": 10,
+  "row_scan_gap_band_count": 9,
+  "row_scan_linebreak_band_count": 8,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        28,
+        18,
+        546,
+        19
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.0364,
+      "height_to_avg_full_line_ratio": 0.0316,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        41,
+        546,
+        51
+      ],
+      "kind": "linebreak",
+      "height_px": 11,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.2,
+      "height_to_avg_full_line_ratio": 0.1736,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 11,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        200,
+        546,
+        201
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.0364,
+      "height_to_avg_full_line_ratio": 0.0316,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        218,
+        546,
+        228
+      ],
+      "kind": "linebreak",
+      "height_px": 11,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.2,
+      "height_to_avg_full_line_ratio": 0.1736,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 11,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        343,
+        546,
+        347
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.0909,
+      "height_to_avg_full_line_ratio": 0.0789,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        360,
+        546,
+        375
+      ],
+      "kind": "linebreak",
+      "height_px": 16,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.2909,
+      "height_to_avg_full_line_ratio": 0.2525,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 16,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        417,
+        546,
+        465
+      ],
+      "kind": "blankline",
+      "height_px": 49,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.8909,
+      "height_to_avg_full_line_ratio": 0.7732,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 49,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 1.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        479,
+        546,
+        483
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.0909,
+      "height_to_avg_full_line_ratio": 0.0789,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 1.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        28,
+        595,
+        546,
+        609
+      ],
+      "kind": "linebreak",
+      "height_px": 15,
+      "avg_text_line_height_px": 55.0,
+      "avg_linebreak_height_px": 8.375,
+      "avg_full_line_height_px": 63.375,
+      "height_to_avg_line_ratio": 0.2727,
+      "height_to_avg_full_line_ratio": 0.2367,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 15,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 10,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "France Considering Naval Action to Check Flow of Soviet",
+      "char_len": 55,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        0,
+        546,
+        17
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "Block Arms to Guinea",
+      "char_len": 20,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        20,
+        546,
+        40
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        52,
+        546,
+        199
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Paris is studying means, including interception at sea,",
+      "char_len": 55,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        202,
+        546,
+        217
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "to control the flow of Soviet block arms to Guinea, and intends",
+      "char_len": 63,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        229,
+        546,
+        342
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "to raise the matter in later Western tripartite talks on policy",
+      "char_len": 63,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        348,
+        546,
+        359
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "coordination, according to French officials participating in",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        376,
+        546,
+        416
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "BL8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        28,
+        417,
+        546,
+        465
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "the current series of tripartite talks on Africa. French civilian",
+      "char_len": 65,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        466,
+        546,
+        478
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "and military officials in West Africa allege that Guinea, as part",
+      "char_len": 65,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        484,
+        546,
+        594
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "of an \"arms bargain\" with the bloc, is arming guerrilla bands",
+      "char_len": 61,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        28,
+        610,
+        546,
+        665
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 8,
+      "line_char_capacity": 65,
+      "char_start": 0,
+      "char_end": 65,
+      "char_len": 65,
+      "full_line": true,
+      "bbox_xyxy": [
+        22,
+        405,
+        580,
+        492
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__518/518]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 518,
+      "line_width_effective_px": 518,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 9,
+      "line_char_capacity": 65,
+      "char_start": 0,
+      "char_end": 65,
+      "char_len": 65,
+      "full_line": true,
+      "bbox_xyxy": [
+        22,
+        405,
+        580,
+        492
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__518/518]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 518,
+      "line_width_effective_px": 518,
+      "touches_left_border": true,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

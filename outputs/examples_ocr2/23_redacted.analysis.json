@@ -1,0 +1,515 @@
+{
+  "image": "inputs/images/23_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      16,
+      110,
+      533,
+      166
+    ],
+    [
+      17,
+      166,
+      235,
+      186
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    22,
+    1,
+    527,
+    220
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 43295,
+  "merged_region_nonzero_px": 42014,
+  "line_width_px": 505,
+  "line_count": 12,
+  "paragraph_crops_dir": "outputs/examples_ocr2/23_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/23_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/23_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        22,
+        4,
+        527,
+        42
+      ],
+      "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        552,
+        50
+      ],
+      "crop_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+      "ocr_text_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 12,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        59,
+        527,
+        218
+      ],
+      "text": "A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.\n\nThe only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+      "expanded_crop_box_xyxy": [
+        0,
+        43,
+        552,
+        229
+      ],
+      "crop_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+      "ocr_text_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 16.0,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 5,
+  "row_scan_line_band_count": 8,
+  "row_scan_gap_band_count": 7,
+  "row_scan_linebreak_band_count": 5,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        22,
+        18,
+        527,
+        21
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 0.2712,
+      "height_to_avg_full_line_ratio": 0.2067,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        43,
+        527,
+        58
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 1.0847,
+      "height_to_avg_full_line_ratio": 0.8269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 16,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        75,
+        527,
+        76
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 0.1356,
+      "height_to_avg_full_line_ratio": 0.1034,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        92,
+        527,
+        95
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 0.2712,
+      "height_to_avg_full_line_ratio": 0.2067,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        109,
+        527,
+        166
+      ],
+      "kind": "blankline",
+      "height_px": 58,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 3.9322,
+      "height_to_avg_full_line_ratio": 2.9974,
+      "blankline_line_slots": 3,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 58,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.9828,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        180,
+        527,
+        185
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 0.4068,
+      "height_to_avg_full_line_ratio": 0.3101,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4229,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        200,
+        527,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.75,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 19.35,
+      "height_to_avg_line_ratio": 0.4746,
+      "height_to_avg_full_line_ratio": 0.3618,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 8,
+    "blankline": 3,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+      "char_len": 73,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        4,
+        527,
+        17
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        22,
+        527,
+        42
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        43,
+        527,
+        58
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.",
+      "char_len": 180,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        59,
+        527,
+        74
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        77,
+        527,
+        91
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+      "char_len": 129,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        96,
+        527,
+        108
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "BL7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        109,
+        527,
+        127
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "BL8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        128,
+        527,
+        147
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "BL9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        148,
+        527,
+        166
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        167,
+        527,
+        179
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        186,
+        527,
+        199
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        207,
+        527,
+        218
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 7,
+      "line_char_capacity": 180,
+      "char_start": 0,
+      "char_end": 180,
+      "char_len": 180,
+      "full_line": true,
+      "bbox_xyxy": [
+        16,
+        110,
+        533,
+        166
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__505/505]",
+      "line_overlap_ratio": 0.9474,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 505,
+      "line_width_effective_px": 505,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 8,
+      "line_char_capacity": 180,
+      "char_start": 0,
+      "char_end": 180,
+      "char_len": 180,
+      "full_line": true,
+      "bbox_xyxy": [
+        16,
+        110,
+        533,
+        166
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__505/505]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 505,
+      "line_width_effective_px": 505,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 9,
+      "line_char_capacity": 180,
+      "char_start": 0,
+      "char_end": 180,
+      "char_len": 180,
+      "full_line": true,
+      "bbox_xyxy": [
+        16,
+        110,
+        533,
+        166
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__505/505]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 505,
+      "line_width_effective_px": 505,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 10,
+      "line_char_capacity": 180,
+      "char_start": 0,
+      "char_end": 76,
+      "char_len": 76,
+      "full_line": false,
+      "bbox_xyxy": [
+        17,
+        166,
+        235,
+        186
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______________________]",
+      "layout_token_pixel": "[BOX2__213/505]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4218,
+      "clipped_span_px": 213,
+      "line_width_effective_px": 505,
+      "touches_left_border": true,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

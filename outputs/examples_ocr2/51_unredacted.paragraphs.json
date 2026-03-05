@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 23,
+    "line_count": 23,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      15,
+      538,
+      426
+    ],
+    "text": "Political Stalemate in Indonesia\n\n\nThe Constituent Assembly's third rejection on 2 June of President Sukarno's proposal for the readoption of the 1945 constitution has created a political stalemate in Indonesia. Opposition to the constitution, under which both Sukarno and the army would gain increased political power at the expense of party activity, came from the Moslem parties, including the pivotal Nahdlatul Ulama party, which insisted on the incorporation of religious guarantees for the Islamic religion. The initiative now returns to President Sukarno and the army.\n\nSukarno, now in the United States, will be met and briefed at his next major stop--Tokyo--probably on 6 June by Ruslan Abdulgani, head of the appointee national council and a Sukarno confidant. It has been speculated that the President's two-month world tour was timed to keep him uninvolved in the political maneuvers attending the constitutional debates and free to work out new arrangements if necessary.\n\nAlthough further attempts at compromise cannot be ruled out, army leaders have consistently hinted that they would take action to enforce the 1945 constitution if necessary.\n\nArmy Chief of Staff General Nasution was assured nationwide officer support for some such move.\n\n\nNasution on 2 June banned all political activity, possibly as a preliminary move to further action. Prime Minister Djuanda had told the assembly that failure to accept the constitution might precipitate \"undesirable events\" similar to those which \"have taken place in neighboring countries\"--obviously a thinly veiled warning of an army take-over.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      589,
+      467
+    ],
+    "crop_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Political Stalemate in Indonesia",
+    "ocr_text_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 25,
+    "line_end_1based": 26,
+    "line_count": 2,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      434,
+      538,
+      462
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      426,
+      589,
+      470
+    ],
+    "crop_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Army Chief of Staff General Nasution was assured na-tionwide officer support for some such move.",
+    "ocr_text_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 28,
+    "line_end_1based": 33,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      470,
+      538,
+      570
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      460,
+      589,
+      580
+    ],
+    "crop_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is a quote from Prime Minister Djuanda.",
+    "ocr_text_path": "outputs/examples_ocr2/51_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

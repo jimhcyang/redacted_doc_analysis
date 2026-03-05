@@ -1,0 +1,24 @@
+Example ID: 24
+Stem: 24
+Redacted OCR file: outputs/examples_ocr2/24_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/24_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=130..161, len=32)
+Predicted chunk text: sources close to betancourt are particularly concerned over the presence in caracas of defeated presidential candidate admiral larrazabal and doubt that his backers who include the communists have fully accepted his defeat
+Unredacted context: outbreaks of violence [UNRED_ONLY: sources close to betancourt are particularly concerned over the presence in caracas of defeated presidential candidate admiral larrazabal and doubt that his backers who include the communists have fully accepted his defeat] larrazabal the popular
+Redacted anchor context: any outbreaks of [L@133:violence] [RED_GAP:<empty>] [R@134:larrazabal] the popular former
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.058824 joined_pred_chunks=0..0
+  -> GT text: Wolfgang Larrazabal
+  -> Relaxed best pred text: sources close to betancourt are particularly concerned over the presence in caracas of defeated presidential candidate admiral larrazabal and doubt that his backers who include the communists have fully accepted his defeat
+  -> Relaxed word metrics: recall=0.5 precision=0.03125 f1=0.058824

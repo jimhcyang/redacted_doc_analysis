@@ -1,0 +1,2082 @@
+{
+  "example_id": 22,
+  "stem": "22",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/22_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/22_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 0,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 2,
+    "unredacted_raw_line_count": 4,
+    "redacted_nonempty_line_count": 1,
+    "unredacted_nonempty_line_count": 2,
+    "line_count_ratio": 0.5,
+    "line_similarity": 0.0,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 144,
+    "unredacted": 157
+  },
+  "unredacted_only": {
+    "mask": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 13,
+    "chunk_count": 2,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 0,
+        "end_token_idx_0based": 5,
+        "token_count": 6,
+        "text": "new saudi pressure on aramco indicated",
+        "tokens": [
+          "new",
+          "saudi",
+          "pressure",
+          "on",
+          "aramco",
+          "indicated"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 15,
+        "end_token_idx_0based": 21,
+        "token_count": 7,
+        "text": "by reducing allotments to the royal family",
+        "tokens": [
+          "by",
+          "reducing",
+          "allotments",
+          "to",
+          "the",
+          "royal",
+          "family"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.082803
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 0,
+    "word_pct_vs_unredacted": 0.0
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "new",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "saudi",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        1,
+        113
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "pressure",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "aramco",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "indicated",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        41,
+        75
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "the",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "saudi",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1,
+        113
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "arabian",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "government's",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "difficulties",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "in",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "strengthening",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "its",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "finances",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "by",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "reducing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "allotments",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "royal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "family",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "are",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "likely",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "to",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "result",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "in",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "increased",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "pressure",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "on",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "the",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "arabian-american",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "oil",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19,
+        86,
+        106,
+        134
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "company",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "aramco",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "to",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "step",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "up",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "production",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "to",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "furnish",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "additional",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "revenues",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "abdulla",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "tariki",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31,
+        73
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "the",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "strongly",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        33,
+        137
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "director",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "of",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        36,
+        125,
+        141
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "petroleum",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "affairs",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "has",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "already",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "indicated",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        41,
+        75
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "a",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "desire",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "to",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "secure",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        45
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "changes",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "in",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "the",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "concession",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "agreement",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "which",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51,
+        68
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "he",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        52,
+        77,
+        120
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "charged",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        53
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "was",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        54,
+        78
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "rigged",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        55
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "to",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "maximize",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "profits",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "for",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59,
+        88,
+        115
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "aramco's",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        60,
+        71,
+        99
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "four",
+      "mapped_redacted_index_0based": 61,
+      "candidate_redacted_positions_0based": [
+        61
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "parent",
+      "mapped_redacted_index_0based": 62,
+      "candidate_redacted_positions_0based": [
+        62,
+        100
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "companies",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        63,
+        87,
+        101,
+        107,
+        135
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "in",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "the",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "united",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        66
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "states",
+      "mapped_redacted_index_0based": 67,
+      "candidate_redacted_positions_0based": [
+        67
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "which",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        51,
+        68
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "really",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        69
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "make",
+      "mapped_redacted_index_0based": 70,
+      "candidate_redacted_positions_0based": [
+        70
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "aramco's",
+      "mapped_redacted_index_0based": 71,
+      "candidate_redacted_positions_0based": [
+        60,
+        71,
+        99
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "policies",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        72
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "tariki",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        31,
+        73
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "also",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        74
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "indicated",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        41,
+        75
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "that",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        76,
+        98,
+        122
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "he",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        52,
+        77,
+        120
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "was",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        54,
+        78
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "considering",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        79
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "opening",
+      "mapped_redacted_index_0based": 80,
+      "candidate_redacted_positions_0based": [
+        80
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "discussions",
+      "mapped_redacted_index_0based": 81,
+      "candidate_redacted_positions_0based": [
+        81
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "with",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        82
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "german",
+      "mapped_redacted_index_0based": 83,
+      "candidate_redacted_positions_0based": [
+        83
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "and",
+      "mapped_redacted_index_0based": 84,
+      "candidate_redacted_positions_0based": [
+        84
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "italian",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        85
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "oil",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        19,
+        86,
+        106,
+        134
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "companies",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        63,
+        87,
+        101,
+        107,
+        135
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "for",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        59,
+        88,
+        115
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "concessions",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        89,
+        116
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "in",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "the",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "highly",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        92
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "promising",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        93
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "preferential",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        94
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "zone",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        95
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "implying",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        96
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "suspicion",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        97
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "that",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        76,
+        98,
+        122
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "aramco's",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        60,
+        71,
+        99
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "parent",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        62,
+        100
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "companies",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        63,
+        87,
+        101,
+        107,
+        135
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "had",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        102
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "discouraged",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        103
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "other",
+      "mapped_redacted_index_0based": 104,
+      "candidate_redacted_positions_0based": [
+        104
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "american",
+      "mapped_redacted_index_0based": 105,
+      "candidate_redacted_positions_0based": [
+        105
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "oil",
+      "mapped_redacted_index_0based": 106,
+      "candidate_redacted_positions_0based": [
+        19,
+        86,
+        106,
+        134
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "companies",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        63,
+        87,
+        101,
+        107,
+        135
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "from",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        108,
+        132
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "showing",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        109
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "interest",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        110
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "in",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "meeting",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        112
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "saudi",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        1,
+        113
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "terms",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        114,
+        131
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "for",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        59,
+        88,
+        115
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "concessions",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        89,
+        116
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "in",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        5,
+        13,
+        47,
+        64,
+        90,
+        111,
+        117
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "this",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        118
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "area",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        119
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "he",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        52,
+        77,
+        120
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "added",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        121
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "that",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        76,
+        98,
+        122
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "the",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "results",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        124
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "of",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        36,
+        125,
+        141
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "venezuelan",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        126
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "efforts",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        127
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "to",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        11,
+        22,
+        26,
+        44,
+        56,
+        128
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "extract",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        129
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "better",
+      "mapped_redacted_index_0based": 130,
+      "candidate_redacted_positions_0based": [
+        130
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "terms",
+      "mapped_redacted_index_0based": 131,
+      "candidate_redacted_positions_0based": [
+        114,
+        131
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "from",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        108,
+        132
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "foreign",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "oil",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        19,
+        86,
+        106,
+        134
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "companies",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        63,
+        87,
+        101,
+        107,
+        135
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "would",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        136
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "strongly",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        33,
+        137
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "influence",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        138
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "the",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        0,
+        17,
+        32,
+        48,
+        65,
+        91,
+        123,
+        139
+      ],
+      "candidate_count": 8
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "action",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        140
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "of",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        36,
+        125,
+        141
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "arab",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        142
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "countries",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        143
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "New Saudi Pressure on ARAMCO Indicated (The Saudi Arabian Government's difficulties in strengthening its finances by reducing allotments to the royal family are likely to result in increased pressure on the Arabian-American Oil Company (ARAMCO) to step up production to furnish additional revenues. Abdulla Tariki, the strongly nationalist director of petroleum affairs, has already indicated a desire to secure changes in the concession agreement, which he charged was \"rigged\" to maximize profits for ARAMCO's four parent companies in the United States which really make ARAMCO's policies. Tariki also indicated that he was considering opening discussions with German and Italian oil companies for concessions in the highly promising preferential zone, implying suspicion that ARAMCO's parent companies had discouraged other American oil companies from showing interest in meeting Saudi terms for concessions in this area. He added that the results of Venezuelan efforts to extract better terms from foreign oil companies would strongly influence the action of Arab countries.)",
+    "redactions": [
+      "by reducing allotments to the royal family"
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 157,
+    "hypothesis_token_total": 157,
+    "matched_tokens": 157,
+    "missing_tokens": 0,
+    "hallucinated_tokens": 0,
+    "recall": 1.0,
+    "precision": 1.0,
+    "f1": 1.0,
+    "net_recovery_minus_hallucination": 1.0
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 1,
+    "predicted_redaction_count": 2,
+    "correctly_found_redactions": 1,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 1,
+    "perfect_text_match_count": 1,
+    "perfect_text_match_rate_on_correct": 1.0,
+    "strict_avg_pair_f1_on_correct": 1.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 1,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 1.0,
+    "relaxed_exact_text_match_count": 1,
+    "relaxed_exact_text_match_rate": 1.0,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 2,
+        "pred_index_0based": 1,
+        "gt_index_0based": 0,
+        "score_f1": 1.0,
+        "exact_text_match": true,
+        "pred_text": "by reducing allotments to the royal family",
+        "gt_text": "by reducing allotments to the royal family",
+        "word_metrics": {
+          "reference_token_total": 7,
+          "hypothesis_token_total": 7,
+          "matched_tokens": 7,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "by reducing allotments to the royal family",
+        "best_score_f1": 1.0,
+        "best_chunk_start_0based": 1,
+        "best_chunk_end_0based": 1,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "by reducing allotments to the royal family",
+        "best_exact_text_match": true,
+        "best_word_metrics": {
+          "reference_token_total": 7,
+          "hypothesis_token_total": 7,
+          "matched_tokens": 7,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ]
+  }
+}

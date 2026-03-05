@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 11,
+    "line_count": 11,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      16,
+      3,
+      544,
+      309
+    ],
+    "text": "Friction Reported Among Thai Military Leaders\n\nFriction between Thai Premier Marshal Sarit and his principal deputies, Generals Thanom and Prapat, appears to be growing. There is some danger that an estrangement may ensue which might upset the precarious stability within the ruling military group. Dissatisfaction is increasing throughout Sarit's Revolutionary party--which includes both military and civilian elements--over his performance as Thailand's dictator. Sarit is said again to be ignoring the party's advice on matters of state, and his continued delay in forming an interim government is meeting with criticism.\n\nThanom and Prapat, who seem to have submerged their past differences, would prefer to avoid trouble since they expect that Sarit's declining health will soon force him to give up power.\n\nHe has apparently been pieced because they questioned certain of his official decisions. Some weeks ago, on the basis of rumors, he actually detained for a short time Air Marshal Dawee, a popular figure in the military group.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      561,
+      340
+    ],
+    "crop_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The image displays a newspaper article about a political figure. The article is titled \"Friction Reported Among Thai Military Leaders\". The article discusses the relationship between Thai Prime Minister Prayuth Chan-ocha and General Sitaris Thanon and Prapat, who are both in the military. The article states that there is a danger that the two men will be estranged due to the growing tension between them. The article also mentions that the two men are facing a \"disastrous\" situation, which could lead to a \"state and his continued delay in forming an interim government\". The article is written in a formal style and uses a lot of technical language.",
+    "ocr_text_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 13,
+    "line_end_1based": 16,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      16,
+      349,
+      544,
+      435
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      340,
+      561,
+      444
+    ],
+    "crop_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "No additional analysis.\nHe has apparently been placed\nbecause they questioned certain of his official decisions. Some\nweeks ago, on the basis of rumors, he actually detained for a\nshort time Air Marshal Dawee, a popular figure in the military\ngroup.",
+    "ocr_text_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

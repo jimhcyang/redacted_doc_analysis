@@ -1,0 +1,36 @@
+Example ID: 1
+Stem: 1
+Redacted OCR file: outputs/examples_ocr2/1_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/1_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=44..44, len=1)
+Predicted chunk text: re-volt
+Unredacted context: military rule the [UNRED_ONLY: re-volt] which apparently was
+Redacted anchor context: to military rule [L@46:the] [RED_GAP:revolt] [R@48:which] apparently was quickly
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:revolt]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=61..73, len=13)
+Predicted chunk text: reportedly planned by former defense minister castro leon on 22 and 23 july
+Unredacted context: in the coup [UNRED_ONLY: reportedly planned by former defense minister castro leon on 22 and 23 july] an elaborate civilian
+Redacted anchor context: involvement in the [L@63:coup] [RED_GAP:<empty>] [R@64:an] elaborate civilian organization
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: reportedly planned by former Defense Minister Castro Leon on 22 and 23 July
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=13
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: reportedly planned by former Defense Minister Castro Leon on 22 and 23 July
+  -> Relaxed best pred text: reportedly planned by former defense minister castro leon on 22 and 23 july
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

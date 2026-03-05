@@ -1,0 +1,36 @@
+Example ID: 23
+Stem: 23
+Redacted OCR file: outputs/examples_ocr2/23_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/23_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..9, len=10)
+Predicted chunk text: consider adding a period at the end of each sentence
+Unredacted context: [UNRED_ONLY: consider adding a period at the end of each sentence] austrian cabinet declines
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] austrian cabinet declines bid
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=47..74, len=28)
+Predicted chunk text: only minister of education drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 february and further government consideration is unlikely
+Unredacted context: apparently has failed [UNRED_ONLY: only minister of education drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 february and further government consideration is unlikely] the only remaining
+Redacted anchor context: july apparently has [L@36:failed] [RED_GAP:<empty>] [R@37:the] only remaining possibility
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=28
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.
+  -> Relaxed best pred text: only minister of education drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 february and further government consideration is unlikely
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

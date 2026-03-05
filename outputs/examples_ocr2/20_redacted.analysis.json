@@ -1,0 +1,392 @@
+{
+  "image": "inputs/images/20_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      321,
+      300,
+      535,
+      314
+    ],
+    [
+      321,
+      314,
+      534,
+      337
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    19,
+    0,
+    529,
+    569
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 147123,
+  "merged_region_nonzero_px": 146498,
+  "line_width_px": 510,
+  "line_count": 8,
+  "paragraph_crops_dir": "outputs/examples_ocr2/20_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/20_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/20_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 8,
+      "line_count": 8,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        19,
+        0,
+        529,
+        569
+      ],
+      "text": "Ignore line breaks for clarity.\n\nIranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.\n\nFurther indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegov, a member of the party central committee, would absent himself only for exceptionally pressing business.\n\n---",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        551,
+        569
+      ],
+      "crop_path": "outputs/examples_ocr2/20_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The image is a photograph of a newspaper article. The article is about the Iranian Minister of Court Ala to Ambassador Waives Iranian Delegation in Tehran. The article is written in a formal style. The image is in black and white.",
+      "ocr_text_path": "outputs/examples_ocr2/20_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 64.25,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 8,
+  "row_scan_gap_band_count": 7,
+  "row_scan_linebreak_band_count": 7,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        19,
+        5,
+        529,
+        6
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.0311,
+      "height_to_avg_full_line_ratio": 0.0277,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        24,
+        529,
+        45
+      ],
+      "kind": "linebreak",
+      "height_px": 22,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.3424,
+      "height_to_avg_full_line_ratio": 0.3045,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 22,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        165,
+        529,
+        186
+      ],
+      "kind": "linebreak",
+      "height_px": 22,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.3424,
+      "height_to_avg_full_line_ratio": 0.3045,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 22,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        207,
+        529,
+        208
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.0311,
+      "height_to_avg_full_line_ratio": 0.0277,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        243,
+        529,
+        245
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.0467,
+      "height_to_avg_full_line_ratio": 0.0415,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        406,
+        529,
+        408
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.0467,
+      "height_to_avg_full_line_ratio": 0.0415,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        444,
+        529,
+        445
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 64.25,
+      "avg_linebreak_height_px": 8.0,
+      "avg_full_line_height_px": 72.25,
+      "height_to_avg_line_ratio": 0.0311,
+      "height_to_avg_full_line_ratio": 0.0277,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 8,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore line breaks for clarity.",
+      "char_len": 31,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        0,
+        529,
+        4
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        7,
+        529,
+        23
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Iranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.",
+      "char_len": 379,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        46,
+        529,
+        164
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        187,
+        529,
+        206
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Further indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegov, a member of the party central committee, would absent himself only for exceptionally pressing business.",
+      "char_len": 386,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        209,
+        529,
+        242
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        246,
+        529,
+        405
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        409,
+        529,
+        443
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        446,
+        529,
+        569
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 6,
+      "line_char_capacity": 386,
+      "char_start": 229,
+      "char_end": 386,
+      "char_len": 157,
+      "full_line": false,
+      "bbox_xyxy": [
+        321,
+        300,
+        535,
+        314
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_____________________]",
+      "layout_token_pixel": "[BOX1__208/510]",
+      "line_overlap_ratio": 0.0938,
+      "line_cover_ratio_x": 0.4078,
+      "clipped_span_px": 208,
+      "line_width_effective_px": 510,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 6,
+      "line_char_capacity": 386,
+      "char_start": 229,
+      "char_end": 386,
+      "char_len": 157,
+      "full_line": false,
+      "bbox_xyxy": [
+        321,
+        314,
+        534,
+        337
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2_____________________]",
+      "layout_token_pixel": "[BOX2__208/510]",
+      "line_overlap_ratio": 0.15,
+      "line_cover_ratio_x": 0.4078,
+      "clipped_span_px": 208,
+      "line_width_effective_px": 510,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,1471 @@
+{
+  "image": "inputs/images/56_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      17,
+      145,
+      152,
+      162
+    ],
+    [
+      4,
+      325,
+      115,
+      390
+    ],
+    [
+      429,
+      724,
+      564,
+      744
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    22,
+    12,
+    546,
+    751
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 183792,
+  "merged_region_nonzero_px": 182691,
+  "line_width_px": 524,
+  "line_count": 39,
+  "paragraph_crops_dir": "outputs/examples_ocr2/56_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/56_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/56_redacted.paragraphs.json",
+  "paragraph_count": 6,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        22,
+        19,
+        546,
+        56
+      ],
+      "text": "Cuban Air Force Purge Coincides With Rising Opposition To Regime",
+      "expanded_crop_box_xyxy": [
+        0,
+        11,
+        598,
+        64
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Cuban Air Force Purge Coincides With Rising Opposition To Regime",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 9,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        76,
+        546,
+        195
+      ],
+      "text": "\nMajor Raul Castro, brother of the prime minister and chief of the Cuban armed forces, was responsible for the drastic air force purge which resulted in the dismissal of most of the force's rated pilots, ______. The purge, which became public knowledge on 18 June, also resulted in the replacement of Major Pedro Diaz Lanz as air force chief.\n\nDiaz Lanz, who was prominent among those officers seriously preoccupied with Communist penetration of the armed forces, is believed to have been particularly worried about the Communist influence in the recently established schools that have been giving six-week courses in political indoctrination to many Cuban military personnel.\n\nThe air force purge follows an important shake-up in army commands and reports of the discharge of army officers in several parts of the country. These moves reflect the regime's efforts to remove potential dissidents from the military.",
+      "expanded_crop_box_xyxy": [
+        0,
+        64,
+        598,
+        207
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Major Raul Castro, brother of the prime minister and chief of the Cuban armed forces, was responsible for the drastic air force purge which resulted in the dismissal of most of the force's rated pilots, The purge, which became public knowledge on 18 June, also resulted in the replacement of Major Pedro Diaz Lanz as air force chief.",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 11,
+      "line_end_1based": 19,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        221,
+        546,
+        384
+      ],
+      "text": "Rising opposition to the regime among other groups led during the week to the first significant wave of antigovernment terrorism since the fall of Batista last January and to increasing evidence of government fear of an imminent counterrevolutionary effort.\n\nThe American army attaché in Cuba believes Raul Castro's frequent trips to eastern Cuba during the week may be related to fear of an attack from the Dominican Republic in retaliation for probable Cuban support of the 14 June rebel landings in that country. A knowledgeable Cuban exile in the Dominican Republic told an American Embassy officer in that country on 18 June that an armed Cuban exile force there was nearly ready to attack Cuba, but that he believes the attempt will probably fail.",
+      "expanded_crop_box_xyxy": [
+        0,
+        205,
+        598,
+        400
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Diaz Lanz, who was prominent among those officers seriously preoccupied with Communist penetration of the armed forces, is believed to have been particularly worried about the Communist influence in the recently established schools that have been giving six-week courses in political indoctrination to many Cuban military personnel.",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 21,
+      "line_end_1based": 24,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        403,
+        546,
+        468
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        395,
+        598,
+        476
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The air force purge follows an important shake-up in army commands and reports of the discharge of army officers in several parts of the country. These moves reflect the regime's efforts to remove potential dissidents from the military.",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    },
+    {
+      "paragraph_1based": 5,
+      "line_start_1based": 26,
+      "line_end_1based": 30,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        495,
+        546,
+        577
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        487,
+        598,
+        585
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_005.png",
+      "ocr_text": "Rising opposition to the regime among other groups led during the week to the first significant wave of antigovernment terrorism since the fall of Batista last January and to increasing evidence of government fear of an imminent counterrevolutionary effort.",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_005.ocr.txt"
+    },
+    {
+      "paragraph_1based": 6,
+      "line_start_1based": 32,
+      "line_end_1based": 39,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        22,
+        603,
+        546,
+        740
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        589,
+        598,
+        751
+      ],
+      "crop_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_006.png",
+      "ocr_text": "The American army attacke in Cuba believes Raul Castro's frequent trips to eastern Cuba during the week may be related to fear of an attack from the Dominican Republic in retaliation for probable Cuban support of the 14 June rebel landings in that country. A knowledgeable Cuban exile in the Dominican Republic told an American Embassy officer in that country on 18 June that an armed Cuban exile force there was nearly ready to attack Cuba, but that he believes the attempt will probably fail.",
+      "ocr_text_path": "outputs/examples_ocr2/56_redacted.paragraph_crops/paragraph_006.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.5385,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 11,
+  "row_scan_line_band_count": 31,
+  "row_scan_gap_band_count": 30,
+  "row_scan_linebreak_band_count": 25,
+  "row_scan_blankline_band_count": 5,
+  "row_scan_new_paragraph_count": 5,
+  "indentation_band_count": 5,
+  "gap_markers": [
+    {
+      "box": [
+        22,
+        57,
+        546,
+        75
+      ],
+      "kind": "blankline",
+      "height_px": 19,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 1.5665,
+      "height_to_avg_full_line_ratio": 1.0016,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        87,
+        546,
+        93
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        105,
+        546,
+        111
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        123,
+        546,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        141,
+        546,
+        148
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1248,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        160,
+        546,
+        164
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.4122,
+      "height_to_avg_full_line_ratio": 0.2636,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1497,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        178,
+        546,
+        184
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        196,
+        546,
+        220
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 2.0612,
+      "height_to_avg_full_line_ratio": 1.3179,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        232,
+        546,
+        238
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        250,
+        546,
+        257
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        269,
+        546,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        290,
+        546,
+        293
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.3298,
+      "height_to_avg_full_line_ratio": 0.2109,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        305,
+        546,
+        312
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        323,
+        546,
+        402
+      ],
+      "kind": "blankline",
+      "height_px": 80,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 6.5957,
+      "height_to_avg_full_line_ratio": 4.2174,
+      "blankline_line_slots": 3,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 62,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.1477,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        414,
+        546,
+        421
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        433,
+        546,
+        439
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        451,
+        546,
+        457
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        469,
+        546,
+        494
+      ],
+      "kind": "blankline",
+      "height_px": 26,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 2.1436,
+      "height_to_avg_full_line_ratio": 1.3707,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        505,
+        546,
+        512
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        524,
+        546,
+        530
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        542,
+        546,
+        548
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        560,
+        546,
+        563
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.3298,
+      "height_to_avg_full_line_ratio": 0.2109,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        578,
+        546,
+        602
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 2.0612,
+      "height_to_avg_full_line_ratio": 1.3179,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        22,
+        614,
+        546,
+        621
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.6596,
+      "height_to_avg_full_line_ratio": 0.4217,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        633,
+        546,
+        639
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        651,
+        546,
+        657
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        669,
+        546,
+        673
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.4122,
+      "height_to_avg_full_line_ratio": 0.2636,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        687,
+        546,
+        693
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        705,
+        546,
+        711
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        723,
+        546,
+        729
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.129,
+      "avg_linebreak_height_px": 6.84,
+      "avg_full_line_height_px": 18.969,
+      "height_to_avg_line_ratio": 0.5771,
+      "height_to_avg_full_line_ratio": 0.369,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1927,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 31,
+    "blankline": 3,
+    "paragraphblank": 5
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Cuban Air Force Purge Coincides With Rising Opposition To Regime",
+      "char_len": 64,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        19,
+        546,
+        56
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        58,
+        546,
+        75
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        76,
+        546,
+        86
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Major Raul Castro, brother of the prime minister and chief of the Cuban armed forces, was responsible for the drastic air force purge which resulted in the dismissal of most of the force's rated pilots, ______. The purge, which became public knowledge on 18 June, also resulted in the replacement of Major Pedro Diaz Lanz as air force chief.",
+      "char_len": 341,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        94,
+        546,
+        104
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        112,
+        546,
+        122
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Diaz Lanz, who was prominent among those officers seriously preoccupied with Communist penetration of the armed forces, is believed to have been particularly worried about the Communist influence in the recently established schools that have been giving six-week courses in political indoctrination to many Cuban military personnel.",
+      "char_len": 332,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        130,
+        546,
+        140
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        149,
+        546,
+        159
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "The air force purge follows an important shake-up in army commands and reports of the discharge of army officers in several parts of the country. These moves reflect the regime's efforts to remove potential dissidents from the military.",
+      "char_len": 236,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        165,
+        546,
+        177
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        185,
+        546,
+        195
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "PB10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        203,
+        546,
+        220
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "Rising opposition to the regime among other groups led during the week to the first significant wave of antigovernment terrorism since the fall of Batista last January and to increasing evidence of government fear of an imminent counterrevolutionary effort.",
+      "char_len": 257,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        221,
+        546,
+        231
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        239,
+        546,
+        249
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "The American army attaché in Cuba believes Raul Castro's frequent trips to eastern Cuba during the week may be related to fear of an attack from the Dominican Republic in retaliation for probable Cuban support of the 14 June rebel landings in that country. A knowledgeable Cuban exile in the Dominican Republic told an American Embassy officer in that country on 18 June that an armed Cuban exile force there was nearly ready to attack Cuba, but that he believes the attempt will probably fail.",
+      "char_len": 494,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        258,
+        546,
+        268
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        276,
+        546,
+        289
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        294,
+        546,
+        304
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        313,
+        546,
+        322
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "BL17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        323,
+        546,
+        343
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "BL18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        344,
+        546,
+        363
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "BL19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        22,
+        364,
+        546,
+        384
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "PB20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        385,
+        546,
+        402
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        403,
+        546,
+        413
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        422,
+        546,
+        432
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        440,
+        546,
+        450
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        458,
+        546,
+        468
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "PB25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        477,
+        546,
+        494
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        495,
+        546,
+        504
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        513,
+        546,
+        523
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        531,
+        546,
+        541
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        549,
+        546,
+        559
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        564,
+        546,
+        577
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "PB31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        22,
+        585,
+        546,
+        602
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        603,
+        546,
+        613
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        622,
+        546,
+        632
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        640,
+        546,
+        650
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        658,
+        546,
+        668
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        674,
+        546,
+        686
+      ]
+    },
+    {
+      "line_1based": 37,
+      "serial_label": "L37",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        694,
+        546,
+        704
+      ]
+    },
+    {
+      "line_1based": 38,
+      "serial_label": "L38",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        712,
+        546,
+        722
+      ]
+    },
+    {
+      "line_1based": 39,
+      "serial_label": "L39",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        730,
+        546,
+        740
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 7,
+      "line_char_capacity": 494,
+      "char_start": 0,
+      "char_end": 123,
+      "char_len": 123,
+      "full_line": false,
+      "bbox_xyxy": [
+        17,
+        145,
+        152,
+        162
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________]",
+      "layout_token_pixel": "[BOX1__130/524]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2481,
+      "clipped_span_px": 130,
+      "line_width_effective_px": 524,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 17,
+      "line_char_capacity": 494,
+      "char_start": 0,
+      "char_end": 88,
+      "char_len": 88,
+      "full_line": false,
+      "bbox_xyxy": [
+        4,
+        325,
+        115,
+        390
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______]",
+      "layout_token_pixel": "[BOX2__93/524]",
+      "line_overlap_ratio": 0.9048,
+      "line_cover_ratio_x": 0.1775,
+      "clipped_span_px": 93,
+      "line_width_effective_px": 524,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 18,
+      "line_char_capacity": 494,
+      "char_start": 0,
+      "char_end": 88,
+      "char_len": 88,
+      "full_line": false,
+      "bbox_xyxy": [
+        4,
+        325,
+        115,
+        390
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______]",
+      "layout_token_pixel": "[BOX2__93/524]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1775,
+      "clipped_span_px": 93,
+      "line_width_effective_px": 524,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 19,
+      "line_char_capacity": 494,
+      "char_start": 0,
+      "char_end": 88,
+      "char_len": 88,
+      "full_line": false,
+      "bbox_xyxy": [
+        4,
+        325,
+        115,
+        390
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______]",
+      "layout_token_pixel": "[BOX2__93/524]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1775,
+      "clipped_span_px": 93,
+      "line_width_effective_px": 524,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 39,
+      "line_char_capacity": 494,
+      "char_start": 384,
+      "char_end": 494,
+      "char_len": 110,
+      "full_line": false,
+      "bbox_xyxy": [
+        429,
+        724,
+        564,
+        744
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3_________]",
+      "layout_token_pixel": "[BOX3__117/524]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2233,
+      "clipped_span_px": 117,
+      "line_width_effective_px": 524,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

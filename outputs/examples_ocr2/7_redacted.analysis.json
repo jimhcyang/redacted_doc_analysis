@@ -1,0 +1,530 @@
+{
+  "image": "inputs/images/7_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      411,
+      79,
+      537,
+      98
+    ],
+    [
+      33,
+      95,
+      222,
+      117
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    45,
+    5,
+    521,
+    224
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 60395,
+  "merged_region_nonzero_px": 59628,
+  "line_width_px": 476,
+  "line_count": 12,
+  "paragraph_crops_dir": "outputs/examples_ocr2/7_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/7_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/7_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        45,
+        9,
+        521,
+        25
+      ],
+      "text": "Overwrite \"Tunis Blames France for Jamming Broadcasts\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        1,
+        569,
+        33
+      ],
+      "crop_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text is \"Tunis Blames France for Jamming Broadcasts\".",
+      "ocr_text_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 12,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        45,
+        46,
+        521,
+        220
+      ],
+      "text": "\nThe jamming station which is interfering with Arab-language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria.\n\nThe French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+      "expanded_crop_box_xyxy": [
+        0,
+        28,
+        569,
+        228
+      ],
+      "crop_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The jamming station which is interfering with Arab language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria, The French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+      "ocr_text_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.3333,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 5,
+  "row_scan_line_band_count": 11,
+  "row_scan_gap_band_count": 10,
+  "row_scan_linebreak_band_count": 9,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        45,
+        26,
+        521,
+        45
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 1.5603,
+      "height_to_avg_full_line_ratio": 1.082,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        45,
+        58,
+        521,
+        63
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        77,
+        521,
+        81
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.3901,
+      "height_to_avg_full_line_ratio": 0.2705,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1396,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        94,
+        521,
+        99
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.311,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        113,
+        521,
+        117
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.3901,
+      "height_to_avg_full_line_ratio": 0.2705,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3732,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        131,
+        521,
+        136
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        149,
+        521,
+        154
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        167,
+        521,
+        172
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        185,
+        521,
+        190
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.4681,
+      "height_to_avg_full_line_ratio": 0.3246,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        45,
+        204,
+        521,
+        208
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8182,
+      "avg_linebreak_height_px": 5.6667,
+      "avg_full_line_height_px": 18.4848,
+      "height_to_avg_line_ratio": 0.3901,
+      "height_to_avg_full_line_ratio": 0.2705,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 11,
+    "blankline": 0,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Overwrite \"Tunis Blames France for Jamming Broadcasts\"",
+      "char_len": 54,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        9,
+        521,
+        25
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        45,
+        27,
+        521,
+        45
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        46,
+        521,
+        57
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The jamming station which is interfering with Arab-language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria.",
+      "char_len": 154,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        64,
+        521,
+        76
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        82,
+        521,
+        93
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+      "char_len": 380,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        100,
+        521,
+        112
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        118,
+        521,
+        130
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        137,
+        521,
+        148
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        155,
+        521,
+        166
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        173,
+        521,
+        184
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        191,
+        521,
+        203
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        45,
+        209,
+        521,
+        220
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 5,
+      "line_char_capacity": 380,
+      "char_start": 292,
+      "char_end": 380,
+      "char_len": 88,
+      "full_line": false,
+      "bbox_xyxy": [
+        411,
+        79,
+        537,
+        98
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__________]",
+      "layout_token_pixel": "[BOX1__110/476]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2311,
+      "clipped_span_px": 110,
+      "line_width_effective_px": 476,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 6,
+      "line_char_capacity": 380,
+      "char_start": 0,
+      "char_end": 141,
+      "char_len": 141,
+      "full_line": false,
+      "bbox_xyxy": [
+        33,
+        95,
+        222,
+        117
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________]",
+      "layout_token_pixel": "[BOX2__177/476]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3718,
+      "clipped_span_px": 177,
+      "line_width_effective_px": 476,
+      "touches_left_border": true,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 37,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,14 @@
+Example ID: 23
+Doc stem: 23
+Date: February 9, 1959
+doc_id_r: CIA-RDP79T00975A004300290001-2
+doc_id_u: 3023219
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed. <redaction 1> The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.
+
+=== REDACTIONS ===
+[redaction 1] only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.
+
+=== CONTEXT (REDACTIONS FILLED) ===
+Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed. only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely. The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.

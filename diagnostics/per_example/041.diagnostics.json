@@ -1,0 +1,3714 @@
+{
+  "example_id": 41,
+  "stem": "41",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/41_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/41_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 0,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 38,
+    "unredacted_raw_line_count": 11,
+    "redacted_nonempty_line_count": 27,
+    "unredacted_nonempty_line_count": 5,
+    "line_count_ratio": 0.185185,
+    "line_similarity": 0.0625,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 213,
+    "unredacted": 265
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "word_count": 73,
+    "chunk_count": 10,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 10,
+        "end_token_idx_0based": 10,
+        "token_count": 1,
+        "text": "pro-scribed",
+        "tokens": [
+          "pro-scribed"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 30,
+        "end_token_idx_0based": 30,
+        "token_count": 1,
+        "text": "pro-west-ern",
+        "tokens": [
+          "pro-west-ern"
+        ]
+      },
+      {
+        "chunk_id": 3,
+        "start_token_idx_0based": 58,
+        "end_token_idx_0based": 58,
+        "token_count": 1,
+        "text": "spokesmen",
+        "tokens": [
+          "spokesmen"
+        ]
+      },
+      {
+        "chunk_id": 4,
+        "start_token_idx_0based": 66,
+        "end_token_idx_0based": 66,
+        "token_count": 1,
+        "text": "apparently",
+        "tokens": [
+          "apparently"
+        ]
+      },
+      {
+        "chunk_id": 5,
+        "start_token_idx_0based": 75,
+        "end_token_idx_0based": 105,
+        "token_count": 31,
+        "text": "venizelos venizelos whose hatred of the government combined with his political opportunism make him a likely collaborator with the communists apparently has agreed to cooperate secretly with eda in several municipalities",
+        "tokens": [
+          "venizelos",
+          "venizelos",
+          "whose",
+          "hatred",
+          "of",
+          "the",
+          "government",
+          "combined",
+          "with",
+          "his",
+          "political",
+          "opportunism",
+          "make",
+          "him",
+          "a",
+          "likely",
+          "collaborator",
+          "with",
+          "the",
+          "communists",
+          "apparently",
+          "has",
+          "agreed",
+          "to",
+          "cooperate",
+          "secretly",
+          "with",
+          "eda",
+          "in",
+          "several",
+          "municipalities"
+        ]
+      },
+      {
+        "chunk_id": 6,
+        "start_token_idx_0based": 107,
+        "end_token_idx_0based": 107,
+        "token_count": 1,
+        "text": "cooperation",
+        "tokens": [
+          "cooperation"
+        ]
+      },
+      {
+        "chunk_id": 7,
+        "start_token_idx_0based": 127,
+        "end_token_idx_0based": 128,
+        "token_count": 2,
+        "text": "councilors venizelos",
+        "tokens": [
+          "councilors",
+          "venizelos"
+        ]
+      },
+      {
+        "chunk_id": 8,
+        "start_token_idx_0based": 152,
+        "end_token_idx_0based": 152,
+        "token_count": 1,
+        "text": "working",
+        "tokens": [
+          "working"
+        ]
+      },
+      {
+        "chunk_id": 9,
+        "start_token_idx_0based": 181,
+        "end_token_idx_0based": 181,
+        "token_count": 1,
+        "text": "council",
+        "tokens": [
+          "council"
+        ]
+      },
+      {
+        "chunk_id": 10,
+        "start_token_idx_0based": 232,
+        "end_token_idx_0based": 264,
+        "token_count": 33,
+        "text": "respectability from its association with the venizelos wing of the liberals it will take credit for the victories of several non-communist candidates and will probably increase its representation in local governments throughout greece",
+        "tokens": [
+          "respectability",
+          "from",
+          "its",
+          "association",
+          "with",
+          "the",
+          "venizelos",
+          "wing",
+          "of",
+          "the",
+          "liberals",
+          "it",
+          "will",
+          "take",
+          "credit",
+          "for",
+          "the",
+          "victories",
+          "of",
+          "several",
+          "non-communist",
+          "candidates",
+          "and",
+          "will",
+          "probably",
+          "increase",
+          "its",
+          "representation",
+          "in",
+          "local",
+          "governments",
+          "throughout",
+          "greece"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.275472
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "word_count": 21,
+    "word_pct_vs_unredacted": 0.079245
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "greek",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "elections",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "the",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "united",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "democratic",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "left",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "eda",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "legal",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "front",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "for",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "pro-scribed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "communist",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "party",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14,
+        119
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "of",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "greece",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "is",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17,
+        108
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "trying",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "to",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19,
+        136,
+        201
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "make",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "the",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "municipal",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22,
+        53
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "elections",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "scheduled",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "for",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "5",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "april",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "a",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "test",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "of",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "the",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "pro-west-ern",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "government's",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "popularity",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "eda",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "leaders",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37,
+        135
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "are",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38,
+        129
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "seeking",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "collaboration",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40,
+        125
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "of",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "non-communist",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "opposition",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43,
+        67
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "parties",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44,
+        68,
+        178
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "in",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "sponsoring",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "joint",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        47
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "slates",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        48
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "of",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "candidates",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50,
+        175
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "for",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "the",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "municipal",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        22,
+        53
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "councils",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        54
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "while",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        55
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "eda",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "has",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57,
+        72,
+        199
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "been",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "rebuffed",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "by",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        60,
+        102
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "spokesmen",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "for",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "several",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        64,
+        120
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "minor",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        65
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        66,
+        134
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "opposition",
+      "mapped_redacted_index_0based": 67,
+      "candidate_redacted_positions_0based": [
+        43,
+        67
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "parties",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        44,
+        68,
+        178
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "it",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        69
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "apparently",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        179
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "has",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        57,
+        72,
+        199
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "achieved",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        73
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "some",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        74,
+        149
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "success",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        75
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "with",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "liberal",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        77,
+        118
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "leader",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        78
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "sophocles",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        79
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "venizelos",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "venizelos",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "whose",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "hatred",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "government",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        167,
+        169
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "combined",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "his",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "political",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "opportunism",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "make",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "him",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "a",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "likely",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "collaborator",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "communists",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        139
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "apparently",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        179
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "has",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        57,
+        72,
+        199
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "agreed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19,
+        136,
+        201
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "cooperate",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "secretly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "eda",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "several",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        64,
+        120
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "municipalities",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "this",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        82,
+        140
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "cooperation",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "even",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        85
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "if",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        86,
+        151
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "not",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        87
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "effective",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        88
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "in",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "the",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "council",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        91
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "elections",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "may",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        93,
+        142,
+        197
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "become",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        94
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "evident",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        95
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "in",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "the",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "subsequent",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        98
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "election",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        99
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "of",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "mayors",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        101
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "by",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        60,
+        102
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "the",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "councilors",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "venizelos",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "however",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        107
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "is",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        17,
+        108
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "spokesman",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        109
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "for",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "only",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        111
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "one",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        112
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "faction",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        113
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "of",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "the",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "rapidly",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        116
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "deteriorating",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        117
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "liberal",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        77,
+        118
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "party",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        14,
+        119
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "several",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        64,
+        120
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "prominent",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        121
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "liberals",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        122
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "have",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        123
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "denounced",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        124
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "collaboration",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        40,
+        125
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "with",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "eda",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "and",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        128,
+        165
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "are",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        38,
+        129
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "working",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "with",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "other",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        66,
+        134
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "leaders",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        37,
+        135
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "to",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        19,
+        136,
+        201
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "defeat",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        137
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "the",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "communists",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        139
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "this",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        82,
+        140
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "grouping",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        141
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "may",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        93,
+        142,
+        197
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "hold",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        143
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "the",
+      "mapped_redacted_index_0based": 144,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "balance",
+      "mapped_redacted_index_0based": 145,
+      "candidate_redacted_positions_0based": [
+        145
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "of",
+      "mapped_redacted_index_0based": 146,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "power",
+      "mapped_redacted_index_0based": 147,
+      "candidate_redacted_positions_0based": [
+        147
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "in",
+      "mapped_redacted_index_0based": 148,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "some",
+      "mapped_redacted_index_0based": 149,
+      "candidate_redacted_positions_0based": [
+        74,
+        149
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "cities",
+      "mapped_redacted_index_0based": 150,
+      "candidate_redacted_positions_0based": [
+        150
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "if",
+      "mapped_redacted_index_0based": 151,
+      "candidate_redacted_positions_0based": [
+        86,
+        151
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "the",
+      "mapped_redacted_index_0based": 152,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "elections",
+      "mapped_redacted_index_0based": 153,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "result",
+      "mapped_redacted_index_0based": 154,
+      "candidate_redacted_positions_0based": [
+        154
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "in",
+      "mapped_redacted_index_0based": 155,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "approximately",
+      "mapped_redacted_index_0based": 156,
+      "candidate_redacted_positions_0based": [
+        156
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "equal",
+      "mapped_redacted_index_0based": 157,
+      "candidate_redacted_positions_0based": [
+        157
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "distribution",
+      "mapped_redacted_index_0based": 158,
+      "candidate_redacted_positions_0based": [
+        158
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "of",
+      "mapped_redacted_index_0based": 159,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "council",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        91
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "seats",
+      "mapped_redacted_index_0based": 162,
+      "candidate_redacted_positions_0based": [
+        162
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "between",
+      "mapped_redacted_index_0based": 163,
+      "candidate_redacted_positions_0based": [
+        163
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "eda",
+      "mapped_redacted_index_0based": 164,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "and",
+      "mapped_redacted_index_0based": 165,
+      "candidate_redacted_positions_0based": [
+        128,
+        165
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "the",
+      "mapped_redacted_index_0based": 166,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "government",
+      "mapped_redacted_index_0based": 167,
+      "candidate_redacted_positions_0based": [
+        167,
+        169
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "the",
+      "mapped_redacted_index_0based": 168,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "government",
+      "mapped_redacted_index_0based": 169,
+      "candidate_redacted_positions_0based": [
+        167,
+        169
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "favors",
+      "mapped_redacted_index_0based": 170,
+      "candidate_redacted_positions_0based": [
+        170
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "holding",
+      "mapped_redacted_index_0based": 171,
+      "candidate_redacted_positions_0based": [
+        171
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "nonpolitical",
+      "mapped_redacted_index_0based": 172,
+      "candidate_redacted_positions_0based": [
+        172
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "elections",
+      "mapped_redacted_index_0based": 173,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "emphasizing",
+      "mapped_redacted_index_0based": 174,
+      "candidate_redacted_positions_0based": [
+        174
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "candidates",
+      "mapped_redacted_index_0based": 175,
+      "candidate_redacted_positions_0based": [
+        50,
+        175
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "rather",
+      "mapped_redacted_index_0based": 176,
+      "candidate_redacted_positions_0based": [
+        176
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "than",
+      "mapped_redacted_index_0based": 177,
+      "candidate_redacted_positions_0based": [
+        177
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "parties",
+      "mapped_redacted_index_0based": 178,
+      "candidate_redacted_positions_0based": [
+        44,
+        68,
+        178
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "apparently",
+      "mapped_redacted_index_0based": 179,
+      "candidate_redacted_positions_0based": [
+        179
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "for",
+      "mapped_redacted_index_0based": 180,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "fear",
+      "mapped_redacted_index_0based": 181,
+      "candidate_redacted_positions_0based": [
+        181
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "that",
+      "mapped_redacted_index_0based": 182,
+      "candidate_redacted_positions_0based": [
+        182
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "eda",
+      "mapped_redacted_index_0based": 183,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "which",
+      "mapped_redacted_index_0based": 184,
+      "candidate_redacted_positions_0based": [
+        184
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "captured",
+      "mapped_redacted_index_0based": 185,
+      "candidate_redacted_positions_0based": [
+        185
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "25",
+      "mapped_redacted_index_0based": 186,
+      "candidate_redacted_positions_0based": [
+        186
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "percent",
+      "mapped_redacted_index_0based": 187,
+      "candidate_redacted_positions_0based": [
+        187
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "of",
+      "mapped_redacted_index_0based": 188,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "the",
+      "mapped_redacted_index_0based": 189,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "popular",
+      "mapped_redacted_index_0based": 190,
+      "candidate_redacted_positions_0based": [
+        190
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "vote",
+      "mapped_redacted_index_0based": 191,
+      "candidate_redacted_positions_0based": [
+        191
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "in",
+      "mapped_redacted_index_0based": 192,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "the",
+      "mapped_redacted_index_0based": 193,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "general",
+      "mapped_redacted_index_0based": 194,
+      "candidate_redacted_positions_0based": [
+        194
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "elections",
+      "mapped_redacted_index_0based": 195,
+      "candidate_redacted_positions_0based": [
+        1,
+        23,
+        92,
+        153,
+        173,
+        195
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 216,
+      "token": "in",
+      "mapped_redacted_index_0based": 196,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 217,
+      "token": "may",
+      "mapped_redacted_index_0based": 197,
+      "candidate_redacted_positions_0based": [
+        93,
+        142,
+        197
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 218,
+      "token": "1958",
+      "mapped_redacted_index_0based": 198,
+      "candidate_redacted_positions_0based": [
+        198
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 219,
+      "token": "has",
+      "mapped_redacted_index_0based": 199,
+      "candidate_redacted_positions_0based": [
+        57,
+        72,
+        199
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 220,
+      "token": "continued",
+      "mapped_redacted_index_0based": 200,
+      "candidate_redacted_positions_0based": [
+        200
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 221,
+      "token": "to",
+      "mapped_redacted_index_0based": 201,
+      "candidate_redacted_positions_0based": [
+        19,
+        136,
+        201
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 222,
+      "token": "gain",
+      "mapped_redacted_index_0based": 202,
+      "candidate_redacted_positions_0based": [
+        202,
+        210
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 223,
+      "token": "strength",
+      "mapped_redacted_index_0based": 203,
+      "candidate_redacted_positions_0based": [
+        203
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 224,
+      "token": "among",
+      "mapped_redacted_index_0based": 204,
+      "candidate_redacted_positions_0based": [
+        204
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 225,
+      "token": "the",
+      "mapped_redacted_index_0based": 205,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 226,
+      "token": "electorate",
+      "mapped_redacted_index_0based": 206,
+      "candidate_redacted_positions_0based": [
+        206
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 227,
+      "token": "eda",
+      "mapped_redacted_index_0based": 207,
+      "candidate_redacted_positions_0based": [
+        6,
+        36,
+        56,
+        127,
+        164,
+        183,
+        207
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 228,
+      "token": "will",
+      "mapped_redacted_index_0based": 208,
+      "candidate_redacted_positions_0based": [
+        208
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 229,
+      "token": "probably",
+      "mapped_redacted_index_0based": 209,
+      "candidate_redacted_positions_0based": [
+        209
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 230,
+      "token": "gain",
+      "mapped_redacted_index_0based": 210,
+      "candidate_redacted_positions_0based": [
+        202,
+        210
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 231,
+      "token": "new",
+      "mapped_redacted_index_0based": 211,
+      "candidate_redacted_positions_0based": [
+        211
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 232,
+      "token": "respectability",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 233,
+      "token": "from",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 234,
+      "token": "its",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 235,
+      "token": "association",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 236,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        76,
+        126,
+        132
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 237,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 238,
+      "token": "venizelos",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 239,
+      "token": "wing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 240,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 241,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 242,
+      "token": "liberals",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        122
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 243,
+      "token": "it",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        69
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 244,
+      "token": "will",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        208
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 245,
+      "token": "take",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 246,
+      "token": "credit",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 247,
+      "token": "for",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        9,
+        25,
+        51,
+        63,
+        110,
+        180
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 248,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        2,
+        10,
+        21,
+        31,
+        52,
+        90,
+        97,
+        103,
+        115,
+        138,
+        144,
+        152,
+        166,
+        168,
+        189,
+        193,
+        205
+      ],
+      "candidate_count": 17
+    },
+    {
+      "unredacted_index_0based": 249,
+      "token": "victories",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 250,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        30,
+        41,
+        49,
+        100,
+        114,
+        146,
+        159,
+        188
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 251,
+      "token": "several",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        64,
+        120
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 252,
+      "token": "non-communist",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 253,
+      "token": "candidates",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        50,
+        175
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 254,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        128,
+        165
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 255,
+      "token": "will",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        208
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 256,
+      "token": "probably",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        209
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 257,
+      "token": "increase",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 258,
+      "token": "its",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 259,
+      "token": "representation",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 260,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        45,
+        89,
+        96,
+        148,
+        155,
+        192,
+        196
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 261,
+      "token": "local",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 262,
+      "token": "governments",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 263,
+      "token": "throughout",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 264,
+      "token": "greece",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Greek Elections (The United Democratic Left (EDA), legal front for the proscribed Communist party of Greece, is trying to make the municipal elections scheduled for 5 April a test of the pro-Western government's popularity.) (EDA leaders are seeking collaboration of non-Communist opposition parties in sponsoring joint slates of candidates for the municipal councils. While EDA has been rebuffed by spokesmen for several minor nationalist opposition parties, it apparently has achieved some success with Liberal leader Sophocles Venizelos. Venizelos, whose hatred of the government combined with his political opportunism make him a likely collaborator with the Communists, apparently has agreed to cooperate secretly with EDA in several municipalities. This co-operation, even if not effective in the council elections, may become evident in the subsequent election of mayors by the councilors.) (Venizelos, however, is spokesman for only one faction of the rapidly deteriorating Liberal party. Several prominent Liberals have denounced collaboration with EDA and are working with other nationalist leaders to defeat the Communists. This grouping may hold the balance of power in some cities if the elections result in approximately equal distribution of council seats between EDA and the government.) (The government favors holding \"nonpolitical\" elections, --emphasizing candidates rather than parties--apparently for fear that EDA, which captured 25 percent of the popular vote in the general elections in May 1958, has continued to gain strength among the electorate. EDA will probably gain new respectability from its association with the Venizelos wing of the Liberals. It will take credit for the victories of several non-Communist candidates and will probably increase its representation in local governments throughout Greece.)",
+    "redactions": []
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 266,
+    "hypothesis_token_total": 265,
+    "matched_tokens": 262,
+    "missing_tokens": 4,
+    "hallucinated_tokens": 3,
+    "recall": 0.984962,
+    "precision": 0.988679,
+    "f1": 0.986817,
+    "net_recovery_minus_hallucination": 0.973684
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 0,
+    "predicted_redaction_count": 10,
+    "correctly_found_redactions": 0,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 10,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 0.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 0,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 0.0,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 1.0,
+    "matched_pairs": [],
+    "best_match_per_gt": []
+  }
+}

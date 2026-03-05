@@ -1,0 +1,27 @@
+Example ID: 27
+Stem: 27
+Redacted OCR file: outputs/examples_ocr2/27_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/27_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=269..312, len=44)
+Predicted chunk text: karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause
+Unredacted context: is virtually certain [UNRED_ONLY: karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause] a final break
+Redacted anchor context: ethnarchy is virtually [L@268:certain] [RED_GAP:<empty>] [R@269:a] final break between
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.580645 exact=False
+  -> GT text: Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,
+  -> Word metrics: recall=0.409091 precision=1.0 f1=0.580645 matched=18
+Relaxed best GT candidate: GT[0] best_f1=0.580645 joined_pred_chunks=0..0
+  -> GT text: Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,
+  -> Relaxed best pred text: karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause
+  -> Relaxed word metrics: recall=1.0 precision=0.409091 f1=0.580645

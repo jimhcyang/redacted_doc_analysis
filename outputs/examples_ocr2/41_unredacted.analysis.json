@@ -1,0 +1,1208 @@
+{
+  "image": "inputs/images/41_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    23,
+    9,
+    533,
+    690
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 185655,
+  "merged_region_nonzero_px": 185655,
+  "line_width_px": 510,
+  "line_count": 35,
+  "paragraph_crops_dir": "outputs/examples_ocr2/41_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/41_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/41_unredacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 25,
+      "line_count": 25,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        23,
+        16,
+        533,
+        497
+      ],
+      "text": "Greek Elections\n\n\nThe United Democratic Left (EDA), legal front for pro-scribed Communist party of Greece, is trying to make the municipal elections scheduled for 5 April a test of the pro-West-ern government's popularity.\n\nEDA leaders are seeking collaboration of non-Communist opposition parties in sponsoring joint slates of candidates for the municipal councils. While EDA has been rebuffed by spokesmen for several minor nationalist opposition parties, it apparently has achieved some success with Liberal leader Sophocles Venizelos. Venizelos, whose hatred of the government combined with his political opportunism make him a likely collaborator with the Communists, apparently has agreed to cooperate secretly with EDA in several municipalities. This cooperation, even if not effective in the council elections, may become evident in the subsequent election of mayors by the councilors.\n\nVenizelos, however, is spokesman for only one faction of the rapidly deteriorating Liberal party. Several prominent Liberals have denounced collaboration with EDA and are working with other nationalist leaders to defeat the Communists. This grouping may hold the balance of power in some cities if the elections result in approximately equal distribution of council seats between EDA and the government.\n\nThe government favors holding \"nonpolitical\" elections, emphasizing candidates rather than parties--apparently for fear that EDA, which captured 25 percent of the popular vote in the general elections in May 1958, has continued to gain strength among the electorate. EDA will probably gain new respectability from its association with the Venizelos wing of the Liberals. It will take credit for the victories of several non-Communist candidates and will probably increase its representation in local governments throughout Greece.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        579,
+        545
+      ],
+      "crop_path": "outputs/examples_ocr2/41_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Any decorative or illustrative elements and graphics should be disregarded.\nGreek Elections\nThe United Democratic Left (EDA), legal front for pro-\nscribed Communist party of Greece, is trying to make the\nmunicipal elections scheduled for 5 April a test of the pro-West-\nern government's popularity.\n[EDA leaders are seeking collaboration of non-Communist\nopposition parties in sponsoring joint slates of candidates for\nthe municipal councils. While EDA has been rebuffed by spokes-\nmen for several minor nationalist opposition parties, it appar-\nently has achieved some success with Liberal leader Sophocles\nVenzielos. Venzielos, whose hatred of the government com-\nbined with his political opportunism make him a likely collab-\norator with the Communists, apparently has agreed to coop-\nerate secretly with EDA in several municipalities. This co-\noperation, even if not effective in the council elections, may\nbecome evident in the subsequent election of mayors by the\ncouncillors.]\n[Venzielos, however, is spokesman for only one faction of\nthe rapidly deteriorating Liberal party. Several prominent\nLiberals have denounced collaboration with EDA and are work-\ning with other nationalist leaders to defeat the Communists.\nThis grouping may hold the balance of power in some cities if\nthe elections result in approximately equal distribution of coun-\ncil seats between EDA and the government.]",
+      "ocr_text_path": "outputs/examples_ocr2/41_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 27,
+      "line_end_1based": 35,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        23,
+        523,
+        533,
+        676
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        508,
+        579,
+        691
+      ],
+      "crop_path": "outputs/examples_ocr2/41_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The government favors holding \"nonpolitical\" elections, emphasizing candidates rather than parties - apparently for fear that EDA, which captured 25 percent of the popular vote in the general elections in May 1958, has continued to gain strength among the electorate. EDA will probably gain new respectability from its association with the Venzielos wing of the Liberals. It will take credit for the victories of several non-Communist candidates and will probably increase its representation in local governments throughout Greece.",
+      "ocr_text_path": "outputs/examples_ocr2/41_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 12.5429,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 33,
+  "row_scan_gap_band_count": 33,
+  "row_scan_linebreak_band_count": 29,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        23,
+        34,
+        533,
+        48
+      ],
+      "kind": "blankline",
+      "height_px": 15,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 1.2192,
+      "height_to_avg_full_line_ratio": 0.797,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 15,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        65,
+        533,
+        71
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        83,
+        533,
+        89
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        101,
+        533,
+        107
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        141,
+        533,
+        143
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.2438,
+      "height_to_avg_full_line_ratio": 0.1594,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        160,
+        533,
+        162
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.2438,
+      "height_to_avg_full_line_ratio": 0.1594,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        174,
+        533,
+        178
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.4064,
+      "height_to_avg_full_line_ratio": 0.2657,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        192,
+        533,
+        198
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        210,
+        533,
+        215
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.4877,
+      "height_to_avg_full_line_ratio": 0.3188,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        228,
+        533,
+        234
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        246,
+        533,
+        252
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        264,
+        533,
+        270
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        282,
+        533,
+        288
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        300,
+        533,
+        306
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        318,
+        533,
+        324
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        336,
+        533,
+        342
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        390,
+        533,
+        396
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        408,
+        533,
+        414
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        426,
+        533,
+        432
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        446,
+        533,
+        450
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.4064,
+      "height_to_avg_full_line_ratio": 0.2657,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        462,
+        533,
+        468
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        480,
+        533,
+        486
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        498,
+        533,
+        522
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 2.032,
+      "height_to_avg_full_line_ratio": 1.3284,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        23,
+        534,
+        533,
+        539
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.4877,
+      "height_to_avg_full_line_ratio": 0.3188,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        551,
+        533,
+        557
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        569,
+        533,
+        575
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        587,
+        533,
+        593
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        605,
+        533,
+        611
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        623,
+        533,
+        629
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        641,
+        533,
+        647
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        23,
+        659,
+        533,
+        665
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.303,
+      "avg_linebreak_height_px": 6.5172,
+      "avg_full_line_height_px": 18.8203,
+      "height_to_avg_line_ratio": 0.569,
+      "height_to_avg_full_line_ratio": 0.3719,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 33,
+    "blankline": 1,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Greek Elections",
+      "char_len": 15,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        16,
+        533,
+        33
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "BL2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        23,
+        34,
+        533,
+        48
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        49,
+        533,
+        64
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The United Democratic Left (EDA), legal front for pro-scribed Communist party of Greece, is trying to make the municipal elections scheduled for 5 April a test of the pro-West-ern government's popularity.",
+      "char_len": 204,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        72,
+        533,
+        82
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        90,
+        533,
+        100
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "EDA leaders are seeking collaboration of non-Communist opposition parties in sponsoring joint slates of candidates for the municipal councils. While EDA has been rebuffed by spokesmen for several minor nationalist opposition parties, it apparently has achieved some success with Liberal leader Sophocles Venizelos. Venizelos, whose hatred of the government combined with his political opportunism make him a likely collaborator with the Communists, apparently has agreed to cooperate secretly with EDA in several municipalities. This cooperation, even if not effective in the council elections, may become evident in the subsequent election of mayors by the councilors.",
+      "char_len": 669,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        108,
+        533,
+        140
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        144,
+        533,
+        159
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Venizelos, however, is spokesman for only one faction of the rapidly deteriorating Liberal party. Several prominent Liberals have denounced collaboration with EDA and are working with other nationalist leaders to defeat the Communists. This grouping may hold the balance of power in some cities if the elections result in approximately equal distribution of council seats between EDA and the government.",
+      "char_len": 403,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        163,
+        533,
+        173
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        179,
+        533,
+        191
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "The government favors holding \"nonpolitical\" elections, emphasizing candidates rather than parties--apparently for fear that EDA, which captured 25 percent of the popular vote in the general elections in May 1958, has continued to gain strength among the electorate. EDA will probably gain new respectability from its association with the Venizelos wing of the Liberals. It will take credit for the victories of several non-Communist candidates and will probably increase its representation in local governments throughout Greece.",
+      "char_len": 530,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        199,
+        533,
+        209
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        216,
+        533,
+        227
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        235,
+        533,
+        245
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        253,
+        533,
+        263
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        271,
+        533,
+        281
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        289,
+        533,
+        299
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        307,
+        533,
+        317
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        325,
+        533,
+        335
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        343,
+        533,
+        352
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        379,
+        533,
+        389
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        397,
+        533,
+        407
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        415,
+        533,
+        425
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        433,
+        533,
+        445
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        451,
+        533,
+        461
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        469,
+        533,
+        479
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        487,
+        533,
+        497
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "PB26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        23,
+        505,
+        533,
+        522
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        523,
+        533,
+        533
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        540,
+        533,
+        550
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        558,
+        533,
+        568
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        576,
+        533,
+        586
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        594,
+        533,
+        604
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        612,
+        533,
+        622
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        630,
+        533,
+        640
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        648,
+        533,
+        658
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        23,
+        666,
+        533,
+        676
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

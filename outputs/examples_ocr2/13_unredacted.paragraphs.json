@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      17,
+      20,
+      495,
+      38
+    ],
+    "text": "Consider the following excerpt from a Baghdad, according to a TASS report of 6 January, to discuss Soviet-Iraqi economic and technical cooperation with officials of the Iraqi Government. TASS did not specify what authority the delegation has to commit the Soviet Union to providing economic aid to Iraq, but the delegation is likely to offer at least economic assistance, probably in the form of a line of credit.",
+    "expanded_crop_box_xyxy": [
+      0,
+      12,
+      526,
+      46
+    ],
+    "crop_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Soviet Economic Aid to Iraq",
+    "ocr_text_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 11,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      17,
+      56,
+      495,
+      194
+    ],
+    "text": "Since the formation of the new Iraqi Government, the bloc has made a concentrated effort to develop economic as well as political relations with Baghdad to underscore the bloc's endorsement of the new regime. Most of the members of the Sino-Soviet bloc have signed trade agreements with Iraq. The Soviet Union has already concluded a $170,000,-000 arms deal and has delivered three shiploads of military equipment to Iraq.",
+    "expanded_crop_box_xyxy": [
+      0,
+      42,
+      526,
+      208
+    ],
+    "crop_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "A delegation of Soviet experts has arrived in Baghdad, according to a TASS report of 6 January, to discuss Soviet-Iraqi economic and technical cooperation with officials of the Iraqi Government. TASS did not specify what authority the delegation has to commit the Soviet Union to providing economic aid to Iraq, but the delegation is likely to offer at least economic assistance, probably in the form of a line of credit.",
+    "ocr_text_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 13,
+    "line_end_1based": 20,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      17,
+      220,
+      495,
+      358
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      206,
+      526,
+      362
+    ],
+    "crop_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "In the provided image, the text is not corrupted. Please double-check for any formatting issues.",
+    "ocr_text_path": "outputs/examples_ocr2/13_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

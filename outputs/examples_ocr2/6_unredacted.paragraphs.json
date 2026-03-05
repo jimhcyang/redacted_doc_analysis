@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      32,
+      12,
+      534,
+      30
+    ],
+    "text": "Preserve line breaks.",
+    "expanded_crop_box_xyxy": [
+      0,
+      4,
+      573,
+      38
+    ],
+    "crop_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Pressures Growing for Reshuffle of Moroccan Government",
+    "ocr_text_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 13,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      32,
+      49,
+      534,
+      239
+    ],
+    "text": "\nDiscontent with the present Moroccan Government, including the King's authoritarian position, has grown to such an extent among left-wing elements in the dominant Istiqlal party that the well-informed Tunisian ambassador believes the long-anticipated cabinet reshuffle is imminent. The ambassador expects moderate Prime Minister Balafrej to retain his office, but believes Istiqlal extremists like Ibrahim, Ben Barka, and Bouabdil will increase their influence in the cabinet. One report states that a decision to resign was actually reached by the government on 18 October and that the resignation will be announced on 20 October.\n\nIstiqlal extremists are particularly critical of the cabinet's lack of control over the army and security forces, which are under the King's jurisdiction. Their request for a change in this control was rejected by the King recently after the issue was highlighted by the anti-Istiqlal activities of a rival party in the Rif mountain area. Istiqlal leaders consider that the director of national security was slow in acting against this party's terrorism. They also accuse him of playing off one Istiqlal faction against another.",
+    "expanded_crop_box_xyxy": [
+      0,
+      30,
+      573,
+      258
+    ],
+    "crop_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a description of the present Moroccan Government, including the King's authoritarian position, has grown to such an extent among left-wing elements in the dominant Istiqlal party that the well-informed Tunisian ambassador believes the long-anticipated cabinet reshuffle is imminent. The ambassador expects moderate Prime Minister Balafrej to retain his office, but believes Istiqlal extremists like Ibrahim, Ben Barka, and Bouabid will increase their influence in the cabinet. One report states that a decision to resign was actually reached by the government on 18 October and that the resignation will be announced on 20 October.",
+    "ocr_text_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 15,
+    "line_end_1based": 23,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      32,
+      266,
+      534,
+      420
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      250,
+      573,
+      428
+    ],
+    "crop_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is a paragraph of text.",
+    "ocr_text_path": "outputs/examples_ocr2/6_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

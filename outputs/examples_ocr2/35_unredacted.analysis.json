@@ -1,0 +1,1254 @@
+{
+  "image": "inputs/images/35_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    32,
+    8,
+    529,
+    696
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 197427,
+  "merged_region_nonzero_px": 197427,
+  "line_width_px": 497,
+  "line_count": 35,
+  "paragraph_crops_dir": "outputs/examples_ocr2/35_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/35_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/35_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        32,
+        17,
+        529,
+        37
+      ],
+      "text": "The Iraqi Communists are attempting to cash in on the aftermath of the Mosul revolt by reiterating demands which would greatly increase their hold over the Qasim regime. These demands include a purge of the government and army, the execution of antiregime prisoners condemned by the \"people's court,\" the arming of the Communist-controlled Popular Resistance Forces, immediate withdrawal from the Baghdad Pact, and turning over key positions in all departments to those who are \"known\" to support the present regime and the \"only leader\" Qasim.",
+      "expanded_crop_box_xyxy": [
+        0,
+        9,
+        572,
+        45
+      ],
+      "crop_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 12,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        32,
+        54,
+        529,
+        232
+      ],
+      "text": "\nThese demands, \"which can no longer wait,\" are continually being broadcast over Communist-directed Baghdad radio, as well as appearing in the Communist press. Iraqi nationalist and pro-Nasir newspapers in Baghdad have been closed, and their printing equipment destroyed by the Communist-directed mob. [Pro-UAR elements are said to be in a state of panic, and former Baathist Minister of Development Fuad Rikabi is in hiding. Many Baath party members have been arrested, and others are preparing to flee to Damascus. Additional reports say the arrests have been extended to the army.]\n\nOn 12 March, Nasir followed up his anti-Communist speech of the previous day with an even stronger personal attack on Qasim. He expressed confidence that the Iraqi people would not long allow Qasim and his Communist \"masters\" to keep Iraq out of the Arab nationalist camp. He added that the UAR did not intend to retaliate against Iraqi \"provocation,\" such as the strafing of a Syrian village by Iraqi planes in pursuit of tribesmen fleeing the Mosul area. The UAR nevertheless is reported to have protested strongly to the Iraqi Government over the incident as well as over the ouster of its representatives in Baghdad. The UAR press is attacking Qasim from all angles, including allegations that his aims are in line with the Arab world's number-one enemy--Israel.",
+      "expanded_crop_box_xyxy": [
+        0,
+        36,
+        572,
+        250
+      ],
+      "crop_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The Iraqi Communists are attempting to cash in on the aftermath of the Mosul revolt by reiterating demands which would greatly increase their hold over the Qasim regime. These demands include a purge of the government and army, the execution of antiregime prisoners condemned by the \"people's court,\" the arming of the Communist-controlled Popular Resistance Forces, immediate withdrawal from the Baghdad Pact, and turning over key positions in all departments to those who are \"known\" to support the present regime and the \"only leader\" Qasim.",
+      "ocr_text_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 14,
+      "line_end_1based": 22,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        32,
+        256,
+        529,
+        433
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        238,
+        572,
+        451
+      ],
+      "crop_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "These demands, \"which can no longer wait,\" are continu-ally being broadcast over Communist-directed Baghdad radio, as well as appearing in the Communist press. Iraqi nationalist and pro-Nasir newspapers in Baghdad have been closed, and their printing equipment destroyed by the Communist-directed mob. Pro-UAR elements are said to be in a state of panic, and former Baathist Minister of Development Fuad Rikabi is in hiding. Many Baath party members have been arrested, and others are preparing to flee to Damascus. Additional re-ports say the arrests have been extended to the army.",
+      "ocr_text_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 24,
+      "line_end_1based": 35,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        32,
+        457,
+        529,
+        688
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        434,
+        572,
+        701
+      ],
+      "crop_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "On 12 March, Nasir followed up his anti-Communist speech of the previous day with an even stronger personal attack on Qasim. He expressed confidence that the Iraqi people would not long allow Qasim and his Communist \"masters\" to keep Iraq out of the Arab nationalist camp. He added that the UAR did not intend to retaliate against Iraqi \"provocation,\" such as the strafing of a Syrian village by Iraqi planes in pursuit of tribesmen fleeing the Mosul area. The UAR nevertheless is reported to have protested strongly to the Iraqi Government over the incident as well as over the ouster of its representatives in Baghdad. The UAR press is attacking Qasim from all angles, including allegations that his aims are in line with the Arab world's number-one enemy--Israel.",
+      "ocr_text_path": "outputs/examples_ocr2/35_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 15.0571,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 5,
+  "row_scan_line_band_count": 32,
+  "row_scan_gap_band_count": 31,
+  "row_scan_linebreak_band_count": 28,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        32,
+        38,
+        529,
+        53
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 1.0964,
+      "height_to_avg_full_line_ratio": 0.8121,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 16,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        32,
+        68,
+        529,
+        72
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        86,
+        529,
+        90
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        105,
+        529,
+        109
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        123,
+        529,
+        127
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        141,
+        529,
+        145
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        160,
+        529,
+        163
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.2741,
+      "height_to_avg_full_line_ratio": 0.203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        178,
+        529,
+        182
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        196,
+        529,
+        200
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        214,
+        529,
+        219
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        233,
+        529,
+        255
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 1.576,
+      "height_to_avg_full_line_ratio": 1.1675,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        32,
+        268,
+        529,
+        271
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.2741,
+      "height_to_avg_full_line_ratio": 0.203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        288,
+        529,
+        291
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.2741,
+      "height_to_avg_full_line_ratio": 0.203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        305,
+        529,
+        309
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        324,
+        529,
+        328
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        342,
+        529,
+        346
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        379,
+        529,
+        383
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        397,
+        529,
+        401
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        416,
+        529,
+        420
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        434,
+        529,
+        456
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 1.576,
+      "height_to_avg_full_line_ratio": 1.1675,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        32,
+        470,
+        529,
+        475
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        488,
+        529,
+        493
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        507,
+        529,
+        511
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        545,
+        529,
+        548
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.2741,
+      "height_to_avg_full_line_ratio": 0.203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        561,
+        529,
+        566
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        580,
+        529,
+        583
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.2741,
+      "height_to_avg_full_line_ratio": 0.203,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        598,
+        529,
+        602
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        615,
+        529,
+        620
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        634,
+        529,
+        638
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.3426,
+      "height_to_avg_full_line_ratio": 0.2538,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        652,
+        529,
+        657
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4111,
+      "height_to_avg_full_line_ratio": 0.3046,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        670,
+        529,
+        676
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.5938,
+      "avg_linebreak_height_px": 5.1071,
+      "avg_full_line_height_px": 19.7009,
+      "height_to_avg_line_ratio": 0.4797,
+      "height_to_avg_full_line_ratio": 0.3553,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 32,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "The Iraqi Communists are attempting to cash in on the aftermath of the Mosul revolt by reiterating demands which would greatly increase their hold over the Qasim regime. These demands include a purge of the government and army, the execution of antiregime prisoners condemned by the \"people's court,\" the arming of the Communist-controlled Popular Resistance Forces, immediate withdrawal from the Baghdad Pact, and turning over key positions in all departments to those who are \"known\" to support the present regime and the \"only leader\" Qasim.",
+      "char_len": 544,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        17,
+        529,
+        37
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        32,
+        38,
+        529,
+        53
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        54,
+        529,
+        67
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "These demands, \"which can no longer wait,\" are continually being broadcast over Communist-directed Baghdad radio, as well as appearing in the Communist press. Iraqi nationalist and pro-Nasir newspapers in Baghdad have been closed, and their printing equipment destroyed by the Communist-directed mob. [Pro-UAR elements are said to be in a state of panic, and former Baathist Minister of Development Fuad Rikabi is in hiding. Many Baath party members have been arrested, and others are preparing to flee to Damascus. Additional reports say the arrests have been extended to the army.]",
+      "char_len": 583,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        73,
+        529,
+        85
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        91,
+        529,
+        104
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "On 12 March, Nasir followed up his anti-Communist speech of the previous day with an even stronger personal attack on Qasim. He expressed confidence that the Iraqi people would not long allow Qasim and his Communist \"masters\" to keep Iraq out of the Arab nationalist camp. He added that the UAR did not intend to retaliate against Iraqi \"provocation,\" such as the strafing of a Syrian village by Iraqi planes in pursuit of tribesmen fleeing the Mosul area. The UAR nevertheless is reported to have protested strongly to the Iraqi Government over the incident as well as over the ouster of its representatives in Baghdad. The UAR press is attacking Qasim from all angles, including allegations that his aims are in line with the Arab world's number-one enemy--Israel.",
+      "char_len": 766,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        110,
+        529,
+        122
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        128,
+        529,
+        140
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        146,
+        529,
+        159
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        164,
+        529,
+        177
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        183,
+        529,
+        195
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        201,
+        529,
+        213
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        220,
+        529,
+        232
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "PB13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        32,
+        234,
+        529,
+        255
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        256,
+        529,
+        267
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        272,
+        529,
+        287
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        292,
+        529,
+        304
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        310,
+        529,
+        323
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        329,
+        529,
+        341
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        347,
+        529,
+        378
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        384,
+        529,
+        396
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        402,
+        529,
+        415
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        421,
+        529,
+        433
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "PB23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        32,
+        435,
+        529,
+        456
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        457,
+        529,
+        469
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        476,
+        529,
+        487
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        494,
+        529,
+        506
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        512,
+        529,
+        544
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        549,
+        529,
+        560
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        567,
+        529,
+        579
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        584,
+        529,
+        597
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        603,
+        529,
+        614
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        621,
+        529,
+        633
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        639,
+        529,
+        651
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        658,
+        529,
+        669
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        677,
+        529,
+        688
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

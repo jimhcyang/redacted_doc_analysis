@@ -1,0 +1,27 @@
+Example ID: 17
+Stem: 17
+Redacted OCR file: outputs/examples_ocr2/17_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/17_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=178..206, len=29)
+Predicted chunk text: president kekkonen and other finnish officials reportedly feel that the ussr will if necessary use force to achieve its aims in berlin and that finland should meet moscow halfway
+Unredacted context: such public statements [UNRED_ONLY: president kekkonen and other finnish officials reportedly feel that the ussr will if necessary use force to achieve its aims in berlin and that finland should meet moscow halfway] the finns are
+Redacted anchor context: in such public [L@177:statements] [RED_GAP:<empty>] [R@178:the] finns are additionally
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: President Kekkonen and other Finnish officials reportedly feel that the USSR will, if necessary, use force to achieve its aims in Berlin and that Finland should meet Moscow "halfway."
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=29
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=0..0
+  -> GT text: President Kekkonen and other Finnish officials reportedly feel that the USSR will, if necessary, use force to achieve its aims in Berlin and that Finland should meet Moscow "halfway."
+  -> Relaxed best pred text: president kekkonen and other finnish officials reportedly feel that the ussr will if necessary use force to achieve its aims in berlin and that finland should meet moscow halfway
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

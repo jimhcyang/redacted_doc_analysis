@@ -1,0 +1,54 @@
+Example ID: 8
+Stem: 8
+Redacted OCR file: outputs/examples_ocr2/8_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/8_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=23..27, len=5)
+Predicted chunk text: is reliably reported to have
+Unredacted context: closest political advisers [UNRED_ONLY: is reliably reported to have] stated recently that
+Redacted anchor context: win's closest political [L@22:advisers] [RED_GAP:<empty>] [R@23:stated] recently that six
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: is reliably reported to have
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=5
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=0..0
+  -> GT text: is reliably reported to have
+  -> Relaxed best pred text: is reliably reported to have
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=58..58, len=1)
+Predicted chunk text: indicated
+Unredacted context: 1960 maung maung [UNRED_ONLY: indicated] that the army
+Redacted anchor context: before 1960 maung [L@52:maung] [RED_GAP:in dicated] [R@55:that] the army was
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:in dicated]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=116..116, len=1)
+Predicted chunk text: a
+Unredacted context: suggests that the [UNRED_ONLY: a] my is determined
+Redacted anchor context: remarks suggests that [L@111:the] [RED_GAP:a2] [R@113:my] is determined to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:a2]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=137..140, len=4)
+Predicted chunk text: limiting the communist threat
+Unredacted context: the country and [UNRED_ONLY: limiting the communist threat]
+Redacted anchor context: [L_ANCHOR_ONLY @ 132] pacifying the country and
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      7,
+      525,
+      18
+    ],
+    "text": "Burmese Army's Political Activities and Plans",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      562,
+      26
+    ],
+    "crop_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 16,
+    "line_count": 14,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      43,
+      525,
+      292
+    ],
+    "text": "\nCol. Maung Maung, an influential army officer who is one\nof General Ne Win's closest political advisers, [ ]\nstated recently that six months was too short a\ntime in which to establish stability in Burma, and that it would\nbe impossible to hold elections before 1960. Maung Maung in-\ndicated that the army was searching for \"constitutional\" means\nof extending the tenure of the Ne Win government beyond the\nsix-month period stipulated under the terms of the \"transfer\nof power\" agreement which enabled Ne Win to come to power\nwith a semblance of constitutionality in late October. The\ngeneral tenor of Maung Maung's remarks suggests that the a2-\nmy is determined to remain in power indefinitely beyond the\nachievement of its stated objectives of pacifying the country and",
+    "expanded_crop_box_xyxy": [
+      0,
+      18,
+      562,
+      298
+    ],
+    "crop_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Col. Maung Maung, an influential army officer who is one of General Ne Win's closest political advisers, [ ] stated recently that six months was too short a time in which to establish stability in Burma, and that it would be impossible to hold elections before 1960. Maung Maung indicated that the army was searching for \"constitutional\" means of extending the tenure of the Ne Win government beyond the six-month period stipulated under the terms of the \"transfer of power\" agreement which enabled Ne Win to come to power with a semblance of constitutionality in late October. The general tenor of Maung Maung's remarks suggests that the a2-my is determined to remain in power indefinitely beyond the achievement of its stated objectives of pacifying the country and limiting the Communist threat.",
+    "ocr_text_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

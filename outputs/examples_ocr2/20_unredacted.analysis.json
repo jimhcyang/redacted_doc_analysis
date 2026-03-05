@@ -1,0 +1,330 @@
+{
+  "image": "inputs/images/20_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    14,
+    0,
+    512,
+    580
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 167387,
+  "merged_region_nonzero_px": 167387,
+  "line_width_px": 498,
+  "line_count": 8,
+  "paragraph_crops_dir": "outputs/examples_ocr2/20_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/20_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/20_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 8,
+      "line_count": 8,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        14,
+        10,
+        512,
+        570
+      ],
+      "text": "Iranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.\n\nFurther indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegov, a member of the party central committee, would absent himself only for exceptionally pressing business. There are also reports of \"intensive\" telephone traffic between the Iranian Foreign Ministry and the Soviet Embassy in Tehran during the past few days, as well as of numerous meetings between Pegov and Iranian Ambassador-designate to Moscow Masud Ansuri.\n\nAmbassador Wailes regards the situation as serious and believes it has passed the stage of mere \"pressure...for budget assistance.\" He recently reported, however, that the Shah, realizing the serious consequences of signing any agreement with the USSR, may be trying to clarify vague Soviet proposals. In the Shah's present state of depression and apparent disillusionment, confused by conflicting advice from those around him and enticed by attractive Soviet offers, he may blunder into a situation which is beyond his control.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        544,
+        580
+      ],
+      "crop_path": "outputs/examples_ocr2/20_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Any errors in style or in content should be disregarded.\nIranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.\nFurther indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegyov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegyov, a member of the party central committee, would absent himself only for exceptionally pressing business. There are also reports of \"intensive\" telephone traffic between the Iranian Foreign Ministry and the Soviet Embassy in Tehran during the past few days, as well as of numerous meetings between Pegyov and Iranian Ambassador-designate to Moscow Masud Ansari.\nAmbassador Wailes regards the situation as serious and believes it has passed the stage of mere \"pressure...for budget assistance.\" He recently reported, however, that the Shah, realizing the serious consequences of signing any agreement with the USSR, may be trying to clarify vague Soviet proposals. In the Shah's present state of depression and apparent disillusionment, confused by conflicting advice from those around him and enticed by attractive Soviet offers, he may blunder into a situation which is beyond his control.",
+      "ocr_text_path": "outputs/examples_ocr2/20_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 67.375,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 5,
+  "row_scan_line_band_count": 8,
+  "row_scan_gap_band_count": 7,
+  "row_scan_linebreak_band_count": 7,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        14,
+        33,
+        512,
+        39
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.1039,
+      "height_to_avg_full_line_ratio": 0.0993,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        80,
+        512,
+        82
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0445,
+      "height_to_avg_full_line_ratio": 0.0425,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        185,
+        512,
+        187
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0445,
+      "height_to_avg_full_line_ratio": 0.0425,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        208,
+        512,
+        209
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0297,
+      "height_to_avg_full_line_ratio": 0.0284,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        245,
+        512,
+        246
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0297,
+      "height_to_avg_full_line_ratio": 0.0284,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        373,
+        512,
+        374
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0297,
+      "height_to_avg_full_line_ratio": 0.0284,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        407,
+        512,
+        409
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 67.375,
+      "avg_linebreak_height_px": 3.1429,
+      "avg_full_line_height_px": 70.5179,
+      "height_to_avg_line_ratio": 0.0445,
+      "height_to_avg_full_line_ratio": 0.0425,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 8,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Iranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.",
+      "char_len": 379,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        10,
+        512,
+        32
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        40,
+        512,
+        79
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Further indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegov, a member of the party central committee, would absent himself only for exceptionally pressing business. There are also reports of \"intensive\" telephone traffic between the Iranian Foreign Ministry and the Soviet Embassy in Tehran during the past few days, as well as of numerous meetings between Pegov and Iranian Ambassador-designate to Moscow Masud Ansuri.",
+      "char_len": 641,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        83,
+        512,
+        184
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        188,
+        512,
+        207
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Ambassador Wailes regards the situation as serious and believes it has passed the stage of mere \"pressure...for budget assistance.\" He recently reported, however, that the Shah, realizing the serious consequences of signing any agreement with the USSR, may be trying to clarify vague Soviet proposals. In the Shah's present state of depression and apparent disillusionment, confused by conflicting advice from those around him and enticed by attractive Soviet offers, he may blunder into a situation which is beyond his control.",
+      "char_len": 528,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        210,
+        512,
+        244
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        247,
+        512,
+        372
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        375,
+        512,
+        406
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        410,
+        512,
+        570
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

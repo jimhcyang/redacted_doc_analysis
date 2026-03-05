@@ -1,0 +1,3213 @@
+{
+  "example_id": 28,
+  "stem": "28",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/28_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/28_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 3,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [
+      "Ignore line breaks for input.",
+      "---",
+      "---"
+    ],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 22,
+    "unredacted_raw_line_count": 9,
+    "redacted_nonempty_line_count": 7,
+    "unredacted_nonempty_line_count": 4,
+    "line_count_ratio": 0.571429,
+    "line_similarity": 0.0,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 181,
+    "unredacted": 240
+  },
+  "unredacted_only": {
+    "mask": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 62,
+    "chunk_count": 5,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 0,
+        "end_token_idx_0based": 4,
+        "token_count": 5,
+        "text": "position of guatemalan president weakening",
+        "tokens": [
+          "position",
+          "of",
+          "guatemalan",
+          "president",
+          "weakening"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 12,
+        "end_token_idx_0based": 30,
+        "token_count": 19,
+        "text": "the extreme venality among president yd goras closest advisers including members of his family is receiving increasing public attention",
+        "tokens": [
+          "the",
+          "extreme",
+          "venality",
+          "among",
+          "president",
+          "yd",
+          "goras",
+          "closest",
+          "advisers",
+          "including",
+          "members",
+          "of",
+          "his",
+          "family",
+          "is",
+          "receiving",
+          "increasing",
+          "public",
+          "attention"
+        ]
+      },
+      {
+        "chunk_id": 3,
+        "start_token_idx_0based": 73,
+        "end_token_idx_0based": 107,
+        "token_count": 35,
+        "text": "plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last march yd goras",
+        "tokens": [
+          "plotting",
+          "to",
+          "oust",
+          "him",
+          "is",
+          "increasing",
+          "among",
+          "several",
+          "groups",
+          "ranging",
+          "from",
+          "the",
+          "extreme",
+          "right",
+          "to",
+          "the",
+          "moderate",
+          "left",
+          "and",
+          "now",
+          "appears",
+          "more",
+          "widespread",
+          "than",
+          "at",
+          "any",
+          "time",
+          "since",
+          "he",
+          "assumed",
+          "office",
+          "last",
+          "march",
+          "yd",
+          "goras"
+        ]
+      },
+      {
+        "chunk_id": 4,
+        "start_token_idx_0based": 125,
+        "end_token_idx_0based": 125,
+        "token_count": 1,
+        "text": "crack",
+        "tokens": [
+          "crack"
+        ]
+      },
+      {
+        "chunk_id": 5,
+        "start_token_idx_0based": 220,
+        "end_token_idx_0based": 221,
+        "token_count": 2,
+        "text": "yd goras",
+        "tokens": [
+          "yd",
+          "goras"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.258333
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 3,
+    "word_pct_vs_unredacted": 0.0125
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "position",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "guatemalan",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        1
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "president",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        124,
+        173
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "weakening",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "the",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "guatemalan",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "political",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2,
+        13,
+        147,
+        177
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "situation",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3,
+        19
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "continues",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "to",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "deteriorate",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "extreme",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "venality",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "among",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "president",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        124,
+        173
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "yd",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "goras",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "closest",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "advisers",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "including",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "members",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        87
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "his",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "family",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "is",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "receiving",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "increasing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "public",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        92,
+        153,
+        179
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "attention",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "this",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "combined",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "with",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9,
+        93
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "the",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "president's",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "recent",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "political",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        2,
+        13,
+        147,
+        177
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "blunders",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "and",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "a",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16,
+        24,
+        70,
+        104,
+        132
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "worsening",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "economic",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "situation",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        3,
+        19
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "due",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "in",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21,
+        26,
+        69,
+        155
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "part",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "to",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "a",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        16,
+        24,
+        70,
+        104,
+        132
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "decline",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "in",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        21,
+        26,
+        69,
+        155
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "income",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "from",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "coffee",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "exports",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "has",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "so",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        32
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "weakened",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        33
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "his",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "position",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "that",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        36,
+        62,
+        76,
+        171
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "his",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "government",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "may",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39,
+        64
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "fall",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "unless",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        41
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "he",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42,
+        63,
+        73,
+        77
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "acts",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "quickly",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "to",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "clean",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "it",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        47
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "up",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        48
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "plotting",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "oust",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "him",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "is",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "increasing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "among",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "several",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "groups",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "ranging",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "from",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "extreme",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "right",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "moderate",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "left",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "now",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "appears",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        97
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "more",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "widespread",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "than",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "at",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        115
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "any",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "time",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        135
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "since",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        106
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "he",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        42,
+        63,
+        73,
+        77
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "assumed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "office",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "last",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "march",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "yd",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "goras",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "apparently",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "realizes",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "his",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "danger",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        53,
+        102
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "and",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "told",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        55
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "the",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "us",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "ambassador",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "on",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "18",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        60
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "february",
+      "mapped_redacted_index_0based": 61,
+      "candidate_redacted_positions_0based": [
+        61
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "that",
+      "mapped_redacted_index_0based": 62,
+      "candidate_redacted_positions_0based": [
+        36,
+        62,
+        76,
+        171
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "he",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        42,
+        63,
+        73,
+        77
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "may",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        39,
+        64
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "have",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        65,
+        149
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "to",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "crack",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "down",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        68
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "in",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        21,
+        26,
+        69,
+        155
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "a",
+      "mapped_redacted_index_0based": 70,
+      "candidate_redacted_positions_0based": [
+        16,
+        24,
+        70,
+        104,
+        132
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "dictatorial",
+      "mapped_redacted_index_0based": 71,
+      "candidate_redacted_positions_0based": [
+        71
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "manner",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        72
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "he",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        42,
+        63,
+        73,
+        77
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "also",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        74
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "indicated",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        75
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "that",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        36,
+        62,
+        76,
+        171
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "he",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        42,
+        63,
+        73,
+        77
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "intends",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        78
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "to",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "reshuffle",
+      "mapped_redacted_index_0based": 80,
+      "candidate_redacted_positions_0based": [
+        80
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "his",
+      "mapped_redacted_index_0based": 81,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        82
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "dropping",
+      "mapped_redacted_index_0based": 83,
+      "candidate_redacted_positions_0based": [
+        83
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "some",
+      "mapped_redacted_index_0based": 84,
+      "candidate_redacted_positions_0based": [
+        84
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "of",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "the",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "members",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        87
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "most",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        88
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "identified",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        89
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "by",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        90
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "the",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "public",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        92,
+        153,
+        179
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "with",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        9,
+        93
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "graft",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        94
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "while",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        95
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "there",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        96
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "appears",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        97
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "to",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "be",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        99,
+        113,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "no",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        100
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "immediate",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        101
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "danger",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        53,
+        102
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "of",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "a",
+      "mapped_redacted_index_0based": 104,
+      "candidate_redacted_positions_0based": [
+        16,
+        24,
+        70,
+        104,
+        132
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "coup",
+      "mapped_redacted_index_0based": 105,
+      "candidate_redacted_positions_0based": [
+        105
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "since",
+      "mapped_redacted_index_0based": 106,
+      "candidate_redacted_positions_0based": [
+        106
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "various",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        107
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "opposition",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        108
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "leaders",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        109
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "are",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        110
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "believed",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        111
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "to",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "be",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        99,
+        113,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "working",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        114
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "at",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        115
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "cross-purposes",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        116
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "and",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "the",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "army",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        119,
+        141
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "remains",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        120
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "loyal",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        121
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "to",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "the",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "president",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        124,
+        173
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "continuation",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        125
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "of",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "the",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "present",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        128
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "trend",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        129
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "could",
+      "mapped_redacted_index_0based": 130,
+      "candidate_redacted_positions_0based": [
+        130
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "within",
+      "mapped_redacted_index_0based": 131,
+      "candidate_redacted_positions_0based": [
+        131
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "a",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        16,
+        24,
+        70,
+        104,
+        132
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "relatively",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "short",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        134
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "time",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        135
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "lead",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        136
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "to",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "his",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "ouster",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        139
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "key",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        140
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "army",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        119,
+        141
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "officers",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        142
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "the",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "ultimate",
+      "mapped_redacted_index_0based": 144,
+      "candidate_redacted_positions_0based": [
+        144
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "locus",
+      "mapped_redacted_index_0based": 145,
+      "candidate_redacted_positions_0based": [
+        145
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "of",
+      "mapped_redacted_index_0based": 146,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "political",
+      "mapped_redacted_index_0based": 147,
+      "candidate_redacted_positions_0based": [
+        2,
+        13,
+        147,
+        177
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "power",
+      "mapped_redacted_index_0based": 148,
+      "candidate_redacted_positions_0based": [
+        148
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "have",
+      "mapped_redacted_index_0based": 149,
+      "candidate_redacted_positions_0based": [
+        65,
+        149
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "proven",
+      "mapped_redacted_index_0based": 150,
+      "candidate_redacted_positions_0based": [
+        150
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "responsive",
+      "mapped_redacted_index_0based": 151,
+      "candidate_redacted_positions_0based": [
+        151
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "to",
+      "mapped_redacted_index_0based": 152,
+      "candidate_redacted_positions_0based": [
+        5,
+        23,
+        45,
+        66,
+        79,
+        98,
+        112,
+        122,
+        137,
+        152
+      ],
+      "candidate_count": 10
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "public",
+      "mapped_redacted_index_0based": 153,
+      "candidate_redacted_positions_0based": [
+        92,
+        153,
+        179
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "pressure",
+      "mapped_redacted_index_0based": 154,
+      "candidate_redacted_positions_0based": [
+        154
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "in",
+      "mapped_redacted_index_0based": 155,
+      "candidate_redacted_positions_0based": [
+        21,
+        26,
+        69,
+        155
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "the",
+      "mapped_redacted_index_0based": 156,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "past",
+      "mapped_redacted_index_0based": 157,
+      "candidate_redacted_positions_0based": [
+        157
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 216,
+      "token": "and",
+      "mapped_redacted_index_0based": 158,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 217,
+      "token": "their",
+      "mapped_redacted_index_0based": 159,
+      "candidate_redacted_positions_0based": [
+        159
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 218,
+      "token": "support",
+      "mapped_redacted_index_0based": 160,
+      "candidate_redacted_positions_0based": [
+        160
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 219,
+      "token": "of",
+      "mapped_redacted_index_0based": 161,
+      "candidate_redacted_positions_0based": [
+        85,
+        103,
+        126,
+        146,
+        161
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 220,
+      "token": "yd",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 221,
+      "token": "goras",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 222,
+      "token": "would",
+      "mapped_redacted_index_0based": 163,
+      "candidate_redacted_positions_0based": [
+        163
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 223,
+      "token": "probably",
+      "mapped_redacted_index_0based": 164,
+      "candidate_redacted_positions_0based": [
+        164
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 224,
+      "token": "be",
+      "mapped_redacted_index_0based": 165,
+      "candidate_redacted_positions_0based": [
+        99,
+        113,
+        165
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 225,
+      "token": "withdrawn",
+      "mapped_redacted_index_0based": 166,
+      "candidate_redacted_positions_0based": [
+        166
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 226,
+      "token": "if",
+      "mapped_redacted_index_0based": 167,
+      "candidate_redacted_positions_0based": [
+        167
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 227,
+      "token": "they",
+      "mapped_redacted_index_0based": 168,
+      "candidate_redacted_positions_0based": [
+        168
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 228,
+      "token": "became",
+      "mapped_redacted_index_0based": 169,
+      "candidate_redacted_positions_0based": [
+        169
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 229,
+      "token": "convinced",
+      "mapped_redacted_index_0based": 170,
+      "candidate_redacted_positions_0based": [
+        170
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 230,
+      "token": "that",
+      "mapped_redacted_index_0based": 171,
+      "candidate_redacted_positions_0based": [
+        36,
+        62,
+        76,
+        171
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 231,
+      "token": "the",
+      "mapped_redacted_index_0based": 172,
+      "candidate_redacted_positions_0based": [
+        0,
+        10,
+        56,
+        86,
+        91,
+        118,
+        123,
+        127,
+        143,
+        156,
+        172
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 232,
+      "token": "president",
+      "mapped_redacted_index_0based": 173,
+      "candidate_redacted_positions_0based": [
+        124,
+        173
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 233,
+      "token": "had",
+      "mapped_redacted_index_0based": 174,
+      "candidate_redacted_positions_0based": [
+        174
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 234,
+      "token": "lost",
+      "mapped_redacted_index_0based": 175,
+      "candidate_redacted_positions_0based": [
+        175
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 235,
+      "token": "his",
+      "mapped_redacted_index_0based": 176,
+      "candidate_redacted_positions_0based": [
+        34,
+        37,
+        52,
+        81,
+        138,
+        176
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 236,
+      "token": "political",
+      "mapped_redacted_index_0based": 177,
+      "candidate_redacted_positions_0based": [
+        2,
+        13,
+        147,
+        177
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 237,
+      "token": "and",
+      "mapped_redacted_index_0based": 178,
+      "candidate_redacted_positions_0based": [
+        15,
+        54,
+        117,
+        158,
+        178
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 238,
+      "token": "public",
+      "mapped_redacted_index_0based": 179,
+      "candidate_redacted_positions_0based": [
+        92,
+        153,
+        179
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 239,
+      "token": "backing",
+      "mapped_redacted_index_0based": 180,
+      "candidate_redacted_positions_0based": [
+        180
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Position of Guatemalan President Weakening (The Guatemalan political situation continues to deteriorate. The extreme venality among President Ydigoras' closest advisers, including members of his family, is receiving increasing public attention. This, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up. Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March. (Ydigoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"crack down in a dictatorial manner!\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.) (While there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Ydigoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.)",
+    "redactions": [
+      "The extreme venality among President Ydigoras' closest advisers, including members of his family, is receiving increasing public attention.",
+      "Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March."
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 237,
+    "hypothesis_token_total": 240,
+    "matched_tokens": 234,
+    "missing_tokens": 3,
+    "hallucinated_tokens": 6,
+    "recall": 0.987342,
+    "precision": 0.975,
+    "f1": 0.981132,
+    "net_recovery_minus_hallucination": 0.962025
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 2,
+    "predicted_redaction_count": 5,
+    "correctly_found_redactions": 2,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 3,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 0.944754,
+    "matched_word_recall": 0.980392,
+    "matched_word_precision": 0.925926,
+    "relaxed_gt_found_count": 2,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 0.944754,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 0.0,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 3,
+        "pred_index_0based": 2,
+        "gt_index_0based": 1,
+        "score_f1": 0.970588,
+        "exact_text_match": false,
+        "pred_text": "plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last march yd goras",
+        "gt_text": "Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March.",
+        "word_metrics": {
+          "reference_token_total": 35,
+          "hypothesis_token_total": 33,
+          "matched_tokens": 33,
+          "missing_tokens": 2,
+          "hallucinated_tokens": 0,
+          "recall": 0.942857,
+          "precision": 1.0,
+          "f1": 0.970588,
+          "net_recovery_minus_hallucination": 0.942857
+        }
+      },
+      {
+        "pred_chunk_id": 2,
+        "pred_index_0based": 1,
+        "gt_index_0based": 0,
+        "score_f1": 0.918919,
+        "exact_text_match": false,
+        "pred_text": "the extreme venality among president yd goras closest advisers including members of his family is receiving increasing public attention",
+        "gt_text": "The extreme venality among President Ydigoras' closest advisers, including members of his family, is receiving increasing public attention.",
+        "word_metrics": {
+          "reference_token_total": 19,
+          "hypothesis_token_total": 18,
+          "matched_tokens": 17,
+          "missing_tokens": 2,
+          "hallucinated_tokens": 1,
+          "recall": 0.894737,
+          "precision": 0.944444,
+          "f1": 0.918919,
+          "net_recovery_minus_hallucination": 0.842105
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "The extreme venality among President Ydigoras' closest advisers, including members of his family, is receiving increasing public attention.",
+        "best_score_f1": 0.918919,
+        "best_chunk_start_0based": 1,
+        "best_chunk_end_0based": 1,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "the extreme venality among president yd goras closest advisers including members of his family is receiving increasing public attention",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 18,
+          "hypothesis_token_total": 19,
+          "matched_tokens": 17,
+          "missing_tokens": 1,
+          "hallucinated_tokens": 2,
+          "recall": 0.944444,
+          "precision": 0.894737,
+          "f1": 0.918919,
+          "net_recovery_minus_hallucination": 0.833333
+        }
+      },
+      {
+        "gt_index_0based": 1,
+        "gt_text": "Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March.",
+        "best_score_f1": 0.970588,
+        "best_chunk_start_0based": 2,
+        "best_chunk_end_0based": 2,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last march yd goras",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 33,
+          "hypothesis_token_total": 35,
+          "matched_tokens": 33,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 2,
+          "recall": 1.0,
+          "precision": 0.942857,
+          "f1": 0.970588,
+          "net_recovery_minus_hallucination": 0.939394
+        }
+      }
+    ]
+  }
+}

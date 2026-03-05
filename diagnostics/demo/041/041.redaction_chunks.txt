@@ -1,0 +1,102 @@
+Example ID: 41
+Stem: 41
+Redacted OCR file: outputs/examples_ocr2/41_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/41_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 10
+Ground-truth redactions: 0
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=10..10, len=1)
+Predicted chunk text: pro-scribed
+Unredacted context: legal front for [UNRED_ONLY: pro-scribed] communist party of
+Redacted anchor context: eda legal front [L@9:for] [RED_GAP:the pro scribed] [R@13:communist] party of greece
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:the pro scribed]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=30..30, len=1)
+Predicted chunk text: pro-west-ern
+Unredacted context: test of the [UNRED_ONLY: pro-west-ern] government's popularity eda
+Redacted anchor context: a test of [L@31:the] [RED_GAP:pro-west ern] [R@34:government's] popularity eda leaders
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pro-west ern]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=58..58, len=1)
+Predicted chunk text: spokesmen
+Unredacted context: been rebuffed by [UNRED_ONLY: spokesmen] for several minor
+Redacted anchor context: has been rebuffed [L@60:by] [RED_GAP:spokes men] [R@63:for] several minor nationalist
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:spokes men]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=66..66, len=1)
+Predicted chunk text: apparently
+Unredacted context: opposition parties it [UNRED_ONLY: apparently] has achieved some
+Redacted anchor context: nationalist opposition parties [L@69:it] [RED_GAP:appar ently] [R@72:has] achieved some success
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:appar ently]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=75..105, len=31)
+Predicted chunk text: venizelos venizelos whose hatred of the government combined with his political opportunism make him a likely collaborator with the communists apparently has agreed to cooperate secretly with eda in several municipalities
+Unredacted context: liberal leader sophocles [UNRED_ONLY: venizelos venizelos whose hatred of the government combined with his political opportunism make him a likely collaborator with the communists apparently has agreed to cooperate secretly with eda in several municipalities] this cooperation even
+Redacted anchor context: with liberal leader [L@79:sophocles] [RED_GAP:ven zelos] [R@82:this] co operation even
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ven zelos]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=107..107, len=1)
+Predicted chunk text: cooperation
+Unredacted context: several municipalities this [UNRED_ONLY: cooperation] even if not
+Redacted anchor context: sophocles ven zelos [L@82:this] [RED_GAP:co operation] [R@85:even] if not effective
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:co operation]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #7 (pred_index=6, token_span=127..128, len=2)
+Predicted chunk text: councilors venizelos
+Unredacted context: mayors by the [UNRED_ONLY: councilors venizelos] however is spokesman
+Redacted anchor context: of mayors by [L@103:the] [RED_GAP:councillors ven zelos] [R@107:however] is spokesman for
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:councillors ven zelos]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #8 (pred_index=7, token_span=152..152, len=1)
+Predicted chunk text: working
+Unredacted context: eda and are [UNRED_ONLY: working] with other nationalist
+Redacted anchor context: with eda and [L@129:are] [RED_GAP:work ing] [R@132:with] other nationalist leaders
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:work ing]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #9 (pred_index=8, token_span=181..181, len=1)
+Predicted chunk text: council
+Unredacted context: equal distribution of [UNRED_ONLY: council] seats between eda
+Redacted anchor context: approximately equal distribution [L@159:of] [RED_GAP:coun cil] [R@162:seats] between eda and
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:coun cil]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #10 (pred_index=9, token_span=232..264, len=33)
+Predicted chunk text: respectability from its association with the venizelos wing of the liberals it will take credit for the victories of several non-communist candidates and will probably increase its representation in local governments throughout greece
+Unredacted context: probably gain new [UNRED_ONLY: respectability from its association with the venizelos wing of the liberals it will take credit for the victories of several non-communist candidates and will probably increase its representation in local governments throughout greece]
+Redacted anchor context: [L_ANCHOR_ONLY @ 211] will probably gain new respectabil
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 11,
+    "line_count": 11,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      3,
+      13,
+      516,
+      189
+    ],
+    "text": "Laos Cabinet Decides to Terminate French Military\nTraining Mission\n\n\nThe Laotian cabinet decided on 21 February to terminate\nthe French military mission in Laos, apparently in order to\npave the way for transferring the training function to US con-\ntrol. This decision underscores the government's determina-\ntion to act without reference to the restrictive provisions of\nthe 1954 Geneva agreements which had previously given France\nexclusive control over military training in Laos.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      557,
+      207
+    ],
+    "crop_path": "outputs/examples_ocr2/31_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The Laotian cabinet decided on 21 February to terminate the French military mission in Laos, apparently in order to pave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of the 1954 Geneva agreements which had previously given France exclusive control over military training in Laos.",
+    "ocr_text_path": "outputs/examples_ocr2/31_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 13,
+    "line_end_1based": 36,
+    "line_count": 24,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      3,
+      202,
+      516,
+      626
+    ],
+    "text": "\nPrime Minister Phoui Sananikone told the American am-\nbassador on 24 February that he hesitated to implement the\ncabinet's decision because he feared adverse French reaction.\nHe may seek a formula under which France and the United\nStates would share in training activities.\n\n\nSuch a move by Laos would almost certainly be interpreted\nby Paris as US-instigated, and the strong French reaction would\nbe heightened in view of the recent US-British-French talks con-\ncern ing Southeast Asia. Although the French,\nmight threaten to withdraw their forces from\nLaos summary, they first would probably lodge strong pro-\ntests in Vientiane and Washington, seek support in London, and\nattempt to divert and modify the Lao move. The French Defense\nCouncil is scheduled to discuss augmentation of the French mil-\nitary contribution to Laos on 27 February.\n\nPublic announcement of a shift in the training of the Lao-\ntian Army from French to US control would probably provoke\nintensified Communist diplomatic and propaganda pressures on\nVientiane and would be cited as substantiation of Communist\ncharges that the United States is attempting to turn Laos into a",
+    "expanded_crop_box_xyxy": [
+      0,
+      160,
+      557,
+      642
+    ],
+    "crop_path": "outputs/examples_ocr2/31_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The 1954 Geneva agreements which had previously given France exclusive control over military training in Laos. Prime Minister Phoui Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction. He may seek a formula under which France and the United States would share in training activities. Such a move by Laos would almost certainly be interpreted by Paris as US-invigated, and the strong French reaction would be heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, might threaten to withdraw their forces from Laos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and attempt to divert and modify the Lao move. The French Defense Council is scheduled to discuss augmentation of the French military contribution to Laos on 27 February. Public announcement of a shift in the training of the Laotian Army from French to US control would probably provoke intensified Communist diplomatic and propaganda pressures on Vientiane and would be cited as substantiation of Communist charges that the United States is attempting to turn Laos into a \"military base.\"",
+    "ocr_text_path": "outputs/examples_ocr2/31_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

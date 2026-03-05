@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 8,
+    "line_count": 8,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      0,
+      529,
+      569
+    ],
+    "text": "Ignore line breaks for clarity.\n\nIranian Minister of Court Ala told Ambassador Wailes in Tehran on 29 January that Iran has agreed to sign a non-aggression pact with the USSR. He also confirmed that three high-ranking Soviet officials, one of whom has been tentatively identified as A. P. Pavlov, chief of the Middle East Division of the Soviet Foreign Ministry, arrived in Tehran on the afternoon of 29 January.\n\nFurther indication that significant developments are taking place in Iranian-Soviet negotiations is Soviet Ambassador Pegov's continued presence in Tehran despite local press reports that he was leaving for Moscow to attend the Communist party congress, a function from which Pegov, a member of the party central committee, would absent himself only for exceptionally pressing business.\n\n---",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      551,
+      569
+    ],
+    "crop_path": "outputs/examples_ocr2/20_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The image is a photograph of a newspaper article. The article is about the Iranian Minister of Court Ala to Ambassador Waives Iranian Delegation in Tehran. The article is written in a formal style. The image is in black and white.",
+    "ocr_text_path": "outputs/examples_ocr2/20_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

@@ -1,0 +1,72 @@
+Example ID: 30
+Stem: 30
+Redacted OCR file: outputs/examples_ocr2/30_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/30_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 6
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=6..6, len=1)
+Predicted chunk text: abdelkhalek
+Unredacted context: to re-enter politics [UNRED_ONLY: abdelkhalek] torres leader of
+Redacted anchor context: returns to re-enter [L@5:politics] [RED_GAP:abdellhakel] [R@7:torres] leader of the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:abdellhakel]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=12..12, len=1)
+Predicted chunk text: islam
+Unredacted context: of the nationalist [UNRED_ONLY: islam] party which merged
+Redacted anchor context: leader of the [L@11:nationalist] [RED_GAP:islah] [R@13:party] which merged with
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:islah]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=36..36, len=1)
+Predicted chunk text: oestensibly
+Unredacted context: to active politics [UNRED_ONLY: oestensibly] an istiqlal neutral
+Redacted anchor context: return to active [L@35:politics] [RED_GAP:ostensibly] [R@37:an] istiqlal neutral but
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ostensibly]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=44..45, len=2)
+Predicted chunk text: allal el-fassi
+Unredacted context: publicly siding with [UNRED_ONLY: allal el-fassi] in the latter's
+Redacted anchor context: but publicly siding [L@43:with] [RED_GAP:allah al-fassi] [R@46:in] the latter's struggle
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:allah al-fassi]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=69..69, len=1)
+Predicted chunk text: anti-ismailist
+Unredacted context: northern morocco where [UNRED_ONLY: anti-ismailist] tribal disorders have
+Redacted anchor context: in northern morocco [L@68:where] [RED_GAP:anti-istiqlal] [R@70:tribal] disorders have occurred
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:anti-istiqlal]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=136..194, len=59)
+Predicted chunk text: torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern morocco early convocation of the postponed istiqlal party congress and adoption of a positive program should these conditions not be met he probably would reconstitute the islam party which would further fragmentize istiqlal and encourage a multiplicity of parties
+Unredacted context: in northern morocco [UNRED_ONLY: torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern morocco early convocation of the postponed istiqlal party congress and adoption of a positive program should these conditions not be met he probably would reconstitute the islam party which would further fragmentize istiqlal and encourage a multiplicity of parties] the king who
+Redacted anchor context: instability in northern [L@135:morocco] [RED_GAP:<empty>] [R@136:the] king who has
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.983051 exact=False
+  -> GT text: Torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern Morocco, early convocation of the postponed Istiqlal party congress, and adoption of a positive program. Should these conditions not be met, he probably would reconstitute the Islah party, which would further fragmentize Istiqlal and encourage a multiplicity of parties.
+  -> Word metrics: recall=0.983051 precision=0.983051 f1=0.983051 matched=58
+Relaxed best GT candidate: GT[0] best_f1=0.983051 joined_pred_chunks=5..5
+  -> GT text: Torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern Morocco, early convocation of the postponed Istiqlal party congress, and adoption of a positive program. Should these conditions not be met, he probably would reconstitute the Islah party, which would further fragmentize Istiqlal and encourage a multiplicity of parties.
+  -> Relaxed best pred text: torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern morocco early convocation of the postponed istiqlal party congress and adoption of a positive program should these conditions not be met he probably would reconstitute the islam party which would further fragmentize istiqlal and encourage a multiplicity of parties
+  -> Relaxed word metrics: recall=0.983051 precision=0.983051 f1=0.983051

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      14,
+      7,
+      531,
+      23
+    ],
+    "text": "Ignore repeat line breaks.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      562,
+      31
+    ],
+    "crop_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "New Soviet Proposal for a \"Provisional Status\" for West Berlin.",
+    "ocr_text_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 15,
+    "line_count": 13,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      45,
+      531,
+      290
+    ],
+    "text": "\nNew Soviet Proposal for a \"Provisional Status\" for West Berlin\n\nAfter nearly two weeks ofstalemated restricted sessions in Geneva, Foreign Minister Gromyko has offered to recognize certain drastically limited Western rights in Berlin for one year in a major bid to crack the hitherto unified Western position that any new solution must contain an explicit Soviet reaffirmation of Allied rights. The USSR seems to be estimating that unless there were some prospects of Western concessions on the issue of Allied rights, a summit meeting in the next few months would be less desirable than waiting for possible advantages which might be derived from an increase in political pressures on the British Government, confusion and bitterness in West German politics resulting from Adenauer's decision to remain as chancellor, and the continued erosion of the NATO military organization as a result of French national policies.\n\nAlthough the Soviet leaders undoubtedly expect rejection of their conditions, they probably hope that a combination of threats and inducements will prompt an initiative by at least one of the Allies to prevent a breakdown and a subsequent sharpening of the Berlin crisis.\n\nGromyko had hinted at a compromise interim arrangement which would leave aside the deadlocked question of Western rights in Berlin for later negotiation, presumably at a summit meeting. However, on the possibility that further pressure might produce eventual if not immediate change in the Western position, each condition of the new Soviet package was tailored to take advantage of differences in Western willingness to make concessions on these points.\n\nGromyko also threatened to conclude a separate peace treaty with East Germany should the West, during the one-year grace period, prevent agreement on an all-German peace treaty.",
+    "expanded_crop_box_xyxy": [
+      0,
+      20,
+      562,
+      315
+    ],
+    "crop_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a paragraph of text.",
+    "ocr_text_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 17,
+    "line_end_1based": 28,
+    "line_count": 12,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      316,
+      531,
+      541
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      293,
+      562,
+      564
+    ],
+    "crop_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The Soviet leaders undoubtedly expected rejection of their conditions, they probably hope that a combination of threats and inducements will prompt an initiative by at least one of the Allies to prevent a breakoff and a subsequent sharpening of the Berlin crisis.",
+    "ocr_text_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 30,
+    "line_end_1based": 33,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      569,
+      531,
+      631
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      561,
+      562,
+      639
+    ],
+    "crop_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Gromyko also threatened to conclude a separate peace treaty with East Germany should the West, during the one-year grace period, prevent agreement on an all-German peace treaty.",
+    "ocr_text_path": "outputs/examples_ocr2/54_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

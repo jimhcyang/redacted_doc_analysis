@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 12,
+    "line_count": 12,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      31,
+      8,
+      566,
+      237
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])\n\n\nPanama Asks for US Help to Combat Invasion\n\nThe Panamanian Government has requested US assistance against an armed invasion in a remote jungle area east of the northern entrance to the canal. The invasion appears to be part of the frequently reported plans of Roberto Arias, former ambassador to Britain, and Ruban Miro, implicated in the unsolved assassination of former President Remon, to oust President de la Guardia. They are believed to have recruited armed mercenaries in Cuba, although the Cuban Government assured De la Guardia it would not permit an expedition against him from its territory. Two of the invaders caught by the Panamanian National Guard were Cubans.\n\nParticipants in other recent abortive revolts in Panama appear to have been in contact with Arias, who is accused of landing arms near Panama City on 20 April. He has taken asylum in the Brazilian Embassy in Panama City and may be given safe conduct out of the country. Miro was reported still to be trying to raise money and support in Cuba and the United States on 25 April. The revolutionary activities of their supporters may encourage some of De la Guardia's numerous other opponents, most of whom possess arms, to revolt. Political tension is already high over the imminent choice of 1960 presidential candidates, and rival cliques within the oligarchy have in the past manipulated dissident groups to help them gain the presidency.\n\nThe guard, Panama's only armed force, has been De la Guardia's chief support against several previous attempts to oust him. The revolutionary plans appear to call for its dispersal to various remote areas by scattered uprisings and reports of landings. The newly appointed minister of the interior can be expected to use the guard as effectively as possible, but it is primarily a poorly armed and trained urban police force which would be ineffective in jungle fighting.\n\nPanama's ambassador in Washington has been instructed to be prepared to submit the matter to the Organization of American States.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      608,
+      260
+    ],
+    "crop_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The Panamanian Government has requested US assistance against an armed invasion in a remote jungle area east of the northern entrance to the canal. The invasion appears to be part of the frequently reported plans of Roberto Arias, former ambassador to Britain, and Ruban Miro, implicated in the unsolved assassination of former President Remon, to oust President de la Guardia. They are believed to have recruited armed mercenaries in Cuba, although the Cuban Government assured De la Guardia it would not permit an expedition against him from its territory. Two of the invaders caught by the Panamanian National Guard were Cubans.",
+    "ocr_text_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 14,
+    "line_end_1based": 24,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      258,
+      566,
+      471
+    ],
+    "text": "\nSECRET",
+    "expanded_crop_box_xyxy": [
+      0,
+      237,
+      608,
+      492
+    ],
+    "crop_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Participants in other recent abortive revolts in Panama appear to have been in contact with Arias, who is accused of landing arms near Panama City on 20 April. He has taken asylum in the Brazilian Embassy in Panama City and may be given safe conduct out of the country. Miro was reported still to be trying to raise money and support in Cuba and the United States on 25 April. The revolutionary activities of their supporters may encourage some of De la Guardia's numerous other opponents, most of whom possess arms, to revolt. Political tension is already high over the imminent choice of 1960 presidential candidates, and rival cliques within the oligarchy have in the past manipulated dissident groups to help them gain the presidency.",
+    "ocr_text_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 26,
+    "line_end_1based": 32,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      489,
+      566,
+      636
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      474,
+      608,
+      651
+    ],
+    "crop_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The guard, Panama's only armed force, has been De la Guardia's chief support against several previous attempts to oust him. The revolutionary plans appear to call for its dispersal to various remote areas by scattered uprisings and reports of landings. The newly appointed minister of the interior can be expected to use the guard as effectively as possible, but it is primarily a poorly armed and trained urban police force which would be ineffective in jungle fighting.",
+    "ocr_text_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 34,
+    "line_end_1based": 36,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      653,
+      566,
+      780
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      640,
+      608,
+      781
+    ],
+    "crop_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Panama's ambassador in Washington has been instructed to be prepared to submit the matter to the Organization of American States.",
+    "ocr_text_path": "outputs/examples_ocr2/46_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

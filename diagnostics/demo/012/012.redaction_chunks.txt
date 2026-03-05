@@ -1,0 +1,33 @@
+Example ID: 12
+Stem: 12
+Redacted OCR file: outputs/examples_ocr2/12_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/12_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=52..52, len=1)
+Predicted chunk text: dissent
+Unredacted context: boldness of their [UNRED_ONLY: dissent] activities istiqlal's principal
+Redacted anchor context: the boldness of [L@57:their] [RED_GAP:dissident] [R@59:activities] istiqlal's principal newspaper
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:dissident]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: [ paragraph break ]
+  -> Relaxed best pred text: dissent
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=217..287, len=71)
+Predicted chunk text: the king however appears to have been fully aware of lyoussi's complicity in the affair and moreover to have deliberately permitted him to leave rabat following his resignation and to take refuge among his tribal followers in the middle atlas region this action coupled with the king's apparent protection of two other anti-istiqlal leaders implicated in the present berber dissidence may hasten a reckoning between mohamed v and republic-minded istiqlal extremists
+Unredacted context: two weeks ago [UNRED_ONLY: the king however appears to have been fully aware of lyoussi's complicity in the affair and moreover to have deliberately permitted him to leave rabat following his resignation and to take refuge among his tribal followers in the middle atlas region this action coupled with the king's apparent protection of two other anti-istiqlal leaders implicated in the present berber dissidence may hasten a reckoning between mohamed v and republic-minded istiqlal extremists] meanwhile elements of
+Redacted anchor context: forced two weeks [L@222:ago] [RED_GAP:<empty>] [R@223:meanwhile] elements of the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

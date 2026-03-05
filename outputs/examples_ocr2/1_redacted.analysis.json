@@ -1,0 +1,868 @@
+{
+  "image": "inputs/images/1_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      425,
+      123,
+      549,
+      177
+    ],
+    [
+      7,
+      139,
+      424,
+      179
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    18,
+    0,
+    524,
+    364
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 93305,
+  "merged_region_nonzero_px": 92038,
+  "line_width_px": 506,
+  "line_count": 21,
+  "paragraph_crops_dir": "outputs/examples_ocr2/1_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/1_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/1_redacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        18,
+        1,
+        524,
+        19
+      ],
+      "text": "Ignore future calls.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        554,
+        27
+      ],
+      "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 10,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        38,
+        524,
+        174
+      ],
+      "text": "\nVenezuelan Military Coup Fails\n\nThe failure of a Venezuelan military coup on 7 September reflects the loyalty of the majority of the armed forces to junta President Larrazabal and the effectiveness of civilian strength as a check against a return to military rule. The revolt, which apparently was quickly suppressed, was led by officers recently exiled for involvement in the coup.\n\nAn elaborate civilian organization has been developed since the ouster of dictator Perez last January to ensure the election of a constitutional regime next November and to guard against future military dominance of the government. It consists of labor, student, and political groups, some of which are armed and all of which can be mobilized rapidly for a display of force. The responsible top leaders in the structure may not in the future be able to control the radical and unruly elements, which could convert the organization into a force of anarchy and violence.",
+      "expanded_crop_box_xyxy": [
+        0,
+        24,
+        554,
+        188
+      ],
+      "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The failure of a Venezuelan military coup on 7 September reflects the loyalty of the majority of the armed forces to junta President Larrazabal and the effectiveness of civilian strength as a check against a return to military rule. The re- volt, which apparently was quickly suppressed, was led by officers recently exiled for involvement in the coup.",
+      "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 12,
+      "line_end_1based": 21,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        195,
+        524,
+        360
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        178,
+        554,
+        368
+      ],
+      "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "An elaborate civilian organization has been developed since the ouster of dictator Perez last January to ensure the election of a constitutional regime next November and to guard against future military dominance of the government. It consists of labor, student, and political groups, some of which are armed and all of which can be mobilized rapidly for a display of force. The responsible top leaders in the structure may not in the future be able to control the radical and unruly elements, which could convert the organization into a force of anarchy and violence.",
+      "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.4762,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 17,
+  "row_scan_gap_band_count": 16,
+  "row_scan_linebreak_band_count": 14,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        18,
+        20,
+        524,
+        37
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 1.3421,
+      "height_to_avg_full_line_ratio": 1.0338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        51,
+        524,
+        54
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        68,
+        524,
+        72
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.3728,
+      "height_to_avg_full_line_ratio": 0.2872,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        86,
+        524,
+        89
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        104,
+        524,
+        107
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        120,
+        524,
+        124
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.3728,
+      "height_to_avg_full_line_ratio": 0.2872,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0789,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        137,
+        524,
+        194
+      ],
+      "kind": "blankline",
+      "height_px": 58,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 4.3246,
+      "height_to_avg_full_line_ratio": 3.3311,
+      "blankline_line_slots": 2,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 38,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.5675,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        208,
+        524,
+        211
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        227,
+        524,
+        229
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2237,
+      "height_to_avg_full_line_ratio": 0.1723,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        243,
+        524,
+        246
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        259,
+        524,
+        262
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        277,
+        524,
+        280
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        295,
+        524,
+        298
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        312,
+        524,
+        315
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        330,
+        524,
+        333
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2982,
+      "height_to_avg_full_line_ratio": 0.2297,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        347,
+        524,
+        349
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.4118,
+      "avg_linebreak_height_px": 4.0,
+      "avg_full_line_height_px": 17.4118,
+      "height_to_avg_line_ratio": 0.2237,
+      "height_to_avg_full_line_ratio": 0.1723,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 17,
+    "blankline": 2,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore future calls.",
+      "char_len": 20,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        1,
+        524,
+        19
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        20,
+        524,
+        37
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        38,
+        524,
+        50
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Venezuelan Military Coup Fails",
+      "char_len": 30,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        55,
+        524,
+        67
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        73,
+        524,
+        85
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The failure of a Venezuelan military coup on 7 September reflects the loyalty of the majority of the armed forces to junta President Larrazabal and the effectiveness of civilian strength as a check against a return to military rule. The revolt, which apparently was quickly suppressed, was led by officers recently exiled for involvement in the coup.",
+      "char_len": 350,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        90,
+        524,
+        103
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        108,
+        524,
+        119
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "An elaborate civilian organization has been developed since the ouster of dictator Perez last January to ensure the election of a constitutional regime next November and to guard against future military dominance of the government. It consists of labor, student, and political groups, some of which are armed and all of which can be mobilized rapidly for a display of force. The responsible top leaders in the structure may not in the future be able to control the radical and unruly elements, which could convert the organization into a force of anarchy and violence.",
+      "char_len": 568,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        125,
+        524,
+        136
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "BL9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        18,
+        137,
+        524,
+        155
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "BL10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        18,
+        156,
+        524,
+        174
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "PB11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        175,
+        524,
+        194
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        195,
+        524,
+        207
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        212,
+        524,
+        226
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        230,
+        524,
+        242
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        247,
+        524,
+        258
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        263,
+        524,
+        276
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        281,
+        524,
+        294
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        299,
+        524,
+        311
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        316,
+        524,
+        329
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        334,
+        524,
+        346
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        350,
+        524,
+        360
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 8,
+      "line_char_capacity": 568,
+      "char_start": 457,
+      "char_end": 568,
+      "char_len": 111,
+      "full_line": false,
+      "bbox_xyxy": [
+        425,
+        123,
+        549,
+        177
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________]",
+      "layout_token_pixel": "[BOX1__99/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1957,
+      "clipped_span_px": 99,
+      "line_width_effective_px": 506,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 9,
+      "line_char_capacity": 568,
+      "char_start": 0,
+      "char_end": 456,
+      "char_len": 456,
+      "full_line": false,
+      "bbox_xyxy": [
+        7,
+        139,
+        424,
+        179
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______________________________________________]",
+      "layout_token_pixel": "[BOX2__406/506]",
+      "line_overlap_ratio": 0.8947,
+      "line_cover_ratio_x": 0.8024,
+      "clipped_span_px": 406,
+      "line_width_effective_px": 506,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 9,
+      "line_char_capacity": 568,
+      "char_start": 457,
+      "char_end": 568,
+      "char_len": 111,
+      "full_line": false,
+      "bbox_xyxy": [
+        425,
+        123,
+        549,
+        177
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________]",
+      "layout_token_pixel": "[BOX1__99/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1957,
+      "clipped_span_px": 99,
+      "line_width_effective_px": 506,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 10,
+      "line_char_capacity": 568,
+      "char_start": 0,
+      "char_end": 456,
+      "char_len": 456,
+      "full_line": false,
+      "bbox_xyxy": [
+        7,
+        139,
+        424,
+        179
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2______________________________________________]",
+      "layout_token_pixel": "[BOX2__406/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.8024,
+      "clipped_span_px": 406,
+      "line_width_effective_px": 506,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 10,
+      "line_char_capacity": 568,
+      "char_start": 457,
+      "char_end": 568,
+      "char_len": 111,
+      "full_line": false,
+      "bbox_xyxy": [
+        425,
+        123,
+        549,
+        177
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________]",
+      "layout_token_pixel": "[BOX1__99/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1957,
+      "clipped_span_px": 99,
+      "line_width_effective_px": 506,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

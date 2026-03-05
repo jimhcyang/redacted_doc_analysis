@@ -1,0 +1,60 @@
+Example ID: 0
+Stem: 0
+Redacted OCR file: outputs/examples_ocr2/0_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/0_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..4, len=5)
+Predicted chunk text: the notoriously corrupt and discredited
+Unredacted context: [UNRED_ONLY: the notoriously corrupt and discredited] katay d sasorith
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] katay d sasorith is
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.888889 exact=False
+  -> GT text: notoriously corrupt and discredited
+  -> Word metrics: recall=0.8 precision=1.0 f1=0.888889 matched=4
+Relaxed best GT candidate: GT[0] best_f1=0.888889 joined_pred_chunks=0..0
+  -> GT text: notoriously corrupt and discredited
+  -> Relaxed best pred text: the notoriously corrupt and discredited
+  -> Relaxed word metrics: recall=1.0 precision=0.8 f1=0.888889
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=19..19, len=1)
+Predicted chunk text: premier
+Unredacted context: he is vice [UNRED_ONLY: premier] and holds both
+Redacted anchor context: cabinet he is [L@13:vice] [RED_GAP:pre mier] [R@16:and] holds both defense
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pre mier]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=27..40, len=14)
+Predicted chunk text: his leading role associates the new government with the corruption of its predecessor and
+Unredacted context: and interior portfolios [UNRED_ONLY: his leading role associates the new government with the corruption of its predecessor and] judging from his
+Redacted anchor context: defense and interior [L@22:portfolios] [RED_GAP:<empty>] [R@23:judging] from his past
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=0.962963 exact=False
+  -> GT text: leading role associates the new government with the corruption of its predecessor and,
+  -> Word metrics: recall=0.928571 precision=1.0 f1=0.962963 matched=13
+Relaxed best GT candidate: GT[1] best_f1=0.962963 joined_pred_chunks=2..2
+  -> GT text: leading role associates the new government with the corruption of its predecessor and,
+  -> Relaxed best pred text: his leading role associates the new government with the corruption of its predecessor and
+  -> Relaxed word metrics: recall=1.0 precision=0.928571 f1=0.962963
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=61..81, len=21)
+Predicted chunk text: he opposes a drastic monetary reform desired by the united states and will be able to exert heavy pressure during negotiations
+Unredacted context: and provincial administration [UNRED_ONLY: he opposes a drastic monetary reform desired by the united states and will be able to exert heavy pressure during negotiations]
+Redacted anchor context: [L_ANCHOR_ONLY @ 42] forces and provincial administration
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

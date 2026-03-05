@@ -1,0 +1,882 @@
+{
+  "example_id": 15,
+  "stem": "15",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/15_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/15_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 3,
+    "unredacted_dropped_line_count": 2,
+    "redacted_dropped_lines": [
+      "Ignore line breaks for now.",
+      "Approved For Release 2002/09/04 : CIA-RDP79T00975A0042030001-7",
+      "Approved For Release 2002/09/04 : CIA-RDP79T00975AD04200340001-7"
+    ],
+    "unredacted_dropped_lines": [
+      "---",
+      "Approved for Release: 2020/02/21 C03000020"
+    ]
+  },
+  "structure": {
+    "redacted_raw_line_count": 24,
+    "unredacted_raw_line_count": 25,
+    "redacted_nonempty_line_count": 8,
+    "unredacted_nonempty_line_count": 11,
+    "line_count_ratio": 0.727273,
+    "line_similarity": 0.105263,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 60,
+    "unredacted": 59
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "word_count": 9,
+    "chunk_count": 3,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 41,
+        "end_token_idx_0based": 42,
+        "token_count": 2,
+        "text": "un favorable",
+        "tokens": [
+          "un",
+          "favorable"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 48,
+        "end_token_idx_0based": 48,
+        "token_count": 1,
+        "text": "secret",
+        "tokens": [
+          "secret"
+        ]
+      },
+      {
+        "chunk_id": 3,
+        "start_token_idx_0based": 52,
+        "end_token_idx_0based": 57,
+        "token_count": 6,
+        "text": "af nsa int ic icn cfr",
+        "tokens": [
+          "af",
+          "nsa",
+          "int",
+          "ic",
+          "icn",
+          "cfr"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.152542
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "word_count": 10,
+    "word_pct_vs_unredacted": 0.169492
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "in",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0,
+        7,
+        24,
+        29,
+        38
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "the",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1,
+        4,
+        12,
+        36
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "economic",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2,
+        45
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "field",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "the",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        1,
+        4,
+        12,
+        36
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "british",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "ambassador",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "in",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        0,
+        7,
+        24,
+        29,
+        38
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "khartoum",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "has",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "reported",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "that",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "the",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        1,
+        4,
+        12,
+        36
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "sudanese",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "government",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "seems",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "determined",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "to",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17,
+        56
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "maintain",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "pricing",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "practices",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "which",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21,
+        33
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "have",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "resulted",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "in",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        0,
+        7,
+        24,
+        29,
+        38
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "very",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "large",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "cotton",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "surpluses",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "in",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        0,
+        7,
+        24,
+        29,
+        38
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "previous",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "years",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "and",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        32
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "which",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        21,
+        33
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "will",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "place",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "the",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        1,
+        4,
+        12,
+        36
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "sudan",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "in",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        0,
+        7,
+        24,
+        29,
+        38
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "a",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39,
+        57
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "particularly",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "un",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "favorable",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "position",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "when",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "british-uar",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "economic",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        2,
+        45
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "relations",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "secret",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "13",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        47
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "jan",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        48
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "59",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "af",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "nsa",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "int",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "ic",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "icn",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "cfr",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "bulletin",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        52
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "In the economic field, the British ambassador in Khartoum has reported that the Sudanese Government seems determined to maintain pricing practices which have resulted in very large cotton surpluses in previous years and which will place the Sudan in a particularly unfavorable position when British-UAR economic relations SECRET 13 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 6 return to a normal basis. An influential member of the cabinet has indicated that the government's policy is to rely on either the World Bank or the United States for external financial assistance for a development program. However, the Soviet trade mission scheduled to arrive in Khartoum on 22 January may offer trade-aid deals difficult to resist. A Soviet offer related to Nile waters control projects would be particularly attractive.",
+    "redactions": [
+      "SECRET",
+      "6",
+      "An influential member of the cabinet has indicated that the government's policy is to rely on either the World Bank or the United States for external financial assistance for a development program. However,"
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 126,
+    "hypothesis_token_total": 59,
+    "matched_tokens": 51,
+    "missing_tokens": 75,
+    "hallucinated_tokens": 8,
+    "recall": 0.404762,
+    "precision": 0.864407,
+    "f1": 0.551351,
+    "net_recovery_minus_hallucination": 0.34127
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 3,
+    "predicted_redaction_count": 3,
+    "correctly_found_redactions": 1,
+    "missed_redactions": 2,
+    "hallucinated_redactions": 2,
+    "perfect_text_match_count": 1,
+    "perfect_text_match_rate_on_correct": 1.0,
+    "strict_avg_pair_f1_on_correct": 1.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 1,
+    "relaxed_gt_found_rate": 0.333333,
+    "relaxed_avg_best_f1_over_gt": 0.333333,
+    "relaxed_exact_text_match_count": 1,
+    "relaxed_exact_text_match_rate": 0.333333,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 2,
+        "pred_index_0based": 1,
+        "gt_index_0based": 0,
+        "score_f1": 1.0,
+        "exact_text_match": true,
+        "pred_text": "secret",
+        "gt_text": "SECRET",
+        "word_metrics": {
+          "reference_token_total": 1,
+          "hypothesis_token_total": 1,
+          "matched_tokens": 1,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "SECRET",
+        "best_score_f1": 1.0,
+        "best_chunk_start_0based": 1,
+        "best_chunk_end_0based": 1,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "secret",
+        "best_exact_text_match": true,
+        "best_word_metrics": {
+          "reference_token_total": 1,
+          "hypothesis_token_total": 1,
+          "matched_tokens": 1,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      },
+      {
+        "gt_index_0based": 1,
+        "gt_text": "6",
+        "best_score_f1": 0.0,
+        "best_chunk_start_0based": 0,
+        "best_chunk_end_0based": 0,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "un favorable",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 1,
+          "hypothesis_token_total": 2,
+          "matched_tokens": 0,
+          "missing_tokens": 1,
+          "hallucinated_tokens": 2,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "net_recovery_minus_hallucination": -2.0
+        }
+      },
+      {
+        "gt_index_0based": 2,
+        "gt_text": "An influential member of the cabinet has indicated that the government's policy is to rely on either the World Bank or the United States for external financial assistance for a development program. However,",
+        "best_score_f1": 0.0,
+        "best_chunk_start_0based": 0,
+        "best_chunk_end_0based": 0,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "un favorable",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 33,
+          "hypothesis_token_total": 2,
+          "matched_tokens": 0,
+          "missing_tokens": 33,
+          "hallucinated_tokens": 2,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "net_recovery_minus_hallucination": -0.060606
+        }
+      }
+    ]
+  }
+}

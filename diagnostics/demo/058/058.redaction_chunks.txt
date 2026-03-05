@@ -1,0 +1,54 @@
+Example ID: 58
+Stem: 58
+Redacted OCR file: outputs/examples_ocr2/58_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/58_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..0, len=1)
+Predicted chunk text: australians
+Unredacted context: [UNRED_ONLY: australians] considering pressure tactics
+Redacted anchor context: [R_ANCHOR_ONLY @ 1] frazilians considering pressure tactics in
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=9..9, len=1)
+Predicted chunk text: internationalist
+Unredacted context: for us aid [UNRED_ONLY: internationalist] advisers of president
+Redacted anchor context: bid for us [L@8:aid] [RED_GAP:ultranationalist] [R@10:advisers] of president kubitschek
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ultranationalist]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=51..85, len=35)
+Predicted chunk text: they told an american newsman that the government is planning new talks with the imf but that it does not plan any substantial revision of the exchange-reform program rejected by the imf in late may
+Unredacted context: emergency balance-of-payments aid [UNRED_ONLY: they told an american newsman that the government is planning new talks with the imf but that it does not plan any substantial revision of the exchange-reform program rejected by the imf in late may] in the meantime
+Redacted anchor context: of emergency balance-of-payments [L@50:aid] [RED_GAP:<empty>] [R@51:in] the meantime the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: They told an American newsman that the government is planning new talks with the IMF, but that it does not plan any substantial revision of the exchange-reform program rejected by the IMF in late May.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=35
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: They told an American newsman that the government is planning new talks with the IMF, but that it does not plan any substantial revision of the exchange-reform program rejected by the IMF in late May.
+  -> Relaxed best pred text: they told an american newsman that the government is planning new talks with the imf but that it does not plan any substantial revision of the exchange-reform program rejected by the imf in late may
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=173..173, len=1)
+Predicted chunk text: ascendancy
+Unredacted context: moment in the [UNRED_ONLY: ascendancy] but the embassy
+Redacted anchor context: the moment in [L@137:the] [RED_GAP:ascendance] [R@139:but] the embassy is
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ascendance]
+Strict GT match: NO
+Relaxed best GT candidate: none

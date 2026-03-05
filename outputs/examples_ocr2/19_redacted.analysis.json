@@ -1,0 +1,675 @@
+{
+  "image": "inputs/images/19_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      236,
+      108,
+      427,
+      130
+    ],
+    [
+      83,
+      311,
+      256,
+      348
+    ],
+    [
+      83,
+      420,
+      394,
+      440
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    16,
+    0,
+    544,
+    498
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 117139,
+  "merged_region_nonzero_px": 115832,
+  "line_width_px": 528,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/19_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/19_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/19_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 11,
+      "line_count": 11,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        16,
+        3,
+        544,
+        309
+      ],
+      "text": "Friction Reported Among Thai Military Leaders\n\nFriction between Thai Premier Marshal Sarit and his principal deputies, Generals Thanom and Prapat, appears to be growing. There is some danger that an estrangement may ensue which might upset the precarious stability within the ruling military group. Dissatisfaction is increasing throughout Sarit's Revolutionary party--which includes both military and civilian elements--over his performance as Thailand's dictator. Sarit is said again to be ignoring the party's advice on matters of state, and his continued delay in forming an interim government is meeting with criticism.\n\nThanom and Prapat, who seem to have submerged their past differences, would prefer to avoid trouble since they expect that Sarit's declining health will soon force him to give up power.\n\nHe has apparently been pieced because they questioned certain of his official decisions. Some weeks ago, on the basis of rumors, he actually detained for a short time Air Marshal Dawee, a popular figure in the military group.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        561,
+        340
+      ],
+      "crop_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The image displays a newspaper article about a political figure. The article is titled \"Friction Reported Among Thai Military Leaders\". The article discusses the relationship between Thai Prime Minister Prayuth Chan-ocha and General Sitaris Thanon and Prapat, who are both in the military. The article states that there is a danger that the two men will be estranged due to the growing tension between them. The article also mentions that the two men are facing a \"disastrous\" situation, which could lead to a \"state and his continued delay in forming an interim government\". The article is written in a formal style and uses a lot of technical language.",
+      "ocr_text_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 13,
+      "line_end_1based": 16,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        16,
+        349,
+        544,
+        435
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        340,
+        561,
+        444
+      ],
+      "crop_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "No additional analysis.\nHe has apparently been placed\nbecause they questioned certain of his official decisions. Some\nweeks ago, on the basis of rumors, he actually detained for a\nshort time Air Marshal Dawee, a popular figure in the military\ngroup.",
+      "ocr_text_path": "outputs/examples_ocr2/19_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 22.125,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 15,
+  "row_scan_gap_band_count": 15,
+  "row_scan_linebreak_band_count": 12,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        16,
+        25,
+        544,
+        35
+      ],
+      "kind": "linebreak",
+      "height_px": 11,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.5124,
+      "height_to_avg_full_line_ratio": 0.4264,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 11,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        72,
+        544,
+        74
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        91,
+        544,
+        92
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.0932,
+      "height_to_avg_full_line_ratio": 0.0775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        127,
+        544,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3629,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        145,
+        544,
+        147
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        162,
+        544,
+        165
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1863,
+      "height_to_avg_full_line_ratio": 0.155,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        254,
+        544,
+        256
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        272,
+        544,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1863,
+      "height_to_avg_full_line_ratio": 0.155,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        291,
+        544,
+        297
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.3261,
+      "height_to_avg_full_line_ratio": 0.2713,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        310,
+        544,
+        348
+      ],
+      "kind": "blankline",
+      "height_px": 39,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 1.8168,
+      "height_to_avg_full_line_ratio": 1.5116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 32,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.3205,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        16,
+        360,
+        544,
+        365
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.2795,
+      "height_to_avg_full_line_ratio": 0.2326,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        382,
+        544,
+        384
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        16,
+        400,
+        544,
+        402
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 21.4667,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 25.8,
+      "height_to_avg_line_ratio": 0.1398,
+      "height_to_avg_full_line_ratio": 0.1163,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 15,
+    "blankline": 0,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Friction Reported Among Thai Military Leaders",
+      "char_len": 45,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        3,
+        544,
+        24
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        36,
+        544,
+        71
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Friction between Thai Premier Marshal Sarit and his principal deputies, Generals Thanom and Prapat, appears to be growing. There is some danger that an estrangement may ensue which might upset the precarious stability within the ruling military group. Dissatisfaction is increasing throughout Sarit's Revolutionary party--which includes both military and civilian elements--over his performance as Thailand's dictator. Sarit is said again to be ignoring the party's advice on matters of state, and his continued delay in forming an interim government is meeting with criticism.",
+      "char_len": 577,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        75,
+        544,
+        90
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        93,
+        544,
+        126
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Thanom and Prapat, who seem to have submerged their past differences, would prefer to avoid trouble since they expect that Sarit's declining health will soon force him to give up power.",
+      "char_len": 185,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        130,
+        544,
+        144
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        148,
+        544,
+        161
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "He has apparently been pieced because they questioned certain of his official decisions. Some weeks ago, on the basis of rumors, he actually detained for a short time Air Marshal Dawee, a popular figure in the military group.",
+      "char_len": 225,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        166,
+        544,
+        217
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        238,
+        544,
+        253
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        257,
+        544,
+        271
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        276,
+        544,
+        290
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        298,
+        544,
+        309
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "PB12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        16,
+        317,
+        544,
+        348
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        349,
+        544,
+        359
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        366,
+        544,
+        381
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        385,
+        544,
+        399
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        16,
+        403,
+        544,
+        435
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 4,
+      "line_char_capacity": 577,
+      "char_start": 240,
+      "char_end": 449,
+      "char_len": 209,
+      "full_line": false,
+      "bbox_xyxy": [
+        236,
+        108,
+        427,
+        130
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__________________]",
+      "layout_token_pixel": "[BOX1__191/528]",
+      "line_overlap_ratio": 0.5588,
+      "line_cover_ratio_x": 0.3617,
+      "clipped_span_px": 191,
+      "line_width_effective_px": 528,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 12,
+      "line_char_capacity": 577,
+      "char_start": 73,
+      "char_end": 262,
+      "char_len": 189,
+      "full_line": false,
+      "bbox_xyxy": [
+        83,
+        311,
+        256,
+        348
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________]",
+      "layout_token_pixel": "[BOX2__173/528]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3277,
+      "clipped_span_px": 173,
+      "line_width_effective_px": 528,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 16,
+      "line_char_capacity": 577,
+      "char_start": 73,
+      "char_end": 413,
+      "char_len": 340,
+      "full_line": false,
+      "bbox_xyxy": [
+        83,
+        420,
+        394,
+        440
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3_________________________________]",
+      "layout_token_pixel": "[BOX3__311/528]",
+      "line_overlap_ratio": 0.4848,
+      "line_cover_ratio_x": 0.589,
+      "clipped_span_px": 311,
+      "line_width_effective_px": 528,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      1,
+      22,
+      524,
+      38
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])",
+    "expanded_crop_box_xyxy": [
+      0,
+      14,
+      567,
+      46
+    ],
+    "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 13,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      1,
+      59,
+      524,
+      295
+    ],
+    "text": "\n\nMoroccan Dissidents Step Up Activities\n\nPredominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissident activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.\n\nConcerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago.\n\nMeanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,",
+    "expanded_crop_box_xyxy": [
+      0,
+      35,
+      567,
+      319
+    ],
+    "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The image is a photograph of a newspaper article. The article is about the terrorist attacks of September 11, 2001. The article is written in a formal style, and it is intended to inform the reader about the events of the attack. The article is written in a clear and concise manner, and it is easy to understand. The article is also visually appealing, and it is easy to read.",
+    "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 15,
+    "line_end_1based": 34,
+    "line_count": 20,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      1,
+      314,
+      524,
+      691
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      276,
+      567,
+      729
+    ],
+    "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is a quote from a newspaper article.",
+    "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 36,
+    "line_end_1based": 38,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      1,
+      714,
+      524,
+      761
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      706,
+      567,
+      769
+    ],
+    "crop_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Meanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,",
+    "ocr_text_path": "outputs/examples_ocr2/12_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

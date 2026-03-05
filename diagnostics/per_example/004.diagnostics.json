@@ -1,0 +1,1412 @@
+{
+  "example_id": 4,
+  "stem": "4",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/4_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/4_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 1,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [
+      "Preserve line breaks as requested."
+    ],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 15,
+    "unredacted_raw_line_count": 9,
+    "redacted_nonempty_line_count": 4,
+    "unredacted_nonempty_line_count": 4,
+    "line_count_ratio": 1.0,
+    "line_similarity": 0.5,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 58,
+    "unredacted": 118
+  },
+  "unredacted_only": {
+    "mask": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 60,
+    "chunk_count": 2,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 0,
+        "end_token_idx_0based": 3,
+        "token_count": 4,
+        "text": "remove extra line breaks",
+        "tokens": [
+          "remove",
+          "extra",
+          "line",
+          "breaks"
+        ]
+      },
+      {
+        "chunk_id": 2,
+        "start_token_idx_0based": 23,
+        "end_token_idx_0based": 78,
+        "token_count": 56,
+        "text": "one ranking nationalist leader told an american official on 6 october that his government views the move as a threefold attempt to divide taipei and washington to weaken the morale of the troops on chinmen and to provide a means to charge the united states with forcing hostilities possibly as a prelude to a major assault",
+        "tokens": [
+          "one",
+          "ranking",
+          "nationalist",
+          "leader",
+          "told",
+          "an",
+          "american",
+          "official",
+          "on",
+          "6",
+          "october",
+          "that",
+          "his",
+          "government",
+          "views",
+          "the",
+          "move",
+          "as",
+          "a",
+          "threefold",
+          "attempt",
+          "to",
+          "divide",
+          "taipei",
+          "and",
+          "washington",
+          "to",
+          "weaken",
+          "the",
+          "morale",
+          "of",
+          "the",
+          "troops",
+          "on",
+          "chinmen",
+          "and",
+          "to",
+          "provide",
+          "a",
+          "means",
+          "to",
+          "charge",
+          "the",
+          "united",
+          "states",
+          "with",
+          "forcing",
+          "hostilities",
+          "possibly",
+          "as",
+          "a",
+          "prelude",
+          "to",
+          "a",
+          "major",
+          "assault"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.508475
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 0,
+    "word_pct_vs_unredacted": 0.0
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "remove",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "extra",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "line",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "breaks",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "taiwan",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "strait",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "situation",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "chinese",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4,
+        40
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "officials",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "are",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "making",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "every",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "effort",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "to",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "offset",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "the",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "effects",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "of",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "communist",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15,
+        46
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "china's",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "cease-fire",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "offer",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18,
+        47
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "one",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "ranking",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        4,
+        40
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "leader",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "told",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "an",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "american",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "official",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "6",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "october",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "his",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "government",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "views",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "move",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "as",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        54
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "a",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "threefold",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "attempt",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "divide",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "taipei",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "washington",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "weaken",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "morale",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "troops",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "chinmen",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "provide",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "a",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "means",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "charge",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "united",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "states",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "forcing",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "hostilities",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "possibly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "as",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        54
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "a",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "prelude",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "a",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "major",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "assault",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "chiang",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "kai-shek",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "told",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "british",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "newsmen",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "on",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "6",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "october",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "that",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "the",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "warsaw",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "talks",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "should",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "be",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        32
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "broken",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        33
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "off",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "to",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "test",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        36
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "peiping's",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "reaction",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "a",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        4,
+        40
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "military",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        41
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "spokesman",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "publicly",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "dismissed",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "the",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        12,
+        28,
+        45
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "communist",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        15,
+        46
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "offer",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        18,
+        47
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "to",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        10,
+        35,
+        48
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "suspend",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "shelling",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "for",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "a",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        39,
+        52
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "week",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        53
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "as",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        54
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "purely",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        55
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "international",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        56
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "propaganda",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Taiwan Strait Situation Chinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault. Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+    "redactions": [
+      "One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault."
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 114,
+    "hypothesis_token_total": 118,
+    "matched_tokens": 114,
+    "missing_tokens": 0,
+    "hallucinated_tokens": 4,
+    "recall": 1.0,
+    "precision": 0.966102,
+    "f1": 0.982759,
+    "net_recovery_minus_hallucination": 0.964912
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 1,
+    "predicted_redaction_count": 2,
+    "correctly_found_redactions": 1,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 1,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 1.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 1,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 1.0,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 0.0,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 2,
+        "pred_index_0based": 1,
+        "gt_index_0based": 0,
+        "score_f1": 1.0,
+        "exact_text_match": false,
+        "pred_text": "one ranking nationalist leader told an american official on 6 october that his government views the move as a threefold attempt to divide taipei and washington to weaken the morale of the troops on chinmen and to provide a means to charge the united states with forcing hostilities possibly as a prelude to a major assault",
+        "gt_text": "One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.",
+        "word_metrics": {
+          "reference_token_total": 56,
+          "hypothesis_token_total": 56,
+          "matched_tokens": 56,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.",
+        "best_score_f1": 1.0,
+        "best_chunk_start_0based": 1,
+        "best_chunk_end_0based": 1,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "one ranking nationalist leader told an american official on 6 october that his government views the move as a threefold attempt to divide taipei and washington to weaken the morale of the troops on chinmen and to provide a means to charge the united states with forcing hostilities possibly as a prelude to a major assault",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 56,
+          "hypothesis_token_total": 56,
+          "matched_tokens": 56,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 0,
+          "recall": 1.0,
+          "precision": 1.0,
+          "f1": 1.0,
+          "net_recovery_minus_hallucination": 1.0
+        }
+      }
+    ]
+  }
+}

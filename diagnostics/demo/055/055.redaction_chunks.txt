@@ -1,0 +1,66 @@
+Example ID: 55
+Stem: 55
+Redacted OCR file: outputs/examples_ocr2/55_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/55_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 5
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=21..21, len=1)
+Predicted chunk text: ebandi
+Unredacted context: veteran warned president [UNRED_ONLY: ebandi] on 17 june
+Redacted anchor context: revolutionary veteran warned [L@20:president] [RED_GAP:echi and] [R@23:on] 17 june that
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:echi and]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: To Threat Against His Government
+  -> Relaxed best pred text: ebandi
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=42..42, len=1)
+Predicted chunk text: ebandi
+Unredacted context: and that if [UNRED_ONLY: ebandi] attempts to stop
+Redacted anchor context: nicaragua and that [L@42:if] [RED_GAP:echi and] [R@45:attempts] to stop it
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:echi and]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=81..81, len=1)
+Predicted chunk text: ebandi
+Unredacted context: despite the threat [UNRED_ONLY: ebandi] may be sending
+Redacted anchor context: that despite the [L@82:threat] [RED_GAP:echi and] [R@85:may] be sending elements
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:echi and]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=98..98, len=1)
+Predicted chunk text: ebandi's
+Unredacted context: nicaragua by marshall [UNRED_ONLY: ebandi's] efforts to maintain
+Redacted anchor context: on nicaragua by [L@100:marshall] [RED_GAP:echi and's] [R@103:efforts] to maintain neutrality
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:echi and's]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=184..188, len=5)
+Predicted chunk text: a rash and unstable man
+Unredacted context: the hemisphere marshall [UNRED_ONLY: a rash and unstable man] is capable of
+Redacted anchor context: throughout the hemisphere [L@187:marshall] [RED_GAP:<empty>] [R@188:is] capable of violent
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: a rash and unstable man,
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=5
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=4..4
+  -> GT text: a rash and unstable man,
+  -> Relaxed best pred text: a rash and unstable man
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      21,
+      23,
+      523,
+      42
+    ],
+    "text": "Khrushchev, Kekkonen Negotiate",
+    "expanded_crop_box_xyxy": [
+      0,
+      15,
+      547,
+      50
+    ],
+    "crop_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text \"Khrushchev, Kekkonen Negotiate\" is written in the center of the image.",
+    "ocr_text_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 8,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      21,
+      60,
+      523,
+      163
+    ],
+    "text": "\nSoviet Premier Khrushchev, only five days before the Soviet party congress, has made a sudden trip to Leningrad, where Finnish President Kekkonen is making a \"private visit.\" Moscow appears to be making a special effort to conciliate the Finns after the prolonged period of Soviet pressures which last month toppled the Fagerholm coalition.\n\nThe presence in Leningrad of both the Soviet and Finnish ministers of trade as well as Soviet Foreign Minister Gromyko indicates that trade as well as political discussions will take place. TASS announced that \"opinions on questions of Soviet-Finnish relations and some problems of the international situation\" had been discussed. Khrushchev probably now hopes to obtain a public Finnish endorsement for the specific Soviet proposals on Berlin and a German peace treaty. Finland had previously sent a prompt reply to Moscow favoring a conference on a German peace treaty. The communiqué issued after Kekkonen's state visit last May endorsed a nuclear-test ban, a Rapacki-type European disengagement zone, and \"universality\" in international organizations--the first time Finland had joined in such public statements. [President Kekkonen and other Finnish officials reportedly feel that the USSR will, if necessary, use force to achieve its aims in Berlin and that Finland should meet Moscow \"halfway.\"]\n\nThe Finns are additionally concerned over the situation in the Baltic and German rearmament, which they believe could lead to a war inevitably involving Scandinavia. The USSR may also attempt to gain Finland's support for a Baltic \"zone of peace\"--a statement which Soviet leaders unsuccessfully \"pressed hard\" to include in the May communiqué. Mikoyan on 3 January in Copenhagen stated that he desired the Baltic \"to become a sea of peace.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      50,
+      547,
+      173
+    ],
+    "crop_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The Soviet Premier Khrushchev, only five days before the Soviet party congress, has made a sudden trip to Leningrad, where Finnish President Kekkonen is making a \"private visit.\" Moscow appears to be making a special effort to conciliate the Finns after the prolonged period of Soviet pressures which last month toppled the Fagerholm coalition.",
+    "ocr_text_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 10,
+    "line_end_1based": 26,
+    "line_count": 17,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      21,
+      184,
+      523,
+      510
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      151,
+      547,
+      543
+    ],
+    "crop_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The presence in Leningrad of both the Soviet and Finnish\nministers of trade as well as Soviet Foreign Minister Gromyko\nindicates that trade as well as political discussions will take\nplace. TASS announced that \"opinions on questions of Soviet-\nFinnish relations and some problems of the international sit-\nuation\" had been discussed. Khrushchev probably now hopes\nto obtain a public Finnish endorsement for the specific Soviet\nproposals on Berlin and a German peace treaty. Finland had\npreviously sent a prompt reply to Moscow favoring a confer-\nence on a German peace treaty. The communiqué issued after\nKekkonen's state visit last May endorsed a nuclear-test ban, a\nRapacki-type European disengagement zone, and \"universality\"\nin international organizations--the first time Finland had joined\nin such public statements. President Kekkonen and other Fin-\nnish officials reportedly feel that the USSR will, if necessary,\nuse force to achieve its aims in Berlin and that Finland should\nmeet Moscow \"halfway.\"]",
+    "ocr_text_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 28,
+    "line_end_1based": 34,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      21,
+      514,
+      523,
+      653
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      500,
+      547,
+      667
+    ],
+    "crop_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The Finns are additionally concerned over the situation in the Baltic and German rearmament, which they believe could lead to a war inevitably involving Scandinavia. The USSR may also attempt to gain Finland's support for a Baltic \"zone of peace\"--a statement which Soviet leaders unsuccessfully \"pressed hard\" to include in the May communiqué. Mikoyan on 3 January in Copenhagen stated that he desired the Baltic \"to become a sea of peace.\"",
+    "ocr_text_path": "outputs/examples_ocr2/17_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

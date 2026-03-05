@@ -1,0 +1,48 @@
+Example ID: 6
+Stem: 6
+Redacted OCR file: outputs/examples_ocr2/6_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/6_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=9..9, len=1)
+Predicted chunk text: authoritarian
+Unredacted context: including the king's [UNRED_ONLY: authoritarian] position has grown
+Redacted anchor context: government including the [L@8:king's] [RED_GAP:<empty>] [R@9:position] has grown to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.166667 joined_pred_chunks=0..0
+  -> GT text: authoritarian position, has grown to such an extent among left-wing elements
+  -> Relaxed best pred text: authoritarian
+  -> Relaxed word metrics: recall=0.090909 precision=1.0 f1=0.166667
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=57..57, len=1)
+Predicted chunk text: bouabdil
+Unredacted context: ben barka and [UNRED_ONLY: bouabdil] will increase their
+Redacted anchor context: ibrahim ben barka [L@55:and] [RED_GAP:bouabid] [R@57:will] increase their influence
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:bouabid]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=65..91, len=27)
+Predicted chunk text: one report states that a decision to resign was actually reached by the government on 18 october and that the resignation will be announced on 20 october
+Unredacted context: in the cabinet [UNRED_ONLY: one report states that a decision to resign was actually reached by the government on 18 october and that the resignation will be announced on 20 october] istiqlal extremists are
+Redacted anchor context: influence in the [L@63:cabinet] [RED_GAP:<empty>] [R@64:istiqlal] extremists are particularly
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: One report states that a decision to resign was actually reached by the government on 18 October and that the resignation will be announced on 20 October.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=27
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: One report states that a decision to resign was actually reached by the government on 18 October and that the resignation will be announced on 20 October.
+  -> Relaxed best pred text: one report states that a decision to resign was actually reached by the government on 18 october and that the resignation will be announced on 20 october
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

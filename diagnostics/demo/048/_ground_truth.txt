@@ -1,0 +1,14 @@
+Example ID: 48
+Doc stem: 48
+Date: May 8, 1959
+doc_id_r: CIA-RDP79T00975A004400480001-0
+doc_id_u: 3153739
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+Communist Influence Growing in Cambodia [The increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pronounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts supplied by international Communist news agencies. Recent editorials in influential newspapers have contained "straight Communist textbook material," according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.] [The leftist trend has been accelerated recently by Communist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Communist Secretary of State for Information Tim Dong, the Communists also benefit from <redaction 1> the Cambodian bureaucracy.]
+
+=== REDACTIONS ===
+[redaction 1] venality in
+
+=== CONTEXT (REDACTIONS FILLED) ===
+Communist Influence Growing in Cambodia [The increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pronounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts supplied by international Communist news agencies. Recent editorials in influential newspapers have contained "straight Communist textbook material," according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.] [The leftist trend has been accelerated recently by Communist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Communist Secretary of State for Information Tim Dong, the Communists also benefit from venality in the Cambodian bureaucracy.]

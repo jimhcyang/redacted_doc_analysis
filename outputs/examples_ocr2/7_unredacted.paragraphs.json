@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      16,
+      10,
+      490,
+      21
+    ],
+    "text": "Ignore any existing OCR- or OCR-like output.",
+    "expanded_crop_box_xyxy": [
+      0,
+      2,
+      532,
+      29
+    ],
+    "crop_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 3,
+    "line_count": 1,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      16,
+      24,
+      490,
+      27
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      16,
+      532,
+      35
+    ],
+    "crop_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 5,
+    "line_end_1based": 14,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      16,
+      47,
+      490,
+      221
+    ],
+    "text": "Tunis Blames France for Jamming Broadcasts\n\nThe jamming station which is interfering with Arab-language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria, by British naval units at Malta. The French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+    "expanded_crop_box_xyxy": [
+      0,
+      29,
+      532,
+      239
+    ],
+    "crop_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The jamming station which is interfering with Arab language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria, by British naval units at Malta. The French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+    "ocr_text_path": "outputs/examples_ocr2/7_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

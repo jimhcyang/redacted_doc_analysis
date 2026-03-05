@@ -1,0 +1,33 @@
+Example ID: 38
+Stem: 38
+Redacted OCR file: outputs/examples_ocr2/38_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/38_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=5..5, len=1)
+Predicted chunk text: of
+Unredacted context: desire to purchase [UNRED_ONLY: of] arms moroccan defense
+Redacted anchor context: indicates desire to [L@4:purchase] [RED_GAP:us] [R@6:arms] moroccan defense minister
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:us]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: ]
+  -> Relaxed best pred text: of
+  -> Relaxed word metrics: recall=1.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=36..36, len=1)
+Predicted chunk text: morocco's
+Unredacted context: equipment to modernize [UNRED_ONLY: morocco's] 31 000-man army
+Redacted anchor context: military equipment to [L@35:modernize] [RED_GAP:morocco s] [R@38:31] 000-man army aouad
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:morocco s]
+Strict GT match: NO
+Relaxed best GT candidate: none

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      31,
+      12,
+      428,
+      28
+    ],
+    "text": "Do not remove the line breaks.",
+    "expanded_crop_box_xyxy": [
+      0,
+      4,
+      448,
+      36
+    ],
+    "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The correct answer is ' Iraq's power structure.",
+    "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 9,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      44,
+      428,
+      142
+    ],
+    "text": "\n---\n\n### Iraqi Struggle for Power Breaks Into Open\n\nThe removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Airif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+    "expanded_crop_box_xyxy": [
+      0,
+      34,
+      448,
+      152
+    ],
+    "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Arif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+    "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 11,
+    "line_end_1based": 13,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      148,
+      428,
+      189
+    ],
+    "text": "Arif was planning a coup against Prime Minister Qasim, who may have learned of Arif's plans and moved first.\n\nNasir has indicated his support of Arif and will probably be alarmed that he is apparently losing ground. He may contend that the removal of Arif, whom he claims to be the only Iraqi capable of combating Communist influence, is a victory for the pro-Soviet and anti-UAR faction. This claim could serve Nasir as an excuse for active interference in Iraqi affairs.",
+    "expanded_crop_box_xyxy": [
+      0,
+      140,
+      448,
+      197
+    ],
+    "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Prime Minister Qasim, who may have learned of Arif's plans and moved first.",
+    "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 15,
+    "line_end_1based": 21,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      208,
+      428,
+      306
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      198,
+      448,
+      316
+    ],
+    "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The text in the image is a quote from Nasir.",
+    "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 12,
+    "line_count": 12,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      31,
+      2,
+      548,
+      217
+    ],
+    "text": "Override Old English Text to be in plain text with font settings in Medium.\n\n\nOvert French Military and Rightist Opposition to De Gaulle On Algeria Likely\n\nThere are indications that some dfe-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first \"political speech\" in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes many\" and referred pointedly to the integration of Algeria with France as one of its objectives.\n\nThere have been numerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"\n\nFrench military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as \"abandonment,\" are probably being spurred toward early action by leaks of De Gaulle's previously reported intention to hold a referendum in France on the question of continuing the war. There is increasing evidence that a majority of the public wants an end to the war and would probably support a \"liberal\" solution if De Gaulle proposed one.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      600,
+      239
+    ],
+    "crop_path": "outputs/examples_ocr2/36_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Incorrectlyphrased phrases like 'Army General Massu on 1 March,' are treated as stop words and not considered relevant for this task.\nOvert French Military and Rightist Opposition to De Gaulle On Algeria Likely\n[There are indications that some die-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first 'political speech' in recent months, described the May 1958 revolt by French military leaders in Algeria as 'an event of profound significance which still escapes many' and referred pointedly to the integration of Algeria with France as one of its objectives.]",
+    "ocr_text_path": "outputs/examples_ocr2/36_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 14,
+    "line_end_1based": 36,
+    "line_count": 23,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      31,
+      238,
+      548,
+      704
+    ],
+    "text": "Extremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle, and are regrouping as a result of the government's clemency measures toward Algerian rebels and of the announcement that the municipal elections in April will be conducted under a new law favoring Moslem candidates. Although De Gaulle's steps to split the military-settler front of 1958 had appeared successful, the settlers are continuing their efforts to regain military support and are likely to stage a major demonstration in Algiers on 22 March when Jouhoad decorates air force reservists there.",
+    "expanded_crop_box_xyxy": [
+      0,
+      191,
+      600,
+      712
+    ],
+    "crop_path": "outputs/examples_ocr2/36_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The image is a photograph of a newspaper article. The article is about the Algerian war and the French military and rightist groups. The article is written in a formal style and uses a lot of technical language. The article is written in English.",
+    "ocr_text_path": "outputs/examples_ocr2/36_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

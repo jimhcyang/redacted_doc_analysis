@@ -1,0 +1,1115 @@
+{
+  "image": "inputs/images/39_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      413,
+      252,
+      583,
+      266
+    ],
+    [
+      28,
+      266,
+      583,
+      335
+    ],
+    [
+      266,
+      503,
+      588,
+      521
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    39,
+    11,
+    550,
+    533
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 141372,
+  "merged_region_nonzero_px": 139291,
+  "line_width_px": 511,
+  "line_count": 28,
+  "paragraph_crops_dir": "outputs/examples_ocr2/39_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/39_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/39_redacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        39,
+        17,
+        550,
+        35
+      ],
+      "text": "Castro's Policies Isolating Cuba in Latin America",
+      "expanded_crop_box_xyxy": [
+        0,
+        9,
+        596,
+        43
+      ],
+      "crop_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 17,
+      "line_count": 15,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        39,
+        56,
+        550,
+        324
+      ],
+      "text": "\nFidel Castro's increasing tendency to blame the United States for Cuba's economic and political problems and to insist on a \"neutralist\" position in world affairs is widening the rift between Cuba and the liberal bloc in Latin America led by former Costa Rican President José Figueres and Venezuelan President Romulo Betancourt. Castro strongly refuted Figueres' pro-US speech in Havana on 22 March, in which Figueres advised Cuba to follow a moderate approach to revolutionary reforms and to align itself with the West. This undoubtedly spelled failure for any attempt by Figueres to orient Castro toward the Figueres-Betancourt axis—particularly with respect to the \"campaign against dictatorships\"!\n\nCastro's reply to Figueres, which was followed by another strong attack against Figueres' views by the Cuban official newspaper Revolucion, may also encourage internal opposition to the Castro government by emphasizing Cuba's isolation from the Latin American liberal bloc. Many commercial and business groups have already been alienated by Castro's economic policies, which seem directed against \"vested interests\" and US influence on Cuba's economy. There is also discontent within some political circles, although there is as yet no cohesive opposition to the government.",
+      "expanded_crop_box_xyxy": [
+        0,
+        29,
+        596,
+        351
+      ],
+      "crop_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The text in the image is a quote from Castro's speech.",
+      "ocr_text_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 19,
+      "line_end_1based": 28,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        39,
+        344,
+        550,
+        517
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        327,
+        596,
+        534
+      ],
+      "crop_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The text in the image is a screenshot of a newspaper article.",
+      "ocr_text_path": "outputs/examples_ocr2/39_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.0714,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 5,
+  "row_scan_line_band_count": 23,
+  "row_scan_gap_band_count": 22,
+  "row_scan_linebreak_band_count": 20,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        39,
+        36,
+        550,
+        55
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 1.5488,
+      "height_to_avg_full_line_ratio": 1.0981,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        39,
+        68,
+        550,
+        73
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        86,
+        550,
+        91
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        105,
+        550,
+        108
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        125,
+        550,
+        126
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.1549,
+      "height_to_avg_full_line_ratio": 0.1098,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        141,
+        550,
+        144
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        159,
+        550,
+        162
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        176,
+        550,
+        181
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        195,
+        550,
+        198
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        212,
+        550,
+        217
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        230,
+        550,
+        235
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        248,
+        550,
+        253
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0898,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        266,
+        550,
+        343
+      ],
+      "kind": "blankline",
+      "height_px": 78,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 6.0404,
+      "height_to_avg_full_line_ratio": 4.2826,
+      "blankline_line_slots": 3,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 59,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.8974,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        39,
+        356,
+        550,
+        361
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        374,
+        550,
+        380
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.5421,
+      "height_to_avg_full_line_ratio": 0.3843,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        395,
+        550,
+        398
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        410,
+        550,
+        416
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.5421,
+      "height_to_avg_full_line_ratio": 0.3843,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        429,
+        550,
+        434
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        447,
+        550,
+        452
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        467,
+        550,
+        470
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.3098,
+      "height_to_avg_full_line_ratio": 0.2196,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        483,
+        550,
+        488
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        39,
+        501,
+        550,
+        506
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.913,
+      "avg_linebreak_height_px": 5.3,
+      "avg_full_line_height_px": 18.213,
+      "height_to_avg_line_ratio": 0.4646,
+      "height_to_avg_full_line_ratio": 0.3294,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3711,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 23,
+    "blankline": 3,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Castro's Policies Isolating Cuba in Latin America",
+      "char_len": 49,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        17,
+        550,
+        35
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        39,
+        37,
+        550,
+        55
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        56,
+        550,
+        67
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Fidel Castro's increasing tendency to blame the United States for Cuba's economic and political problems and to insist on a \"neutralist\" position in world affairs is widening the rift between Cuba and the liberal bloc in Latin America led by former Costa Rican President José Figueres and Venezuelan President Romulo Betancourt. Castro strongly refuted Figueres' pro-US speech in Havana on 22 March, in which Figueres advised Cuba to follow a moderate approach to revolutionary reforms and to align itself with the West. This undoubtedly spelled failure for any attempt by Figueres to orient Castro toward the Figueres-Betancourt axis—particularly with respect to the \"campaign against dictatorships\"!",
+      "char_len": 701,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        74,
+        550,
+        85
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        92,
+        550,
+        104
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Castro's reply to Figueres, which was followed by another strong attack against Figueres' views by the Cuban official newspaper Revolucion, may also encourage internal opposition to the Castro government by emphasizing Cuba's isolation from the Latin American liberal bloc. Many commercial and business groups have already been alienated by Castro's economic policies, which seem directed against \"vested interests\" and US influence on Cuba's economy. There is also discontent within some political circles, although there is as yet no cohesive opposition to the government.",
+      "char_len": 574,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        109,
+        550,
+        124
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        127,
+        550,
+        140
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        145,
+        550,
+        158
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        163,
+        550,
+        175
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        182,
+        550,
+        194
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        199,
+        550,
+        211
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        218,
+        550,
+        229
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        236,
+        550,
+        247
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        254,
+        550,
+        265
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "BL15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        39,
+        266,
+        550,
+        285
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "BL16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        39,
+        286,
+        550,
+        304
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "BL17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        39,
+        305,
+        550,
+        324
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "PB18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        39,
+        325,
+        550,
+        343
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        344,
+        550,
+        355
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        362,
+        550,
+        373
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        381,
+        550,
+        394
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        399,
+        550,
+        409
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        417,
+        550,
+        428
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        435,
+        550,
+        446
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        453,
+        550,
+        466
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        471,
+        550,
+        482
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        489,
+        550,
+        500
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        39,
+        507,
+        550,
+        517
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 14,
+      "line_char_capacity": 701,
+      "char_start": 513,
+      "char_end": 701,
+      "char_len": 188,
+      "full_line": false,
+      "bbox_xyxy": [
+        413,
+        252,
+        583,
+        266
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1____________]",
+      "layout_token_pixel": "[BOX1__137/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2681,
+      "clipped_span_px": 137,
+      "line_width_effective_px": 511,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 15,
+      "line_char_capacity": 701,
+      "char_start": 0,
+      "char_end": 701,
+      "char_len": 701,
+      "full_line": true,
+      "bbox_xyxy": [
+        28,
+        266,
+        583,
+        335
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 16,
+      "line_char_capacity": 701,
+      "char_start": 0,
+      "char_end": 701,
+      "char_len": 701,
+      "full_line": true,
+      "bbox_xyxy": [
+        28,
+        266,
+        583,
+        335
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 17,
+      "line_char_capacity": 701,
+      "char_start": 0,
+      "char_end": 701,
+      "char_len": 701,
+      "full_line": true,
+      "bbox_xyxy": [
+        28,
+        266,
+        583,
+        335
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 18,
+      "line_char_capacity": 701,
+      "char_start": 0,
+      "char_end": 701,
+      "char_len": 701,
+      "full_line": true,
+      "bbox_xyxy": [
+        28,
+        266,
+        583,
+        335
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 0.5789,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 28,
+      "line_char_capacity": 701,
+      "char_start": 311,
+      "char_end": 701,
+      "char_len": 390,
+      "full_line": false,
+      "bbox_xyxy": [
+        266,
+        503,
+        588,
+        521
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3_______________________________]",
+      "layout_token_pixel": "[BOX3__284/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5558,
+      "clipped_span_px": 284,
+      "line_width_effective_px": 511,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

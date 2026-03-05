@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      4,
+      520,
+      21
+    ],
+    "text": "Developments in Kuwait",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      565,
+      29
+    ],
+    "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Developments in Kuwait",
+    "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 28,
+    "line_count": 25,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      41,
+      520,
+      485
+    ],
+    "text": "The growth of Communist influence in neighboring Iraq, together with last month's public call by Kuwaiti nationalists for an end to rule by the Subah family, have impressed the Subah sheiks with their total dependence on British military protection. At the same time, the younger \"liberal\" Subahs have rallied in support of the family's old guard.\n\nRelations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait. The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.\n\nKuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailment of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The Ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\n\nWhile the pro-UAR nationalists have been temporarily brought under control, a Kuwaiti Government official has reported a sharp increase in complaints to the Ruler by Iraqis resident in Kuwait. The official fears that the pattern may reflect Communist inspiration, and the American consul comments that the Kuwaiti public security department is not adequately staffed for effective countersubversion work.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      565,
+      529
+    ],
+    "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Any numerical or typographical errors may be due to OCR misspellings or mistakes. For example, \"Kuwaiti\" might be typed as \"Kuwaity,\" \"Kuwaiti\" or \"Kuwaity.\" Do not change or ignore the suggested text such as \"Relations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait.\" The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.\nKuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailment of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\nWhile the pro-UAR nationalists have been temporarily",
+    "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 30,
+    "line_end_1based": 30,
+    "line_count": 1,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      490,
+      520,
+      507
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      482,
+      565,
+      515
+    ],
+    "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 32,
+    "line_end_1based": 38,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      511,
+      520,
+      629
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      499,
+      565,
+      641
+    ],
+    "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The text in the image is a quote from a document. The quote is about the pro-UAR nationalists and their temporary control of Kuwait. The quote is written in a serif font. The image is a photograph of a document. The document is a letter from the American government to the pro-UAR nationalists. The letter is written in a formal style. The image is a photograph of a document. The document is a letter from the American government. The letter is written in a formal style.",
+    "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

@@ -1,0 +1,1256 @@
+{
+  "image": "inputs/images/21_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    6,
+    2,
+    503,
+    656
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 181978,
+  "merged_region_nonzero_px": 181978,
+  "line_width_px": 497,
+  "line_count": 35,
+  "paragraph_crops_dir": "outputs/examples_ocr2/21_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/21_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/21_unredacted.paragraphs.json",
+  "paragraph_count": 5,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        6,
+        9,
+        503,
+        28
+      ],
+      "text": "Nehru's Daughter Elected President of Indian Congress Party",
+      "expanded_crop_box_xyxy": [
+        0,
+        1,
+        541,
+        36
+      ],
+      "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 9,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        42,
+        503,
+        168
+      ],
+      "text": "\nThe election on 2 February of Prime Minister Nehru's 42-year-old daughter Indira Gandhi as president of the Congress party is unlikely to assure India's ruling political organization of the strong leadership it needs. The party lacks discipline and vitality at a time when implementation of India's development program and increasing competition from the Communist party demand its utmost effort.\n\nMrs. Gandhi, wife of Parliament member Firoze Gandhi, apparently was supported by the Congress high command as well as by many regional party units. However, her election probably resulted less from enthusiasm for Mrs. Gandhi than from fear of displeasing Nehru and from lack of an alternative choice acceptable to all sections of the party. A few top leaders apparently did oppose her selection.\n\nMrs. Gandhi has been actively associated with the \"ginger group\" in the party, which has been working, probably with Nehru's blessing, to revive the party's socialist ideology. The high command's somewhat surprising decision has the dual purpose of injecting \"young blood\" into the party leadership and checking the \"drift toward a rightist trend of thought.\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        29,
+        541,
+        181
+      ],
+      "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The election on 2 February of Prime Minister Nehru's 42-year-old daughter Indira Gandhi as president of the Congress party is unlikely to assure India's ruling political organization of the strong leadership it needs. The party lacks discipline and vitality at a time when implementation of India's development program and increasing competition from the Communist party demand its utmost effort.",
+      "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 11,
+      "line_end_1based": 17,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        191,
+        503,
+        314
+      ],
+      "text": "The naming of Indira Gandhi, however, could well have the opposite effect. She lacks both the experience and the political leadership necessary for such a big job. Old-line Congress bosses at the head of various regional party machines are not likely to be brought into line easily by Mrs. Gandhi, active in the high command only during the past few years, despite her unique position as Nehru's closest confidant. In addition, her identification with the party's left wing may alienate the more conservative elements and increase the possibility of an eventual party split.",
+      "expanded_crop_box_xyxy": [
+        0,
+        179,
+        541,
+        326
+      ],
+      "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Mrs. Gandhi, wife of Parliament member Firoze Gandhi, apparently was supported by the Congress high command as well as by many regional party units. However, her election probably resulted less from enthusiasm for Mrs. Gandhi than from fear of displeasing Nehru and from lack of an alternative choice acceptable to all sections of the party. A few top leaders apparently did oppose her selection.",
+      "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 19,
+      "line_end_1based": 24,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        337,
+        503,
+        442
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        326,
+        541,
+        453
+      ],
+      "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "Mrs. Gandhi has been actively associated with the \"ginger group\" in the party, which has been working, probably with Nehru's blessing, to revive the party's socialist ideology. The high command's somewhat surprising decision has the dual purpose of injecting \"young blood\" into the party leadership and checking the \"drift toward a rightist trend of thought.\"",
+      "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    },
+    {
+      "paragraph_1based": 5,
+      "line_start_1based": 26,
+      "line_end_1based": 35,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        465,
+        503,
+        641
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        447,
+        541,
+        656
+      ],
+      "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_005.png",
+      "ocr_text": "The naming of Indira Gandhi, however, could well have the opposite effect. She lacks both the experience and the political leadership necessary for such a big job. Old-line Congress bosses at the head of various regional party machines are not likely to be brought into line easily by Mrs. Gandhi, active in the high command only during the past few years, despite her unique position as Nehru's closest confidant. In addition, her identification with the party's left wing may alienate the more conservative elements and increase the possibility of an eventual party split.",
+      "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_005.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.7143,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 31,
+  "row_scan_gap_band_count": 30,
+  "row_scan_linebreak_band_count": 26,
+  "row_scan_blankline_band_count": 4,
+  "row_scan_new_paragraph_count": 4,
+  "indentation_band_count": 4,
+  "gap_markers": [
+    {
+      "box": [
+        6,
+        29,
+        503,
+        41
+      ],
+      "kind": "blankline",
+      "height_px": 13,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.918,
+      "height_to_avg_full_line_ratio": 0.6995,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 13,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        60,
+        503,
+        63
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        77,
+        503,
+        81
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        96,
+        503,
+        100
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        114,
+        503,
+        118
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        132,
+        503,
+        136
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        151,
+        503,
+        156
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.4237,
+      "height_to_avg_full_line_ratio": 0.3229,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        169,
+        503,
+        190
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 1.5535,
+      "height_to_avg_full_line_ratio": 1.1838,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        205,
+        503,
+        209
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        223,
+        503,
+        227
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        241,
+        503,
+        245
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        260,
+        503,
+        263
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        278,
+        503,
+        282
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        296,
+        503,
+        301
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.4237,
+      "height_to_avg_full_line_ratio": 0.3229,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        315,
+        503,
+        336
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 1.5535,
+      "height_to_avg_full_line_ratio": 1.1838,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        352,
+        503,
+        355
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        369,
+        503,
+        371
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2118,
+      "height_to_avg_full_line_ratio": 0.1614,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        388,
+        503,
+        391
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        407,
+        503,
+        409
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2118,
+      "height_to_avg_full_line_ratio": 0.1614,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        424,
+        503,
+        428
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        443,
+        503,
+        464
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 1.5535,
+      "height_to_avg_full_line_ratio": 1.1838,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        479,
+        503,
+        482
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        497,
+        503,
+        501
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        515,
+        503,
+        519
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.3531,
+      "height_to_avg_full_line_ratio": 0.269,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        535,
+        503,
+        536
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.1412,
+      "height_to_avg_full_line_ratio": 0.1076,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        551,
+        503,
+        554
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        570,
+        503,
+        572
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2118,
+      "height_to_avg_full_line_ratio": 0.1614,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        588,
+        503,
+        591
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2825,
+      "height_to_avg_full_line_ratio": 0.2152,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        606,
+        503,
+        608
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.2118,
+      "height_to_avg_full_line_ratio": 0.1614,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        624,
+        503,
+        629
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.1613,
+      "avg_linebreak_height_px": 4.4231,
+      "avg_full_line_height_px": 18.5844,
+      "height_to_avg_line_ratio": 0.4237,
+      "height_to_avg_full_line_ratio": 0.3229,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 31,
+    "blankline": 0,
+    "paragraphblank": 4
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Nehru's Daughter Elected President of Indian Congress Party",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        9,
+        503,
+        28
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        29,
+        503,
+        41
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        42,
+        503,
+        59
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The election on 2 February of Prime Minister Nehru's 42-year-old daughter Indira Gandhi as president of the Congress party is unlikely to assure India's ruling political organization of the strong leadership it needs. The party lacks discipline and vitality at a time when implementation of India's development program and increasing competition from the Communist party demand its utmost effort.",
+      "char_len": 396,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        64,
+        503,
+        76
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        82,
+        503,
+        95
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Mrs. Gandhi, wife of Parliament member Firoze Gandhi, apparently was supported by the Congress high command as well as by many regional party units. However, her election probably resulted less from enthusiasm for Mrs. Gandhi than from fear of displeasing Nehru and from lack of an alternative choice acceptable to all sections of the party. A few top leaders apparently did oppose her selection.",
+      "char_len": 396,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        101,
+        503,
+        113
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        119,
+        503,
+        131
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Mrs. Gandhi has been actively associated with the \"ginger group\" in the party, which has been working, probably with Nehru's blessing, to revive the party's socialist ideology. The high command's somewhat surprising decision has the dual purpose of injecting \"young blood\" into the party leadership and checking the \"drift toward a rightist trend of thought.\"",
+      "char_len": 359,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        137,
+        503,
+        150
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        157,
+        503,
+        168
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "PB10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        170,
+        503,
+        190
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "The naming of Indira Gandhi, however, could well have the opposite effect. She lacks both the experience and the political leadership necessary for such a big job. Old-line Congress bosses at the head of various regional party machines are not likely to be brought into line easily by Mrs. Gandhi, active in the high command only during the past few years, despite her unique position as Nehru's closest confidant. In addition, her identification with the party's left wing may alienate the more conservative elements and increase the possibility of an eventual party split.",
+      "char_len": 574,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        191,
+        503,
+        204
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        210,
+        503,
+        222
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        228,
+        503,
+        240
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        246,
+        503,
+        259
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        264,
+        503,
+        277
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        283,
+        503,
+        295
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        302,
+        503,
+        314
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "PB18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        316,
+        503,
+        336
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        337,
+        503,
+        351
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        356,
+        503,
+        368
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        372,
+        503,
+        387
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        392,
+        503,
+        406
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        410,
+        503,
+        423
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        429,
+        503,
+        442
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "PB25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        444,
+        503,
+        464
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        465,
+        503,
+        478
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        483,
+        503,
+        496
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        502,
+        503,
+        514
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        520,
+        503,
+        534
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        537,
+        503,
+        550
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        555,
+        503,
+        569
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        573,
+        503,
+        587
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        592,
+        503,
+        605
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        609,
+        503,
+        623
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        630,
+        503,
+        641
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

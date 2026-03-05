@@ -1,0 +1,30 @@
+Example ID: 57
+Stem: 57
+Redacted OCR file: outputs/examples_ocr2/57_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/57_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 0
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=3..3, len=1)
+Predicted chunk text: reconsidering
+Unredacted context: british labor party [UNRED_ONLY: reconsidering] nuclear policy to
+Redacted anchor context: british labor [L@2:party] [RED_GAP:considering] [R@4:nuclear] policy to avoid
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:considering]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=243..266, len=24)
+Predicted chunk text: he privately acknowledges however that britain would not have to make good on its offer since france is unlikely to accept such a proposal
+Unredacted context: and the ussr [UNRED_ONLY: he privately acknowledges however that britain would not have to make good on its offer since france is unlikely to accept such a proposal] even a slight
+Redacted anchor context: us and the [L@242:ussr] [RED_GAP:<empty>] [R@243:even] a slight shift
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

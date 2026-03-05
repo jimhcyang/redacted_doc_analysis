@@ -1,0 +1,39 @@
+Example ID: 26
+Stem: 26
+Redacted OCR file: outputs/examples_ocr2/26_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/26_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 0
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=37..43, len=7)
+Predicted chunk text: to an american correspondent on 11 february
+Unredacted context: in bonn implied [UNRED_ONLY: to an american correspondent on 11 february] that the ussr
+Redacted anchor context: embassy in bonn [L@43:implied] [RED_GAP:<empty>] [R@44:that] the ussr considers
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=97..97, len=1)
+Predicted chunk text: peace-maker
+Unredacted context: desire for a [UNRED_ONLY: peace-maker] role together with
+Redacted anchor context: macmillan's desire for [L@97:a] [RED_GAP:peacemaker] [R@99:role] together with the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:peacemaker]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=121..146, len=26)
+Predicted chunk text: the counselor of the soviet embassy in paris has expressed doubts that britain would participate in any western military action to maintain land access to berlin
+Unredacted context: the german issue [UNRED_ONLY: the counselor of the soviet embassy in paris has expressed doubts that britain would participate in any western military action to maintain land access to berlin] the soviet leaders
+Redacted anchor context: on the german [L@121:issue] [RED_GAP:<empty>] [R@122:the] soviet leaders reminded
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

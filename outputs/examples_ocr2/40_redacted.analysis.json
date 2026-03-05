@@ -1,0 +1,1454 @@
+{
+  "image": "inputs/images/40_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      228,
+      0,
+      509,
+      37
+    ],
+    [
+      240,
+      360,
+      374,
+      382
+    ],
+    [
+      455,
+      615,
+      558,
+      633
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    19,
+    0,
+    520,
+    674
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 181304,
+  "merged_region_nonzero_px": 180554,
+  "line_width_px": 501,
+  "line_count": 38,
+  "paragraph_crops_dir": "outputs/examples_ocr2/40_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/40_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/40_redacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        19,
+        4,
+        520,
+        21
+      ],
+      "text": "Developments in Kuwait",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        565,
+        29
+      ],
+      "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Developments in Kuwait",
+      "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 28,
+      "line_count": 25,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        19,
+        41,
+        520,
+        485
+      ],
+      "text": "The growth of Communist influence in neighboring Iraq, together with last month's public call by Kuwaiti nationalists for an end to rule by the Subah family, have impressed the Subah sheiks with their total dependence on British military protection. At the same time, the younger \"liberal\" Subahs have rallied in support of the family's old guard.\n\nRelations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait. The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.\n\nKuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailment of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The Ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\n\nWhile the pro-UAR nationalists have been temporarily brought under control, a Kuwaiti Government official has reported a sharp increase in complaints to the Ruler by Iraqis resident in Kuwait. The official fears that the pattern may reflect Communist inspiration, and the American consul comments that the Kuwaiti public security department is not adequately staffed for effective countersubversion work.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        565,
+        529
+      ],
+      "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Any numerical or typographical errors may be due to OCR misspellings or mistakes. For example, \"Kuwaiti\" might be typed as \"Kuwaity,\" \"Kuwaiti\" or \"Kuwaity.\" Do not change or ignore the suggested text such as \"Relations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait.\" The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.\nKuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailment of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.\nWhile the pro-UAR nationalists have been temporarily",
+      "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 30,
+      "line_end_1based": 30,
+      "line_count": 1,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        19,
+        490,
+        520,
+        507
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        482,
+        565,
+        515
+      ],
+      "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 32,
+      "line_end_1based": 38,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        19,
+        511,
+        520,
+        629
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        499,
+        565,
+        641
+      ],
+      "crop_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The text in the image is a quote from a document. The quote is about the pro-UAR nationalists and their temporary control of Kuwait. The quote is written in a serif font. The image is a photograph of a document. The document is a letter from the American government to the pro-UAR nationalists. The letter is written in a formal style. The image is a photograph of a document. The document is a letter from the American government. The letter is written in a formal style.",
+      "ocr_text_path": "outputs/examples_ocr2/40_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 11.3947,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 34,
+  "row_scan_gap_band_count": 34,
+  "row_scan_linebreak_band_count": 30,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 4,
+  "gap_markers": [
+    {
+      "box": [
+        19,
+        15,
+        520,
+        16
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.1735,
+      "height_to_avg_full_line_ratio": 0.1156,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.5618,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        22,
+        520,
+        40
+      ],
+      "kind": "blankline",
+      "height_px": 19,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 1.648,
+      "height_to_avg_full_line_ratio": 1.0985,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 17,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.4731,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        19,
+        55,
+        520,
+        58
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.3469,
+      "height_to_avg_full_line_ratio": 0.2313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        70,
+        520,
+        76
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        88,
+        520,
+        94
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        109,
+        520,
+        112
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.3469,
+      "height_to_avg_full_line_ratio": 0.2313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        127,
+        520,
+        130
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.3469,
+      "height_to_avg_full_line_ratio": 0.2313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        183,
+        520,
+        185
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.2602,
+      "height_to_avg_full_line_ratio": 0.1734,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        197,
+        520,
+        202
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.5204,
+      "height_to_avg_full_line_ratio": 0.3469,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        215,
+        520,
+        221
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        233,
+        520,
+        239
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        251,
+        520,
+        267
+      ],
+      "kind": "blankline",
+      "height_px": 17,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 1.4745,
+      "height_to_avg_full_line_ratio": 0.9829,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        272,
+        520,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.3469,
+      "height_to_avg_full_line_ratio": 0.2313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        291,
+        520,
+        292
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.1735,
+      "height_to_avg_full_line_ratio": 0.1156,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        305,
+        520,
+        310
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.5204,
+      "height_to_avg_full_line_ratio": 0.3469,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        323,
+        520,
+        329
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        341,
+        520,
+        347
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        359,
+        520,
+        364
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.5204,
+      "height_to_avg_full_line_ratio": 0.3469,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.2241,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        377,
+        520,
+        383
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.2305,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        395,
+        520,
+        402
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6939,
+      "height_to_avg_full_line_ratio": 0.4625,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        414,
+        520,
+        420
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        432,
+        520,
+        438
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        450,
+        520,
+        456
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        468,
+        520,
+        472
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.4337,
+      "height_to_avg_full_line_ratio": 0.2891,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        486,
+        520,
+        489
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.3469,
+      "height_to_avg_full_line_ratio": 0.2313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 4,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        19,
+        508,
+        520,
+        510
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.2602,
+      "height_to_avg_full_line_ratio": 0.1734,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 3,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        19,
+        522,
+        520,
+        528
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        540,
+        520,
+        547
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6939,
+      "height_to_avg_full_line_ratio": 0.4625,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        558,
+        520,
+        564
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        577,
+        520,
+        583
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        595,
+        520,
+        600
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.5204,
+      "height_to_avg_full_line_ratio": 0.3469,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        613,
+        520,
+        619
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.5294,
+      "avg_linebreak_height_px": 5.7667,
+      "avg_full_line_height_px": 17.2961,
+      "height_to_avg_line_ratio": 0.6071,
+      "height_to_avg_full_line_ratio": 0.4047,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0939,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 34,
+    "blankline": 1,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Developments in Kuwait",
+      "char_len": 22,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        4,
+        520,
+        14
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        17,
+        520,
+        21
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        19,
+        24,
+        520,
+        40
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The growth of Communist influence in neighboring Iraq, together with last month's public call by Kuwaiti nationalists for an end to rule by the Subah family, have impressed the Subah sheiks with their total dependence on British military protection. At the same time, the younger \"liberal\" Subahs have rallied in support of the family's old guard.",
+      "char_len": 347,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        41,
+        520,
+        54
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        59,
+        520,
+        69
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Relations between the Kuwaiti Government and the British have grown more cordial than at any time in the last year, according to the American consul in Kuwait. The British military adviser's association with the British Government is no longer being played down by the Kuwaitis.",
+      "char_len": 278,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        77,
+        520,
+        87
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        95,
+        520,
+        108
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Kuwaiti authorities have cracked down hard on anti-Qasim activity by pro-UAR Kuwaiti nationalists, and otherwise strive to avoid antagonizing Iraq. The main impetus to the curtailment of nationalist activity was the public attack on the Subah regime at a nationalist rally on 1 February honoring formation of the UAR. If the Subahs' action is not followed by a meaningful attempt to liberalize the apparatus of government, however, the heretofore moderate nationalist opposition may be driven to advocate more uncompromising resistance. The Ruler of Kuwait has balanced his action by informing the Egyptian-dominated Arab League of readiness to contribute $14,000,000 to the Arab Economic Organization.",
+      "char_len": 702,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        113,
+        520,
+        126
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        131,
+        520,
+        141
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "While the pro-UAR nationalists have been temporarily brought under control, a Kuwaiti Government official has reported a sharp increase in complaints to the Ruler by Iraqis resident in Kuwait. The official fears that the pattern may reflect Communist inspiration, and the American consul comments that the Kuwaiti public security department is not adequately staffed for effective countersubversion work.",
+      "char_len": 404,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        167,
+        520,
+        182
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        186,
+        520,
+        196
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        203,
+        520,
+        214
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        222,
+        520,
+        232
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        240,
+        520,
+        250
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "BL15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        19,
+        251,
+        520,
+        267
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        268,
+        520,
+        271
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        276,
+        520,
+        290
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        293,
+        520,
+        304
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        311,
+        520,
+        322
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        330,
+        520,
+        340
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        348,
+        520,
+        358
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        365,
+        520,
+        376
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        384,
+        520,
+        394
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        403,
+        520,
+        413
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        421,
+        520,
+        431
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        439,
+        520,
+        449
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        457,
+        520,
+        467
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        473,
+        520,
+        485
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "PB29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        19,
+        486,
+        520,
+        489
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        490,
+        520,
+        507
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "PB31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        19,
+        508,
+        520,
+        510
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        511,
+        520,
+        521
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        529,
+        520,
+        539
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        548,
+        520,
+        557
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        565,
+        520,
+        576
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        584,
+        520,
+        594
+      ]
+    },
+    {
+      "line_1based": 37,
+      "serial_label": "L37",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        601,
+        520,
+        612
+      ]
+    },
+    {
+      "line_1based": 38,
+      "serial_label": "L38",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        620,
+        520,
+        629
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 22,
+      "char_start": 9,
+      "char_end": 22,
+      "char_len": 13,
+      "full_line": false,
+      "bbox_xyxy": [
+        228,
+        0,
+        509,
+        37
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_______________________________]",
+      "layout_token_pixel": "[BOX1__281/496]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5665,
+      "clipped_span_px": 281,
+      "line_width_effective_px": 496,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 2,
+      "line_char_capacity": 702,
+      "char_start": 293,
+      "char_end": 687,
+      "char_len": 394,
+      "full_line": false,
+      "bbox_xyxy": [
+        228,
+        0,
+        509,
+        37
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_______________________________]",
+      "layout_token_pixel": "[BOX1__281/501]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5609,
+      "clipped_span_px": 281,
+      "line_width_effective_px": 501,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 3,
+      "line_char_capacity": 702,
+      "char_start": 293,
+      "char_end": 687,
+      "char_len": 394,
+      "full_line": false,
+      "bbox_xyxy": [
+        228,
+        0,
+        509,
+        37
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_______________________________]",
+      "layout_token_pixel": "[BOX1__281/501]",
+      "line_overlap_ratio": 0.8235,
+      "line_cover_ratio_x": 0.5609,
+      "clipped_span_px": 281,
+      "line_width_effective_px": 501,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 22,
+      "line_char_capacity": 702,
+      "char_start": 310,
+      "char_end": 497,
+      "char_len": 187,
+      "full_line": false,
+      "bbox_xyxy": [
+        240,
+        360,
+        374,
+        382
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2____________]",
+      "layout_token_pixel": "[BOX2__134/501]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2675,
+      "clipped_span_px": 134,
+      "line_width_effective_px": 501,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 38,
+      "line_char_capacity": 702,
+      "char_start": 611,
+      "char_end": 702,
+      "char_len": 91,
+      "full_line": false,
+      "bbox_xyxy": [
+        455,
+        615,
+        558,
+        633
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3___]",
+      "layout_token_pixel": "[BOX3__65/501]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1297,
+      "clipped_span_px": 65,
+      "line_width_effective_px": 501,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

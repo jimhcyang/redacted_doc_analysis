@@ -1,0 +1,22 @@
+{
+  "pair_count": 58,
+  "structure_preserved_count": 9,
+  "structure_preserved_rate": 0.155172,
+  "truth_token_total": 13195,
+  "truth_token_matched": 12386,
+  "truth_token_hallucinated": 577,
+  "overall_truth_recall": 0.938689,
+  "overall_truth_precision": 0.955489,
+  "overall_truth_f1": 0.947014,
+  "unredacted_only_word_total": 2257,
+  "redacted_only_word_total": 297,
+  "redaction_truth_total": 90,
+  "redaction_predicted_total": 182,
+  "redaction_correct_total": 44,
+  "redaction_hallucinated_total": 138,
+  "redaction_missed_total": 46,
+  "strict_avg_pair_f1_on_correct_overall": 0.931531,
+  "relaxed_gt_found_total": 45,
+  "relaxed_gt_found_rate_overall": 0.5,
+  "relaxed_avg_best_f1_overall": 0.494216
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      16,
+      14,
+      524,
+      33
+    ],
+    "text": "Ignore line breaks for clarity.",
+    "expanded_crop_box_xyxy": [
+      0,
+      6,
+      539,
+      41
+    ],
+    "crop_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The image is a graphic design and does not contain any chart or data to be extracted into a table.",
+    "ocr_text_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 14,
+    "line_count": 12,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      16,
+      52,
+      524,
+      262
+    ],
+    "text": "\nNasir has received the resignation of Egyptian Vice President for Economic Affairs Abd al-Latif Baghdadi, but has not as yet indicated that he will accept it. Baghdadi, a member of the original Revolutionary Command Council and one of the regime's most competent officials, has been accused of profiteering, following an official investigation presumably ordered by Nasir. Acceptance of the popular Baghdadi's resignation, combined with present rumours of a serious misunderstanding between Nasir and his chief adviser, Ali Sabri, would probably lower the regime's prestige and add to public discontent. Egyptian Marshal Amir is reported attempting to bring about a reconciliation.\n\nDifferences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of",
+    "expanded_crop_box_xyxy": [
+      0,
+      31,
+      539,
+      283
+    ],
+    "crop_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a description of a person's resignation from a position in the Egyptian Vice President's office.",
+    "ocr_text_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 16,
+    "line_end_1based": 21,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      16,
+      289,
+      524,
+      390
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      279,
+      539,
+      392
+    ],
+    "crop_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Differences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of Nasir's leadership has been a constant source of tension in the country.",
+    "ocr_text_path": "outputs/examples_ocr2/3_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

@@ -1,0 +1,24 @@
+Example ID: 33
+Stem: 33
+Redacted OCR file: outputs/examples_ocr2/33_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/33_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=4..5, len=2)
+Predicted chunk text: greeks who
+Unredacted context: premier karamanlis the [UNRED_ONLY: greeks who] are currently very
+Redacted anchor context: on revival of [L@30:the] [RED_GAP:balkan pact the yugoslavs] [R@35:are] currently very sensitive
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:balkan pact the yugoslavs]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: that the Balkan pact be pressed on Tito
+  -> Relaxed best pred text: greeks who
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0

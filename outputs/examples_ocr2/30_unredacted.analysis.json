@@ -1,0 +1,1227 @@
+{
+  "image": "inputs/images/30_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    17,
+    0,
+    529,
+    699
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 209344,
+  "merged_region_nonzero_px": 209344,
+  "line_width_px": 512,
+  "line_count": 35,
+  "paragraph_crops_dir": "outputs/examples_ocr2/30_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/30_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/30_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 35,
+      "line_count": 35,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        17,
+        6,
+        529,
+        690
+      ],
+      "text": "# Moroccan Leader Returns to Re-enter Politics\n\nAbdelkhalek Torres, leader of the nationalist Islam party which merged with the ruling Istiqlal party in 1956, intends to resign as Moroccan ambassador to Cairo and return to active politics. Oestensibly an Istiqlal neutral but publicly siding with Allal el-Fassi in the latter's struggle with left-wing dissidents for control of the party, Torres plans to rebuild his personal following in northern Morocco, where anti-Ismailist tribal disorders have occurred during the past five months. He also intends to enlarge his following in other areas. He claims that in the as-yet-unscheduled municipal elections he is certain of at least 25 percent of all municipal assembly seats.\n\nTorres' return to politics, opposed by left-wing Istiqlal Premier Ibrahim, apparently has the approval of King Mohamed V, who is concerned about instability in northern Morocco. Torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern Morocco, early convocation of the postponed Istiqlal party congress, and adoption of a positive program. Should these conditions not be met, he probably would reconstitute the Islam party, which would further fragmentize Istiqlal and encourage a multiplicity of parties. The King, who has resisted past Istiqlal attempts to install a one-party political system, seems to favor a two-party rather than a multi-party system and for that reason may not have sanctioned at this time the desire of many Torres followers to break away from Istiqlal.\n\nThe King apparently discussed with Torres during an audience on 11 February the possibility of succeeding Premier Ibrahim, whose cabinet was installed in December as a stop-gap measure and was specifically charged with holding early municipal elections. American Ambassador Yost believes Torres is generally friendly to the West and would make a satisfactory premier. If invested as premier, Torres probably would follow the policy of his predecessors and demand the evacuation of foreign troops, including the American bases.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        566,
+        738
+      ],
+      "crop_path": "outputs/examples_ocr2/30_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text in the image is a transcription of a document discussing the political situation in Israel and the role of the Israeli government in the Arab-Israeli conflict. The text is written in a formal, academic style and is intended to be informative and educational.",
+      "ocr_text_path": "outputs/examples_ocr2/30_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.8571,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 35,
+  "row_scan_gap_band_count": 35,
+  "row_scan_linebreak_band_count": 33,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        17,
+        38,
+        529,
+        41
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.2887,
+      "height_to_avg_full_line_ratio": 0.2084,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        54,
+        529,
+        58
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        73,
+        529,
+        78
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        93,
+        529,
+        96
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.2887,
+      "height_to_avg_full_line_ratio": 0.2084,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        109,
+        529,
+        113
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        127,
+        529,
+        133
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.5052,
+      "height_to_avg_full_line_ratio": 0.3648,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        146,
+        529,
+        151
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        164,
+        529,
+        169
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        182,
+        529,
+        187
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        200,
+        529,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.5052,
+      "height_to_avg_full_line_ratio": 0.3648,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        219,
+        529,
+        224
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        273,
+        529,
+        278
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        292,
+        529,
+        296
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        311,
+        529,
+        315
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        327,
+        529,
+        332
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        346,
+        529,
+        351
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        364,
+        529,
+        369
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        383,
+        529,
+        387
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        402,
+        529,
+        406
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        419,
+        529,
+        424
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        437,
+        529,
+        442
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        456,
+        529,
+        460
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        476,
+        529,
+        478
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.2165,
+      "height_to_avg_full_line_ratio": 0.1563,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        493,
+        529,
+        496
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.2887,
+      "height_to_avg_full_line_ratio": 0.2084,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        528,
+        529,
+        532
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        547,
+        529,
+        550
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.2887,
+      "height_to_avg_full_line_ratio": 0.2084,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        564,
+        529,
+        569
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        583,
+        529,
+        587
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        600,
+        529,
+        605
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.433,
+      "height_to_avg_full_line_ratio": 0.3127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        619,
+        529,
+        623
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        637,
+        529,
+        641
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        655,
+        529,
+        659
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        17,
+        673,
+        529,
+        677
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.8571,
+      "avg_linebreak_height_px": 5.3333,
+      "avg_full_line_height_px": 19.1905,
+      "height_to_avg_line_ratio": 0.3608,
+      "height_to_avg_full_line_ratio": 0.2605,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 35,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "# Moroccan Leader Returns to Re-enter Politics",
+      "char_len": 46,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        6,
+        529,
+        37
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        42,
+        529,
+        53
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Abdelkhalek Torres, leader of the nationalist Islam party which merged with the ruling Istiqlal party in 1956, intends to resign as Moroccan ambassador to Cairo and return to active politics. Oestensibly an Istiqlal neutral but publicly siding with Allal el-Fassi in the latter's struggle with left-wing dissidents for control of the party, Torres plans to rebuild his personal following in northern Morocco, where anti-Ismailist tribal disorders have occurred during the past five months. He also intends to enlarge his following in other areas. He claims that in the as-yet-unscheduled municipal elections he is certain of at least 25 percent of all municipal assembly seats.",
+      "char_len": 677,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        59,
+        529,
+        72
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        79,
+        529,
+        92
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Torres' return to politics, opposed by left-wing Istiqlal Premier Ibrahim, apparently has the approval of King Mohamed V, who is concerned about instability in northern Morocco. Torres is reported to have demanded as his price for cooperation with the right wing a free hand in northern Morocco, early convocation of the postponed Istiqlal party congress, and adoption of a positive program. Should these conditions not be met, he probably would reconstitute the Islam party, which would further fragmentize Istiqlal and encourage a multiplicity of parties. The King, who has resisted past Istiqlal attempts to install a one-party political system, seems to favor a two-party rather than a multi-party system and for that reason may not have sanctioned at this time the desire of many Torres followers to break away from Istiqlal.",
+      "char_len": 830,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        97,
+        529,
+        108
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        114,
+        529,
+        126
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "The King apparently discussed with Torres during an audience on 11 February the possibility of succeeding Premier Ibrahim, whose cabinet was installed in December as a stop-gap measure and was specifically charged with holding early municipal elections. American Ambassador Yost believes Torres is generally friendly to the West and would make a satisfactory premier. If invested as premier, Torres probably would follow the policy of his predecessors and demand the evacuation of foreign troops, including the American bases.",
+      "char_len": 526,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        134,
+        529,
+        145
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        152,
+        529,
+        163
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        170,
+        529,
+        181
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        188,
+        529,
+        199
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        207,
+        529,
+        218
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        225,
+        529,
+        236
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        261,
+        529,
+        272
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        279,
+        529,
+        291
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        297,
+        529,
+        310
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        316,
+        529,
+        326
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        333,
+        529,
+        345
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        352,
+        529,
+        363
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        370,
+        529,
+        382
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        388,
+        529,
+        401
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        407,
+        529,
+        418
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        425,
+        529,
+        436
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        443,
+        529,
+        455
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        461,
+        529,
+        475
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        479,
+        529,
+        492
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        497,
+        529,
+        527
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        533,
+        529,
+        546
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        551,
+        529,
+        563
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        570,
+        529,
+        582
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        588,
+        529,
+        599
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        606,
+        529,
+        618
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        624,
+        529,
+        636
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        642,
+        529,
+        654
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        660,
+        529,
+        672
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        17,
+        678,
+        529,
+        690
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

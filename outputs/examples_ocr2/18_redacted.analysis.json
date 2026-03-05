@@ -1,0 +1,766 @@
+{
+  "image": "inputs/images/18_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      16,
+      42,
+      248,
+      113
+    ],
+    [
+      130,
+      386,
+      364,
+      405
+    ],
+    [
+      427,
+      525,
+      523,
+      548
+    ],
+    [
+      26,
+      553,
+      246,
+      569
+    ],
+    [
+      109,
+      569,
+      388,
+      587
+    ],
+    [
+      107,
+      606,
+      372,
+      629
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    20,
+    0,
+    542,
+    636
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 155392,
+  "merged_region_nonzero_px": 152432,
+  "line_width_px": 522,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/18_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/18_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/18_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 16,
+      "line_count": 16,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        20,
+        6,
+        542,
+        620
+      ],
+      "text": "Japanese Conservatives Reach Compromise\n\n\n\nThe principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishi to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.\n\nThe prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishi's term expires on 21 March, have announced that they intend to nominate former Education Minister Kenzo Matsumura as a candidate to challenge Kishi. Although Kishi's re-election as party president seems assured, the compromise gives him only a temporary respite from [ ]\n\nKishi probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishi on the police-powers bill during the last session and by [ ] will harass the government on every occasion. [ ] the Socialists may carry out a plan to implicate Kishi in an alleged reparations scandal.)",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        557,
+        641
+      ],
+      "crop_path": "outputs/examples_ocr2/18_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "No major changes have been made to the text.\nJapanese Conservatives Reach Compromise\nThe principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishii to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.\nThe prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishii's term expires on 21 March, have announced that they intend to nominate former Education Minister Konzo Matsumura as a candidate to challenge Kishii. Although Kishii's re-election as party president seems assured, the compromise gives him only a temporary respite from\nKishii probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishii on the police-powers bill during the last session and by\nwill harass the government on every occasion. The Socialists may carry out a plan to implicate Kishii in an alleged reparations scandal.",
+      "ocr_text_path": "outputs/examples_ocr2/18_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 33.4375,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 14,
+  "row_scan_gap_band_count": 13,
+  "row_scan_linebreak_band_count": 12,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        20,
+        24,
+        542,
+        93
+      ],
+      "kind": "blankline",
+      "height_px": 70,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 2.1075,
+      "height_to_avg_full_line_ratio": 1.7552,
+      "blankline_line_slots": 2,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 70,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3253,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        106,
+        542,
+        112
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.2108,
+      "height_to_avg_full_line_ratio": 0.1755,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4379,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        166,
+        542,
+        168
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.0903,
+      "height_to_avg_full_line_ratio": 0.0752,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        184,
+        542,
+        185
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.0602,
+      "height_to_avg_full_line_ratio": 0.0501,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        203,
+        542,
+        204
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.0602,
+      "height_to_avg_full_line_ratio": 0.0501,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        240,
+        542,
+        244
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.1505,
+      "height_to_avg_full_line_ratio": 0.1254,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        259,
+        542,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 17,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.5118,
+      "height_to_avg_full_line_ratio": 0.4263,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        386,
+        542,
+        392
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.2108,
+      "height_to_avg_full_line_ratio": 0.1755,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4493,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        404,
+        542,
+        420
+      ],
+      "kind": "linebreak",
+      "height_px": 17,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.5118,
+      "height_to_avg_full_line_ratio": 0.4263,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 17,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0529,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        512,
+        542,
+        514
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.0903,
+      "height_to_avg_full_line_ratio": 0.0752,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        530,
+        542,
+        533
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.1204,
+      "height_to_avg_full_line_ratio": 0.1003,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1855,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        563,
+        542,
+        566
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.1204,
+      "height_to_avg_full_line_ratio": 0.1003,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4226,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        603,
+        542,
+        611
+      ],
+      "kind": "linebreak",
+      "height_px": 9,
+      "avg_text_line_height_px": 33.2143,
+      "avg_linebreak_height_px": 6.6667,
+      "avg_full_line_height_px": 39.881,
+      "height_to_avg_line_ratio": 0.271,
+      "height_to_avg_full_line_ratio": 0.2257,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 9,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3391,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 14,
+    "blankline": 2,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Japanese Conservatives Reach Compromise",
+      "char_len": 39,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        6,
+        542,
+        23
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "BL2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        20,
+        24,
+        542,
+        58
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "BL3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        20,
+        59,
+        542,
+        93
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        94,
+        542,
+        105
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "The principal factors behind the agreement appear to be concern for maintaining party unity in the face of a difficult Diet session beginning on 28 January and preventing possible losses in the upper house election in June. The terms of the compromise have not yet been revealed, but presumably involve a commitment by Kishi to give some of his rivals important cabinet or party posts in the near future in return for agreement to hold a party presidential election on 24 January.",
+      "char_len": 480,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        113,
+        542,
+        165
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        169,
+        542,
+        183
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "The prime minister's rivals, who had demanded that the party presidential elections be postponed until after Kishi's term expires on 21 March, have announced that they intend to nominate former Education Minister Kenzo Matsumura as a candidate to challenge Kishi. Although Kishi's re-election as party president seems assured, the compromise gives him only a temporary respite from [ ]",
+      "char_len": 385,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        186,
+        542,
+        202
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        205,
+        542,
+        239
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "Kishi probably will continue as prime minister at least until after the elections to the upper house next June. During the Diet session, he will probably concentrate on passing the budget and will avoid the introduction of controversial legislation, such as his bill to increase police powers. The opposition Socialists, encouraged by the defeat they administered to Kishi on the police-powers bill during the last session and by [ ] will harass the government on every occasion. [ ] the Socialists may carry out a plan to implicate Kishi in an alleged reparations scandal.)",
+      "char_len": 574,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        245,
+        542,
+        258
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        276,
+        542,
+        385
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        393,
+        542,
+        403
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        421,
+        542,
+        511
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        515,
+        542,
+        529
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        534,
+        542,
+        562
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        567,
+        542,
+        602
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        612,
+        542,
+        620
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 3,
+      "line_char_capacity": 574,
+      "char_start": 0,
+      "char_end": 251,
+      "char_len": 251,
+      "full_line": false,
+      "bbox_xyxy": [
+        16,
+        42,
+        248,
+        113
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_______________________]",
+      "layout_token_pixel": "[BOX1__228/522]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4368,
+      "clipped_span_px": 228,
+      "line_width_effective_px": 522,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 4,
+      "line_char_capacity": 574,
+      "char_start": 0,
+      "char_end": 251,
+      "char_len": 251,
+      "full_line": false,
+      "bbox_xyxy": [
+        16,
+        42,
+        248,
+        113
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_______________________]",
+      "layout_token_pixel": "[BOX1__228/522]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4368,
+      "clipped_span_px": 228,
+      "line_width_effective_px": 522,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 11,
+      "line_char_capacity": 574,
+      "char_start": 121,
+      "char_end": 378,
+      "char_len": 257,
+      "full_line": false,
+      "bbox_xyxy": [
+        130,
+        386,
+        364,
+        405
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2________________________]",
+      "layout_token_pixel": "[BOX2__234/522]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4483,
+      "clipped_span_px": 234,
+      "line_width_effective_px": 522,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 14,
+      "line_char_capacity": 574,
+      "char_start": 7,
+      "char_end": 249,
+      "char_len": 242,
+      "full_line": false,
+      "bbox_xyxy": [
+        26,
+        553,
+        246,
+        569
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4______________________]",
+      "layout_token_pixel": "[BOX4__220/522]",
+      "line_overlap_ratio": 0.3448,
+      "line_cover_ratio_x": 0.4215,
+      "clipped_span_px": 220,
+      "line_width_effective_px": 522,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 14,
+      "line_char_capacity": 574,
+      "char_start": 448,
+      "char_end": 553,
+      "char_len": 105,
+      "full_line": false,
+      "bbox_xyxy": [
+        427,
+        525,
+        523,
+        548
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3_______]",
+      "layout_token_pixel": "[BOX3__96/522]",
+      "line_overlap_ratio": 0.5172,
+      "line_cover_ratio_x": 0.1839,
+      "clipped_span_px": 96,
+      "line_width_effective_px": 522,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 5,
+      "line_1based": 15,
+      "line_char_capacity": 574,
+      "char_start": 98,
+      "char_end": 405,
+      "char_len": 307,
+      "full_line": false,
+      "bbox_xyxy": [
+        109,
+        569,
+        388,
+        587
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5_____________________________]",
+      "layout_token_pixel": "[BOX5__279/522]",
+      "line_overlap_ratio": 0.5278,
+      "line_cover_ratio_x": 0.5345,
+      "clipped_span_px": 279,
+      "line_width_effective_px": 522,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 6,
+      "line_1based": 16,
+      "line_char_capacity": 574,
+      "char_start": 96,
+      "char_end": 387,
+      "char_len": 291,
+      "full_line": false,
+      "bbox_xyxy": [
+        107,
+        606,
+        372,
+        629
+      ],
+      "placeholder_token": "[REDACTED_6]",
+      "layout_token_underscore": "[BOX6___________________________]",
+      "layout_token_pixel": "[BOX6__265/522]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5077,
+      "clipped_span_px": 265,
+      "line_width_effective_px": 522,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

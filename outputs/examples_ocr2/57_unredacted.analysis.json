@@ -1,0 +1,1198 @@
+{
+  "image": "inputs/images/57_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    19,
+    0,
+    533,
+    684
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 193098,
+  "merged_region_nonzero_px": 193098,
+  "line_width_px": 514,
+  "line_count": 36,
+  "paragraph_crops_dir": "outputs/examples_ocr2/57_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/57_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/57_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 36,
+      "line_count": 36,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        19,
+        9,
+        533,
+        674
+      ],
+      "text": "British Labor Party Reconsidering Nuclear Policy\n\n(To avoid a Labor party split before the general elections expected this fall, party and trade-union leaders will meet on 23 June to seek ways of dealing with the growing pressure within the Labor movement to advocate a unilateral renunciation of nuclear weapons by Britain)\n\n(The meeting is being held a month earlier than originally scheduled, primarily to meet the threat posed by a resolution passed on 4 June by the powerful right-wing National Union of General and Municipal Workers, the third largest British trade union. This resolution calls for \"the next Labor government\" to stop the manufacture of nuclear weapons in Britain and prohibit their use on British territory. The Labor leadership apparently hopes to stave off a similar resolution from the Transport and General Workers Union -- Britain's largest.)\n\n\n(The present party policy, formulated in March 1958, merely called on the government to press for an international agreement on the suspension of thermonuclear tests and to adopt a unilateral British test ban for one year. While Gaitskell, Bevan, and other party leaders continue to oppose any unilateral British nuclear disarmament, they are searching for measures which, while not limiting a future Labor government's freedom of action, will offer a contrast to the Macmillan government's policy. Bevan, for instance, favors a proposal that Britain should offer to give up its nuclear weapons to help form a non-nuclear \"club\" of all nations except the US and the USSR. He privately acknowledges, however, that Britain would not have to make good on its offer since France is unlikely to accept such a proposal.)\n\n(Even a slight shift in Labor party policy would bring additional pressure on the Macmillan government to achieve a test-suspension agreement. The government has continually shown its sensitivity to public opinion on the issue by seeking compromises for Soviet-Western differences on the subject.)",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        580,
+        692
+      ],
+      "crop_path": "outputs/examples_ocr2/57_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "To avoid a Labor party split before the general elections ex-\npected this fall, party and trade-union leaders will meet on 23\nJune to seek ways of dealing with the growing pressure within the\nLabor movement to advocate a unilateral renunciation of nuclear\nweapons by Britain)\n(The meeting is being held a month earlier than originally\nscheduled, primarily to meet the threat posed by a resolution\npassed on 4 June by the powerful right-wing National Union of\nGeneral and Municipal Workers, the third largest British trade\nunion. This resolution calls for \"the next Labor government\"\nto stop the manufacture of nuclear weapons in Britain and pro-\nhibit their use on British territory. The Labor leadership ap-\nparently hopes to stave off a similar resolution from the Trans-\nport and General Workers Union--Britain's largest.)\n(The present party policy, formulated in March 1958, merely\ncalls on the government to press for an international agreement on\nthe suspension of thermonuclear tests and to adopt a unilateral\nBritish test ban for one year. While Gaitskell, Bevan, and other\nparty leaders continue to oppose any unilateral British nuclear\ndisarmament, they are searching for measures which, while not\nlimiting a future Labor government's freedom of action, will of-\nfer a contrast to the Macmillan government's policy. Bevan, for\ninstance, favors a proposal that Britain should offer to give up\nits nuclear weapons to help form a non-nuclear \"club\" of all\nnations except the US and the USSR. He privately acknowledges,\nhowever, that Britain would not have to make good on its offer\nsince France is unlikely to accept such a proposal.)\n(Even a slight shift in Labor party policy would bring addi-\ntional pressure on the Macmillan government to achieve a test-\nsuspension agreement. The government has continually shown\nits sensitivity to public opinion on the issue by seeking comprom-\nises for Soviet-Western differences on the subject.)",
+      "ocr_text_path": "outputs/examples_ocr2/57_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.8056,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 33,
+  "row_scan_gap_band_count": 33,
+  "row_scan_linebreak_band_count": 28,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        19,
+        58,
+        533,
+        63
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.4249,
+      "height_to_avg_full_line_ratio": 0.3292,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        77,
+        533,
+        81
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        94,
+        533,
+        99
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.4249,
+      "height_to_avg_full_line_ratio": 0.3292,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        113,
+        533,
+        120
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.5665,
+      "height_to_avg_full_line_ratio": 0.4389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        131,
+        533,
+        153
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 1.6288,
+      "height_to_avg_full_line_ratio": 1.2618,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 23,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        167,
+        533,
+        171
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        185,
+        533,
+        189
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        203,
+        533,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        221,
+        533,
+        225
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        240,
+        533,
+        243
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        258,
+        533,
+        261
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        276,
+        533,
+        279
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        294,
+        533,
+        298
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        312,
+        533,
+        333
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 1.5579,
+      "height_to_avg_full_line_ratio": 1.2069,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 22,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        349,
+        533,
+        352
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        367,
+        533,
+        370
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        385,
+        533,
+        387
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        404,
+        533,
+        405
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.1416,
+      "height_to_avg_full_line_ratio": 0.1097,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        421,
+        533,
+        424
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        439,
+        533,
+        441
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        458,
+        533,
+        459
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.1416,
+      "height_to_avg_full_line_ratio": 0.1097,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        476,
+        533,
+        478
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        494,
+        533,
+        496
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        512,
+        533,
+        514
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        530,
+        533,
+        532
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        548,
+        533,
+        552
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        566,
+        533,
+        587
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 1.5579,
+      "height_to_avg_full_line_ratio": 1.2069,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 22,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        601,
+        533,
+        605
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.3541,
+      "height_to_avg_full_line_ratio": 0.2743,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        620,
+        533,
+        622
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        638,
+        533,
+        640
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2124,
+      "height_to_avg_full_line_ratio": 0.1646,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        657,
+        533,
+        660
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.1212,
+      "avg_linebreak_height_px": 4.1071,
+      "avg_full_line_height_px": 18.2284,
+      "height_to_avg_line_ratio": 0.2833,
+      "height_to_avg_full_line_ratio": 0.2194,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 33,
+    "blankline": 3,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "British Labor Party Reconsidering Nuclear Policy",
+      "char_len": 48,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        9,
+        533,
+        27
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        46,
+        533,
+        57
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "(To avoid a Labor party split before the general elections expected this fall, party and trade-union leaders will meet on 23 June to seek ways of dealing with the growing pressure within the Labor movement to advocate a unilateral renunciation of nuclear weapons by Britain)",
+      "char_len": 274,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        64,
+        533,
+        76
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        82,
+        533,
+        93
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "(The meeting is being held a month earlier than originally scheduled, primarily to meet the threat posed by a resolution passed on 4 June by the powerful right-wing National Union of General and Municipal Workers, the third largest British trade union. This resolution calls for \"the next Labor government\" to stop the manufacture of nuclear weapons in Britain and prohibit their use on British territory. The Labor leadership apparently hopes to stave off a similar resolution from the Transport and General Workers Union -- Britain's largest.)",
+      "char_len": 545,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        100,
+        533,
+        112
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        121,
+        533,
+        130
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "BL7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        19,
+        131,
+        533,
+        153
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "(The present party policy, formulated in March 1958, merely called on the government to press for an international agreement on the suspension of thermonuclear tests and to adopt a unilateral British test ban for one year. While Gaitskell, Bevan, and other party leaders continue to oppose any unilateral British nuclear disarmament, they are searching for measures which, while not limiting a future Labor government's freedom of action, will offer a contrast to the Macmillan government's policy. Bevan, for instance, favors a proposal that Britain should offer to give up its nuclear weapons to help form a non-nuclear \"club\" of all nations except the US and the USSR. He privately acknowledges, however, that Britain would not have to make good on its offer since France is unlikely to accept such a proposal.)",
+      "char_len": 814,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        154,
+        533,
+        166
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        172,
+        533,
+        184
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "(Even a slight shift in Labor party policy would bring additional pressure on the Macmillan government to achieve a test-suspension agreement. The government has continually shown its sensitivity to public opinion on the issue by seeking compromises for Soviet-Western differences on the subject.)",
+      "char_len": 297,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        190,
+        533,
+        202
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        207,
+        533,
+        220
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        226,
+        533,
+        239
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        244,
+        533,
+        257
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        262,
+        533,
+        275
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        280,
+        533,
+        293
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        299,
+        533,
+        311
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "BL17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        19,
+        312,
+        533,
+        333
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        334,
+        533,
+        348
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        353,
+        533,
+        366
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        371,
+        533,
+        384
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        388,
+        533,
+        403
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        406,
+        533,
+        420
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        425,
+        533,
+        438
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        442,
+        533,
+        457
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        460,
+        533,
+        475
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        479,
+        533,
+        493
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        497,
+        533,
+        511
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        515,
+        533,
+        529
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        533,
+        533,
+        547
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        553,
+        533,
+        565
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "BL31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        19,
+        566,
+        533,
+        587
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        588,
+        533,
+        600
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        606,
+        533,
+        619
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        623,
+        533,
+        637
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        641,
+        533,
+        656
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        661,
+        533,
+        674
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

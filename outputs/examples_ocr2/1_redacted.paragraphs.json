@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      18,
+      1,
+      524,
+      19
+    ],
+    "text": "Ignore future calls.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      554,
+      27
+    ],
+    "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 10,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      18,
+      38,
+      524,
+      174
+    ],
+    "text": "\nVenezuelan Military Coup Fails\n\nThe failure of a Venezuelan military coup on 7 September reflects the loyalty of the majority of the armed forces to junta President Larrazabal and the effectiveness of civilian strength as a check against a return to military rule. The revolt, which apparently was quickly suppressed, was led by officers recently exiled for involvement in the coup.\n\nAn elaborate civilian organization has been developed since the ouster of dictator Perez last January to ensure the election of a constitutional regime next November and to guard against future military dominance of the government. It consists of labor, student, and political groups, some of which are armed and all of which can be mobilized rapidly for a display of force. The responsible top leaders in the structure may not in the future be able to control the radical and unruly elements, which could convert the organization into a force of anarchy and violence.",
+    "expanded_crop_box_xyxy": [
+      0,
+      24,
+      554,
+      188
+    ],
+    "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The failure of a Venezuelan military coup on 7 September reflects the loyalty of the majority of the armed forces to junta President Larrazabal and the effectiveness of civilian strength as a check against a return to military rule. The re- volt, which apparently was quickly suppressed, was led by officers recently exiled for involvement in the coup.",
+    "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 12,
+    "line_end_1based": 21,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      18,
+      195,
+      524,
+      360
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      178,
+      554,
+      368
+    ],
+    "crop_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "An elaborate civilian organization has been developed since the ouster of dictator Perez last January to ensure the election of a constitutional regime next November and to guard against future military dominance of the government. It consists of labor, student, and political groups, some of which are armed and all of which can be mobilized rapidly for a display of force. The responsible top leaders in the structure may not in the future be able to control the radical and unruly elements, which could convert the organization into a force of anarchy and violence.",
+    "ocr_text_path": "outputs/examples_ocr2/1_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

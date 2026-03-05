@@ -1,0 +1,66 @@
+Example ID: 16
+Stem: 16
+Redacted OCR file: outputs/examples_ocr2/16_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/16_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 5
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=22..22, len=1)
+Predicted chunk text: evacuation
+Unredacted context: pressure for the [UNRED_ONLY: evacuation] of the 10
+Redacted anchor context: renew pressure for [L@21:the] [RED_GAP:evacuations] [R@23:of] the 10 000
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:evacuations]
+Strict GT match: NO
+Relaxed best GT candidate: GT[2] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: who, he believes,
+  -> Relaxed best pred text: evacuation
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=41..41, len=1)
+Predicted chunk text: bouadid
+Unredacted context: moroccan vice premier [UNRED_ONLY: bouadid] who with other
+Redacted anchor context: complicity moroccan vice [L@40:premier] [RED_GAP:bouabd] [R@42:who] with other officials
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:bouabd]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=71..71, len=1)
+Predicted chunk text: bouadid
+Unredacted context: beni ouraghel tribe [UNRED_ONLY: bouadid] also claimed he
+Redacted anchor context: the beni ouraghel [L@70:tribe] [RED_GAP:bouabd] [R@72:also] claimed he has
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:bouabd]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=144..187, len=44)
+Predicted chunk text: intense spanish activity throughout northern morocco and the return to that area of many former spanish native-affairs officers some of these officers may be considering as they did during the french-imposed exile of the present king the idea of establishing an autonomous northern morocco
+Unredacted context: war on morocco [UNRED_ONLY: intense spanish activity throughout northern morocco and the return to that area of many former spanish native-affairs officers some of these officers may be considering as they did during the french-imposed exile of the present king the idea of establishing an autonomous northern morocco] the spanish military
+Redacted anchor context: make war on [L@143:morocco] [RED_GAP:<empty>] [R@144:the] spanish military governor
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: "intense Spanish activity" throughout northern Morocco and the return to that area of many former Spanish native-affairs officers. Some of these officers may be considering--as they did during the French-imposed exile of the present King--the idea of establishing an autonomous northern Morocco.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=44
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=3..3
+  -> GT text: "intense Spanish activity" throughout northern Morocco and the return to that area of many former Spanish native-affairs officers. Some of these officers may be considering--as they did during the French-imposed exile of the present King--the idea of establishing an autonomous northern Morocco.
+  -> Relaxed best pred text: intense spanish activity throughout northern morocco and the return to that area of many former spanish native-affairs officers some of these officers may be considering as they did during the french-imposed exile of the present king the idea of establishing an autonomous northern morocco
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=230..250, len=21)
+Predicted chunk text: is supporting tribal dissidence as a means of forcing morocco to commit itself to recognizing spain's sovereignty over its present enclaves
+Unredacted context: in tribal dissidence [UNRED_ONLY: is supporting tribal dissidence as a means of forcing morocco to commit itself to recognizing spain's sovereignty over its present enclaves]
+Redacted anchor context: [L_ANCHOR_ONLY @ 185] involvement in tribal dissidence
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

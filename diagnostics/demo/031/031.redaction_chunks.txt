@@ -1,0 +1,126 @@
+Example ID: 31
+Stem: 31
+Redacted OCR file: outputs/examples_ocr2/31_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/31_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 12
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=38..38, len=1)
+Predicted chunk text: control
+Unredacted context: function to us [UNRED_ONLY: control] this decision underscores
+Redacted anchor context: training function to [L@37:us] [RED_GAP:con trol] [R@40:this] decision underscores the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:con trol]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=44..44, len=1)
+Predicted chunk text: determination
+Unredacted context: underscores the government's [UNRED_ONLY: determination] to act without
+Redacted anchor context: decision underscores the [L@44:government's] [RED_GAP:determina tion] [R@47:to] act without reference
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:determina tion]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=72..72, len=1)
+Predicted chunk text: phouli
+Unredacted context: laos prime minister [UNRED_ONLY: phouli] sananikone told the
+Redacted anchor context: in laos prime [L@73:minister] [RED_GAP:phoui] [R@75:sananikone] told the american
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:phoui]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=77..77, len=1)
+Predicted chunk text: ambassador
+Unredacted context: told the american [UNRED_ONLY: ambassador] on 24 february
+Redacted anchor context: sananikone told the [L@78:american] [RED_GAP:am bassador] [R@81:on] 24 february that
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:am bassador]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=125..125, len=1)
+Predicted chunk text: us-inspected
+Unredacted context: by paris as [UNRED_ONLY: us-inspected] and the strong
+Redacted anchor context: interpreted by paris [L@127:as] [RED_GAP:us-instigated] [R@129:and] the strong french
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:us-instigated]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=141..141, len=1)
+Predicted chunk text: concerning
+Unredacted context: recent us-british-french talks [UNRED_ONLY: concerning] southeast asia although
+Redacted anchor context: the recent us-british-french [L@143:talks] [RED_GAP:con cern ing] [R@147:southeast] asia although the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:con cern ing]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #7 (pred_index=6, token_span=147..153, len=7)
+Predicted chunk text: in an effort to embarrass the us
+Unredacted context: although the french [UNRED_ONLY: in an effort to embarrass the us] might threaten to
+Redacted anchor context: asia although the [L@151:french] [RED_GAP:<empty>] [R@152:might] threaten to withdraw
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: in an effort to embarrass the US,
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=7
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=6..6
+  -> GT text: in an effort to embarrass the US,
+  -> Relaxed best pred text: in an effort to embarrass the us
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #8 (pred_index=7, token_span=162..162, len=1)
+Predicted chunk text: summarily
+Unredacted context: forces from laos [UNRED_ONLY: summarily] they first would
+Redacted anchor context: their forces from [L@159:laos] [RED_GAP:summary] [R@161:they] first would probably
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:summary]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #9 (pred_index=8, token_span=169..169, len=1)
+Predicted chunk text: protests
+Unredacted context: probably lodge strong [UNRED_ONLY: protests] in vientiane and
+Redacted anchor context: would probably lodge [L@166:strong] [RED_GAP:pro tests] [R@169:in] vientiane and washington
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pro tests]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #10 (pred_index=9, token_span=199..199, len=1)
+Predicted chunk text: military
+Unredacted context: of the french [UNRED_ONLY: military] contribution to laos
+Redacted anchor context: augmentation of the [L@197:french] [RED_GAP:mil itary] [R@200:contribution] to laos on
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:mil itary]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #11 (pred_index=10, token_span=216..216, len=1)
+Predicted chunk text: laotian
+Unredacted context: training of the [UNRED_ONLY: laotian] army from french
+Redacted anchor context: the training of [L@215:the] [RED_GAP:lao tian] [R@218:army] from french to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:lao tian]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #12 (pred_index=11, token_span=254..255, len=2)
+Predicted chunk text: military base
+Unredacted context: laos into a [UNRED_ONLY: military base]
+Redacted anchor context: [L_ANCHOR_ONLY @ 254] turn laos into a
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

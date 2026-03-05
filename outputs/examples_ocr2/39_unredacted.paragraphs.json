@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      30,
+      12,
+      534,
+      31
+    ],
+    "text": "Fidel Castro's increasing tendency to blame the United States for Cuba's economic and political problems and to insist on a \"neutralist\" position in world affairs is widening the rift between Cuba and the liberal bloc in Latin America led by former Costa Rican President José Figueres and Venezuelan President Romulo Betancourt. Castro strongly refuted Figueres' pro-US speech in Havana on 22 March, in which Figueres advised Cuba to follow a moderate approach to revolutionary reforms and to align itself with the West. This undoubtedly spelled failure for any attempt by Figueres to orient Castro toward the Figueres-Betancourt axis—particularly with respect to the \"campaign against dictatorships!\" Figueres reportedly had hoped to convince Castro he should withdraw his support of those Nicaraguan and Dominican revolutionary exile groups which are Communist influenced.",
+    "expanded_crop_box_xyxy": [
+      0,
+      4,
+      565,
+      39
+    ],
+    "crop_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 17,
+    "line_count": 15,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      51,
+      534,
+      314
+    ],
+    "text": "\nCastro's reply to Figueres, which was followed by another strong attack against Figueres' views by the Cuban official newspaper Revolucion, may also encourage internal opposition to the Castro government by emphasizing Cuba's isolation from the Latin American liberal bloc. Many commercial and business groups have already been alienated by Castro's economic policies, which seem directed against \"tested interests\" and US influence on Cuba's economy. There is also discontent within some political circles, although there is as yet no cohesive position to the government.",
+    "expanded_crop_box_xyxy": [
+      0,
+      25,
+      565,
+      340
+    ],
+    "crop_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a quote from a book.",
+    "ocr_text_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 19,
+    "line_end_1based": 28,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      339,
+      534,
+      511
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      322,
+      565,
+      528
+    ],
+    "crop_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Castro's reply to Figueres, which was followed by another strong attack against Figueres' views by the Cuban official newspaper Revolution, may also encourage internal opposition to the Castro government by emphasizing Cuba's isolation from the Latin American liberal bloc. Many commercial and business groups have already been alienated by Castro's economic policies, which seem directed against \"vested interests\" and US influence on Cuba's economy. There is also discontent within some political circles, although there is as yet no cohesive opposition to the government.",
+    "ocr_text_path": "outputs/examples_ocr2/39_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

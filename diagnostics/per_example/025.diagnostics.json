@@ -1,0 +1,2414 @@
+{
+  "example_id": 25,
+  "stem": "25",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/25_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/25_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 0,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 7,
+    "unredacted_raw_line_count": 11,
+    "redacted_nonempty_line_count": 3,
+    "unredacted_nonempty_line_count": 5,
+    "line_count_ratio": 0.6,
+    "line_similarity": 0.5,
+    "structure_preserved": false
+  },
+  "token_counts": {
+    "redacted": 40,
+    "unredacted": 219
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "word_count": 185,
+    "chunk_count": 1,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 34,
+        "end_token_idx_0based": 218,
+        "token_count": 185,
+        "text": "paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request",
+        "tokens": [
+          "paris",
+          "reportedly",
+          "intends",
+          "to",
+          "present",
+          "this",
+          "proposal",
+          "initially",
+          "to",
+          "the",
+          "united",
+          "states",
+          "and",
+          "britain",
+          "and",
+          "then",
+          "to",
+          "the",
+          "north",
+          "atlantic",
+          "council",
+          "sometime",
+          "after",
+          "the",
+          "2-4",
+          "april",
+          "meeting",
+          "of",
+          "nato",
+          "foreign",
+          "ministers",
+          "the",
+          "french",
+          "definition",
+          "of",
+          "sahara",
+          "appears",
+          "to",
+          "be",
+          "in",
+          "geographical",
+          "terms",
+          "in",
+          "view",
+          "of",
+          "de",
+          "gaulle's",
+          "previous",
+          "private",
+          "allusions",
+          "to",
+          "extending",
+          "the",
+          "nato",
+          "area",
+          "to",
+          "the",
+          "sahara",
+          "as",
+          "far",
+          "as",
+          "the",
+          "red",
+          "sea",
+          "the",
+          "new",
+          "proposal",
+          "stems",
+          "from",
+          "official",
+          "french",
+          "views",
+          "that",
+          "nato",
+          "is",
+          "being",
+          "outflanked",
+          "to",
+          "the",
+          "south",
+          "and",
+          "that",
+          "nato",
+          "support",
+          "of",
+          "france",
+          "in",
+          "north",
+          "africa",
+          "particularly",
+          "in",
+          "algeria",
+          "is",
+          "vital",
+          "not",
+          "only",
+          "to",
+          "france",
+          "but",
+          "to",
+          "the",
+          "whole",
+          "western",
+          "world",
+          "french",
+          "attitudes",
+          "toward",
+          "egyptian",
+          "president",
+          "nasser",
+          "suggest",
+          "that",
+          "the",
+          "proposal",
+          "is",
+          "also",
+          "conceived",
+          "in",
+          "part",
+          "as",
+          "blocking",
+          "further",
+          "egyptian",
+          "influence",
+          "premier",
+          "debr",
+          "bluntly",
+          "told",
+          "secretary",
+          "dulles",
+          "on",
+          "6",
+          "february",
+          "that",
+          "unless",
+          "france",
+          "was",
+          "backed",
+          "in",
+          "its",
+          "algerian",
+          "policy",
+          "it",
+          "would",
+          "retain",
+          "its",
+          "mediterranean",
+          "naval",
+          "units",
+          "separately",
+          "de",
+          "gaulle",
+          "assured",
+          "dulles",
+          "however",
+          "that",
+          "the",
+          "french",
+          "fleet",
+          "would",
+          "rush",
+          "to",
+          "nato",
+          "and",
+          "become",
+          "part",
+          "of",
+          "nato",
+          "forces",
+          "in",
+          "case",
+          "of",
+          "war",
+          "algeria",
+          "was",
+          "removed",
+          "from",
+          "nato",
+          "military",
+          "jurisdiction",
+          "in",
+          "1954",
+          "at",
+          "france's",
+          "request"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.844749
+  },
+  "redacted_only": {
+    "mask": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 6,
+    "word_pct_vs_unredacted": 0.027397
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "france",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "to",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "propose",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "extension",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "of",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "nato",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "area",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12,
+        30
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "to",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "include",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14,
+        34
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "sahara",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15,
+        39
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "the",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "french",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "foreign",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "and",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "defense",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "ministries",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "have",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "drafted",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "a",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "proposal",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "to",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "extend",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "the",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "nato",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "area",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        12,
+        30
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "of",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "responsibility",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        32
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "to",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "include",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        14,
+        34
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "the",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "whole",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        36
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "of",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "the",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "sahara",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        15,
+        39
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "paris",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "reportedly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "intends",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "present",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "this",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "proposal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "initially",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "united",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "states",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "britain",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "then",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "north",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "atlantic",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "council",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "sometime",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "after",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "2-4",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "april",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "meeting",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "foreign",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "ministers",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "french",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "definition",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "sahara",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        39
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "appears",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "be",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "geographical",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "terms",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "view",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "de",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "gaulle's",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "previous",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "private",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "allusions",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "extending",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "area",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        30
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "sahara",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        15,
+        39
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "as",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "far",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "as",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "red",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "sea",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "new",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "proposal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "stems",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "from",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "official",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "french",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "views",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "is",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "being",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "outflanked",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "south",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "support",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "france",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "north",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "africa",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "particularly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "algeria",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "is",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "vital",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "not",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "only",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "france",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "but",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "whole",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        36
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "western",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "world",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "french",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "attitudes",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "toward",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "egyptian",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "president",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "nasser",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "suggest",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "proposal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "is",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "also",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "conceived",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "part",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "as",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "blocking",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "further",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "egyptian",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "influence",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "premier",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "debr",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "bluntly",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "told",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "secretary",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "dulles",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "6",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "february",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "unless",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "france",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "was",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "backed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "its",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "algerian",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "policy",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "it",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "would",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "retain",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "its",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "mediterranean",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "naval",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "units",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "separately",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "de",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "gaulle",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "assured",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "dulles",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "however",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        16,
+        28,
+        35,
+        38
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "french",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "fleet",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "would",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "rush",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        7,
+        13,
+        26,
+        33
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "become",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "part",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "forces",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "case",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        10,
+        31,
+        37
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "war",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "algeria",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "was",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "removed",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "from",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        11,
+        29
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "military",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "jurisdiction",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "1954",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 216,
+      "token": "at",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 217,
+      "token": "france's",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 218,
+      "token": "request",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Soviet Views of Macmillan's Visit to Moscow {The Soviet leaders apparently believe that British views on Berlin and Germany and the likelihood of British elections this year can be exploited to weaken Western unity. The first secretary of the Soviet Embassy in Bonn implied to an American correspondent on 11 February that the USSR considers Britain the \"weakest link\" in the Western front and may drive a \"hard bargain\" during Prime Minister Macmillan's visit. He hinted that the USSR might suggest withdrawing its Berlin demands in exchange for cancellation of plans for West German nuclear rearmament.} {Moscow probably feels that Macmillan's desire for a \"peacemaker\" role, together with the pressure of British public opinion for a lessening of East-West tensions, makes him particularly vulnerable on the German issue. The counselor of the Soviet Embassy in Paris has expressed doubts that Britain would participate in any Western military action to maintain land access to Berlin.} {The Soviet leaders, reminded of the benefits former Prime Minister Eden derived in his 1955 election campaign from having advocated a summit meeting, may seek to obtain at least a tacit endorsement from Macmillan of the desirability of another heads-of-government conference and favorable reference to European security measures such as a nonaggression pact or a reduction of foreign forces in Germany. Soviet propaganda is stressing the British people's concern over trends in West Germany and their desire for a policy \"independent of that imposed by the Adenauer-Dulles partnership\".}",
+    "redactions": [
+      "secretary of the Soviet Embassy in Bonn implied to an American correspondent on 11 February",
+      "The counselor of the Soviet Embassy in Paris has expressed doubts that Britain would participate in any Western military action to maintain land access to Berlin."
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 242,
+    "hypothesis_token_total": 219,
+    "matched_tokens": 22,
+    "missing_tokens": 220,
+    "hallucinated_tokens": 197,
+    "recall": 0.090909,
+    "precision": 0.100457,
+    "f1": 0.095445,
+    "net_recovery_minus_hallucination": -0.72314
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 2,
+    "predicted_redaction_count": 1,
+    "correctly_found_redactions": 0,
+    "missed_redactions": 2,
+    "hallucinated_redactions": 1,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 0.0,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 1.0,
+    "relaxed_gt_found_count": 0,
+    "relaxed_gt_found_rate": 0.0,
+    "relaxed_avg_best_f1_over_gt": 0.029218,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 0.0,
+    "matched_pairs": [],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "secretary of the Soviet Embassy in Bonn implied to an American correspondent on 11 February",
+        "best_score_f1": 0.03,
+        "best_chunk_start_0based": 0,
+        "best_chunk_end_0based": 0,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 15,
+          "hypothesis_token_total": 185,
+          "matched_tokens": 3,
+          "missing_tokens": 12,
+          "hallucinated_tokens": 182,
+          "recall": 0.2,
+          "precision": 0.016216,
+          "f1": 0.03,
+          "net_recovery_minus_hallucination": -11.933333
+        }
+      },
+      {
+        "gt_index_0based": 1,
+        "gt_text": "The counselor of the Soviet Embassy in Paris has expressed doubts that Britain would participate in any Western military action to maintain land access to Berlin.",
+        "best_score_f1": 0.028436,
+        "best_chunk_start_0based": 0,
+        "best_chunk_end_0based": 0,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 26,
+          "hypothesis_token_total": 185,
+          "matched_tokens": 8,
+          "missing_tokens": 18,
+          "hallucinated_tokens": 177,
+          "recall": 0.307692,
+          "precision": 0.043243,
+          "f1": 0.075829,
+          "net_recovery_minus_hallucination": -6.5
+        }
+      }
+    ]
+  }
+}

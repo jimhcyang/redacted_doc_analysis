@@ -1,0 +1,606 @@
+{
+  "image": "inputs/images/4_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    14,
+    15,
+    514,
+    307
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 72945,
+  "merged_region_nonzero_px": 72945,
+  "line_width_px": 500,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/4_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/4_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/4_unredacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        14,
+        17,
+        514,
+        36
+      ],
+      "text": "Remove extra line breaks.",
+      "expanded_crop_box_xyxy": [
+        0,
+        9,
+        560,
+        44
+      ],
+      "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Taiwan Strait Situation",
+      "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 10,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        14,
+        57,
+        514,
+        193
+      ],
+      "text": "\nTaiwan Strait Situation\n\nChinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.\n\nChiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        43,
+        560,
+        207
+      ],
+      "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "No line breaks or other\nmodification.\nChinese Nationalist officials are making every effort to\noffset the effects of Communist China's cease-fire offer. One\nranking Nationalist leader told an American official on 6 Octo-\nber that his government views the move as a threefold attempt\nto divide Taipei and Washington, to weaken the morale of the\ntroops on Chinmen, and to provide a means to charge the\nUnited States with forcing hostilities, possibly as a prelude\nto a major assault.",
+      "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 12,
+      "line_end_1based": 16,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        14,
+        218,
+        514,
+        301
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        210,
+        560,
+        309
+      ],
+      "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+      "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.375,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 14,
+  "row_scan_gap_band_count": 13,
+  "row_scan_linebreak_band_count": 11,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        14,
+        37,
+        514,
+        56
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 1.5909,
+      "height_to_avg_full_line_ratio": 1.0822,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        14,
+        69,
+        514,
+        73
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.3977,
+      "height_to_avg_full_line_ratio": 0.2706,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        87,
+        514,
+        91
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.3977,
+      "height_to_avg_full_line_ratio": 0.2706,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        105,
+        514,
+        110
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        123,
+        514,
+        128
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        141,
+        514,
+        146
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        159,
+        514,
+        164
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        177,
+        514,
+        182
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        194,
+        514,
+        217
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 1.9091,
+      "height_to_avg_full_line_ratio": 1.2987,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        14,
+        231,
+        514,
+        236
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.4773,
+      "height_to_avg_full_line_ratio": 0.3247,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        250,
+        514,
+        254
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.3977,
+      "height_to_avg_full_line_ratio": 0.2706,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        267,
+        514,
+        273
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.5568,
+      "height_to_avg_full_line_ratio": 0.3788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        285,
+        514,
+        291
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5714,
+      "avg_linebreak_height_px": 5.9091,
+      "avg_full_line_height_px": 18.4805,
+      "height_to_avg_line_ratio": 0.5568,
+      "height_to_avg_full_line_ratio": 0.3788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 14,
+    "blankline": 0,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Remove extra line breaks.",
+      "char_len": 25,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        17,
+        514,
+        36
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        14,
+        38,
+        514,
+        56
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        57,
+        514,
+        68
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Taiwan Strait Situation",
+      "char_len": 23,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        74,
+        514,
+        86
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        92,
+        514,
+        104
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Chinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.",
+      "char_len": 441,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        111,
+        514,
+        122
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        129,
+        514,
+        140
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+      "char_len": 261,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        147,
+        514,
+        158
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        165,
+        514,
+        176
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        183,
+        514,
+        193
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "PB11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        14,
+        199,
+        514,
+        217
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        218,
+        514,
+        230
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        237,
+        514,
+        249
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        255,
+        514,
+        266
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        274,
+        514,
+        284
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        292,
+        514,
+        301
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

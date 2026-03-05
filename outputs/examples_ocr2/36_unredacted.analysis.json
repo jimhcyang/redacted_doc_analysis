@@ -1,0 +1,1287 @@
+{
+  "image": "inputs/images/36_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    20,
+    1,
+    532,
+    743
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 209756,
+  "merged_region_nonzero_px": 209756,
+  "line_width_px": 512,
+  "line_count": 38,
+  "paragraph_crops_dir": "outputs/examples_ocr2/36_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/36_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/36_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 38,
+      "line_count": 38,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        20,
+        11,
+        532,
+        714
+      ],
+      "text": "Overt French Military and Rightist Opposition to De Gaulle\nOn Algeria Likely\n\n\n[There are indications that some die-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first 'political speech' in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes many\" and referred pointedly to the integration of Algeria with France as one of its objectives. Air Force Chief of Staff General Jouhouad, who was born in Algeria and played a leading role in the revolt, is reported to have made more visits to Algeria recently than his position warrants. There have been numerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"]\n\n[French military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as 'abandonment,' are probably being spurred toward early action by leaks of De Gaulle's previously reported intention to hold a referendum in France on the question of continuing the war. There is increasing evidence that a majority of the public wants an end to the war and would probably support a 'liberal' solution if De Gaulle proposed one. Rumors of secret French-rebel contacts also have upset these military and rightist circles]\n\n[Extremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle, and are regrouping as a result of the government's clemency measures toward Algerian rebels and of the announcement that the municipal elections in April will be conducted under a new law favoring Moslem candidates. Although De Gaulle's steps to split the military-settler front of 1958 had appeared successful, the settlers are continuing their efforts to regain military support and are likely to stage a major demonstration in Algiers on 22 March when Jouhouad decorates air force reservists there]",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        583,
+        755
+      ],
+      "crop_path": "outputs/examples_ocr2/36_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "French Military and Rightist Opposition to De Gaulle\nOn Algeria Likely\nThere are indications that some die-hard elements in the\nFrench armed forces may join rightist civilian groups in openly\nopposing De Gaulle's Algerian policy. Army General Massu on\n1 March, in his first \"political speech\" in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes\nmany\" and referred pointedly to the integration of Algeria with\nFrance as one of its objectives. Air Force Chief of Staff General Jouhad, who was born in Algeria and played a leading\nrole in the revolt, is reported to have made more visits to Algeria recently than his position warrants. There have been\nnumerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"\nFrench military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as \"abandonment,\" are probably being spurred toward early\naction by leaks of De Gaulle's previously reported intention to\nhold a referendum in France on the question of continuing the\nwar. There is increasing evidence that a majority of the public\nwants an end to the war and would probably support a \"liberal\"\nsolution if De Gaulle proposed one. Rumors of secret Frenchrebel contacts also have upset these military and rightist circles.\nExtremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle,\nand are regrouping as a result of the government's clemency\nmeasures toward Algerian rebels and of the announcement that\nthe municipal elections in April will be conducted under a new\nlaw favoring Moslem candidates. Although De Gaulle's steps to\nsplit the military-settler front of 1958 had appeared successful,\nthe settlers are continuing their efforts to regain military support\nand are likely to stage a major demonstration in Algiers on 22\nMarch when Jouhad decorates air force reservists there.",
+      "ocr_text_path": "outputs/examples_ocr2/36_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.4211,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 8,
+  "row_scan_line_band_count": 37,
+  "row_scan_gap_band_count": 38,
+  "row_scan_linebreak_band_count": 33,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        20,
+        25,
+        532,
+        27
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2247,
+      "height_to_avg_full_line_ratio": 0.1665,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        49,
+        532,
+        64
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 1.1984,
+      "height_to_avg_full_line_ratio": 0.888,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 16,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        80,
+        532,
+        82
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2247,
+      "height_to_avg_full_line_ratio": 0.1665,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        97,
+        532,
+        100
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2996,
+      "height_to_avg_full_line_ratio": 0.222,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        115,
+        532,
+        119
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        133,
+        532,
+        136
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2996,
+      "height_to_avg_full_line_ratio": 0.222,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        151,
+        532,
+        155
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        169,
+        532,
+        173
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        187,
+        532,
+        189
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2247,
+      "height_to_avg_full_line_ratio": 0.1665,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        205,
+        532,
+        209
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        223,
+        532,
+        227
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        241,
+        532,
+        245
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        260,
+        532,
+        263
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2996,
+      "height_to_avg_full_line_ratio": 0.222,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        278,
+        532,
+        282
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        297,
+        532,
+        300
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2996,
+      "height_to_avg_full_line_ratio": 0.222,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        317,
+        532,
+        318
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.1498,
+      "height_to_avg_full_line_ratio": 0.111,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        367,
+        532,
+        372
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        388,
+        532,
+        390
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2247,
+      "height_to_avg_full_line_ratio": 0.1665,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        404,
+        532,
+        408
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        422,
+        532,
+        426
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        443,
+        532,
+        444
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.1498,
+      "height_to_avg_full_line_ratio": 0.111,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        458,
+        532,
+        463
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        476,
+        532,
+        480
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        495,
+        532,
+        499
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        533,
+        532,
+        535
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.2247,
+      "height_to_avg_full_line_ratio": 0.1665,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        548,
+        532,
+        553
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        567,
+        532,
+        572
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        585,
+        532,
+        590
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        603,
+        532,
+        608
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        621,
+        532,
+        625
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        639,
+        532,
+        643
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.3745,
+      "height_to_avg_full_line_ratio": 0.2775,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        657,
+        532,
+        662
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        675,
+        532,
+        680
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        20,
+        693,
+        532,
+        698
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.3514,
+      "avg_linebreak_height_px": 4.6667,
+      "avg_full_line_height_px": 18.018,
+      "height_to_avg_line_ratio": 0.4494,
+      "height_to_avg_full_line_ratio": 0.333,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 37,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Overt French Military and Rightist Opposition to De Gaulle",
+      "char_len": 58,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        11,
+        532,
+        24
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "On Algeria Likely",
+      "char_len": 17,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        28,
+        532,
+        48
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "BL3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        20,
+        49,
+        532,
+        64
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        65,
+        532,
+        79
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "[There are indications that some die-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first 'political speech' in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes many\" and referred pointedly to the integration of Algeria with France as one of its objectives. Air Force Chief of Staff General Jouhouad, who was born in Algeria and played a leading role in the revolt, is reported to have made more visits to Algeria recently than his position warrants. There have been numerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"]",
+      "char_len": 860,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        83,
+        532,
+        96
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        101,
+        532,
+        114
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "[French military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as 'abandonment,' are probably being spurred toward early action by leaks of De Gaulle's previously reported intention to hold a referendum in France on the question of continuing the war. There is increasing evidence that a majority of the public wants an end to the war and would probably support a 'liberal' solution if De Gaulle proposed one. Rumors of secret French-rebel contacts also have upset these military and rightist circles]",
+      "char_len": 561,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        120,
+        532,
+        132
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        137,
+        532,
+        150
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "[Extremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle, and are regrouping as a result of the government's clemency measures toward Algerian rebels and of the announcement that the municipal elections in April will be conducted under a new law favoring Moslem candidates. Although De Gaulle's steps to split the military-settler front of 1958 had appeared successful, the settlers are continuing their efforts to regain military support and are likely to stage a major demonstration in Algiers on 22 March when Jouhouad decorates air force reservists there]",
+      "char_len": 621,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        156,
+        532,
+        168
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        174,
+        532,
+        186
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        190,
+        532,
+        204
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        210,
+        532,
+        222
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        228,
+        532,
+        240
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        246,
+        532,
+        259
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        264,
+        532,
+        277
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        283,
+        532,
+        296
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        301,
+        532,
+        316
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        319,
+        532,
+        333
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        355,
+        532,
+        366
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        373,
+        532,
+        387
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        391,
+        532,
+        403
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        409,
+        532,
+        421
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        427,
+        532,
+        442
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        445,
+        532,
+        457
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        464,
+        532,
+        475
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        481,
+        532,
+        494
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        500,
+        532,
+        511
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        531,
+        532,
+        532
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        536,
+        532,
+        547
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        554,
+        532,
+        566
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        573,
+        532,
+        584
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        591,
+        532,
+        602
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        609,
+        532,
+        620
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        626,
+        532,
+        638
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        644,
+        532,
+        656
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        663,
+        532,
+        674
+      ]
+    },
+    {
+      "line_1based": 37,
+      "serial_label": "L37",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        681,
+        532,
+        692
+      ]
+    },
+    {
+      "line_1based": 38,
+      "serial_label": "L38",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        20,
+        699,
+        532,
+        714
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

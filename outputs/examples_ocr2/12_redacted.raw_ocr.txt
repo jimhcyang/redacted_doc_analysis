@@ -1,0 +1,11 @@
+PATCHES: torch.Size([6, 144, 1280])
+
+
+
+Moroccan Dissidents Step Up Activities
+
+Predominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissident activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that "many attacks" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.
+
+Concerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief "plotter" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago.
+
+Meanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops,

@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 9,
+    "line_count": 9,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      25,
+      2,
+      536,
+      666
+    ],
+    "text": "France Considering Naval Action to Check Flow of Soviet Block Arms to Guinea\n\nParis is studying means, including interception at sea, to control the flow of Soviet bloc arms to Guinea, and intends to raise the matter in later Western tripartite talks on policy coordination, according to French officials participating in the current series of tripartite talks on Africa. French civilian and military officials in West Africa allege that Guinea, as part of an \"arms bargain\" with the bloc, is arming guerrilla bands for operations against neighboring states of the French community.\n\nHigh Paris officials, in arguing for closer Western policy coordination, have cited Guinea as a focal point for Communist penetration of Africa and as a potential security threat to its neighbors. In the tripartite talks, French representatives have characterized the area from France's southern coast to the equator as a single strategic zone of vital importance to French national interests.\n\nAn initial gift shipment of military materiel from Czechoslovakia arrived in Conakry aboard a Polish ship on 18 March. It was reliably reported to include 8,000 rifles, 3,000 revolvers, 30 machine guns, 12 antitank guns, two armored cars, up to 60,000 grenades and 50 bazookas, 42 field radio sets, and approximately 150 tons of ammunition. A subsequent Czech shipment including two or three light tanks and some army field kitchens, presumably part of the same gift arrangement, reportedly arrived late last week, also via a Polish vessel. In addition to re-equipping and perhaps expanding Guinea's present 2,000-man security force, Toure may assign some of this materiel to militant members of Guinea's single political party.\n\nAny Western interference with bloc shipments consigned to Guinea would be bitterly resented and vehemently protested by Toure and might make him even more receptive to close ties.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      556,
+      677
+    ],
+    "crop_path": "outputs/examples_ocr2/44_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "France Considering Naval Action to Check Flow of Soviet\nBlock Arms to Guinea\nParis is studying means, including interception at sea,\nto control the flow of Soviet block arms to Guinea, and intends\nto raise the matter in later Western tripartite talks on policy\ncoordination, according to French officials participating in\nthe current series of tripartite talks on Africa. French civilian\nand military officials in West Africa allege that Guinea, as part\nof an \"arms bargain\" with the bloc, is arming guerrilla bands\nfor operations against neighboring states of the French Commu-\nnity\nHigh Paris officials, in arguing for closer Western policy\ncoordination, have cited Guinea as a focal point for Communist\npenetration of Africa and as a potential security threat to its\nneighbors. In the tripartite talks, French representatives have\ncharacterized the area from France's southern coast to the\nequator as a single strategic zone of vital importance to French\nnational interests.\nAn initial gift shipment of military materiel from Czechoslovakia arrived in Conakry aboard a Polish ship on 18 March.\nIt was reliably reported to include 8,000 rifles, 3,000 revolvers,\n30 machine guns, 12 antitank guns, two armored cars, up to\n60,000 grenades and 50 bazookas, 42 field radio sets, and approximately 150 tons of ammunition. A subsequent Czech shipment including two or three light tanks and some army field\nkitchens, presumably part of the same gift arrangement, reportedly arrived late last week, also via a Polish vessel. In\naddition to re-equipping and perhaps expanding Guinea's present 2,000-man security force, Touré may assign some of this\nmateriel to militant members of Guinea's single political party.\nAny Western interference with bloc shipments consigned to\nGuinea would be bitterly resented and vehemently protested by\nTouré and might make him even more receptive to close ties",
+    "ocr_text_path": "outputs/examples_ocr2/44_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

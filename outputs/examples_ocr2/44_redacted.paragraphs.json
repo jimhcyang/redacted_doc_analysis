@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 11,
+    "line_count": 11,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      28,
+      0,
+      546,
+      665
+    ],
+    "text": "France Considering Naval Action to Check Flow of Soviet\nBlock Arms to Guinea\n\nParis is studying means, including interception at sea,\nto control the flow of Soviet block arms to Guinea, and intends\nto raise the matter in later Western tripartite talks on policy\ncoordination, according to French officials participating in\n\nthe current series of tripartite talks on Africa. French civilian\nand military officials in West Africa allege that Guinea, as part\nof an \"arms bargain\" with the bloc, is arming guerrilla bands",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      581,
+      671
+    ],
+    "crop_path": "outputs/examples_ocr2/44_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "French Considering Naval Action to Check Flow of Soviet\nBlock Arms to Guinea\nParis is studying means, including interception at sea,\nto control the flow of Soviet block arms to Guinea, and intends\nto raise the matter in later Western tripartite talks on policy\ncoordination, according to French officials participating in\nthe current series of tripartite talks on Africa. French civilian\nand military officials in West Africa allege that Guinea, as part\nof an \"arms bargain\" with the bloc, is arming guerrilla bands\nfor operations against neighboring states of the French Commu-\nnity\nHigh Paris officials, in arguing for closer Western policy\ncoordination, have cited Guinea as a focal point for Communist\npenetration of Africa and as a potential security threat to its\nneighbors. In the tripartite talks, French representatives have\ncharacterized the area from France's southern coast to the\nequator as a single strategic zone of vital importance to French\nnational interests\nAn initial gift shipment of military materiel from Czecho-\nslovakia arrived in Conakry aboard a Polish ship on 18 March.\nA subsequent Czech ship-\nment including two or three light tanks and some army field\nkitchens, presumably part of the same gift arrangement, re-\nportedly arrived late last week, also via a Polish vessel. In\naddition to re-equipping and perhaps expanding Guinea's pres-\nent 2,000-man security force, Touré may assign some of this\nmateriel to militant members of Guinea's single political party.\nAny Western interference with bloc shipments consigned to\nGuinea would be bitterly resented and vehemently protested by\nTouré and might make him even more receptive to close ties",
+    "ocr_text_path": "outputs/examples_ocr2/44_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

@@ -1,0 +1,2 @@
+Any invalid parts of the text will be discarded and will result in the text being written to a file with the original formatting.
+An influential member of the cabinet has indicated that the government's policy is to rely on either the World Bank or the United States for external financial assistance for a development program. However, the Soviet trade mission scheduled to arrive in Khartoum on 22 January may offer trade-aid deals difficult to resist. A Soviet offer related to Nile waters control projects would be particularly attractive.

@@ -1,0 +1,24 @@
+Example ID: 25
+Stem: 25
+Redacted OCR file: outputs/examples_ocr2/25_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/25_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=34..218, len=185)
+Predicted chunk text: paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request
+Unredacted context: of the sahara [UNRED_ONLY: paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request]
+Redacted anchor context: [L_ANCHOR_ONLY @ 39] whole of the sahara
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.03 joined_pred_chunks=0..0
+  -> GT text: secretary of the Soviet Embassy in Bonn implied to an American correspondent on 11 February
+  -> Relaxed best pred text: paris reportedly intends to present this proposal initially to the united states and britain and then to the north atlantic council sometime after the 2-4 april meeting of nato foreign ministers the french definition of sahara appears to be in geographical terms in view of de gaulle's previous private allusions to extending the nato area to the sahara as far as the red sea the new proposal stems from official french views that nato is being outflanked to the south and that nato support of france in north africa particularly in algeria is vital not only to france but to the whole western world french attitudes toward egyptian president nasser suggest that the proposal is also conceived in part as blocking further egyptian influence premier debr bluntly told secretary dulles on 6 february that unless france was backed in its algerian policy it would retain its mediterranean naval units separately de gaulle assured dulles however that the french fleet would rush to nato and become part of nato forces in case of war algeria was removed from nato military jurisdiction in 1954 at france's request
+  -> Relaxed word metrics: recall=0.2 precision=0.016216 f1=0.03

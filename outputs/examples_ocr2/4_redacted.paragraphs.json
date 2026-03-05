@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 8,
+    "line_count": 8,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      19,
+      11,
+      525,
+      188
+    ],
+    "text": "Preserve line breaks as requested.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      547,
+      206
+    ],
+    "crop_path": "outputs/examples_ocr2/4_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Taiwan Strait Situation Chinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer.",
+    "ocr_text_path": "outputs/examples_ocr2/4_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 10,
+    "line_end_1based": 14,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      19,
+      212,
+      525,
+      296
+    ],
+    "text": "Taiwan Strait Situation\n\nChinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. [ ]\n\nChiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      204,
+      547,
+      304
+    ],
+    "crop_path": "outputs/examples_ocr2/4_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+    "ocr_text_path": "outputs/examples_ocr2/4_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

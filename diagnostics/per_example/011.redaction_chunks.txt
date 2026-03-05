@@ -1,0 +1,42 @@
+Example ID: 11
+Stem: 11
+Redacted OCR file: outputs/examples_ocr2/11_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/11_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=20..21, len=2)
+Predicted chunk text: ele ments
+Unredacted context: by left-wing opposition [UNRED_ONLY: ele ments] who appear determined
+Redacted anchor context: argentina by left-wing [L@19:opposition] [RED_GAP:elements] [R@21:who] appear determined to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:elements]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=40..41, len=2)
+Predicted chunk text: suf ficient
+Unredacted context: attacks coincides with [UNRED_ONLY: suf ficient] military and popular
+Redacted anchor context: their attacks coincides [L@38:with] [RED_GAP:sufficient] [R@40:military] and popular discontent
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:sufficient]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=67..127, len=61)
+Predicted chunk text: the plan armed groups to cross from argentina a revolt by some mili tary units controlled by junior officers favoring m ndez fleitas the assassination of stroessner and a popular uprising in asunci n with strong student participation the government aware of the plot has taken strong security precautions an invasion attempt last october was discovered and prevented by argentine police
+Unredacted context: also be involved [UNRED_ONLY: the plan armed groups to cross from argentina a revolt by some mili tary units controlled by junior officers favoring m ndez fleitas the assassination of stroessner and a popular uprising in asunci n with strong student participation the government aware of the plot has taken strong security precautions an invasion attempt last october was discovered and prevented by argentine police] while stroessner has
+Redacted anchor context: may also be [L@64:involved] [RED_GAP:<empty>] [R@65:while] stroessner has been
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.071429 joined_pred_chunks=2..2
+  -> GT text: In the short run this kind of plotting against the weak Stroessner regime may be more dangerous than it appears at first glance.
+  -> Relaxed best pred text: the plan armed groups to cross from argentina a revolt by some mili tary units controlled by junior officers favoring m ndez fleitas the assassination of stroessner and a popular uprising in asunci n with strong student participation the government aware of the plot has taken strong security precautions an invasion attempt last october was discovered and prevented by argentine police
+  -> Relaxed word metrics: recall=0.173913 precision=0.065574 f1=0.095238

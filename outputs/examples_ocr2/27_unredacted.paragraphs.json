@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 43,
+    "line_count": 43,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      27,
+      2,
+      550,
+      810
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])\n\n\n\n\nCyprus Situation\n\n[An emergency meeting at the foreign ministers' level was called in London on the evening of 18 February to prevent the threatened collapse of the conference seeking agreement on the terms for an independent Cyprus. The urgent meeting follows reports that Archbishop Makarios has broken with the Greek Government and no longer accepts the Cyprus agreement reached between Athens and Ankara on 11 February. The future of the conference now depends on Makarios, as Britain, Greece, Turkey, and the Turkish Cypriots have agreed on the terms for a settlement. Failure to secure the archbishop's approval would eliminate hope for a solution at present and could lead to a renewal of the struggle on Cyprus. The possibility cannot be precluded that Makarios is maneuvering for further concessions, which would also enhance his political stature in both Cyprus and Greece.]\n\nMakarios' opposition to the agreement appears concentrated on the terms providing for British base rights on Cyprus, and the right of Britain, Greece, and Turkey to intervene if Cypriot independence is threatened. There may also be problems in London regarding the timing and method of execution of the agreement, the degree of Turkish Cypriot participation in the government, and the question of whether or not Cyprus will remain within the British Commonwealth. Makarios' advisers reportedly are pressuring the archbishop to submit any plan for Cyprus' future to a plebiscite on the island.\n\n[If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey, will order the return of the Greek NATO contingent withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.]\n\n[A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.]",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      585,
+      815
+    ],
+    "crop_path": "outputs/examples_ocr2/27_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "PATCHES: torch.Size([6, 144, 1280])",
+    "ocr_text_path": "outputs/examples_ocr2/27_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

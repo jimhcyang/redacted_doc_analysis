@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 10,
+    "line_count": 10,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      23,
+      13,
+      538,
+      405
+    ],
+    "text": "Morocco Indicates Desire to Purchase of Arms.\n\nMoroccan Defense Minister Mohamed Aouad inquired on\n23 March whether the United States would supply some\n$19,000,000 to $23,000,000 worth of military equipment to\nmodernize Morocco's 31,000-man army. Aouad said Morocco\nwants tanks, trucks, communications equipment, machine guns,\nsubmachine guns and ammunition, fighter and observation air-\ncraft, and helicopters. He implied that the King is under con-\nsiderable pressure--presumably from the left-wing members",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      590,
+      444
+    ],
+    "crop_path": "outputs/examples_ocr2/38_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is a screenshot of a document. The document is written in French and is about the Moroccan Defense Minister Mohamed Aouda. The text is about the Moroccan Defense Minister Mohamed Aouda's request to the United States to supply the Moroccan Defense Minister Mohamed Aouda with 23 March 2000 military equipment to modernize Morocco's 31,000-man army. The text also mentions that Aouda said Morocco wants tanks, trucks, communications equipment, machine guns, submachine guns and ammunition, fighter and observation aircraft, and helicopters. The text also mentions that the King is under considerable pressure to continue to procure arms from the Soviet bloc, and that the government has made a firm decision not to rely on France as its primary source of material. The text also mentions that the Moroccan Defense Minister Mohamed Aouda's request to the United States to supply the Moroccan Defense Ministry with 23 March 2000 military equipment to modernize Morocco's 31,000-man Army is a follow-up to a tentative approach he made earlier this year. The text is written in a formal style and is intended to convey information about the Moroccan Defense Minister Mohamed Aouda's request to the United States to supply the Moroccan Army with 23 March 2000 military equipment.",
+    "ocr_text_path": "outputs/examples_ocr2/38_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 12,
+    "line_end_1based": 15,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      23,
+      422,
+      538,
+      621
+    ],
+    "text": "of the Ibrahim government--to continue to procure arms from\nthe Soviet bloc, and indicated that the government has made a\nfirm decision not to rely any longer on France as its primary\nsource of materiel.",
+    "expanded_crop_box_xyxy": [
+      0,
+      402,
+      590,
+      637
+    ],
+    "crop_path": "outputs/examples_ocr2/38_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a quote from a book.",
+    "ocr_text_path": "outputs/examples_ocr2/38_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

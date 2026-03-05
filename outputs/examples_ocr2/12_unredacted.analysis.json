@@ -1,0 +1,1284 @@
+{
+  "image": "inputs/images/12_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    30,
+    4,
+    535,
+    759
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 208520,
+  "merged_region_nonzero_px": 208520,
+  "line_width_px": 505,
+  "line_count": 36,
+  "paragraph_crops_dir": "outputs/examples_ocr2/12_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/12_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/12_unredacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        30,
+        19,
+        535,
+        52
+      ],
+      "text": "Moroccan Dissidents Step Up Activities",
+      "expanded_crop_box_xyxy": [
+        0,
+        11,
+        559,
+        60
+      ],
+      "crop_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 36,
+      "line_count": 34,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        30,
+        58,
+        535,
+        758
+      ],
+      "text": "\n[Predominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissent activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.\n\nConcerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago. The King, however, appears to have been fully aware of Lyoussi's complicity in the affair and, moreover, to have deliberately permitted him to leave Rabat following his resignation and to take refuge among his tribal followers in the Middle Atlas region. This action, coupled with the King's apparent protection of two other anti-Istiqlal leaders implicated in the present Berber dissidence, may hasten a reckoning between Mohamed V and republic-minded Istiqlal extremists.\n\nMeanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        559,
+        759
+      ],
+      "crop_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Any numerical or capitalization errors should be disregarded.\nMoroccan Dissidents Step Up Activities\nPredominantly Berber elements in northern Morocco\nhostile to the dominant Istiqlal party--and especially to its\nleft wing which took over the premiership and other important\nposts in the cabinet invested on 24 December--appear to have\nstepped up both the pace and the boldness of their dissident ac-\ntivities. Istiqlal's principal newspaper, Al Aiam, has in recent\ndays carried an increasing number of articles concerning\nviolent incidents, and on 2 January it asserted that \"many at-\ntacks\" have been perpetrated against party offices and person-\nnel as part of a foreign-supported plot against the party.\nConcerned but apparently undaunted by this increasingly\nserious security problem, Premier Ibrahim's government has\nso far pursued an uncompromising, even provocative, course\nwhich could precipitate an early showdown between the contend-\ning forces. Immediately after its investiture a former Berber\ngovernor of an outlying province, who was forcibly removed and\narrested in January 1957 for defying orders from Rabat and\nleading an abortive anti-Ismaili revolt, was finally brought to\ntrial. This led in turn to accusations that the chief \"plotter\"\nin the 1957 affair--which Istiqlal leaders claim was supported\nby France--was another and much more important Berber lead-\ner, Lahcen Lyoussi, a partisan of King Mohamed V and a crown\ncounselor until his resignation was forced two weeks ago. The\nKing, however, appears to have been fully aware of Lyoussi's\ncomplicity in the affair and, moreover, to have deliberately\npermitted him to leave Rabat following his resignation and to\ntake refuge among his tribal followers in the Middle Atlas\nregion. This action coupled with the King's apparent protection\nof two other anti-Ismaili leaders implicated in the present Berber\ndissidence, may hasten a reckoning between Mohamed V and\nrepublic-minded Istiqlal extremists.\nMeanwhile, elements of the royal army suspected of\nsympathizing with the local populations in the disaffected areas\nhave been replaced by other, non-indigenous troops.",
+      "ocr_text_path": "outputs/examples_ocr2/12_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 16.0,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 35,
+  "row_scan_gap_band_count": 34,
+  "row_scan_linebreak_band_count": 34,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        30,
+        53,
+        535,
+        57
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 5,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        30,
+        74,
+        535,
+        75
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.1226,
+      "height_to_avg_full_line_ratio": 0.094,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        89,
+        535,
+        93
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        107,
+        535,
+        111
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        126,
+        535,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        144,
+        535,
+        148
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        162,
+        535,
+        164
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.1839,
+      "height_to_avg_full_line_ratio": 0.1409,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        181,
+        535,
+        184
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        197,
+        535,
+        203
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.4291,
+      "height_to_avg_full_line_ratio": 0.3289,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        216,
+        535,
+        221
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        309,
+        535,
+        312
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        325,
+        535,
+        329
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        343,
+        535,
+        348
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        361,
+        535,
+        366
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        379,
+        535,
+        384
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        399,
+        535,
+        402
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        416,
+        535,
+        420
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        434,
+        535,
+        438
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        453,
+        535,
+        457
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        471,
+        535,
+        474
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        489,
+        535,
+        493
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        507,
+        535,
+        511
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        525,
+        535,
+        530
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        543,
+        535,
+        548
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        561,
+        535,
+        566
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        579,
+        535,
+        583
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        598,
+        535,
+        601
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        615,
+        535,
+        620
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        633,
+        535,
+        638
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        652,
+        535,
+        656
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3065,
+      "height_to_avg_full_line_ratio": 0.2349,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        669,
+        535,
+        672
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.2452,
+      "height_to_avg_full_line_ratio": 0.1879,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        706,
+        535,
+        711
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        723,
+        535,
+        728
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.3678,
+      "height_to_avg_full_line_ratio": 0.2819,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        30,
+        744,
+        535,
+        746
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 16.3143,
+      "avg_linebreak_height_px": 4.9706,
+      "avg_full_line_height_px": 21.2849,
+      "height_to_avg_line_ratio": 0.1839,
+      "height_to_avg_full_line_ratio": 0.1409,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 35,
+    "blankline": 0,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Moroccan Dissidents Step Up Activities",
+      "char_len": 38,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        19,
+        535,
+        52
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        30,
+        53,
+        535,
+        57
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        58,
+        535,
+        73
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "[Predominantly Berber elements in northern Morocco hostile to the dominant Istiqlal party--and especially to its left wing which took over the premiership and other important posts in the cabinet invested on 24 December--appear to have stepped up both the pace and the boldness of their dissent activities. Istiqlal's principal newspaper, Al Alam, has in recent days carried an increasing number of articles concerning violent incidents, and on 2 January it asserted that \"many attacks\" have been perpetrated against party offices and personnel as part of a foreign-supported plot against the party.",
+      "char_len": 599,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        76,
+        535,
+        88
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        94,
+        535,
+        106
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Concerned but apparently undaunted by this increasingly serious security problem, Premier Ibrahim's government has so far pursued an uncompromising, even provocative, course which could precipitate an early showdown between the contending forces. Immediately after its investiture a former Berber governor of an outlying province, who was forcibly removed and arrested in January 1957 for defying orders from Rabat and leading an abortive anti-Istiqlal revolt, was finally brought to trial. This led in turn to accusations that the chief \"plotter\" in the 1957 affair--which Istiqlal leaders claim was supported by France--was another and much more important Berber leader, Lahcen Lyoussi, a partisan of King Mohamed V and a crown counselor until his resignation was forced two weeks ago. The King, however, appears to have been fully aware of Lyoussi's complicity in the affair and, moreover, to have deliberately permitted him to leave Rabat following his resignation and to take refuge among his tribal followers in the Middle Atlas region. This action, coupled with the King's apparent protection of two other anti-Istiqlal leaders implicated in the present Berber dissidence, may hasten a reckoning between Mohamed V and republic-minded Istiqlal extremists.",
+      "char_len": 1261,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        112,
+        535,
+        125
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        130,
+        535,
+        143
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Meanwhile, elements of the royal army suspected of sympathizing with the local populations in the disaffected areas have been replaced by other, non-indigenous troops.",
+      "char_len": 167,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        149,
+        535,
+        161
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        165,
+        535,
+        180
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        185,
+        535,
+        196
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        204,
+        535,
+        215
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        222,
+        535,
+        308
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        313,
+        535,
+        324
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        330,
+        535,
+        342
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        349,
+        535,
+        360
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        367,
+        535,
+        378
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        385,
+        535,
+        398
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        403,
+        535,
+        415
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        421,
+        535,
+        433
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        439,
+        535,
+        452
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        458,
+        535,
+        470
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        475,
+        535,
+        488
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        494,
+        535,
+        506
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        512,
+        535,
+        524
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        531,
+        535,
+        542
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        549,
+        535,
+        560
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        567,
+        535,
+        578
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        584,
+        535,
+        597
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        602,
+        535,
+        614
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        621,
+        535,
+        632
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        639,
+        535,
+        651
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        657,
+        535,
+        668
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        673,
+        535,
+        705
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        712,
+        535,
+        722
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        729,
+        535,
+        743
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        30,
+        747,
+        535,
+        758
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,648 @@
+{
+  "image": "inputs/images/24_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      13,
+      322,
+      603,
+      388
+    ],
+    [
+      14,
+      388,
+      282,
+      403
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    32,
+    23,
+    567,
+    514
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 136689,
+  "merged_region_nonzero_px": 135249,
+  "line_width_px": 535,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/24_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/24_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/24_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        32,
+        27,
+        567,
+        45
+      ],
+      "text": "Ignore repeat line breaks.",
+      "expanded_crop_box_xyxy": [
+        0,
+        19,
+        621,
+        53
+      ],
+      "crop_path": "outputs/examples_ocr2/24_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Tension Surrounds Venezuelan Presidential Inauguration",
+      "ocr_text_path": "outputs/examples_ocr2/24_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 16,
+      "line_count": 14,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        32,
+        68,
+        567,
+        507
+      ],
+      "text": "\n# Tension Surrounds Venezuelan Presidential Inauguration\n\nThe explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela on 13 February is pointed up by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.\n\n---\n\nLarrazabal, *the popular former junta president, has kept himself in the political spotlight by appearances at public ceremonies, especially during the recent visit of Fidel Castro. There is some indication that he may postpone assuming his ambassadorial assignment in Chile until after the inauguration. His presence in Caracas on 13 February would be an embarrassment to Betancourt and could possibly provoke disorders.",
+      "expanded_crop_box_xyxy": [
+        0,
+        24,
+        621,
+        518
+      ],
+      "crop_path": "outputs/examples_ocr2/24_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela on 13 February is pointed up by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.",
+      "ocr_text_path": "outputs/examples_ocr2/24_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 28.75,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 13,
+  "row_scan_gap_band_count": 12,
+  "row_scan_linebreak_band_count": 11,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        32,
+        46,
+        567,
+        67
+      ],
+      "kind": "linebreak",
+      "height_px": 22,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.7944,
+      "height_to_avg_full_line_ratio": 0.6962,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        32,
+        82,
+        567,
+        83
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        100,
+        567,
+        101
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        118,
+        567,
+        119
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        137,
+        567,
+        138
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        154,
+        567,
+        155
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        173,
+        567,
+        174
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        190,
+        567,
+        192
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.1083,
+      "height_to_avg_full_line_ratio": 0.0949,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        208,
+        567,
+        209
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        227,
+        567,
+        228
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        244,
+        567,
+        245
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 0.0722,
+      "height_to_avg_full_line_ratio": 0.0633,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        32,
+        314,
+        567,
+        391
+      ],
+      "kind": "blankline",
+      "height_px": 78,
+      "avg_text_line_height_px": 27.6923,
+      "avg_linebreak_height_px": 3.9091,
+      "avg_full_line_height_px": 31.6014,
+      "height_to_avg_line_ratio": 2.8167,
+      "height_to_avg_full_line_ratio": 2.4682,
+      "blankline_line_slots": 2,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 78,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.859,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 13,
+    "blankline": 2,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore repeat line breaks.",
+      "char_len": 26,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        27,
+        567,
+        45
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        32,
+        46,
+        567,
+        67
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        68,
+        567,
+        81
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "# Tension Surrounds Venezuelan Presidential Inauguration",
+      "char_len": 56,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        84,
+        567,
+        99
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        102,
+        567,
+        117
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The explosive atmosphere surrounding the preparations for inauguration of Romulo Betancourt as president of Venezuela on 13 February is pointed up by serious mob violence in Caracas on 10 February and rumors of a coup attempt by dissident junior officers. The situation is complicated by the concentration of disorderly opposition elements in the politically strategic Federal District, where Betancourt has only limited support. Leaders of Betancourt's Democratic Action party (AD) have for some weeks feared disturbances, plots to block the inauguration, and even possible assassination attempts against the president-elect. There have been several incidents of mass opposition to Betancourt in Caracas since his electoral victory last December. The government is taking extensive precautions to protect visiting foreign delegations and to control any outbreaks of violence.",
+      "char_len": 876,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        120,
+        567,
+        136
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        139,
+        567,
+        153
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        156,
+        567,
+        172
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        175,
+        567,
+        189
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "Larrazabal, *the popular former junta president, has kept himself in the political spotlight by appearances at public ceremonies, especially during the recent visit of Fidel Castro. There is some indication that he may postpone assuming his ambassadorial assignment in Chile until after the inauguration. His presence in Caracas on 13 February would be an embarrassment to Betancourt and could possibly provoke disorders.",
+      "char_len": 421,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        193,
+        567,
+        207
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        210,
+        567,
+        226
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        229,
+        567,
+        243
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        246,
+        567,
+        313
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "BL14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        32,
+        314,
+        567,
+        352
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "BL15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        32,
+        353,
+        567,
+        391
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        32,
+        392,
+        567,
+        507
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 14,
+      "line_char_capacity": 876,
+      "char_start": 0,
+      "char_end": 876,
+      "char_len": 876,
+      "full_line": true,
+      "bbox_xyxy": [
+        13,
+        322,
+        603,
+        388
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__535/535]",
+      "line_overlap_ratio": 0.7949,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 535,
+      "line_width_effective_px": 535,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 15,
+      "line_char_capacity": 876,
+      "char_start": 0,
+      "char_end": 876,
+      "char_len": 876,
+      "full_line": true,
+      "bbox_xyxy": [
+        13,
+        322,
+        603,
+        388
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________________________________________]",
+      "layout_token_pixel": "[BOX1__535/535]",
+      "line_overlap_ratio": 0.9231,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 535,
+      "line_width_effective_px": 535,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 15,
+      "line_char_capacity": 876,
+      "char_start": 0,
+      "char_end": 409,
+      "char_len": 409,
+      "full_line": false,
+      "bbox_xyxy": [
+        14,
+        388,
+        282,
+        403
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2_________________________]",
+      "layout_token_pixel": "[BOX2__250/535]",
+      "line_overlap_ratio": 0.1026,
+      "line_cover_ratio_x": 0.4673,
+      "clipped_span_px": 250,
+      "line_width_effective_px": 535,
+      "touches_left_border": true,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 42,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

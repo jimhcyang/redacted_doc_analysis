@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      14,
+      17,
+      514,
+      36
+    ],
+    "text": "Remove extra line breaks.",
+    "expanded_crop_box_xyxy": [
+      0,
+      9,
+      560,
+      44
+    ],
+    "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Taiwan Strait Situation",
+    "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 10,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      57,
+      514,
+      193
+    ],
+    "text": "\nTaiwan Strait Situation\n\nChinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.\n\nChiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      43,
+      560,
+      207
+    ],
+    "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "No line breaks or other\nmodification.\nChinese Nationalist officials are making every effort to\noffset the effects of Communist China's cease-fire offer. One\nranking Nationalist leader told an American official on 6 Octo-\nber that his government views the move as a threefold attempt\nto divide Taipei and Washington, to weaken the morale of the\ntroops on Chinmen, and to provide a means to charge the\nUnited States with forcing hostilities, possibly as a prelude\nto a major assault.",
+    "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 12,
+    "line_end_1based": 16,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      218,
+      514,
+      301
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      210,
+      560,
+      309
+    ],
+    "crop_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as \"purely international propaganda.\"",
+    "ocr_text_path": "outputs/examples_ocr2/4_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

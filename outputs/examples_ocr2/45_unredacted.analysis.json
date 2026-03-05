@@ -1,0 +1,1267 @@
+{
+  "image": "inputs/images/45_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    13,
+    5,
+    518,
+    665
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 182427,
+  "merged_region_nonzero_px": 182427,
+  "line_width_px": 505,
+  "line_count": 36,
+  "paragraph_crops_dir": "outputs/examples_ocr2/45_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/45_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/45_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        13,
+        12,
+        518,
+        31
+      ],
+      "text": "# USSR and Nepal to Exchange Resident Diplomatic Missions",
+      "expanded_crop_box_xyxy": [
+        0,
+        4,
+        569,
+        39
+      ],
+      "crop_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 21,
+      "line_count": 18,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        48,
+        518,
+        387
+      ],
+      "text": "**TASS** announced on 23 April that the USSR has reached agreement with Nepal to exchange resident diplomatic missions. Heretofore diplomatic contact has been maintained through the Soviet and Nepali embassies in New Delhi and by occasional trips to Katmandu by Soviet Ambassador Ponomarenko--accredited to Nepal as well as India--and other Soviet diplomats from New Delhi.\n\nPonomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to \"Nepali overtures\"--an apparent effort to minimize New Delhi's reaction.) The USSR is breaking a \"gentlemen's agreement\" to postpone opening of a diplomatic mission in Nepal. The Indian Government, which regards Nepal as being within its sphere of influence, will not look with favor on this move. Should the United States accept the long-standing Nepali invitation to open an embassy in Katmandu, Communist China--which now has permission to open a consulate in Katmandu--can be expected to press for establishment of an embassy.\n\nA 20-man Soviet economic delegation has been in Nepal since mid-February negotiating on economic aid projects; Nepal has reportedly agreed to accept a Soviet credit of about $7,500,000 to construct a sugar mill, a hydroelectric plant, and communications projects, but an agreement has not yet been signed. (Ponomarenko is to visit Katmandu over the week end of 25-26 April, at which time he may seek to sign a formal agreement covering the aid.)\n\nPonomarenko is being replaced as ambassador to India by I. A. Benediktov, who served in the post for five months in 1953. It is not known whether Benediktov will also be accredited to Katmandu or whether a resident ambassador will be appointed to head the new diplomatic mission there.",
+      "expanded_crop_box_xyxy": [
+        0,
+        14,
+        569,
+        421
+      ],
+      "crop_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Any line breaks and punctuation should be kept as they are.\nUSSR and Nepal to Exchange Resident Diplomatic Missions\nTASS announced on 23 April that the USSR has reached agreement with Nepal to exchange resident diplomatic missions. Heretofore diplomatic contact has been maintained through the Soviet and Nepali embassies in New Delhi and by occasional trips to Katmandu by Soviet Ambassador Ponomarenko—accredited to Nepal as well as India—and other Soviet diplomats from New Delhi.\nPonomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to \"Nepali overtures\"—an apparent effort to minimize New Delhi's reaction. The USSR is breaking a \"gentlemen's agreement\" to postpone opening of a diplomatic mission in Nepal. The Indian Government, which regards Nepal as being within its sphere of influence, will not look with favor on this move. Should the United States accept the long-standing Nepali invitation to open an embassy in Katmandu, Communist China—which now has permission to open a consulate in Katmandu—can be expected to press for establishment of an embassy.\nA 20-man Soviet economic delegation has been in Nepal.",
+      "ocr_text_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 23,
+      "line_end_1based": 30,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        412,
+        518,
+        549
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        398,
+        569,
+        563
+      ],
+      "crop_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "No major or\nminor spelling mistakes.\nA 20-man Soviet economic delegation has been in Nepal\nsince mid-February negotiating on economic aid projects;\nNepal has reportedly agreed to accept a Soviet credit of\nabout $7,500,000 to construct a sugar mill, a hydroelectric\nplant, and communications projects, but an agreement has\nnot yet been signed. (Ponomarenko is to visit Katmandu over\nthe week end of 25-26 April, at which time he may seek to sign\na formal agreement covering the ald.)",
+      "ocr_text_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 32,
+      "line_end_1based": 36,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        575,
+        518,
+        657
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        567,
+        569,
+        665
+      ],
+      "crop_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "No additional analysis.\nPonomarenko is being replaced as ambassador to India by\nI. A. Benediktov, who served in the post for five months in 1953.\nIt is not known whether Benediktov will also be accredited to\nKatshukov or whether a resident ambassador will be appointed\nto head the new diplomatic mission there.",
+      "ocr_text_path": "outputs/examples_ocr2/45_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 12.25,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 33,
+  "row_scan_gap_band_count": 33,
+  "row_scan_linebreak_band_count": 28,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        13,
+        25,
+        518,
+        26
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.1697,
+      "height_to_avg_full_line_ratio": 0.1127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        32,
+        518,
+        47
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 1.3573,
+      "height_to_avg_full_line_ratio": 0.9013,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 16,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        62,
+        518,
+        68
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        79,
+        518,
+        86
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.6787,
+      "height_to_avg_full_line_ratio": 0.4506,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        98,
+        518,
+        103
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.509,
+      "height_to_avg_full_line_ratio": 0.338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        116,
+        518,
+        122
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        134,
+        518,
+        140
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        153,
+        518,
+        157
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.4242,
+      "height_to_avg_full_line_ratio": 0.2817,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        211,
+        518,
+        213
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.2545,
+      "height_to_avg_full_line_ratio": 0.169,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        225,
+        518,
+        231
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        243,
+        518,
+        247
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.4242,
+      "height_to_avg_full_line_ratio": 0.2817,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        261,
+        518,
+        267
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        279,
+        518,
+        285
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        297,
+        518,
+        303
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        315,
+        518,
+        319
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.4242,
+      "height_to_avg_full_line_ratio": 0.2817,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        333,
+        518,
+        339
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        351,
+        518,
+        357
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        369,
+        518,
+        375
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        388,
+        518,
+        411
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 2.036,
+      "height_to_avg_full_line_ratio": 1.3519,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        423,
+        518,
+        429
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        441,
+        518,
+        447
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        459,
+        518,
+        462
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.3393,
+      "height_to_avg_full_line_ratio": 0.2253,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        478,
+        518,
+        483
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.509,
+      "height_to_avg_full_line_ratio": 0.338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        496,
+        518,
+        501
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.509,
+      "height_to_avg_full_line_ratio": 0.338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        514,
+        518,
+        519
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.509,
+      "height_to_avg_full_line_ratio": 0.338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        532,
+        518,
+        537
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.509,
+      "height_to_avg_full_line_ratio": 0.338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        550,
+        518,
+        574
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 2.1208,
+      "height_to_avg_full_line_ratio": 1.4083,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        590,
+        518,
+        591
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.1697,
+      "height_to_avg_full_line_ratio": 0.1127,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        604,
+        518,
+        610
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        622,
+        518,
+        628
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.5938,
+      "height_to_avg_full_line_ratio": 0.3943,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        641,
+        518,
+        645
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 11.7879,
+      "avg_linebreak_height_px": 5.9643,
+      "avg_full_line_height_px": 17.7522,
+      "height_to_avg_line_ratio": 0.4242,
+      "height_to_avg_full_line_ratio": 0.2817,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 33,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "# USSR and Nepal to Exchange Resident Diplomatic Missions",
+      "char_len": 57,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        12,
+        518,
+        24
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        27,
+        518,
+        31
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        32,
+        518,
+        47
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "**TASS** announced on 23 April that the USSR has reached agreement with Nepal to exchange resident diplomatic missions. Heretofore diplomatic contact has been maintained through the Soviet and Nepali embassies in New Delhi and by occasional trips to Katmandu by Soviet Ambassador Ponomarenko--accredited to Nepal as well as India--and other Soviet diplomats from New Delhi.",
+      "char_len": 373,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        48,
+        518,
+        61
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        69,
+        518,
+        78
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Ponomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to \"Nepali overtures\"--an apparent effort to minimize New Delhi's reaction.) The USSR is breaking a \"gentlemen's agreement\" to postpone opening of a diplomatic mission in Nepal. The Indian Government, which regards Nepal as being within its sphere of influence, will not look with favor on this move. Should the United States accept the long-standing Nepali invitation to open an embassy in Katmandu, Communist China--which now has permission to open a consulate in Katmandu--can be expected to press for establishment of an embassy.",
+      "char_len": 649,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        87,
+        518,
+        97
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        104,
+        518,
+        115
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "A 20-man Soviet economic delegation has been in Nepal since mid-February negotiating on economic aid projects; Nepal has reportedly agreed to accept a Soviet credit of about $7,500,000 to construct a sugar mill, a hydroelectric plant, and communications projects, but an agreement has not yet been signed. (Ponomarenko is to visit Katmandu over the week end of 25-26 April, at which time he may seek to sign a formal agreement covering the aid.)",
+      "char_len": 445,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        123,
+        518,
+        133
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        141,
+        518,
+        152
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "Ponomarenko is being replaced as ambassador to India by I. A. Benediktov, who served in the post for five months in 1953. It is not known whether Benediktov will also be accredited to Katmandu or whether a resident ambassador will be appointed to head the new diplomatic mission there.",
+      "char_len": 285,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        158,
+        518,
+        170
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        196,
+        518,
+        210
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        214,
+        518,
+        224
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        232,
+        518,
+        242
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        248,
+        518,
+        260
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        268,
+        518,
+        278
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        286,
+        518,
+        296
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        304,
+        518,
+        314
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        320,
+        518,
+        332
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        340,
+        518,
+        350
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        358,
+        518,
+        368
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        376,
+        518,
+        387
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "PB22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        394,
+        518,
+        411
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        412,
+        518,
+        422
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        430,
+        518,
+        440
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        448,
+        518,
+        458
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        463,
+        518,
+        477
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        484,
+        518,
+        495
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        502,
+        518,
+        513
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        520,
+        518,
+        531
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        538,
+        518,
+        549
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "PB31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        557,
+        518,
+        574
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        575,
+        518,
+        589
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        592,
+        518,
+        603
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        611,
+        518,
+        621
+      ]
+    },
+    {
+      "line_1based": 35,
+      "serial_label": "L35",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        629,
+        518,
+        640
+      ]
+    },
+    {
+      "line_1based": 36,
+      "serial_label": "L36",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        646,
+        518,
+        657
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

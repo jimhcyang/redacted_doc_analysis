@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      43,
+      10,
+      539,
+      28
+    ],
+    "text": "USSR - East Germany",
+    "expanded_crop_box_xyxy": [
+      0,
+      2,
+      589,
+      36
+    ],
+    "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 9,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      43,
+      45,
+      539,
+      163
+    ],
+    "text": "\nKhrushchev, during his visit to Berlin and Leipzig this week, will probably seek to use discussion on a separate peace treaty with East Germany to increase pressure for East-West summit talks on a peace treaty with both German states. The Soviet press attached in East Berlin, an official who is sometimes used to plant information, has stated that a separate treaty would be negotiated but not signed during Khrushchev's visit.\n\nThe East German news agency has reported that Ambassador Pervukhin on 1 March discussed the question of a peace treaty and the Berlin problem with Ulbricht and Grotewohl. The Kremlin has warned repeatedly since early February that it would conclude a separate treaty with the East German regime if no agreement were reached with the West on a treaty with the two Germans. First Deputy Premier Mikoyan declared on 26 February that \"if the Western powers will not conclude a peace treaty with Germany, which would also solve the question of West Berlin as a free city,\" the Soviet Union and other countries \"will be compelled to sign a peace treaty\" with East Germany.\n\nWhile in Germany, Khrushchev will probably also discuss the transfer of Soviet quadripartite responsibilities in Berlin to the East Germans, particularly control over Allied military access to West Berlin.",
+    "expanded_crop_box_xyxy": [
+      0,
+      33,
+      589,
+      175
+    ],
+    "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Khrushchev, during his visit to Berlin and Leipzig this week, will probably seek to use discussion on a separate peace treaty with East Germany to increase pressure for East-West summit talks on a peace treaty with both German states. The Soviet press attaché in East Berlin, an official who is sometimes used to plant information, has stated that a separate treaty would be negotiated but not signed during Khrushchev's visit.",
+    "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 11,
+    "line_end_1based": 22,
+    "line_count": 12,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      43,
+      187,
+      539,
+      395
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      166,
+      589,
+      416
+    ],
+    "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The East German news agency has reported that Ambassador Pervukhin on 1 March discussed the question of a peace treaty and the Berlin problem with Ulbricht and Grotewohl. The Kremlin has warned repeatedly since early February that it would conclude a separate treaty with the East German regime if no agreement were reached with the West on a treaty with the two Germans. First Deputy Premier Mikoyan declared on 26 February that \"if the Western powers will not conclude a peace treaty with Germany, which would also solve the question of West Berlin as a free city,\" the Soviet Union and other countries \"will be compelled to sign a peace treaty\" with East Germany.",
+    "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 24,
+    "line_end_1based": 27,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      43,
+      418,
+      539,
+      483
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      410,
+      589,
+      491
+    ],
+    "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "While in Germany, Khrushchev will probably also discuss the transfer of Soviet quadripartite responsibilities in Berlin to the East Germans, particularly control over Allied military access to West Berlin.",
+    "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

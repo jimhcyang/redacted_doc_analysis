@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 34,
+    "line_count": 34,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      8,
+      19,
+      530,
+      702
+    ],
+    "text": "Frazilians Considering Pressure Tactics in Bid for US Aid\n\nUltranationalist advisers of President Kubitschek have drawn up an anti-US \"disaster plan,\" which they say will go into effect if Washington and the International Monetary Fund (IMF) continue to insist on a \"complete\" exchange reform as a condition of emergency balance-of-payments aid.\n\n---\n\n\n\n\n\n\nIn the meantime, the ultranationalists plan to put pressure on the United States for direct aid by publicizing potential \"disaster\" measures, which include defaulting on international debts, denunciation of military treaties with the US, expropriation of certain private US holdings, and large-scale trade treaties with Soviet bloc countries.\n\nThis publicity maneuver is strongly opposed by the foreign minister and the acting finance minister--both of whom hope for an amicable compromise solution. The American Embassy considers that this school of thought is \"for the moment\" in the ascendance, but the embassy is uncertain as to the President's views. Kubitschek has grown increasingly irascible over the financial crisis and was reportedly enraged by publicity given this week to US Senate criticism of Brazil's financial policies.\n\n---\n\nKubitschek is under mounting domestic pressure to resolve the crisis, but is increasingly fearful that both his reputation and the stability of his government will be in danger if he adopts the measures demanded by the IMF. Social unrest, already high over sharp increases in the cost of living early this year, is expected to spread in the coming weeks as Communist and nationalist agitators prepare to demonstrate against utility and transportation rate increases announced for 1 July. The Communists will almost certainly claim that the increases were forced by the US and the IMF and will probably try to provoke violence.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      568,
+      720
+    ],
+    "crop_path": "outputs/examples_ocr2/58_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Any decorative or necessary formatting has been omitted.\n# Australians Considering Pressure Tactics in Bid for US Aid\n**U**ltranationalist advisers of President Kubitschek have drawn up an anti-US \"disaster plan,\" which they say will go into effect if Washington and the International Monetary Fund (IMF) continue to insist on a \"complete\" exchange reform as a condition of emergency balance-of-payments aid.\n---\nIn the meantime, the ultranationalists plan to put pressure on the United States for direct aid by publicizing potential \"disaster\" measures, which include defaulting on international debts, denunciation of military treaties with the US, expropriation of certain private US holdings, and large-scale trade treaties with Soviet bloc countries.\n---\nThis publicity maneuver is strongly opposed by the foreign minister and the acting finance minister—both of whom hope for an amicable compromise solution. The American Embassy considers that this school of thought is \"for the moment\" in the ascendance, but the embassy is uncertain as to the President's views. Kubitschek has grown increasingly irascible over the financial crisis and was reportedly enraged by publicity given this week to US Senate criticism of Brazil's financial policies.\n---\nKubitschek is under mounting domestic pressure to resolve the crisis, but is increasingly fearful that both his reputation and the stability of his government will be in danger if he adopts the measures demanded by the IMF. Social unrest, already high over sharp increases in the cost of living early this year, is expected to spread in the coming weeks as Communist and nationalist agitators prepare to demonstrate against utility and transportation rate increases announced for 1 July. The Communist will almost certainly claim that the increases were forced by the US and the IMF and will probably try to provoke violence.",
+    "ocr_text_path": "outputs/examples_ocr2/58_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

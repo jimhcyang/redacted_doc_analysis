@@ -1,0 +1,45 @@
+Example ID: 39
+Stem: 39
+Redacted OCR file: outputs/examples_ocr2/39_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/39_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=106..129, len=24)
+Predicted chunk text: figueres reportedly had hoped to convince castro he should withdraw his support of those nicaraguan and dominican revolutionary exile groups which are communist influenced
+Unredacted context: campaign against dictatorships [UNRED_ONLY: figueres reportedly had hoped to convince castro he should withdraw his support of those nicaraguan and dominican revolutionary exile groups which are communist influenced] castro's reply to
+Redacted anchor context: the campaign against [L@112:dictatorships] [RED_GAP:<empty>] [R@113:castro's] reply to figueres
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: Figueres reportedly had hoped to convince Castro he should withdraw his support of those Nicaraguan and Dominican revolutionary exile groups which are Communist influenced.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=24
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=0..0
+  -> GT text: Figueres reportedly had hoped to convince Castro he should withdraw his support of those Nicaraguan and Dominican revolutionary exile groups which are Communist influenced.
+  -> Relaxed best pred text: figueres reportedly had hoped to convince castro he should withdraw his support of those nicaraguan and dominican revolutionary exile groups which are communist influenced
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=186..186, len=1)
+Predicted chunk text: tested
+Unredacted context: seem directed against [UNRED_ONLY: tested] interests and us
+Redacted anchor context: which seem directed [L@168:against] [RED_GAP:vested] [R@170:interests] and us influence
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:vested]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=209..209, len=1)
+Predicted chunk text: position
+Unredacted context: yet no cohesive [UNRED_ONLY: position] to the government
+Redacted anchor context: as yet no [L@191:cohesive] [RED_GAP:opposition] [R@193:to] the government
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:opposition]
+Strict GT match: NO
+Relaxed best GT candidate: none

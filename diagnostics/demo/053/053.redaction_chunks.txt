@@ -1,0 +1,24 @@
+Example ID: 53
+Stem: 53
+Redacted OCR file: outputs/examples_ocr2/53_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/53_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=155..178, len=24)
+Predicted chunk text: a majority of the cdu apparently shares adenauer's view but the opposition parties are attacking the government's hesitation and claiming allied intervention is responsible
+Unredacted context: possibility of incidents [UNRED_ONLY: a majority of the cdu apparently shares adenauer's view but the opposition parties are attacking the government's hesitation and claiming allied intervention is responsible] the final decision
+Redacted anchor context: any possibility of [L@160:incidents] [RED_GAP:<empty>] [R@161:the] final decision on
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.153846 joined_pred_chunks=0..0
+  -> GT text: A majority
+  -> Relaxed best pred text: a majority of the cdu apparently shares adenauer's view but the opposition parties are attacking the government's hesitation and claiming allied intervention is responsible
+  -> Relaxed word metrics: recall=1.0 precision=0.083333 f1=0.153846

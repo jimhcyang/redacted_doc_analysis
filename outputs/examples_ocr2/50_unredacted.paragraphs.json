@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      18,
+      19,
+      504,
+      49
+    ],
+    "text": "Indonesian Prime Minister Makes Thinly Veiled Threat of Army Coup",
+    "expanded_crop_box_xyxy": [
+      0,
+      11,
+      531,
+      57
+    ],
+    "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Indonesian Prime Minister Makes Thingly Veiled Threat of Army Coup",
+    "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 14,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      18,
+      76,
+      504,
+      266
+    ],
+    "text": "Indonesia's Constituent Assembly, meeting in Bandung, was warned by Prime Minister Djuanda on 27 May that failure to readout the 1945 constitution was likely to precipitate an army coup. The 1945 constitution strengthened the executive branch of government at the expense of the legislative, which is in line with Sukarno's concept of \"guided democracy.\" Although the necessary two-thirds majority in the Constituent Assembly is still uncertain, indidations are increasing that the substantial and hitherto uncommitted vote--chiefly composed of the Moslem Nahdlatul Ulama--may support the government. A final vote is expected on 29 or 30 May.\n\nIn addition to Djuanda's statement, army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution. Army Chief of Staff General Nasution held a national military conference during the final stages of debate, presumably to influence the assembly and possibly also to determine the support of regional commanders should extreme measures be required.\n\nThe American Embassy notes that most civilian leaders of the government are absent from Djakarta. President Sukarno, Acting President Sartono, the prime minister, all three deputy prime ministers, and more than half a dozen cabinet ministers, including some of the most important, are away on missions, either within Indonesia or abroad. General Nasution and the principal army leaders, however, are on hand.",
+    "expanded_crop_box_xyxy": [
+      0,
+      57,
+      531,
+      285
+    ],
+    "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a quote from a speech by the Indonesian President, \"The 1945 constitution strengthened the executive branch of government at the expense of the legislative, which is in line with Sukarno's concept of 'guided democracy.'\"",
+    "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 16,
+    "line_end_1based": 22,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      18,
+      292,
+      504,
+      412
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      280,
+      531,
+      424
+    ],
+    "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "In addition to Djuanda's statement, army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution. Army Chief of Staff General Nasution held a national military conference during the final stages of debate, presumably to influence the assembly and possibly also to determine the support of regional commanders should extreme measures be required.",
+    "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 24,
+    "line_end_1based": 31,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      18,
+      436,
+      504,
+      572
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      422,
+      531,
+      586
+    ],
+    "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The American Embassy notes that most civilian leaders of the government are absent from Djakarta. President Sukarno, Acting President Sartono, the prime minister, all three deputy prime ministers, and more than half a dozen cabinet ministers, including some of the most important, are away on missions, either within Indonesia or abroad. General Nusution and the principal army leaders, however, are on hand.",
+    "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

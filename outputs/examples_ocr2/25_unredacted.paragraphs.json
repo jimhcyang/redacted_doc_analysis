@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 4,
+    "line_count": 4,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      20,
+      10,
+      538,
+      98
+    ],
+    "text": "France to Propose Extension of NATO Area to Include Sahara\n\nThe French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara,\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      1,
+      577,
+      107
+    ],
+    "crop_path": "outputs/examples_ocr2/25_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara,\"",
+    "ocr_text_path": "outputs/examples_ocr2/25_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 6,
+    "line_end_1based": 11,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      20,
+      101,
+      538,
+      500
+    ],
+    "text": "Paris reportedly intends to present this proposal initially to the United States and Britain, and then to the North Atlantic Council sometime after the 2-4 April meeting of NATO foreign ministers.\n\nThe French definition of \"Sahara\" appears to be in geographical terms, in view of De Gaulle's previous private allusions to extending the NATO area to the Sahara \"as far as the Red Sea.\" The new proposal stems from official French views that NATO is being outflanked to the south and that NATO support of France in North Africa, particularly in Algeria, is vital not only to France but to the whole Western world. French attitudes toward Egyptian President Nasser suggest that the proposal is also conceived in part as blocking further Egyptian influence.\n\nPremier Debré bluntly told Secretary Dulles on 6 February that unless France was backed in its Algerian policy it would retain its Mediterranean naval units \"separately.\" De Gaulle assured Dulles, however, that the French fleet would \"rush\" to NATO and become part of NATO forces in case of war. Algeria was removed from NATO military jurisdiction in 1954 at France's request.",
+    "expanded_crop_box_xyxy": [
+      0,
+      61,
+      577,
+      506
+    ],
+    "crop_path": "outputs/examples_ocr2/25_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a transcription of a document.",
+    "ocr_text_path": "outputs/examples_ocr2/25_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

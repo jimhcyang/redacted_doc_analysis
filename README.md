@@ -10,11 +10,12 @@ The old placeholder-only pipeline was removed to keep one clear workflow.
 
 Given one image or a folder of images, it:
 
-1. Runs line-preserved OCR.
+1. Runs OCR and CV preprocessing.
 2. Detects hollow redaction boxes.
-3. Builds a percentile-based text region and theoretical line grid.
-4. Projects redactions onto line/character spans.
-5. Writes:
+3. Builds a percentile-based text region.
+4. Detects row-scan line/gap bands and runs OCR stripe-by-stripe.
+5. Projects redactions onto line/character spans.
+6. Writes:
    - raw OCR text
    - OCR + `[REDACTED_n]` placement
    - layout projection (`[BOXn____]` or pixel form)
@@ -133,16 +134,21 @@ Debug folder:
 
 - `outputs/debug/foo/01_dark_mask.png`
 - `outputs/debug/foo/02_lines_mask.png`
-- `outputs/debug/foo/03_contours_mask.png`
-- `outputs/debug/foo/04_edges.png`
 - `outputs/debug/foo/05_redaction_boxes.png`
-- `outputs/debug/foo/11_text_merged.png`
 - `outputs/debug/foo/12_structural_lines_mask.png`
-- `outputs/debug/foo/13_text_merged_no_structural_lines.png`
 - `outputs/debug/foo/14_percentile_region.png`
 - `outputs/debug/foo/15_line_model_overlay.png`
+- `outputs/debug/foo/16_linebreak_overlay.png`
+- `outputs/debug/foo/17_text_pixels_mask.png`
 
 Numbering is intentional so you can inspect in order.
+
+Flow:
+
+1. `01` + `02` + `12` -> `17` where `text_pixels = 01 - 02 - 12`.
+2. `17` -> row-scan bands and percentile region (`14`).
+3. Bands + redactions -> classified `linebreak` vs `blankline`.
+4. Classified bands + line OCR + redactions -> overlay outputs (`15`, `16`) and final txt/json.
 
 ## Notes
 
@@ -150,3 +156,8 @@ Numbering is intentional so you can inspect in order.
 - If a redaction crosses a line's right border, token placement is forced to end-of-line.
 - If a redaction crosses left border, placement is forced to start-of-line.
 - Width/underscore sizing uses the clipped in-line span only (outside-region overflow is ignored).
+- Line structure is recovered from row-scan line/gap bands and OCR is run stripe-by-stripe.
+- Row-scan uses `text pixels = dark mask (01) minus lines mask (02) minus structural lines mask (12)` and marks linebreak rows when a strip is at least 95% black.
+- A gap is `blankline` when its height is more than 50% of average text-line height; otherwise it is `linebreak`.
+- New-paragraph insertion is suppressed when the paragraph probe box intersects redaction boxes by more than 50% of probe-box area.
+- Overlay colors: `blue = linebreak (small gap)`, `yellow = blankline-sized gap (>50% avg line height)`.

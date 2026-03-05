@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 9,
+    "line_count": 9,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      9,
+      15,
+      517,
+      199
+    ],
+    "text": "Ignore line breaks for now.\n\nIn the economic field, the British ambassador in Khartoum has reported that the Sudanese Government seems determined to maintain pricing practices which have resulted in very large cotton surpluses in previous years and which will place the Sudan in a particularly unfavorable position when British-UAR economic relations\n\nApproved For Release 2002/09/04 : CIA-RDP79T00975A0042030001-7\n13 Jan 59",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      535,
+      217
+    ],
+    "crop_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "In the economic field, the British ambassador in Khartoum has reported that the Sudanese Government seems determined to maintain pricing practices which have resulted in very large cotton surpluses in previous years and which will place the Sudan in a particularly unfavorable position when British-UAR economic relations?",
+    "ocr_text_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 11,
+    "line_end_1based": 19,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      233,
+      517,
+      563
+    ],
+    "text": "CENTRAL INTELLIGENCE BULLETIN\n\n\n\n\n\nPage 6",
+    "expanded_crop_box_xyxy": [
+      0,
+      200,
+      535,
+      596
+    ],
+    "crop_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "No line breaks or punctuation should be retained.\nApproved For Release 2002/09/04 : CIA-RDP79T00975A004200340001-7\n13 Jan 59 CENTRAL INTELLIGENCE BULLETIN Page 6\nApproved For Release 2002/09/04 : CIA-RDP79T00975AD04200340001-7\nreturn to a normal basis.",
+    "ocr_text_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 21,
+    "line_end_1based": 24,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      597,
+      517,
+      662
+    ],
+    "text": "Approved For Release 2002/09/04 : CIA-RDP79T00975AD04200340001-7\n\nreturn to a normal basis.",
+    "expanded_crop_box_xyxy": [
+      0,
+      589,
+      535,
+      670
+    ],
+    "crop_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The Soviet trade mission scheduled to arrive in Khartoum on 22 January may offer trade-aid deals difficult to resist. A Soviet offer related to Nile waters control projects would be particularly attractive.",
+    "ocr_text_path": "outputs/examples_ocr2/15_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

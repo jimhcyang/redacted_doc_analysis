@@ -1,0 +1,872 @@
+{
+  "image": "inputs/images/48_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      162,
+      393,
+      300,
+      409
+    ],
+    [
+      11,
+      409,
+      582,
+      521
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    11,
+    0,
+    534,
+    524
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 116984,
+  "merged_region_nonzero_px": 115432,
+  "line_width_px": 523,
+  "line_count": 22,
+  "paragraph_crops_dir": "outputs/examples_ocr2/48_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/48_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/48_redacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        11,
+        17,
+        534,
+        33
+      ],
+      "text": "Communist Influence Growing in Cambodia",
+      "expanded_crop_box_xyxy": [
+        0,
+        9,
+        586,
+        41
+      ],
+      "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Communist Influence Growing in Cambodia",
+      "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 14,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        11,
+        53,
+        534,
+        262
+      ],
+      "text": "\nThe increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pro-nounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts sup- plied by international Communist news agencies. Recent editorials in influential newspapers have contained \"straight Communist textbook material,\" according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.\n\nThe leftist trend has been accelerated recently by Commu- nist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Commu- nist Secretary of State for Information Tim Dong, the Commu- nists also benefit\n\nthe Cambodian bureaucracy.",
+      "expanded_crop_box_xyxy": [
+        0,
+        32,
+        586,
+        283
+      ],
+      "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pronounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts supplied by international Communist news agencies. Recent editorials in influential newspapers have contained \"straight Communist textbook material,\" according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.",
+      "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 16,
+      "line_end_1based": 22,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        11,
+        288,
+        534,
+        407
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        276,
+        586,
+        419
+      ],
+      "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The leftist trend has been accelerated recently by Communist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Communist Secretary of State for Information Tim Dong, the Communists also benefit the Cambodian bureaucracy.",
+      "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.0909,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 20,
+  "row_scan_gap_band_count": 19,
+  "row_scan_linebreak_band_count": 17,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        11,
+        34,
+        534,
+        52
+      ],
+      "kind": "blankline",
+      "height_px": 19,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 1.52,
+      "height_to_avg_full_line_ratio": 1.0436,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        11,
+        64,
+        534,
+        70
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        82,
+        534,
+        88
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        101,
+        534,
+        106
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.48,
+      "height_to_avg_full_line_ratio": 0.3296,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        119,
+        534,
+        125
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        137,
+        534,
+        143
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        157,
+        534,
+        161
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.4,
+      "height_to_avg_full_line_ratio": 0.2746,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        177,
+        534,
+        179
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.24,
+      "height_to_avg_full_line_ratio": 0.1648,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        191,
+        534,
+        197
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        209,
+        534,
+        215
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        227,
+        534,
+        233
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.56,
+      "height_to_avg_full_line_ratio": 0.3845,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        245,
+        534,
+        248
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.32,
+      "height_to_avg_full_line_ratio": 0.2197,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        263,
+        534,
+        287
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 2.0,
+      "height_to_avg_full_line_ratio": 1.3732,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        11,
+        300,
+        534,
+        305
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.48,
+      "height_to_avg_full_line_ratio": 0.3296,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        318,
+        534,
+        323
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.48,
+      "height_to_avg_full_line_ratio": 0.3296,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        336,
+        534,
+        341
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.48,
+      "height_to_avg_full_line_ratio": 0.3296,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        357,
+        534,
+        358
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.16,
+      "height_to_avg_full_line_ratio": 0.1099,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        372,
+        534,
+        376
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.4,
+      "height_to_avg_full_line_ratio": 0.2746,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        390,
+        534,
+        394
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.5,
+      "avg_linebreak_height_px": 5.7059,
+      "avg_full_line_height_px": 18.2059,
+      "height_to_avg_line_ratio": 0.4,
+      "height_to_avg_full_line_ratio": 0.2746,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1061,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 20,
+    "blankline": 0,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Communist Influence Growing in Cambodia",
+      "char_len": 39,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        17,
+        534,
+        33
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        11,
+        34,
+        534,
+        52
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        53,
+        534,
+        63
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pro-nounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts sup- plied by international Communist news agencies. Recent editorials in influential newspapers have contained \"straight Communist textbook material,\" according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.",
+      "char_len": 644,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        71,
+        534,
+        81
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        89,
+        534,
+        100
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The leftist trend has been accelerated recently by Commu- nist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Commu- nist Secretary of State for Information Tim Dong, the Commu- nists also benefit",
+      "char_len": 385,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        107,
+        534,
+        118
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        126,
+        534,
+        136
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "the Cambodian bureaucracy.",
+      "char_len": 26,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        144,
+        534,
+        156
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        162,
+        534,
+        176
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        180,
+        534,
+        190
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        198,
+        534,
+        208
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        216,
+        534,
+        226
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        234,
+        534,
+        244
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        249,
+        534,
+        262
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "PB15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        11,
+        269,
+        534,
+        287
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        288,
+        534,
+        299
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        306,
+        534,
+        317
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        324,
+        534,
+        335
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        342,
+        534,
+        356
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        359,
+        534,
+        371
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        377,
+        534,
+        389
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        395,
+        534,
+        407
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 2,
+      "line_1based": 22,
+      "line_char_capacity": 644,
+      "char_start": 0,
+      "char_end": 644,
+      "char_len": 644,
+      "full_line": true,
+      "bbox_xyxy": [
+        11,
+        409,
+        582,
+        521
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__523/523]",
+      "line_overlap_ratio": 0.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 523,
+      "line_width_effective_px": 523,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 22,
+      "line_char_capacity": 644,
+      "char_start": 186,
+      "char_end": 356,
+      "char_len": 170,
+      "full_line": false,
+      "bbox_xyxy": [
+        162,
+        393,
+        300,
+        409
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1____________]",
+      "layout_token_pixel": "[BOX1__138/523]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2639,
+      "clipped_span_px": 138,
+      "line_width_effective_px": 523,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 41,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

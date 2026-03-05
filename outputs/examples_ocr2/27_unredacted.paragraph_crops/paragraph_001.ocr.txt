@@ -1,0 +1,1 @@
+PATCHES: torch.Size([6, 144, 1280])

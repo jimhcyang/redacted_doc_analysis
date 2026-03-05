@@ -1,0 +1,1125 @@
+{
+  "image": "inputs/images/31_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    15,
+    8,
+    526,
+    632
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 173170,
+  "merged_region_nonzero_px": 173170,
+  "line_width_px": 511,
+  "line_count": 32,
+  "paragraph_crops_dir": "outputs/examples_ocr2/31_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/31_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/31_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 32,
+      "line_count": 32,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        15,
+        14,
+        526,
+        626
+      ],
+      "text": "Laos Cabinet Decides to Terminate French Military Training Mission\n\nThe Laotian cabinet decided on 21 February to terminate the French military mission in Laos, apparently in order to pave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of the 1954 Geneva agreements which had previously given France exclusive control over military training in Laos.\n\nPrime Minister Phouli Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction. He may seek a formula under which France and the United States would share in training activities.\n\nSuch a move by Laos would almost certainly be interpreted by Paris as US-inspected, and the strong French reaction would be heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, in an effort to embarrass the US, might threaten to withdraw their forces from Laos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and attempt to divert and modify the Lao move. The French Defense Council is scheduled to discuss augmentation of the French military contribution to Laos on 27 February.\n\nPublic announcement of a shift in the training of the Laotian Army from French to US control would probably provoke intensified Communist diplomatic and propaganda pressures on Vientiane and would be cited as substantiation of Communist charges that the United States is attempting to turn Laos into a \"military base.\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        550,
+        639
+      ],
+      "crop_path": "outputs/examples_ocr2/31_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The Laotian cabinet decided on 21 February to terminate\nthe French military mission in Laos, apparently in order to\npave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of\nthe 1954 Geneva agreements which had previously given France\nexclusive control over military training in Laos.?\nPrime Minister Phoui Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction.\nHe may seek a formula under which France and the United States would share in training activities.?\nSuch a move by Laos would almost certainly be interpreted\nby Paris as US-invigated, and the strong French reaction would\nbe heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, in an effort to\nembarrass the US, might threaten to withdraw their forces from\nLaos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and\nattempt to divert and modify the Lao move. The French Defense\nCouncil is scheduled to discuss augmentation of the French military contribution to Laos on 27 February.?\nPublic announcement of a shift in the training of the Laotian Army from French to US control would probably provoke\nintensified Communist diplomatic and propaganda pressures on\nVientiane and would be cited as substantiation of Communist\ncharges that the United States is attempting to turn Laos into a\n\"military base.\"",
+      "ocr_text_path": "outputs/examples_ocr2/31_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.5938,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 31,
+  "row_scan_gap_band_count": 30,
+  "row_scan_linebreak_band_count": 29,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        15,
+        27,
+        526,
+        29
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.222,
+      "height_to_avg_full_line_ratio": 0.1526,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        66,
+        526,
+        69
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.2959,
+      "height_to_avg_full_line_ratio": 0.2035,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        82,
+        526,
+        87
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        100,
+        526,
+        105
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        118,
+        526,
+        124
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        136,
+        526,
+        142
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        154,
+        526,
+        160
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        172,
+        526,
+        178
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        206,
+        526,
+        214
+      ],
+      "kind": "linebreak",
+      "height_px": 9,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.6659,
+      "height_to_avg_full_line_ratio": 0.4579,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 9,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        230,
+        526,
+        233
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.2959,
+      "height_to_avg_full_line_ratio": 0.2035,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        245,
+        526,
+        251
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        263,
+        526,
+        269
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        282,
+        526,
+        287
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        299,
+        526,
+        314
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 1.1838,
+      "height_to_avg_full_line_ratio": 0.8141,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 16,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        319,
+        526,
+        323
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.3699,
+      "height_to_avg_full_line_ratio": 0.2544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        336,
+        526,
+        341
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        354,
+        526,
+        358
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.3699,
+      "height_to_avg_full_line_ratio": 0.2544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        372,
+        526,
+        378
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        390,
+        526,
+        395
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        408,
+        526,
+        414
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        427,
+        526,
+        432
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        445,
+        526,
+        450
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        464,
+        526,
+        469
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        483,
+        526,
+        487
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.3699,
+      "height_to_avg_full_line_ratio": 0.2544,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        516,
+        526,
+        523
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5919,
+      "height_to_avg_full_line_ratio": 0.407,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        535,
+        526,
+        541
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.5179,
+      "height_to_avg_full_line_ratio": 0.3562,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        554,
+        526,
+        559
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        572,
+        526,
+        577
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        590,
+        526,
+        595
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        15,
+        608,
+        526,
+        613
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.5161,
+      "avg_linebreak_height_px": 6.1379,
+      "avg_full_line_height_px": 19.6541,
+      "height_to_avg_line_ratio": 0.4439,
+      "height_to_avg_full_line_ratio": 0.3053,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 31,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Laos Cabinet Decides to Terminate French Military Training Mission",
+      "char_len": 66,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        14,
+        526,
+        26
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        30,
+        526,
+        65
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "The Laotian cabinet decided on 21 February to terminate the French military mission in Laos, apparently in order to pave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of the 1954 Geneva agreements which had previously given France exclusive control over military training in Laos.",
+      "char_len": 408,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        70,
+        526,
+        81
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        88,
+        526,
+        99
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Prime Minister Phouli Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction. He may seek a formula under which France and the United States would share in training activities.",
+      "char_len": 272,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        106,
+        526,
+        117
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        125,
+        526,
+        135
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "Such a move by Laos would almost certainly be interpreted by Paris as US-inspected, and the strong French reaction would be heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, in an effort to embarrass the US, might threaten to withdraw their forces from Laos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and attempt to divert and modify the Lao move. The French Defense Council is scheduled to discuss augmentation of the French military contribution to Laos on 27 February.",
+      "char_len": 595,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        143,
+        526,
+        153
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        161,
+        526,
+        171
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "Public announcement of a shift in the training of the Laotian Army from French to US control would probably provoke intensified Communist diplomatic and propaganda pressures on Vientiane and would be cited as substantiation of Communist charges that the United States is attempting to turn Laos into a \"military base.\"",
+      "char_len": 318,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        179,
+        526,
+        205
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        215,
+        526,
+        229
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        234,
+        526,
+        244
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        252,
+        526,
+        262
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        270,
+        526,
+        281
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        288,
+        526,
+        298
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "BL15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        15,
+        299,
+        526,
+        314
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        315,
+        526,
+        318
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        324,
+        526,
+        335
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        342,
+        526,
+        353
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        359,
+        526,
+        371
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        379,
+        526,
+        389
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        396,
+        526,
+        407
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        415,
+        526,
+        426
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        433,
+        526,
+        444
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        451,
+        526,
+        463
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        470,
+        526,
+        482
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        488,
+        526,
+        515
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        524,
+        526,
+        534
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        542,
+        526,
+        553
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        560,
+        526,
+        571
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        578,
+        526,
+        589
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        596,
+        526,
+        607
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        15,
+        614,
+        526,
+        626
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

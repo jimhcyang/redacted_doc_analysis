@@ -1,0 +1,117 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      6,
+      27,
+      515,
+      40
+    ],
+    "text": "Spanish Aid to Moroccan Dissidents",
+    "expanded_crop_box_xyxy": [
+      0,
+      19,
+      566,
+      48
+    ],
+    "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Spanish Aid to Moroccan Dissidents",
+    "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 6,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      65,
+      515,
+      130
+    ],
+    "text": "\n[Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuations of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.]\n\n[Moroccan Vice Premier Bouabd, who with other officials recently inspected military activities in northern Morocco, stated] the Royal Army has proof that Spain has supplied arms and money to the Beni Ouraghel tribe. Bouabd also claimed he has discovered a definite separatist movement in the Rif and that the Beni Ouraghel--the tribe of Rifian warrior Abd-el-Krim who rebelled against Spain in the '1920s'--apparently are determined to set up a Rif republic.",
+    "expanded_crop_box_xyxy": [
+      0,
+      57,
+      566,
+      138
+    ],
+    "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuation of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.",
+    "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 8,
+    "line_end_1based": 16,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      155,
+      515,
+      312
+    ],
+    "text": "\n[The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.]\n\n[The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.]",
+    "expanded_crop_box_xyxy": [
+      0,
+      139,
+      566,
+      328
+    ],
+    "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is a quote from a book.",
+    "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 18,
+    "line_end_1based": 27,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      338,
+      515,
+      515
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      320,
+      566,
+      533
+    ],
+    "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.",
+    "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 29,
+    "line_end_1based": 34,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      537,
+      515,
+      693
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      521,
+      566,
+      709
+    ],
+    "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.",
+    "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_005.ocr.txt"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 19,
+    "line_count": 19,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      32,
+      16,
+      523,
+      391
+    ],
+    "text": "Spanish Aid to Moroccan Dissidents\n\n\n[Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuation of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.]\n\n[Moroccan Vice Premier Bouadid, who with other officials recently inspected military activities in northern Morocco, stated] the Royal Army has proof that Spain has supplied arms and money to the Beni Ouraghel tribe. Bouadid also claimed he has discovered a definite separatist movement in the Rif and that the Beni Ouraghel--the tribe of Rifian warrior Abd-el-Krim who rebelled against Spain in the '1920s--apparently are determined to set up a Rif republic.]\n\n[The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.] \"intense Spanish activity\" throughout northern Morocco and the return to that area of many former Spanish native-affairs officers. Some of these officers may be considering--as they did during the French-imposed exile of the present King--the idea of establishing an autonomous northern Morocco.]\n\n[The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence,] is supporting tribal dissidence as a means of forcing Morocco to commit itself to recognizing Spain's sovereignty over its present enclaves.]",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      572,
+      429
+    ],
+    "crop_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is written in a sans-serif font, and is in black. The background of the text is white.",
+    "ocr_text_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 21,
+    "line_end_1based": 26,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      32,
+      400,
+      523,
+      501
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      390,
+      572,
+      511
+    ],
+    "crop_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "\"intense Spanish activity\" throughout northern Morocco and the return to that area of many former Spanish native-affairs officers. Some of these officers may be considering--as they did during the French-imposed ex-ile of the present King--the idea of establishing an autonomous northern Morocco?",
+    "ocr_text_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 28,
+    "line_end_1based": 33,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      32,
+      519,
+      523,
+      610
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      510,
+      572,
+      619
+    ],
+    "crop_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.",
+    "ocr_text_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 35,
+    "line_end_1based": 37,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      32,
+      619,
+      523,
+      671
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      611,
+      572,
+      677
+    ],
+    "crop_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "is supporting tribal",
+    "ocr_text_path": "outputs/examples_ocr2/16_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

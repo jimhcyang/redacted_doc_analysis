@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      13,
+      7,
+      543,
+      25
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      596,
+      33
+    ],
+    "crop_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 17,
+    "line_count": 15,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      13,
+      43,
+      543,
+      328
+    ],
+    "text": "\n\nCyprus Situation\n\n[An emergency meeting at the foreign ministers' level was called in London on the evening of 18 February to prevent the threatened collapse of the conference seeking agreement on the terms for an independent Cyprus. The urgent meeting follows reports that Archbishop Makarios has broken with the Greek Government and no longer accepts the Cyprus agreement reached between Athens and Ankara on 11 February. The future of the conference now depends on Makarios, as Britain, Greece, Turkey, and the Turkish Cypriots have agreed on the terms for a settlement. Failure to secure the archbishop's approval would eliminate hope for a solution at present and could lead to a renewal of the struggle on Cyprus. The possibility cannot be precluded that Makarios is maneuvering for further concessions, which would also enhance his political stature in both Cyprus and Greece.]\n\nMakarios' opposition to the agreement appears concentrated on the terms providing for British base rights on Cyprus, and the right of Britain, Greece, and Turkey to intervene if Cypriot independence is threatened. There may also be problems in London regarding the timing and method of execution of the agreement, the degree of Turkish Cypriot participation in the government, and the question of whether or not Cyprus will remain within the British Commonwealth. Makarios' advisers reportedly are pressuring the archbishop to submit any plan for Cyprus' future to a plebiscite on the island.\n\nIf the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain.\n\nA final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.",
+    "expanded_crop_box_xyxy": [
+      0,
+      14,
+      596,
+      357
+    ],
+    "crop_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Any English content (words, phrases, sentences) must be transcribed verbatim without any addition, omission, or alteration. The text provided is from an academic source and should be treated as such. Do not use any software to generate the transcription. If you have difficulty discerning the original text from the transcription, consult with a professional translator or proofreader.",
+    "ocr_text_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 19,
+    "line_end_1based": 28,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      13,
+      335,
+      543,
+      528
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      316,
+      596,
+      547
+    ],
+    "crop_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Any decorative or\nperiodic symbols are to be ignored.\n```\nМаккариос' opposition to the agreement appears concentrated\non the terms providing for British base rights on Cyprus, and\nthe right of Britain, Greece, and Turkey to intervene if Cyprus\nindependence is threatened. There may also be problems in\nLondon regarding the timing and method of execution of the\nagreement, the degree of Turkish Cypriot participation in the\ngovernment, and the question of whether or not Cyprus will re-\nmain within the British Commonwealth. Makarios' advisers re-\nportedly are pressuring the archbishop to submit any plan for\nCyprus' future to a plebiscite on the island.\nIf the London conference fails to achieve a settlement of",
+    "ocr_text_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 30,
+    "line_end_1based": 39,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      13,
+      536,
+      543,
+      801
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      509,
+      596,
+      811
+    ],
+    "crop_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The image displays a portion of a document with a handwritten note. The note is written in black ink and is in a cursive style. The text reads: \"If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.\"",
+    "ocr_text_path": "outputs/examples_ocr2/27_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

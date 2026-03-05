@@ -1,0 +1,908 @@
+{
+  "image": "inputs/images/14_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    26,
+    25,
+    532,
+    530
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 146955,
+  "merged_region_nonzero_px": 146955,
+  "line_width_px": 506,
+  "line_count": 25,
+  "paragraph_crops_dir": "outputs/examples_ocr2/14_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/14_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/14_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 25,
+      "line_count": 25,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        26,
+        31,
+        532,
+        516
+      ],
+      "text": "Preserve line breaks as requested.\n\nNasir's Anti-Communist Campaign\n\nNasir's campaign against Communists throughout the UAR has reached major proportions. This campaign, unlike previous ones, has included arrests of prominent party members, and it would appear that Communist leadership has been severely crippled. Latest reports state that about 550 members have been arrested in Syria, including Mustafa Amin, one of the highest in the party. Also reportedly picked up was Abd al-Majid Jamal al-Din, a leader of the Syrian-Lebanese Communist party and head of the Syrian passports and immigration department. Khalid Bakdash, the Arab world's number-one Communist, reportedly has fled from Damascus to Baghdad.\n\nIn Egypt, where Cairo newspapers are keeping up a constant barrage of criticism of Iraqi Communist activity, the number of arrests has exceeded 200, including several central committee members of Egypt's three Communist factions, as well as Communist members of the staff of the extreme leftist Cairo daily Al Misaa.\n\nNasir intends to follow up with a general purge of the press and a cleanup of the Egyptian State Broadcasting System and department of information. The arrests have not been publicized in the UAR, allegedly in order to avoid forewarning the Communists of the government's intentions. However, the regime has nearly always been reluctant to give local publicity to the existence of any organized opposition.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        565,
+        530
+      ],
+      "crop_path": "outputs/examples_ocr2/14_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "**Do not attempt to remove the underlined portions as they are given as it is.**\nNasir's Anti-Communist Campaign\nNasir's campaign against Communists throughout the UAE has reached major proportions. This campaign, unlike previous ones, has included arrests of prominent party members, and it would appear that Communist leadership has been severely crippled. Latest reports state that about 550 members have been arrested in Syria, including Mustafa Amin, one of the highest in the party. Also reportedly picked up was Abd al-Majid Jamal al-Din, a leader of the Syrian-Lebanese Communist party and head of the Syrian passports and immigration department. Khalid Bakdash, the Arab world's number-one Communist, reportedly has fled from Damascus to Baghdad.\nIn Egypt, where Cairo newspapers are keeping up a constant barrage of criticism of Iraqi Communist activity, the number of arrests has exceeded 200, including several central committee members of Egypt's three Communist factions, as well as Communist members of the staff of the extreme leftist Cairo daily Al Misaa.\nNasir intends to follow up with a general purge of the press and a cleanup of the Egyptian State Broadcasting System and department of information. The arrests have not been publicized in the UAE, allegedly in order to avoid forewarning the Communistists of the government's intentions. However, the regime has nearly always been reluctant to give local publicity to the existence of any organized opposition.",
+      "ocr_text_path": "outputs/examples_ocr2/14_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.8,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 25,
+  "row_scan_gap_band_count": 24,
+  "row_scan_linebreak_band_count": 24,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        26,
+        64,
+        532,
+        68
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        85,
+        532,
+        87
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.2027,
+      "height_to_avg_full_line_ratio": 0.1528,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        100,
+        532,
+        105
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.4054,
+      "height_to_avg_full_line_ratio": 0.3056,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        119,
+        532,
+        123
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        137,
+        532,
+        141
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        155,
+        532,
+        159
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        173,
+        532,
+        177
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        191,
+        532,
+        193
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.2027,
+      "height_to_avg_full_line_ratio": 0.1528,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        209,
+        532,
+        214
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.4054,
+      "height_to_avg_full_line_ratio": 0.3056,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        227,
+        532,
+        232
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.4054,
+      "height_to_avg_full_line_ratio": 0.3056,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        247,
+        532,
+        250
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.2703,
+      "height_to_avg_full_line_ratio": 0.2037,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        263,
+        532,
+        266
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.2703,
+      "height_to_avg_full_line_ratio": 0.2037,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        281,
+        532,
+        287
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.473,
+      "height_to_avg_full_line_ratio": 0.3565,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        300,
+        532,
+        304
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        318,
+        532,
+        323
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.4054,
+      "height_to_avg_full_line_ratio": 0.3056,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        337,
+        532,
+        341
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        355,
+        532,
+        359
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        373,
+        532,
+        374
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.1351,
+      "height_to_avg_full_line_ratio": 0.1019,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        409,
+        532,
+        413
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        428,
+        532,
+        432
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        446,
+        532,
+        448
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.2027,
+      "height_to_avg_full_line_ratio": 0.1528,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        464,
+        532,
+        468
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        482,
+        532,
+        486
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.3378,
+      "height_to_avg_full_line_ratio": 0.2547,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        26,
+        500,
+        532,
+        505
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.8,
+      "avg_linebreak_height_px": 4.8333,
+      "avg_full_line_height_px": 19.6333,
+      "height_to_avg_line_ratio": 0.4054,
+      "height_to_avg_full_line_ratio": 0.3056,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 25,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Preserve line breaks as requested.",
+      "char_len": 34,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        31,
+        532,
+        63
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        69,
+        532,
+        84
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Nasir's Anti-Communist Campaign",
+      "char_len": 31,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        88,
+        532,
+        99
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        106,
+        532,
+        118
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "Nasir's campaign against Communists throughout the UAR has reached major proportions. This campaign, unlike previous ones, has included arrests of prominent party members, and it would appear that Communist leadership has been severely crippled. Latest reports state that about 550 members have been arrested in Syria, including Mustafa Amin, one of the highest in the party. Also reportedly picked up was Abd al-Majid Jamal al-Din, a leader of the Syrian-Lebanese Communist party and head of the Syrian passports and immigration department. Khalid Bakdash, the Arab world's number-one Communist, reportedly has fled from Damascus to Baghdad.",
+      "char_len": 642,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        124,
+        532,
+        136
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        142,
+        532,
+        154
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "In Egypt, where Cairo newspapers are keeping up a constant barrage of criticism of Iraqi Communist activity, the number of arrests has exceeded 200, including several central committee members of Egypt's three Communist factions, as well as Communist members of the staff of the extreme leftist Cairo daily Al Misaa.",
+      "char_len": 316,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        160,
+        532,
+        172
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        178,
+        532,
+        190
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "Nasir intends to follow up with a general purge of the press and a cleanup of the Egyptian State Broadcasting System and department of information. The arrests have not been publicized in the UAR, allegedly in order to avoid forewarning the Communists of the government's intentions. However, the regime has nearly always been reluctant to give local publicity to the existence of any organized opposition.",
+      "char_len": 406,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        194,
+        532,
+        208
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        215,
+        532,
+        226
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        233,
+        532,
+        246
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        251,
+        532,
+        262
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        267,
+        532,
+        280
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        288,
+        532,
+        299
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        305,
+        532,
+        317
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        324,
+        532,
+        336
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        342,
+        532,
+        354
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        360,
+        532,
+        372
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        375,
+        532,
+        408
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        414,
+        532,
+        427
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        433,
+        532,
+        445
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        449,
+        532,
+        463
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        469,
+        532,
+        481
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        487,
+        532,
+        499
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        26,
+        506,
+        532,
+        516
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

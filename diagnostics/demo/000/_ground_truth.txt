@@ -1,0 +1,15 @@
+Example ID: 0
+Doc stem: 0
+Date: August 19, 1958
+doc_id_r: CIA-RDP79T00975A003900150001-2
+doc_id_u: 3169517
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+The <redaction 1> Katay D. Sasorith is the most powerful individual in the cabinet. He is vice premier and holds both Defense and Interior portfolios. His <redaction 2> judging from his past performance, he is unlikely to undertake a vigorous reform of the security forces and provincial administration. He opposes a drastic monetary reform desired by the United States and will be able to exert heavy pressure during negotiations.
+
+=== REDACTIONS ===
+[redaction 1] notoriously corrupt and discredited
+[redaction 2] leading role associates the new government with the corruption of its predecessor and,
+
+=== CONTEXT (REDACTIONS FILLED) ===
+The notoriously corrupt and discredited Katay D. Sasorith is the most powerful individual in the cabinet. He is vice premier and holds both Defense and Interior portfolios. His leading role associates the new government with the corruption of its predecessor and, judging from his past performance, he is unlikely to undertake a vigorous reform of the security forces and provincial administration. He opposes a drastic monetary reform desired by the United States and will be able to exert heavy pressure during negotiations.

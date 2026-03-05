@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 32,
+    "line_count": 32,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      15,
+      14,
+      526,
+      626
+    ],
+    "text": "Laos Cabinet Decides to Terminate French Military Training Mission\n\nThe Laotian cabinet decided on 21 February to terminate the French military mission in Laos, apparently in order to pave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of the 1954 Geneva agreements which had previously given France exclusive control over military training in Laos.\n\nPrime Minister Phouli Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction. He may seek a formula under which France and the United States would share in training activities.\n\nSuch a move by Laos would almost certainly be interpreted by Paris as US-inspected, and the strong French reaction would be heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, in an effort to embarrass the US, might threaten to withdraw their forces from Laos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and attempt to divert and modify the Lao move. The French Defense Council is scheduled to discuss augmentation of the French military contribution to Laos on 27 February.\n\nPublic announcement of a shift in the training of the Laotian Army from French to US control would probably provoke intensified Communist diplomatic and propaganda pressures on Vientiane and would be cited as substantiation of Communist charges that the United States is attempting to turn Laos into a \"military base.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      550,
+      639
+    ],
+    "crop_path": "outputs/examples_ocr2/31_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The Laotian cabinet decided on 21 February to terminate\nthe French military mission in Laos, apparently in order to\npave the way for transferring the training function to US control. This decision underscores the government's determination to act without reference to the restrictive provisions of\nthe 1954 Geneva agreements which had previously given France\nexclusive control over military training in Laos.?\nPrime Minister Phoui Sananikone told the American ambassador on 24 February that he hesitated to implement the cabinet's decision because he feared adverse French reaction.\nHe may seek a formula under which France and the United States would share in training activities.?\nSuch a move by Laos would almost certainly be interpreted\nby Paris as US-invigated, and the strong French reaction would\nbe heightened in view of the recent US-British-French talks concerning Southeast Asia. Although the French, in an effort to\nembarrass the US, might threaten to withdraw their forces from\nLaos summarily, they first would probably lodge strong protests in Vientiane and Washington, seek support in London, and\nattempt to divert and modify the Lao move. The French Defense\nCouncil is scheduled to discuss augmentation of the French military contribution to Laos on 27 February.?\nPublic announcement of a shift in the training of the Laotian Army from French to US control would probably provoke\nintensified Communist diplomatic and propaganda pressures on\nVientiane and would be cited as substantiation of Communist\ncharges that the United States is attempting to turn Laos into a\n\"military base.\"",
+    "ocr_text_path": "outputs/examples_ocr2/31_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

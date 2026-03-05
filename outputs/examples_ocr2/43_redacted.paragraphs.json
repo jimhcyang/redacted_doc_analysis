@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 22,
+    "line_count": 22,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      7,
+      7,
+      505,
+      471
+    ],
+    "text": "New Dutch Government Expected Soon\n\nA new Dutch coalition government, including Catholic, Protestant, and Liberal parties and headed by Catholic Prof. J. Dequay, is expected to be installed within the next week after over a month of negotiations. The Labor party, which precipitated the 12 March national elections by withdrawing from Prime Minister Drees' cabinet in December, now will be in the opposition. The new government will be further to the right than the Drees cabinet, in which elements of the Labor party exercised a moderating influence, and is even more deeply committed to Dutch retention of West New Guinea. It is prepared, if necessary, to weaken the Netherlands' contribution to NATO to support this stand and will probably protest more strongly against arms sales to Indonesia by the United States and other NATO countries.\n\nThe Dutch representative at a NATO committee meeting in Paris on 14 April, in fact, warned of severe political repercussions in The Hague if the United States proceeds with projected shipments of C-130-B transports and other arms to Indonesia and said, \"that popular and parliamentary support for NATO would inevitably deteriorate. Defense build-up in West New Guinea, he said, would have to be at the expense of Dutch NATO commitments, since over-all defense expenditures are not likely to be increased.\"\n\nFurther expression of Dutch resentment over Western deliveries of military items to Indonesia may be expected at the next NATO committee meeting on 21 April. As evidence of the danger of Indonesian aggression, the Dutch may produce a list of military items including parachutes, for which Jakarta is reported to have been shopping \"all over the world.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      553,
+      517
+    ],
+    "crop_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Incorrectly, a\nNew Dutch coalition government, including Catholic,\nProtestant, and Liberal parties and headed by Catholic Prof.\nJ. Dequay, is expected to be installed within the next week\nafter over a month of negotiations. The Labor party, which\nprecipitated the 12 March national elections by withdrawing\nfrom Prime Minister Drees' cabinet in December, now will\nbe in the opposition. The new government will be further to\nthe right than the Drees cabinet, in which elements of the\nLabor party exercised a moderating influence, and is even\nmore deeply committed to Dutch retention of West New Guinea.\nIt is prepared, if necessary, to weaken the Netherlands' con-\ntribution to NATO to support this stand and will probably pro-\ntest more strongly against arms sales to Indonesia by the\nUnited States and other NATO countries.\nThe Dutch representative at a NATO committee meeting\nin Paris on 14 April, in fact, warned of severe political reper-\ncussions in The Hague if the United States proceeds with pro-\njected shipments of C-130-B transports and other arms to\nIndonesia and said, \"I think popular\nand parliamentary support for NATO would inevitably deterio-\norate. Defense build-up in West New Guinea, he said, would\nhave to be at the expense of Dutch NATO commitments, since\nover-all defense expenditures are not likely to be increased.\nFurther expression of Dutch resentment over Western de-",
+    "ocr_text_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 24,
+    "line_end_1based": 28,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      7,
+      492,
+      505,
+      598
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      481,
+      553,
+      609
+    ],
+    "crop_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Further expression of Dutch resentment over Western de-",
+    "ocr_text_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

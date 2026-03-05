@@ -1,0 +1,844 @@
+{
+  "image": "example_batch/3_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      478,
+      202,
+      555,
+      220
+    ],
+    [
+      4,
+      220,
+      556,
+      272
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    12,
+    1,
+    523,
+    387
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 107225,
+  "merged_region_nonzero_px": 105885,
+  "line_width_px": 511,
+  "line_count": 21,
+  "paragraph_crops_dir": "outputs/test_ocr2/3_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/test_ocr2/3_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/test_ocr2/3_redacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        12,
+        5,
+        523,
+        24
+      ],
+      "text": "No bullets or encircled text.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        566,
+        32
+      ],
+      "crop_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 14,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        12,
+        43,
+        523,
+        260
+      ],
+      "text": "\n---\n\n**Nasir Facing New Difficulties**\n\nNasir has received the resignation of Egyptian Vice President for Economic Affairs Abd al-Latif Baghdadi, but has not yet indicated that he will accept it. Baghdadi, a member of the original Revolutionary Command Council and one of the regime's most competent officials, has been accused of profiteering, following an official investigation presumably ordered by Nasir. Acceptance of the popular Baghdadi's resignation, combined with present rumors of a serious misunderstanding between Nasir and his chief adviser, Ali Sabri, would probably lower the regime's prestige and add to public discontent.\n\n---\n\n**Differences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of ...**",
+      "expanded_crop_box_xyxy": [
+        0,
+        21,
+        566,
+        282
+      ],
+      "crop_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The image provided is a screenshot of a document containing a letter. The letter is addressed to \"Nadir\" and is from \"Nadir's\" representative. The letter is from \"Nadir's\" representative to \"Nadir\" and is about the resignation of Egyptian Vice President for Economic Affairs Abd al-Latif Baghdadi. The letter mentions that Baghdadi has not yet indicated that he will accept it and that Baghdadi is a member of the original Revolutionary Command Council and one of the regime's most competent officials. The letter also mentions that Baghdadi has been accused of profiteering and that the investigation is presumably ordered by the regime's president. The letter concludes with a request for Baghdadi's resignation and a promise to bring him to the regime's president and to public discontent.",
+      "ocr_text_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 16,
+      "line_end_1based": 21,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        12,
+        280,
+        523,
+        381
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        270,
+        566,
+        387
+      ],
+      "crop_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Differences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of ...",
+      "ocr_text_path": "outputs/test_ocr2/3_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.0,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 11,
+  "row_scan_line_band_count": 17,
+  "row_scan_gap_band_count": 16,
+  "row_scan_linebreak_band_count": 14,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        12,
+        25,
+        523,
+        42
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 1.4233,
+      "height_to_avg_full_line_ratio": 0.969,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        12,
+        55,
+        523,
+        58
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.3163,
+      "height_to_avg_full_line_ratio": 0.2153,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        73,
+        523,
+        78
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        91,
+        523,
+        96
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        109,
+        523,
+        115
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.5535,
+      "height_to_avg_full_line_ratio": 0.3768,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        128,
+        523,
+        133
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        146,
+        523,
+        152
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.5535,
+      "height_to_avg_full_line_ratio": 0.3768,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        164,
+        523,
+        170
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.5535,
+      "height_to_avg_full_line_ratio": 0.3768,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        182,
+        523,
+        187
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        201,
+        523,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0749,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        219,
+        523,
+        279
+      ],
+      "kind": "blankline",
+      "height_px": 61,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 4.8233,
+      "height_to_avg_full_line_ratio": 3.2839,
+      "blankline_line_slots": 2,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 42,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.8689,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        12,
+        291,
+        523,
+        297
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.5535,
+      "height_to_avg_full_line_ratio": 0.3768,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        310,
+        523,
+        315
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        330,
+        523,
+        332
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.2372,
+      "height_to_avg_full_line_ratio": 0.1615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        346,
+        523,
+        351
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        12,
+        364,
+        523,
+        369
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.6471,
+      "avg_linebreak_height_px": 5.9286,
+      "avg_full_line_height_px": 18.5756,
+      "height_to_avg_line_ratio": 0.4744,
+      "height_to_avg_full_line_ratio": 0.323,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 17,
+    "blankline": 2,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "No bullets or encircled text.",
+      "char_len": 29,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        5,
+        523,
+        24
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        12,
+        25,
+        523,
+        42
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        43,
+        523,
+        54
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        59,
+        523,
+        72
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        79,
+        523,
+        90
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "**Nasir Facing New Difficulties**",
+      "char_len": 33,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        97,
+        523,
+        108
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        116,
+        523,
+        127
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "Nasir has received the resignation of Egyptian Vice President for Economic Affairs Abd al-Latif Baghdadi, but has not yet indicated that he will accept it. Baghdadi, a member of the original Revolutionary Command Council and one of the regime's most competent officials, has been accused of profiteering, following an official investigation presumably ordered by Nasir. Acceptance of the popular Baghdadi's resignation, combined with present rumors of a serious misunderstanding between Nasir and his chief adviser, Ali Sabri, would probably lower the regime's prestige and add to public discontent.",
+      "char_len": 599,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        134,
+        523,
+        145
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        153,
+        523,
+        163
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        171,
+        523,
+        181
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        188,
+        523,
+        200
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "**Differences between Nasir and members of his revolutionary group have been common, but they have usually been settled with a minimum of publicity and little effect on the regime's stability. It is unlikely that the current difficulties will have a significantly different result; however, they add to the mounting number of problems Nasir is facing. Popular disapproval of ...**",
+      "char_len": 380,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        207,
+        523,
+        218
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "BL13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        12,
+        219,
+        523,
+        239
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "BL14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        12,
+        240,
+        523,
+        260
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "PB15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        12,
+        261,
+        523,
+        279
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        280,
+        523,
+        290
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        298,
+        523,
+        309
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        316,
+        523,
+        329
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        333,
+        523,
+        345
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        352,
+        523,
+        363
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        12,
+        370,
+        523,
+        381
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 12,
+      "line_char_capacity": 380,
+      "char_start": 347,
+      "char_end": 380,
+      "char_len": 33,
+      "full_line": false,
+      "bbox_xyxy": [
+        478,
+        202,
+        555,
+        220
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__]",
+      "layout_token_pixel": "[BOX1__45/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0881,
+      "clipped_span_px": 45,
+      "line_width_effective_px": 511,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 13,
+      "line_char_capacity": 599,
+      "char_start": 0,
+      "char_end": 599,
+      "char_len": 599,
+      "full_line": true,
+      "bbox_xyxy": [
+        4,
+        220,
+        556,
+        272
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 0.9524,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 14,
+      "line_char_capacity": 599,
+      "char_start": 0,
+      "char_end": 599,
+      "char_len": 599,
+      "full_line": true,
+      "bbox_xyxy": [
+        4,
+        220,
+        556,
+        272
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 15,
+      "line_char_capacity": 599,
+      "char_start": 0,
+      "char_end": 599,
+      "char_len": 599,
+      "full_line": true,
+      "bbox_xyxy": [
+        4,
+        220,
+        556,
+        272
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__511/511]",
+      "line_overlap_ratio": 0.6316,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 511,
+      "line_width_effective_px": 511,
+      "touches_left_border": true,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

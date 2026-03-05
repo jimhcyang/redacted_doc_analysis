@@ -1,0 +1,45 @@
+Example ID: 61
+Stem: 61
+Redacted OCR file: outputs/examples_ocr2/61_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/61_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..4, len=5)
+Predicted chunk text: afghan-soviet bridge construction agreement announced
+Unredacted context: [UNRED_ONLY: afghan-soviet bridge construction agreement announced] afghanistan and the
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] afghanistan and the ussr
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=35..35, len=1)
+Predicted chunk text: nanghar
+Unredacted context: eastern province of [UNRED_ONLY: nanghar] near the pakistani
+Redacted anchor context: the eastern province [L@29:of] [RED_GAP:nignarhar] [R@31:near] the pakistani frontier
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:nignarhar]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=175..186, len=12)
+Predicted chunk text: was reported to suspect that pakistan had a hand in this incident
+Unredacted context: prime minister daud [UNRED_ONLY: was reported to suspect that pakistan had a hand in this incident] he may intend
+Redacted anchor context: afghan prime minister [L@169:daud] [RED_GAP:<empty>] [R@170:he] may intend the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: was reported to suspect that Pakistan had a hand in this incident.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=12
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: was reported to suspect that Pakistan had a hand in this incident.
+  -> Relaxed best pred text: was reported to suspect that pakistan had a hand in this incident
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

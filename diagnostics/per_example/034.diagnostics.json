@@ -1,0 +1,3925 @@
+{
+  "example_id": 34,
+  "stem": "34",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/34_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/34_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 0,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 11,
+    "unredacted_raw_line_count": 10,
+    "redacted_nonempty_line_count": 5,
+    "unredacted_nonempty_line_count": 5,
+    "line_count_ratio": 1.0,
+    "line_similarity": 0.8,
+    "structure_preserved": true
+  },
+  "token_counts": {
+    "redacted": 241,
+    "unredacted": 250
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 9,
+    "chunk_count": 1,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 64,
+        "end_token_idx_0based": 72,
+        "token_count": 9,
+        "text": "edged on by agents of the syrian deuxieme bureau",
+        "tokens": [
+          "edged",
+          "on",
+          "by",
+          "agents",
+          "of",
+          "the",
+          "syrian",
+          "deuxieme",
+          "bureau"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.036
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 0,
+    "word_pct_vs_unredacted": 0.0
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "the",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "lebanese",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1,
+        172
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "situation",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2,
+        121,
+        145
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "the",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "continued",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "moslem-christian",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "tension",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "which",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7,
+        70
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "erupted",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "in",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9,
+        12,
+        111
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "violent",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "rioting",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "in",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        9,
+        12,
+        111
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "beirut",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "on",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "22",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "and",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16,
+        60,
+        76,
+        122,
+        156
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "27",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "february",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "has",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19,
+        137
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "brought",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "lebanon",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        21
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "to",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "the",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "point",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "where",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "another",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "incident",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "could",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        28
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "cause",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "widespread",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "civil",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        31
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "disorders",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        32,
+        182
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "the",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "recent",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "murder",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "of",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "three",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        37
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "christians",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38,
+        110,
+        158
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "may",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39,
+        96,
+        159
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "lead",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        40
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "to",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "reprisals",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        42
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "by",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "the",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "christian",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        45,
+        83
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "community",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "unless",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        47
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "the",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "government",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "promptly",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "prosecutes",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "the",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "culprits",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        53
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "members",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        54
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "of",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "the",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "extreme",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "moslem",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "najjada",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "and",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        16,
+        60,
+        76,
+        122,
+        156
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "the",
+      "mapped_redacted_index_0based": 61,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "popular",
+      "mapped_redacted_index_0based": 62,
+      "candidate_redacted_positions_0based": [
+        62
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "resistance",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        63
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "edged",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "on",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "by",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        43
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "agents",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "syrian",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "deuxieme",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "bureau",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "are",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        64,
+        175,
+        184
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "likely",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        65,
+        131
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "to",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "create",
+      "mapped_redacted_index_0based": 67,
+      "candidate_redacted_positions_0based": [
+        67,
+        227
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "additional",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        68
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "incidents",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        69
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "which",
+      "mapped_redacted_index_0based": 70,
+      "candidate_redacted_positions_0based": [
+        7,
+        70
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "will",
+      "mapped_redacted_index_0based": 71,
+      "candidate_redacted_positions_0based": [
+        71,
+        229
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "further",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        72
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "inflame",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        73
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "the",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "populace",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        75
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "and",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        16,
+        60,
+        76,
+        122,
+        156
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "might",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        77
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "break",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        78
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "up",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        79
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "the",
+      "mapped_redacted_index_0based": 80,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 81,
+      "candidate_redacted_positions_0based": [
+        81,
+        95,
+        148
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "the",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "christian",
+      "mapped_redacted_index_0based": 83,
+      "candidate_redacted_positions_0based": [
+        45,
+        83
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "phalange",
+      "mapped_redacted_index_0based": 84,
+      "candidate_redacted_positions_0based": [
+        84
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "whose",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        85
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "leader",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        86,
+        107
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "pierre",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        87
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "jumayyil",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        88
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "is",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        89,
+        115,
+        130,
+        208,
+        219
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "a",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        90,
+        202
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "member",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        91
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "of",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "the",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "four-man",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        94
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        81,
+        95,
+        148
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "may",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        39,
+        96,
+        159
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "feel",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        97
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "obliged",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        98
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "to",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "retaliate",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        100
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "former",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        101
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "president",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        102,
+        135,
+        198
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "chamoun",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        103
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "still",
+      "mapped_redacted_index_0based": 104,
+      "candidate_redacted_positions_0based": [
+        104
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "the",
+      "mapped_redacted_index_0based": 105,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "acknowledged",
+      "mapped_redacted_index_0based": 106,
+      "candidate_redacted_positions_0based": [
+        106
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "leader",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        86,
+        107
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "of",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "the",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "christians",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        38,
+        110,
+        158
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "in",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        9,
+        12,
+        111
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "time",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        112
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "of",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "crisis",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        114
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "is",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        89,
+        115,
+        130,
+        208,
+        219
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "probably",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        116
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "seeking",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        117
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "to",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "exploit",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        119
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "the",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "situation",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        2,
+        121,
+        145
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "and",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        16,
+        60,
+        76,
+        122,
+        156
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "his",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        123
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "political",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        124
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "enemy",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        125
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "minister",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        126
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "of",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "interior",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        128
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "edde",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        129
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "is",
+      "mapped_redacted_index_0based": 130,
+      "candidate_redacted_positions_0based": [
+        89,
+        115,
+        130,
+        208,
+        219
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "likely",
+      "mapped_redacted_index_0based": 131,
+      "candidate_redacted_positions_0based": [
+        65,
+        131
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "to",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "lose",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "stature",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        134
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "president",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        102,
+        135,
+        198
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "shihab",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        136
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "has",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        19,
+        137
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "endeavored",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        138
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "to",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "shift",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        140
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "responsibility",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        141
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "for",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        142
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "the",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "security",
+      "mapped_redacted_index_0based": 144,
+      "candidate_redacted_positions_0based": [
+        144,
+        173,
+        206,
+        217,
+        231
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "situation",
+      "mapped_redacted_index_0based": 145,
+      "candidate_redacted_positions_0based": [
+        2,
+        121,
+        145
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "to",
+      "mapped_redacted_index_0based": 146,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "the",
+      "mapped_redacted_index_0based": 147,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "cabinet",
+      "mapped_redacted_index_0based": 148,
+      "candidate_redacted_positions_0based": [
+        81,
+        95,
+        148
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "but",
+      "mapped_redacted_index_0based": 149,
+      "candidate_redacted_positions_0based": [
+        149
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "the",
+      "mapped_redacted_index_0based": 150,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "cabinet's",
+      "mapped_redacted_index_0based": 151,
+      "candidate_redacted_positions_0based": [
+        151
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "sectarian",
+      "mapped_redacted_index_0based": 152,
+      "candidate_redacted_positions_0based": [
+        152
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "balance",
+      "mapped_redacted_index_0based": 153,
+      "candidate_redacted_positions_0based": [
+        153
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "2",
+      "mapped_redacted_index_0based": 154,
+      "candidate_redacted_positions_0based": [
+        154,
+        157
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "moslems",
+      "mapped_redacted_index_0based": 155,
+      "candidate_redacted_positions_0based": [
+        155
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "and",
+      "mapped_redacted_index_0based": 156,
+      "candidate_redacted_positions_0based": [
+        16,
+        60,
+        76,
+        122,
+        156
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "2",
+      "mapped_redacted_index_0based": 157,
+      "candidate_redacted_positions_0based": [
+        154,
+        157
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "christians",
+      "mapped_redacted_index_0based": 158,
+      "candidate_redacted_positions_0based": [
+        38,
+        110,
+        158
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "may",
+      "mapped_redacted_index_0based": 159,
+      "candidate_redacted_positions_0based": [
+        39,
+        96,
+        159
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "force",
+      "mapped_redacted_index_0based": 160,
+      "candidate_redacted_positions_0based": [
+        160
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "him",
+      "mapped_redacted_index_0based": 161,
+      "candidate_redacted_positions_0based": [
+        161
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "to",
+      "mapped_redacted_index_0based": 162,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "make",
+      "mapped_redacted_index_0based": 163,
+      "candidate_redacted_positions_0based": [
+        163
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "decisions",
+      "mapped_redacted_index_0based": 164,
+      "candidate_redacted_positions_0based": [
+        164
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "he",
+      "mapped_redacted_index_0based": 165,
+      "candidate_redacted_positions_0based": [
+        165
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "would",
+      "mapped_redacted_index_0based": 166,
+      "candidate_redacted_positions_0based": [
+        166,
+        226
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "like",
+      "mapped_redacted_index_0based": 167,
+      "candidate_redacted_positions_0based": [
+        167
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "to",
+      "mapped_redacted_index_0based": 168,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "avoid",
+      "mapped_redacted_index_0based": 169,
+      "candidate_redacted_positions_0based": [
+        169
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "while",
+      "mapped_redacted_index_0based": 170,
+      "candidate_redacted_positions_0based": [
+        170
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "the",
+      "mapped_redacted_index_0based": 171,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "lebanese",
+      "mapped_redacted_index_0based": 172,
+      "candidate_redacted_positions_0based": [
+        1,
+        172
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "security",
+      "mapped_redacted_index_0based": 173,
+      "candidate_redacted_positions_0based": [
+        144,
+        173,
+        206,
+        217,
+        231
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "forces",
+      "mapped_redacted_index_0based": 174,
+      "candidate_redacted_positions_0based": [
+        174,
+        207
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "are",
+      "mapped_redacted_index_0based": 175,
+      "candidate_redacted_positions_0based": [
+        64,
+        175,
+        184
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "numerically",
+      "mapped_redacted_index_0based": 176,
+      "candidate_redacted_positions_0based": [
+        176
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "strong",
+      "mapped_redacted_index_0based": 177,
+      "candidate_redacted_positions_0based": [
+        177
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "enough",
+      "mapped_redacted_index_0based": 178,
+      "candidate_redacted_positions_0based": [
+        178
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "to",
+      "mapped_redacted_index_0based": 179,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "suppress",
+      "mapped_redacted_index_0based": 180,
+      "candidate_redacted_positions_0based": [
+        180
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "any",
+      "mapped_redacted_index_0based": 181,
+      "candidate_redacted_positions_0based": [
+        181,
+        222
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "disorders",
+      "mapped_redacted_index_0based": 182,
+      "candidate_redacted_positions_0based": [
+        32,
+        182
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "they",
+      "mapped_redacted_index_0based": 183,
+      "candidate_redacted_positions_0based": [
+        183
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "are",
+      "mapped_redacted_index_0based": 184,
+      "candidate_redacted_positions_0based": [
+        64,
+        175,
+        184
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "divided",
+      "mapped_redacted_index_0based": 185,
+      "candidate_redacted_positions_0based": [
+        185
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "along",
+      "mapped_redacted_index_0based": 186,
+      "candidate_redacted_positions_0based": [
+        186
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "the",
+      "mapped_redacted_index_0based": 187,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "same",
+      "mapped_redacted_index_0based": 188,
+      "candidate_redacted_positions_0based": [
+        188
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "religious",
+      "mapped_redacted_index_0based": 189,
+      "candidate_redacted_positions_0based": [
+        189
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "lines",
+      "mapped_redacted_index_0based": 190,
+      "candidate_redacted_positions_0based": [
+        190
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "as",
+      "mapped_redacted_index_0based": 191,
+      "candidate_redacted_positions_0based": [
+        191
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "the",
+      "mapped_redacted_index_0based": 192,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "rest",
+      "mapped_redacted_index_0based": 193,
+      "candidate_redacted_positions_0based": [
+        193
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "of",
+      "mapped_redacted_index_0based": 194,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "the",
+      "mapped_redacted_index_0based": 195,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "country",
+      "mapped_redacted_index_0based": 196,
+      "candidate_redacted_positions_0based": [
+        196
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "despite",
+      "mapped_redacted_index_0based": 197,
+      "candidate_redacted_positions_0based": [
+        197
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "president",
+      "mapped_redacted_index_0based": 198,
+      "candidate_redacted_positions_0based": [
+        102,
+        135,
+        198
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "shihab's",
+      "mapped_redacted_index_0based": 199,
+      "candidate_redacted_positions_0based": [
+        199
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "belief",
+      "mapped_redacted_index_0based": 200,
+      "candidate_redacted_positions_0based": [
+        200
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "that",
+      "mapped_redacted_index_0based": 201,
+      "candidate_redacted_positions_0based": [
+        201,
+        221
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "a",
+      "mapped_redacted_index_0based": 202,
+      "candidate_redacted_positions_0based": [
+        90,
+        202
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "reorganization",
+      "mapped_redacted_index_0based": 203,
+      "candidate_redacted_positions_0based": [
+        203,
+        225
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "of",
+      "mapped_redacted_index_0based": 204,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "the",
+      "mapped_redacted_index_0based": 205,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "security",
+      "mapped_redacted_index_0based": 206,
+      "candidate_redacted_positions_0based": [
+        144,
+        173,
+        206,
+        217,
+        231
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 216,
+      "token": "forces",
+      "mapped_redacted_index_0based": 207,
+      "candidate_redacted_positions_0based": [
+        174,
+        207
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 217,
+      "token": "is",
+      "mapped_redacted_index_0based": 208,
+      "candidate_redacted_positions_0based": [
+        89,
+        115,
+        130,
+        208,
+        219
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 218,
+      "token": "the",
+      "mapped_redacted_index_0based": 209,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 219,
+      "token": "solution",
+      "mapped_redacted_index_0based": 210,
+      "candidate_redacted_positions_0based": [
+        210
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 220,
+      "token": "to",
+      "mapped_redacted_index_0based": 211,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 221,
+      "token": "the",
+      "mapped_redacted_index_0based": 212,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 222,
+      "token": "critical",
+      "mapped_redacted_index_0based": 213,
+      "candidate_redacted_positions_0based": [
+        213
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 223,
+      "token": "threat",
+      "mapped_redacted_index_0based": 214,
+      "candidate_redacted_positions_0based": [
+        214
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 224,
+      "token": "to",
+      "mapped_redacted_index_0based": 215,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 225,
+      "token": "internal",
+      "mapped_redacted_index_0based": 216,
+      "candidate_redacted_positions_0based": [
+        216
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 226,
+      "token": "security",
+      "mapped_redacted_index_0based": 217,
+      "candidate_redacted_positions_0based": [
+        144,
+        173,
+        206,
+        217,
+        231
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 227,
+      "token": "it",
+      "mapped_redacted_index_0based": 218,
+      "candidate_redacted_positions_0based": [
+        218
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 228,
+      "token": "is",
+      "mapped_redacted_index_0based": 219,
+      "candidate_redacted_positions_0based": [
+        89,
+        115,
+        130,
+        208,
+        219
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 229,
+      "token": "doubtful",
+      "mapped_redacted_index_0based": 220,
+      "candidate_redacted_positions_0based": [
+        220
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 230,
+      "token": "that",
+      "mapped_redacted_index_0based": 221,
+      "candidate_redacted_positions_0based": [
+        201,
+        221
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 231,
+      "token": "any",
+      "mapped_redacted_index_0based": 222,
+      "candidate_redacted_positions_0based": [
+        181,
+        222
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 232,
+      "token": "amount",
+      "mapped_redacted_index_0based": 223,
+      "candidate_redacted_positions_0based": [
+        223
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 233,
+      "token": "of",
+      "mapped_redacted_index_0based": 224,
+      "candidate_redacted_positions_0based": [
+        36,
+        55,
+        92,
+        108,
+        113,
+        127,
+        194,
+        204,
+        224
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 234,
+      "token": "reorganization",
+      "mapped_redacted_index_0based": 225,
+      "candidate_redacted_positions_0based": [
+        203,
+        225
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 235,
+      "token": "would",
+      "mapped_redacted_index_0based": 226,
+      "candidate_redacted_positions_0based": [
+        166,
+        226
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 236,
+      "token": "create",
+      "mapped_redacted_index_0based": 227,
+      "candidate_redacted_positions_0based": [
+        67,
+        227
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 237,
+      "token": "the",
+      "mapped_redacted_index_0based": 228,
+      "candidate_redacted_positions_0based": [
+        0,
+        3,
+        23,
+        33,
+        44,
+        48,
+        52,
+        56,
+        61,
+        74,
+        80,
+        82,
+        93,
+        105,
+        109,
+        120,
+        143,
+        147,
+        150,
+        171,
+        187,
+        192,
+        195,
+        205,
+        209,
+        212,
+        228
+      ],
+      "candidate_count": 27
+    },
+    {
+      "unredacted_index_0based": 238,
+      "token": "will",
+      "mapped_redacted_index_0based": 229,
+      "candidate_redacted_positions_0based": [
+        71,
+        229
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 239,
+      "token": "among",
+      "mapped_redacted_index_0based": 230,
+      "candidate_redacted_positions_0based": [
+        230
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 240,
+      "token": "security",
+      "mapped_redacted_index_0based": 231,
+      "candidate_redacted_positions_0based": [
+        144,
+        173,
+        206,
+        217,
+        231
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 241,
+      "token": "personnel",
+      "mapped_redacted_index_0based": 232,
+      "candidate_redacted_positions_0based": [
+        232
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 242,
+      "token": "to",
+      "mapped_redacted_index_0based": 233,
+      "candidate_redacted_positions_0based": [
+        22,
+        41,
+        66,
+        99,
+        118,
+        132,
+        139,
+        146,
+        162,
+        168,
+        179,
+        211,
+        215,
+        233
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 243,
+      "token": "carry",
+      "mapped_redacted_index_0based": 234,
+      "candidate_redacted_positions_0based": [
+        234
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 244,
+      "token": "out",
+      "mapped_redacted_index_0based": 235,
+      "candidate_redacted_positions_0based": [
+        235
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 245,
+      "token": "vigorous",
+      "mapped_redacted_index_0based": 236,
+      "candidate_redacted_positions_0based": [
+        236
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 246,
+      "token": "action",
+      "mapped_redacted_index_0based": 237,
+      "candidate_redacted_positions_0based": [
+        237
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 247,
+      "token": "against",
+      "mapped_redacted_index_0based": 238,
+      "candidate_redacted_positions_0based": [
+        238
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 248,
+      "token": "their",
+      "mapped_redacted_index_0based": 239,
+      "candidate_redacted_positions_0based": [
+        239
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 249,
+      "token": "co-religionists",
+      "mapped_redacted_index_0based": 240,
+      "candidate_redacted_positions_0based": [
+        240
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": false,
+    "context_compact": "",
+    "redactions": []
+  },
+  "full_context_vs_truth": {},
+  "redaction_eval": {}
+}

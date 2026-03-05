@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 16,
+    "line_count": 16,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      5,
+      26,
+      556,
+      312
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])\n\n\n\nWest Berlin Mayor Opposes Transferring Presidential Election\n\n(West Berlin's Mayor Willy Brandt informed American officials on 4 June that he was extremely concerned over reports that Bonn was planning to transfer the 1 July West German presidential election from Berlin to Bonn. He feels that since it had been announced that the election, as in 1954, would be held in Berlin, a reversal of plans now would be interpreted as a Western retreat and place a severe strain on West Berlin morale.)\n\n(Brandt was also distressed over reports that President Heuss would cancel his 17 June visit to West Berlin to open the reconstructed residence for the Federal President. He also complained that constant speculation on possible Western concessions at Geneva is hurting morale, and that West Berliners are giving more attention to \"discouraging\" press reports from Geneva.)\n\n\nChancellor Adenauer has favored moving the election from Berlin to Bonn to avoid any possibility of incidents.\n\nThe final decision on convoking the National Assembly of 1,038 presidential electors is the legal responsibility of Bundestag President Gerstenmaier, who is reported to favor Berlin.\n\nEast Germany is attempting to exploit these differences by hinting at a temporary blockade of West German \"transport\" to the city if the elections are held in Berlin. East German propaganda chief Eisler claimed on 6 June that he had received proposals for such a blockade from East German workers. Eisler's additional hint of increased taxes on traffic to Berlin suggests that East Germany plans to make the election site the subject for a war of nerves, in the hope that Bonn's decision to hold the elections elsewhere could be presented as unwillingness to support West Berlin in the face of East German opposition.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      608,
+      341
+    ],
+    "crop_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "West Berlin Mayor Opposes Transferring Presidential ElectionWest Berlin's Mayor Willy Brandt informed American officials on 4 June that he was extremely concerned over reports that Bonn was planning to transfer the 1 July West German presidential election from Berlin to Bonn. He feels that since it had been announced that the election, as in 1954, would be held in Berlin, a reversal of plans now would be interpreted as a Western retreat and place a severe strain on West Berlin morale.)",
+    "ocr_text_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 18,
+    "line_end_1based": 24,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      5,
+      337,
+      556,
+      473
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      323,
+      608,
+      487
+    ],
+    "crop_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "\"Chancellor Adenauer has favored moving the election from Berlin to Bonn to avoid any possibility of incidents.\"\nThe final decision on convoking the National Assembly of 1,038 presidential electors is the legal responsibility of Bundestag President Gerstenmaier, who is re-ported to favor Berlin.",
+    "ocr_text_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 26,
+    "line_end_1based": 31,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      5,
+      500,
+      556,
+      672
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      483,
+      608,
+      689
+    ],
+    "crop_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/53_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

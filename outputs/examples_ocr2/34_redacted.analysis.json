@@ -1,0 +1,1185 @@
+{
+  "image": "inputs/images/34_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      246,
+      16,
+      494,
+      57
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    47,
+    9,
+    549,
+    623
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 163612,
+  "merged_region_nonzero_px": 162986,
+  "line_width_px": 502,
+  "line_count": 32,
+  "paragraph_crops_dir": "outputs/examples_ocr2/34_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/34_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/34_redacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 18,
+      "line_count": 18,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        47,
+        19,
+        549,
+        366
+      ],
+      "text": "The Lebanese Situation\n\n\nThe continued Moslem-Christian tension, which erupted in violent rioting in Beirut on 22 and 27 February, has brought Lebanon to the point where another incident could cause widespread civil disorders. The recent murder of three Christians may lead to reprisals by the Christian community unless the government promptly prosecutes the culprits.\n\nMembers of the extreme Moslem Najjada and the \"Popular Resistance,\" are likely to create additional incidents which will further inflame the populace and might break up the cabinet. The Christian Phalange, whose leader Pierre Jumayyil is a member of the four-man cabinet, may feel obliged to retaliate. Former President Chamoun, still the acknowledged leader of the Christians in time of crisis, is probably seeking to exploit the situation, and his political enemy, Minister of Interior Edde, is likely to lose stature.\n\nPresident Shihab has endeavored to shift responsibility for the security situation to the cabinet, but the cabinet's sectarian balance (2 Moslems and 2 Christians) may force him to make decisions he would like to avoid.\n\nWhile the Lebanese security forces are numerically strong enough to suppress any disorders, they are divided along the same religious lines as the rest of the country. Despite President Shihab's belief that a \"reorganization\" of the security forces is the solution to the critical threat to internal security, it is doubtful that any amount of \"reorganization\" would create the will among security personnel to carry out vigorous action against their co-religionists.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        599,
+        401
+      ],
+      "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The Lebanese Situation",
+      "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 20,
+      "line_end_1based": 23,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        47,
+        390,
+        549,
+        478
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        381,
+        599,
+        487
+      ],
+      "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "President Shihab has endeavored to shift responsibility for the security situation to the cabinet, but the cabinet's security situation to the cabinet, but the cabinet's security situation to the cabinet, but the cabinet'se",
+      "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 25,
+      "line_end_1based": 32,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        47,
+        481,
+        549,
+        621
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        467,
+        599,
+        623
+      ],
+      "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "While the Lebanese security forces are numerically strong enough to suppress any disorders, they are divided along the same religious lines as the rest of the country. Despite President Shihab's belief that a \"reorganization\" of the security forces is the solution to the critical threat to internal security, it is doubtful that any amount of \"reorganization\" would create the will among security personnel to carry out vigorous action against their co-religionists.",
+      "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.7812,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 29,
+  "row_scan_gap_band_count": 28,
+  "row_scan_linebreak_band_count": 26,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        47,
+        43,
+        549,
+        62
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 1.352,
+      "height_to_avg_full_line_ratio": 1.0085,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 20,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3713,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        75,
+        549,
+        79
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        93,
+        549,
+        99
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4732,
+      "height_to_avg_full_line_ratio": 0.353,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        111,
+        549,
+        117
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4732,
+      "height_to_avg_full_line_ratio": 0.353,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        133,
+        549,
+        135
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.2028,
+      "height_to_avg_full_line_ratio": 0.1513,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        148,
+        549,
+        154
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4732,
+      "height_to_avg_full_line_ratio": 0.353,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        187,
+        549,
+        188
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.1352,
+      "height_to_avg_full_line_ratio": 0.1008,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        202,
+        549,
+        204
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.2028,
+      "height_to_avg_full_line_ratio": 0.1513,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        221,
+        549,
+        226
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        239,
+        549,
+        244
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        257,
+        549,
+        262
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        275,
+        549,
+        280
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        294,
+        549,
+        298
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        312,
+        549,
+        317
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        330,
+        549,
+        332
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.2028,
+      "height_to_avg_full_line_ratio": 0.1513,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        348,
+        549,
+        352
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        367,
+        549,
+        389
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 1.5548,
+      "height_to_avg_full_line_ratio": 1.1598,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 1,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        47,
+        405,
+        549,
+        407
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.2028,
+      "height_to_avg_full_line_ratio": 0.1513,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        421,
+        549,
+        425
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        439,
+        549,
+        445
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4732,
+      "height_to_avg_full_line_ratio": 0.353,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        479,
+        549,
+        480
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.1352,
+      "height_to_avg_full_line_ratio": 0.1008,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 2,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        47,
+        498,
+        549,
+        499
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.1352,
+      "height_to_avg_full_line_ratio": 0.1008,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        512,
+        549,
+        517
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        530,
+        549,
+        534
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        549,
+        549,
+        553
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.338,
+      "height_to_avg_full_line_ratio": 0.2521,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        567,
+        549,
+        572
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        585,
+        549,
+        590
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4056,
+      "height_to_avg_full_line_ratio": 0.3025,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        47,
+        603,
+        549,
+        609
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.7931,
+      "avg_linebreak_height_px": 5.0385,
+      "avg_full_line_height_px": 19.8316,
+      "height_to_avg_line_ratio": 0.4732,
+      "height_to_avg_full_line_ratio": 0.353,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 29,
+    "blankline": 1,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "The Lebanese Situation",
+      "char_len": 22,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        19,
+        549,
+        42
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "BL2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        47,
+        43,
+        549,
+        62
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        63,
+        549,
+        74
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The continued Moslem-Christian tension, which erupted in violent rioting in Beirut on 22 and 27 February, has brought Lebanon to the point where another incident could cause widespread civil disorders. The recent murder of three Christians may lead to reprisals by the Christian community unless the government promptly prosecutes the culprits.",
+      "char_len": 344,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        80,
+        549,
+        92
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        100,
+        549,
+        110
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Members of the extreme Moslem Najjada and the \"Popular Resistance,\" are likely to create additional incidents which will further inflame the populace and might break up the cabinet. The Christian Phalange, whose leader Pierre Jumayyil is a member of the four-man cabinet, may feel obliged to retaliate. Former President Chamoun, still the acknowledged leader of the Christians in time of crisis, is probably seeking to exploit the situation, and his political enemy, Minister of Interior Edde, is likely to lose stature.",
+      "char_len": 520,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        118,
+        549,
+        132
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        136,
+        549,
+        147
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "President Shihab has endeavored to shift responsibility for the security situation to the cabinet, but the cabinet's sectarian balance (2 Moslems and 2 Christians) may force him to make decisions he would like to avoid.",
+      "char_len": 219,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        155,
+        549,
+        186
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        189,
+        549,
+        201
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "While the Lebanese security forces are numerically strong enough to suppress any disorders, they are divided along the same religious lines as the rest of the country. Despite President Shihab's belief that a \"reorganization\" of the security forces is the solution to the critical threat to internal security, it is doubtful that any amount of \"reorganization\" would create the will among security personnel to carry out vigorous action against their co-religionists.",
+      "char_len": 467,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        205,
+        549,
+        220
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        227,
+        549,
+        238
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        245,
+        549,
+        256
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        263,
+        549,
+        274
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        281,
+        549,
+        293
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        299,
+        549,
+        311
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        318,
+        549,
+        329
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        333,
+        549,
+        347
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        353,
+        549,
+        366
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "PB19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        47,
+        368,
+        549,
+        389
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        390,
+        549,
+        404
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        408,
+        549,
+        420
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        426,
+        549,
+        438
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        446,
+        549,
+        478
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "PB24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        47,
+        479,
+        549,
+        480
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        481,
+        549,
+        497
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        500,
+        549,
+        511
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        518,
+        549,
+        529
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        535,
+        549,
+        548
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        554,
+        549,
+        566
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        573,
+        549,
+        584
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        591,
+        549,
+        602
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        47,
+        610,
+        549,
+        621
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 22,
+      "char_start": 9,
+      "char_end": 20,
+      "char_len": 11,
+      "full_line": false,
+      "bbox_xyxy": [
+        246,
+        16,
+        494,
+        57
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________]",
+      "layout_token_pixel": "[BOX1__248/497]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.499,
+      "clipped_span_px": 248,
+      "line_width_effective_px": 497,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 1,
+      "line_1based": 2,
+      "line_char_capacity": 520,
+      "char_start": 206,
+      "char_end": 463,
+      "char_len": 257,
+      "full_line": false,
+      "bbox_xyxy": [
+        246,
+        16,
+        494,
+        57
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________________]",
+      "layout_token_pixel": "[BOX1__248/502]",
+      "line_overlap_ratio": 0.75,
+      "line_cover_ratio_x": 0.494,
+      "clipped_span_px": 248,
+      "line_width_effective_px": 502,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

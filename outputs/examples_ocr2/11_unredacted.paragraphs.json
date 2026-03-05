@@ -1,0 +1,117 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      26,
+      13,
+      548,
+      27
+    ],
+    "text": "Paraguayan Opposition Elements Plan Revolt",
+    "expanded_crop_box_xyxy": [
+      0,
+      5,
+      591,
+      35
+    ],
+    "crop_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 8,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      50,
+      548,
+      152
+    ],
+    "text": "\nAnother attack against the Paraguayan regime may be launched shortly from Argentina by left-wing opposition ele-\nments, who appear determined to maintain an atmosphere of unrest in Paraguay until one of their attacks coincides with suf-\nficient military and popular discontent to overthrow President Stroessner.\n\n______:The Communists, who have been trying to effect clandestine coordination of opposition activities, may also be involved.",
+    "expanded_crop_box_xyxy": [
+      0,
+      40,
+      591,
+      162
+    ],
+    "crop_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Another attack against the Paraguayan regime may be launched shortly from Argentina by left-wing opposition elements, who appear determined to maintain an atmosphere of unrest in Paraguay until one of their attacks coincides with sufficient military and popular discontent to overthrow President Stroessner.",
+    "ocr_text_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 10,
+    "line_end_1based": 12,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      177,
+      548,
+      224
+    ],
+    "text": "\n______:The plan, armed groups to cross from Argentina, a revolt by some mili-\ntary units controlled by junior officers favoring Méndez Fleitas, the assassination of Stroessner, and a popular uprising in Asunción with strong student participation. The government, aware of the plot, has taken strong security precautions. An invasion attempt last October was discovered and prevented by Argentine police.",
+    "expanded_crop_box_xyxy": [
+      0,
+      169,
+      591,
+      232
+    ],
+    "crop_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The Communists, who have been trying to effect clandestine coordination of opposition activities, may also be involved.",
+    "ocr_text_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 14,
+    "line_end_1based": 20,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      248,
+      548,
+      369
+    ],
+    "text": "\n______:While Stroessner has been sufficiently strong to quell such sorties, several soft spots in his military support have appeared. Moreover, plotting has increased since the successful revolution against military dictatorship in Venezuela a year ago and probably has been encouraged by the more recent successes of the Cuban rebels.",
+    "expanded_crop_box_xyxy": [
+      0,
+      236,
+      591,
+      381
+    ],
+    "crop_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The plan, calls for armed groups to cross from Argentina, a revolt by some military units controlled by junior officers favoring Mendez Fleitas, the assassination of Stroessner, and a popular uprising in Asuncion with strong student participation. The government, aware of the plot, has taken strong security precautions. An invasion attempt last October was discovered and prevented by Argentine police.",
+    "ocr_text_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 22,
+    "line_end_1based": 27,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      26,
+      395,
+      548,
+      495
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      385,
+      591,
+      499
+    ],
+    "crop_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "While Stroessner has been sufficiently strong to quell such sorties, several soft spots in his military support have appeared. Moreover, plotting has increased since the successful revolution against military dictatorship in Venezuela a year ago and probably has been encouraged by the more recent successes of the Cuban rebels.",
+    "ocr_text_path": "outputs/examples_ocr2/11_unredacted.paragraph_crops/paragraph_005.ocr.txt"
+  }
+]

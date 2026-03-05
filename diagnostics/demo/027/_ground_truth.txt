@@ -1,0 +1,14 @@
+Example ID: 27
+Doc stem: 27
+Date: February 19, 1959
+doc_id_r: CIA-RDP79T00975A004300200001-1
+doc_id_u: 3023210
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+Cyprus Situation (If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. <redaction 1> will order the return of the Greek NATO contingent, withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.) (A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.)
+
+=== REDACTIONS ===
+[redaction 1] Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,
+
+=== CONTEXT (REDACTIONS FILLED) ===
+Cyprus Situation (If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey, will order the return of the Greek NATO contingent, withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.) (A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.)

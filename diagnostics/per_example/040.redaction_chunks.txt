@@ -1,0 +1,39 @@
+Example ID: 40
+Stem: 40
+Redacted OCR file: outputs/examples_ocr2/40_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/40_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 0
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=8..10, len=3)
+Predicted chunk text: and pro-western agitation
+Unredacted context: of communist influence [UNRED_ONLY: and pro-western agitation] together with last
+Redacted anchor context: growth of communist [L@7:influence] [RED_GAP:in neighboring iraq] [R@11:together] with last month's
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:in neighboring iraq]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=129..129, len=1)
+Predicted chunk text: curtailing
+Unredacted context: impetus to the [UNRED_ONLY: curtailing] of nationalist activity
+Redacted anchor context: main impetus to [L@128:the] [RED_GAP:curtailment] [R@130:of] nationalist activity was
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:curtailment]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=156..157, len=2)
+Predicted chunk text: firm repressive
+Unredacted context: if the subahs [UNRED_ONLY: firm repressive] action is not
+Redacted anchor context: uar if the [L@155:subahs] [RED_GAP:<empty>] [R@156:action] is not followed
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

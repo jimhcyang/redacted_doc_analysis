@@ -1,0 +1,36 @@
+Example ID: 51
+Stem: 51
+Redacted OCR file: outputs/examples_ocr2/51_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/51_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=108..108, len=1)
+Predicted chunk text: abdulgani
+Unredacted context: june by ruslan [UNRED_ONLY: abdulgani] head of the
+Redacted anchor context: 6 june by [L@107:ruslan] [RED_GAP:abdugani] [R@109:head] of the appointee
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:abdugani]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=178..193, len=16)
+Predicted chunk text: army chief of staff general nasution was assured nationwide officer support for some such move nasution
+Unredacted context: constitution if necessary [UNRED_ONLY: army chief of staff general nasution was assured nationwide officer support for some such move nasution] on 2 june
+Redacted anchor context: 1945 constitution if [L@177:necessary] [RED_GAP:nusution] [R@179:on] 2 june banned
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:nusution]
+Strict GT match: YES
+  -> GT[0] score_f1=0.967742 exact=False
+  -> GT text: Army Chief of Staff General Nasution was assured nationwide officer support for some such move
+  -> Word metrics: recall=0.9375 precision=1.0 f1=0.967742 matched=15
+Relaxed best GT candidate: GT[0] best_f1=0.967742 joined_pred_chunks=1..1
+  -> GT text: Army Chief of Staff General Nasution was assured nationwide officer support for some such move
+  -> Relaxed best pred text: army chief of staff general nasution was assured nationwide officer support for some such move nasution
+  -> Relaxed word metrics: recall=1.0 precision=0.9375 f1=0.967742

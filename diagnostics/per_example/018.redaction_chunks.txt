@@ -1,0 +1,54 @@
+Example ID: 18
+Stem: 18
+Redacted OCR file: outputs/examples_ocr2/18_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/18_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 5
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=4..33, len=30)
+Predicted chunk text: prime minister kishi and his rivals in the governing liberal-democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded kishi's exercise of effective leadership
+Unredacted context: conservatives reach compromise [UNRED_ONLY: prime minister kishi and his rivals in the governing liberal-democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded kishi's exercise of effective leadership] the principal factors
+Redacted anchor context: japanese conservatives reach [L@3:compromise] [RED_GAP:<empty>] [R@4:the] principal factors behind
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[4] best_f1=0.102564 joined_pred_chunks=0..0
+  -> GT text: plan to implicate Kishi in an alleged reparations scandal
+  -> Relaxed best pred text: prime minister kishi and his rivals in the governing liberal-democratic party have agreed to halt the factional struggle which has diminished conservative prestige and impeded kishi's exercise of effective leadership
+  -> Relaxed word metrics: recall=0.111111 precision=0.033333 f1=0.051282
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=173..176, len=4)
+Predicted chunk text: the bitter factional struggle
+Unredacted context: temporary respite from [UNRED_ONLY: the bitter factional struggle] kishi probably will
+Redacted anchor context: a temporary respite [L@142:from] [RED_GAP:<empty>] [R@143:kishi] probably will continue
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: the bitter factional struggle
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=4
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: the bitter factional struggle
+  -> Relaxed best pred text: the bitter factional struggle
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=245..249, len=5)
+Predicted chunk text: the schism within conservative ranks
+Unredacted context: session and by [UNRED_ONLY: the schism within conservative ranks] will harass the
+Redacted anchor context: last session and [L@210:by] [RED_GAP:<empty>] [R@211:will] harass the government
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[2] score_f1=0.571429 exact=False
+  -> GT text: conservative ranks
+  -> Word metrics: recall=0.4 precision=1.0 f1=0.571429 matched=2
+Relaxed best GT candidate: GT[2] best_f1=0.571429 joined_pred_chunks=2..2
+  -> GT text: conservative ranks
+  -> Relaxed best pred text: the schism within conservative ranks
+  -> Relaxed word metrics: recall=1.0 precision=0.4 f1=0.571429

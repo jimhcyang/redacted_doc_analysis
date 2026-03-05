@@ -1,0 +1,1176 @@
+{
+  "image": "inputs/images/17_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      265,
+      407,
+      559,
+      427
+    ],
+    [
+      39,
+      429,
+      566,
+      487
+    ],
+    [
+      282,
+      626,
+      545,
+      648
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    46,
+    3,
+    559,
+    651
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 168316,
+  "merged_region_nonzero_px": 166358,
+  "line_width_px": 513,
+  "line_count": 30,
+  "paragraph_crops_dir": "outputs/examples_ocr2/17_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/17_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/17_redacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        46,
+        9,
+        559,
+        23
+      ],
+      "text": "Khrushchev, Kekkonen Negotiate",
+      "expanded_crop_box_xyxy": [
+        0,
+        1,
+        571,
+        31
+      ],
+      "crop_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text is not legible.",
+      "ocr_text_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 8,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        46,
+        46,
+        559,
+        150
+      ],
+      "text": "\nSoviet Premier Khrushchev, only five days before the Soviet party congress, has made a sudden trip to Leningrad, where Finnish President Kekkonen is making a \"private visit.\" Moscow appears to be making a special effort to conciliate the Finns after the prolonged period of Soviet pressures which last month toppled the Fagerholm coalition.\n\nThe presence in Leningrad of both the Soviet and Finnish ministers of trade as well as Soviet Foreign Minister Gromyko indicates that trade as well as political discussions will take place. TASS announced that \"opinions on questions of Soviet-Finnish relations and some problems of the international situation\" had been discussed. Khrushchev probably now hopes to obtain a public Finnish endorsement for the specific Soviet proposals on Berlin and a German peace treaty. Finland had previously sent a prompt reply to Moscow favoring a conference on a German peace treaty. The communiqué issued after Kekkonen's state visit last May endorsed a nuclear-test ban, a Rapacki-type European disengagement zone, and \"universality\" in international organizations--the first time Finland had joined in such public statements.\n\nThe Finns are additionally concerned over the situation in the Baltic and German rearmament, which they believe could lead to a war inevitably involving Scandinavia. The USSR may also attempt to gain Finland's support for a Baltic \"zone of peace\"--a statement which Soviet leaders unsuccessfully \"pressed hard\" to include in the May communiqué. Mikoyan on 3 January in Copenhagen stated that he desired the Baltic \"to become a sea of peace.\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        36,
+        571,
+        160
+      ],
+      "crop_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Soviet Premier Khrushchev, only five days before the Soviet party congress, has made a sudden trip to Leningrad, where Finnish President Kekkonen is making a \"private visit.\" Moscow appears to be making a special effort to conciliate the Finns after the prolonged period of Soviet pressures which last month toppled the Fagerholm coalition.",
+      "ocr_text_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 10,
+      "line_end_1based": 24,
+      "line_count": 15,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        46,
+        172,
+        559,
+        497
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        139,
+        571,
+        530
+      ],
+      "crop_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The presence in Leningrad of both the Soviet and Finnish ministers of trade as well as Soviet Foreign Minister Gromyko indicates that trade as well as political discussions will take place. TASS announced that \"opinions on questions of Soviet-Finnish relations and some problems of the international situation\" had been discussed. Khrushchev probably now hopes to obtain a public Finnish endorsement for the specific Soviet proposals on Berlin and a German peace treaty. Finland had previously sent a prompt reply to Moscow favoring a conference on a German peace treaty. The communique issued after Kekkonen's state visit last May endorsed a nuclear-test ban, a Rapacki-type European disengagement zone, and \"universality\" in international organizations--the first time Finland had joined in such public statements.",
+      "ocr_text_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 26,
+      "line_end_1based": 30,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        46,
+        501,
+        559,
+        641
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        487,
+        571,
+        651
+      ],
+      "crop_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The Finns are additionally concerned over the situation in the Baltic and German rearmament, which they believe could lead to a war inevitably involving Scandinavia. The USSR may also attempt to gain Finland's support for a Baltic \"zone of peace\"--a statement which Soviet leaders unsuccessfully \"pressed hard\" to include in the May communiqué. Mikoyan on 3 January in Copenhagen stated that he desired the Baltic \"to become a sea of peace.\"",
+      "ocr_text_path": "outputs/examples_ocr2/17_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 17.5,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 27,
+  "row_scan_gap_band_count": 26,
+  "row_scan_linebreak_band_count": 24,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        46,
+        24,
+        559,
+        45
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 1.2401,
+      "height_to_avg_full_line_ratio": 0.9836,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 22,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        46,
+        59,
+        559,
+        64
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3382,
+      "height_to_avg_full_line_ratio": 0.2683,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        78,
+        559,
+        81
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        96,
+        559,
+        100
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        114,
+        559,
+        118
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        132,
+        559,
+        137
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3382,
+      "height_to_avg_full_line_ratio": 0.2683,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        151,
+        559,
+        171
+      ],
+      "kind": "blankline",
+      "height_px": 21,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 1.1837,
+      "height_to_avg_full_line_ratio": 0.9389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        46,
+        187,
+        559,
+        189
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.1691,
+      "height_to_avg_full_line_ratio": 0.1341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        205,
+        559,
+        209
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        224,
+        559,
+        227
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        241,
+        559,
+        246
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3382,
+      "height_to_avg_full_line_ratio": 0.2683,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        261,
+        559,
+        264
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        279,
+        559,
+        282
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        297,
+        559,
+        301
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        315,
+        559,
+        319
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        334,
+        559,
+        336
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.1691,
+      "height_to_avg_full_line_ratio": 0.1341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        351,
+        559,
+        355
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        371,
+        559,
+        373
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.1691,
+      "height_to_avg_full_line_ratio": 0.1341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        388,
+        559,
+        391
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        406,
+        559,
+        412
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3946,
+      "height_to_avg_full_line_ratio": 0.313,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.4919,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        424,
+        559,
+        429
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3382,
+      "height_to_avg_full_line_ratio": 0.2683,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3826,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        498,
+        559,
+        500
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.1691,
+      "height_to_avg_full_line_ratio": 0.1341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 3,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        46,
+        515,
+        559,
+        517
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.1691,
+      "height_to_avg_full_line_ratio": 0.1341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        551,
+        559,
+        555
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2818,
+      "height_to_avg_full_line_ratio": 0.2236,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        570,
+        559,
+        573
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.2255,
+      "height_to_avg_full_line_ratio": 0.1788,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        46,
+        624,
+        559,
+        629
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 17.7407,
+      "avg_linebreak_height_px": 4.625,
+      "avg_full_line_height_px": 22.3657,
+      "height_to_avg_line_ratio": 0.3382,
+      "height_to_avg_full_line_ratio": 0.2683,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3424,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 27,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Khrushchev, Kekkonen Negotiate",
+      "char_len": 30,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        9,
+        559,
+        23
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        46,
+        24,
+        559,
+        45
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        46,
+        559,
+        58
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Soviet Premier Khrushchev, only five days before the Soviet party congress, has made a sudden trip to Leningrad, where Finnish President Kekkonen is making a \"private visit.\" Moscow appears to be making a special effort to conciliate the Finns after the prolonged period of Soviet pressures which last month toppled the Fagerholm coalition.",
+      "char_len": 340,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        65,
+        559,
+        77
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        82,
+        559,
+        95
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The presence in Leningrad of both the Soviet and Finnish ministers of trade as well as Soviet Foreign Minister Gromyko indicates that trade as well as political discussions will take place. TASS announced that \"opinions on questions of Soviet-Finnish relations and some problems of the international situation\" had been discussed. Khrushchev probably now hopes to obtain a public Finnish endorsement for the specific Soviet proposals on Berlin and a German peace treaty. Finland had previously sent a prompt reply to Moscow favoring a conference on a German peace treaty. The communiqué issued after Kekkonen's state visit last May endorsed a nuclear-test ban, a Rapacki-type European disengagement zone, and \"universality\" in international organizations--the first time Finland had joined in such public statements.",
+      "char_len": 816,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        101,
+        559,
+        113
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        119,
+        559,
+        131
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "The Finns are additionally concerned over the situation in the Baltic and German rearmament, which they believe could lead to a war inevitably involving Scandinavia. The USSR may also attempt to gain Finland's support for a Baltic \"zone of peace\"--a statement which Soviet leaders unsuccessfully \"pressed hard\" to include in the May communiqué. Mikoyan on 3 January in Copenhagen stated that he desired the Baltic \"to become a sea of peace.\"",
+      "char_len": 441,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        138,
+        559,
+        150
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "PB9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        46,
+        151,
+        559,
+        171
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        172,
+        559,
+        186
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        190,
+        559,
+        204
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        210,
+        559,
+        223
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        228,
+        559,
+        240
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        247,
+        559,
+        260
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        265,
+        559,
+        278
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        283,
+        559,
+        296
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        302,
+        559,
+        314
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        320,
+        559,
+        333
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        337,
+        559,
+        350
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        356,
+        559,
+        370
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        374,
+        559,
+        387
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        392,
+        559,
+        405
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        413,
+        559,
+        423
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        430,
+        559,
+        497
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "PB25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        46,
+        498,
+        559,
+        500
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        501,
+        559,
+        514
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        518,
+        559,
+        550
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        556,
+        559,
+        569
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        574,
+        559,
+        623
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        46,
+        630,
+        559,
+        641
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 23,
+      "line_char_capacity": 816,
+      "char_start": 348,
+      "char_end": 816,
+      "char_len": 468,
+      "full_line": false,
+      "bbox_xyxy": [
+        265,
+        407,
+        559,
+        427
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________________________________]",
+      "layout_token_pixel": "[BOX1__294/513]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5731,
+      "clipped_span_px": 294,
+      "line_width_effective_px": 513,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 24,
+      "line_char_capacity": 816,
+      "char_start": 0,
+      "char_end": 816,
+      "char_len": 816,
+      "full_line": true,
+      "bbox_xyxy": [
+        39,
+        429,
+        566,
+        487
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__513/513]",
+      "line_overlap_ratio": 0.8529,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 513,
+      "line_width_effective_px": 513,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 30,
+      "line_char_capacity": 816,
+      "char_start": 375,
+      "char_end": 794,
+      "char_len": 419,
+      "full_line": false,
+      "bbox_xyxy": [
+        282,
+        626,
+        545,
+        648
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3____________________________]",
+      "layout_token_pixel": "[BOX3__263/513]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5127,
+      "clipped_span_px": 263,
+      "line_width_effective_px": 513,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

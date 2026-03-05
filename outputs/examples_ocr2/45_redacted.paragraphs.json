@@ -1,0 +1,117 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      9,
+      4,
+      538,
+      23
+    ],
+    "text": "# USSR and Nepal to Exchange Resident Diplomatic Missions",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      572,
+      31
+    ],
+    "crop_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 14,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      41,
+      538,
+      225
+    ],
+    "text": "**TASS** announced on 23 April that the USSR has reached agreement with Nepal to exchange resident diplomatic missions. Hereinafter diplomatic contact has been maintained through the Soviet and Nepali embassies in New Delhi and by occasional trips to Katmandu by Soviet Ambassador Ponomarenko—accredited to Nepal as well as India—and other Soviet diplomats from New Delhi.\n\n---\n\n**The USSR** is breaking a \"gentlemen's agreement\" to postpone opening of a diplomatic mission in Nepal. The Indian Government, which regards Nepal as being within its sphere of influence, will not look with favor on this move. Should the United States accept the long-standing Nepali invitation to open an embassy in Katmandu, Communist China—which now has permission to open a consulate in Katmandu—can be expected to press for establishment of an embassy.\n\nA 20-man Soviet economic delegation has been in Nepal since mid-February negotiating on economic aid projects; Nepal has reportedly agreed to accept a Soviet credit of about $7,500,000 to construct a sugar mill, a hydroelectric plant, and communications projects, but an agreement has not yet been signed. (Ponomarenko is to visit Katmandu over the week end of 25–26 April, at which time he may seek to sign a formal agreement covering the aid.)",
+    "expanded_crop_box_xyxy": [
+      0,
+      23,
+      572,
+      243
+    ],
+    "crop_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "TASS announced on 23 April that the USSR has reached agreement with Nepal to exchange resident diplomatic missions. Heretofore diplomatic contact has been maintained through the Soviet and Nepali embassies in New Delhi and by occasional trips to Katmandu by Soviet Ambassador Ponomarenko--accredited to Nepal as well as India--and other Soviet diplomats from New Delhi.",
+    "ocr_text_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 16,
+    "line_end_1based": 23,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      243,
+      538,
+      380
+    ],
+    "text": "\nPonomarenko is being replaced as ambassador to India by I. A. Benediktov, who served in the post for five months in 1953. It is not known whether Benediktov will also be accredited to Katmandu or whether a resident ambassador will be appointed to head the new diplomatic mission there.",
+    "expanded_crop_box_xyxy": [
+      0,
+      229,
+      572,
+      394
+    ],
+    "crop_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The USSR is breaking a \"gentlemen's agreement\" to postpone opening of a diplomatic mission in Nepal. The Indian Government, which regards Nepal as being within its sphere of influence, will not look with favor on this move. Should the United States accept the long-standing Nepali invitation to open an embassy in Katmandu, Communist China--which now has permission to open a consulate in Katmandu--can be expected to press for establishment of an embassy.",
+    "ocr_text_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 25,
+    "line_end_1based": 32,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      406,
+      538,
+      543
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      392,
+      572,
+      557
+    ],
+    "crop_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The image provided is a screenshot of a news article from a website. The article discusses a 20-man Soviet economic delegation that has been in Nepal since mid-February. The delegation has reportedly agreed to accept a Soviet credit of about $7,500,000 to construct a sugar mill, a hydroelectric plant, and communications projects, but an agreement has not yet been signed. The article mentions that the delegation is visiting Katmandu over the weekend, from April 25 to April 26, and that they may seek to sign a formal agreement covering the aid.",
+    "ocr_text_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 34,
+    "line_end_1based": 38,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      9,
+      569,
+      538,
+      651
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      561,
+      572,
+      659
+    ],
+    "crop_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "The text in the image is a sentence that reads: \"Ponomarenko is being replaced as ambassador to India by I. A. Benediktov, who served in the post for five months in 1953. It is not known whether Benediktov will also be accredited to Katmandu or whether a resident ambassador will be appointed to head the new diplomatic mission there.\"",
+    "ocr_text_path": "outputs/examples_ocr2/45_redacted.paragraph_crops/paragraph_005.ocr.txt"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 15,
+    "line_count": 15,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      3,
+      7,
+      478,
+      284
+    ],
+    "text": "In the economic field, the British ambassador in\nKhartoum has reported that the Sudanese Government\nseems determined to maintain pricing practices which\nhave resulted in very large cotton surpluses in previous\nyears and which will place the Sudan in a particularly un-\nfavorable position when British-UAR economic relations",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      495,
+      312
+    ],
+    "crop_path": "outputs/examples_ocr2/15_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Any line breaks and punctuation are\nomitted.\nIn the economic field, the British ambassador in\nKhartoum has reported that the Sudanese Government\nseems determined to maintain pricing practices which\nhave resulted in very large cotton surpluses in previous\nyears and which will place the Sudan in a particularly un-\nfavorable position when British-UAR economic relations\nwere at a low ebb.\nSECRET\nCENTRAL INTELLIGENCE MILLITANT\nApproved for Release: 2020/02/21 C03000020\nPage 13 Jan 59",
+    "ocr_text_path": "outputs/examples_ocr2/15_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 17,
+    "line_end_1based": 25,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      3,
+      306,
+      478,
+      587
+    ],
+    "text": "---\n\n**SECRET**\n\n13 Jan 59\n\nAF/NSA/INT/IC/ICN/CFR BULLETIN\nApproved for Release: 2020/02/21 C03000020",
+    "expanded_crop_box_xyxy": [
+      0,
+      278,
+      495,
+      615
+    ],
+    "crop_path": "outputs/examples_ocr2/15_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Any invalid parts of the text will be discarded and will result in the text being written to a file with the original formatting.\nAn influential member of the cabinet has indicated that the government's policy is to rely on either the World Bank or the United States for external financial assistance for a development program. However, the Soviet trade mission scheduled to arrive in Khartoum on 22 January may offer trade-aid deals difficult to resist. A Soviet offer related to Nile waters control projects would be particularly attractive.",
+    "ocr_text_path": "outputs/examples_ocr2/15_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

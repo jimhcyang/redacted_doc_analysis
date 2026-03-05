@@ -1,0 +1,45 @@
+Example ID: 9
+Stem: 9
+Redacted OCR file: outputs/examples_ocr2/9_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/9_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=14..14, len=1)
+Predicted chunk text: and
+Unredacted context: action last week [UNRED_ONLY: and] against former rebel
+Redacted anchor context: strong action last [L@13:week] [RED_GAP:end] [R@15:against] former rebel sunni
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:end]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=106..106, len=1)
+Predicted chunk text: higher
+Unredacted context: by pressure from [UNRED_ONLY: higher] moslem leaders shia
+Redacted anchor context: only by pressure [L@105:from] [RED_GAP:<empty>] [R@106:moslem] leaders apparently the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=109..145, len=37)
+Predicted chunk text: shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes
+Unredacted context: higher moslem leaders [UNRED_ONLY: shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes] apparently the army
+Redacted anchor context: pressure from moslem [L@107:leaders] [RED_GAP:<empty>] [R@108:apparently] the army action
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=37
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: Shia Moslem tribesmen employed in coastal areas left abruptly for the Biqa around 12 December on the orders of their leader. This move may be connected with the prevailing Shia-Sunni tension and could lead to further clashes.
+  -> Relaxed best pred text: shia moslem tribesmen employed in coastal areas left abruptly for the biqa around 12 december on the orders of their leader this move may be connected with the prevailing shia-sunni tension and could lead to further clashes
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

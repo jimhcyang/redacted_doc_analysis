@@ -1,0 +1,81 @@
+Example ID: 48
+Stem: 48
+Redacted OCR file: outputs/examples_ocr2/48_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/48_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 7
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=20..20, len=1)
+Predicted chunk text: pronounced
+Unredacted context: media reflecting the [UNRED_ONLY: pronounced] leftist influence of
+Redacted anchor context: mass media reflecting [L@19:the] [RED_GAP:pro-nounced] [R@21:leftist] influence of the
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pro-nounced]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=44..44, len=1)
+Predicted chunk text: supplied
+Unredacted context: heavily on handouts [UNRED_ONLY: supplied] by international communist
+Redacted anchor context: draws heavily on [L@43:handouts] [RED_GAP:sup plied] [R@46:by] international communist news
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:sup plied]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=99..99, len=1)
+Predicted chunk text: communist
+Unredacted context: accelerated recently by [UNRED_ONLY: communist] exploitation of cambodia's
+Redacted anchor context: been accelerated recently [L@99:by] [RED_GAP:commu nist] [R@102:exploitation] of cambodia's bitterness
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:commu nist]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=133..133, len=1)
+Predicted chunk text: crypto-communist
+Unredacted context: the person of [UNRED_ONLY: crypto-communist] secretary of state
+Redacted anchor context: in the person [L@134:of] [RED_GAP:crypto-commu nist] [R@137:secretary] of state for
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:crypto-commu nist]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=142..142, len=1)
+Predicted chunk text: communists
+Unredacted context: tim dong the [UNRED_ONLY: communists] also benefit from
+Redacted anchor context: information tim dong [L@144:the] [RED_GAP:commu nists] [R@147:also] benefit the cambodian
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:commu nists]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=145..147, len=3)
+Predicted chunk text: from venality in
+Unredacted context: communists also benefit [UNRED_ONLY: from venality in] the cambodian bureaucracv
+Redacted anchor context: commu nists also [L@148:benefit] [RED_GAP:<empty>] [R@149:the] cambodian bureaucracy
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.8 exact=False
+  -> GT text: venality in
+  -> Word metrics: recall=0.666667 precision=1.0 f1=0.8 matched=2
+Relaxed best GT candidate: GT[0] best_f1=0.8 joined_pred_chunks=5..5
+  -> GT text: venality in
+  -> Relaxed best pred text: from venality in
+  -> Relaxed word metrics: recall=1.0 precision=0.666667 f1=0.8
+
+========================================================================
+Chunk #7 (pred_index=6, token_span=150..150, len=1)
+Predicted chunk text: bureaucracv
+Unredacted context: in the cambodian [UNRED_ONLY: bureaucracv]
+Redacted anchor context: [L_ANCHOR_ONLY @ 150] also benefit the cambodian bureaucracy
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

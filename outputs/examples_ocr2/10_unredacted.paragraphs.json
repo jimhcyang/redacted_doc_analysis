@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      17,
+      23,
+      532,
+      58
+    ],
+    "text": "Preserve line breaks for readability.",
+    "expanded_crop_box_xyxy": [
+      0,
+      15,
+      566,
+      66
+    ],
+    "crop_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "New Afghan-Soviet Military Assistance Agreement May Be Concluded",
+    "ocr_text_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 9,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      17,
+      78,
+      532,
+      198
+    ],
+    "text": "\n---\n\n**New Afghan-Soviet Military Assistance Agreement May Be Concluded**\n\n*Afghan-Foreign Minister Naim,* who left on 29 December for Moscow, apparently intends to conclude a new agreement to expand the Soviet military assistance program in Afghanistan. The Afghan Government may regard such a move as a calculated risk necessary to strengthen its position against what it regards as an increasingly unfavorable Western attitude toward Afghanistan.",
+    "expanded_crop_box_xyxy": [
+      0,
+      66,
+      566,
+      210
+    ],
+    "crop_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Afghan-Foreign Minister Naim, who left on 29 December for Moscow, apparently intends to conclude a new agreement to expand the Soviet military assistance program in Afghanistan. The Afghan Government may regard such a move as a calculated risk necessary to strengthen its position against what it regards as an increasingly unfavorable Western attitude toward Afghanistan.",
+    "ocr_text_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 11,
+    "line_end_1based": 16,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      17,
+      224,
+      532,
+      366
+    ],
+    "text": "Afghanistan has been slow in training its troops to use Soviet weapons which have already been delivered. Any new military assistance agreement will therefore probably include an expanded training program, involving the use of additional Soviet military instructors. It would also provide for additional Soviet weapons, including heavy arms and more modern aircraft.\n\nThe new agreement for a reported $50,000,000 would probably be financed by a long-term Soviet loan, ending the year-old Afghan policy of refusing to accept further loans in favor of grant aid. Because of discount prices, Afghanistan has apparently received bloc arms worth about $75,000,000 under the $25,000,000 Soviet arms-assistance agreement signed in 1956 and the $7,000,000 Czech arms agreement of 1954.",
+    "expanded_crop_box_xyxy": [
+      0,
+      210,
+      566,
+      380
+    ],
+    "crop_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Afghanistan has been slow in training its troops to use Soviet weapons which have already been delivered. Any new military assistance agreement will therefore probably include an expanded training program, involving the use of additional Soviet military instructors. It would also provide for addition- al Soviet weapons, including heavy arms and more modern air- craft, The new agreement for a reported $50,000,000 would prob-",
+    "ocr_text_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 18,
+    "line_end_1based": 24,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      17,
+      369,
+      532,
+      488
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      357,
+      566,
+      500
+    ],
+    "crop_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The new agreement for a reported $50,000,000 would probably be financed by a long-term Soviet loan, ending the year-old Afghan policy of refusing to accept further loans in favor of grant aid. Because of discount prices, Afghanistan has apparently received bloc arms worth about $75,000,000 under the $25,000,000 Soviet arms-assistance agreement signed in 1956 and the $7,000,000 Czech arms agreement of 1954.",
+    "ocr_text_path": "outputs/examples_ocr2/10_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

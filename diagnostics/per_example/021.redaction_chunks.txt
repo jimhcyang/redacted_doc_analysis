@@ -1,0 +1,45 @@
+Example ID: 21
+Stem: 21
+Redacted OCR file: outputs/examples_ocr2/21_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/21_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=198..212, len=15)
+Predicted chunk text: she lacks both the experience and the political leadership necessary for such a big job
+Unredacted context: the opposite effect [UNRED_ONLY: she lacks both the experience and the political leadership necessary for such a big job] old-line congress bosses
+Redacted anchor context: have the opposite [L@197:effect] [RED_GAP:<empty>] [R@198:old-line] congress bosses at
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.967742 exact=False
+  -> GT text: She lacks both the experience and the political leadership necessary for such a big job. Old-line
+  -> Word metrics: recall=1.0 precision=0.9375 f1=0.967742 matched=15
+Relaxed best GT candidate: GT[0] best_f1=0.967742 joined_pred_chunks=0..0
+  -> GT text: She lacks both the experience and the political leadership necessary for such a big job. Old-line
+  -> Relaxed best pred text: she lacks both the experience and the political leadership necessary for such a big job
+  -> Relaxed word metrics: recall=0.9375 precision=1.0 f1=0.967742
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=223..223, len=1)
+Predicted chunk text: machines
+Unredacted context: various regional party [UNRED_ONLY: machines] are not likely
+Redacted anchor context: of various regional [L@207:party] [RED_GAP:ma chines] [R@210:are] not likely to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ma chines]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=273..273, len=1)
+Predicted chunk text: possibility
+Unredacted context: and increase the [UNRED_ONLY: possibility] of an eventual
+Redacted anchor context: elements and increase [L@258:the] [RED_GAP:pos sibility] [R@261:of] an eventual party
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pos sibility]
+Strict GT match: NO
+Relaxed best GT candidate: none

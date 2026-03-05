@@ -1,0 +1,72 @@
+Example ID: 32
+Stem: 32
+Redacted OCR file: outputs/examples_ocr2/32_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/32_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 6
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=45..45, len=1)
+Predicted chunk text: attached
+Unredacted context: the soviet press [UNRED_ONLY: attached] in east berlin
+Redacted anchor context: states the soviet [L@44:press] [RED_GAP:attach] [R@46:in] east berlin has
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:attach]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=49..57, len=9)
+Predicted chunk text: an official who is sometimes used to plant information
+Unredacted context: in east berlin [UNRED_ONLY: an official who is sometimes used to plant information] has stated that
+Redacted anchor context: attach in east [L@48:berlin] [RED_GAP:<empty>] [R@49:has] stated that a
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: an official who is sometimes used to plant information
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=9
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: an official who is sometimes used to plant information
+  -> Relaxed best pred text: an official who is sometimes used to plant information
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=81..81, len=1)
+Predicted chunk text: ambassador
+Unredacted context: has reported that [UNRED_ONLY: ambassador] pervukhin on 1
+Redacted anchor context: agency has reported [L@71:that] [RED_GAP:ambassa-dor] [R@73:pervukhin] on 1 march
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ambassa-dor]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=175..175, len=1)
+Predicted chunk text: countries
+Unredacted context: union and other [UNRED_ONLY: countries] will be compelled
+Redacted anchor context: soviet union and [L@165:other] [RED_GAP:coun-tries] [R@167:will] be compelled to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:coun-tries]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=186..186, len=1)
+Predicted chunk text: germany
+Unredacted context: treaty with east [UNRED_ONLY: germany] while in germany
+Redacted anchor context: peace treaty with [L@176:east] [RED_GAP:ger-many] [R@178:while] in germany khrushchev
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ger-many]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=212..212, len=1)
+Predicted chunk text: access
+Unredacted context: over allied military [UNRED_ONLY: access] to west berlin
+Redacted anchor context: control over allied [L@202:military] [RED_GAP:ac-cess] [R@204:to] west berlin
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:ac-cess]
+Strict GT match: NO
+Relaxed best GT candidate: none

@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      11,
+      17,
+      534,
+      33
+    ],
+    "text": "Communist Influence Growing in Cambodia",
+    "expanded_crop_box_xyxy": [
+      0,
+      9,
+      586,
+      41
+    ],
+    "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Communist Influence Growing in Cambodia",
+    "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 14,
+    "line_count": 12,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      11,
+      53,
+      534,
+      262
+    ],
+    "text": "\nThe increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pro-nounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts sup- plied by international Communist news agencies. Recent editorials in influential newspapers have contained \"straight Communist textbook material,\" according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.\n\nThe leftist trend has been accelerated recently by Commu- nist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Commu- nist Secretary of State for Information Tim Dong, the Commu- nists also benefit\n\nthe Cambodian bureaucracy.",
+    "expanded_crop_box_xyxy": [
+      0,
+      32,
+      586,
+      283
+    ],
+    "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The increasingly apparent pro-Communist bias of the Cambodian press and other mass media, reflecting the pronounced leftist influence of the Information Ministry, is facilitating the steady growth of Sino-Soviet bloc influence in Cambodia. Cambodia now draws heavily on handouts supplied by international Communist news agencies. Recent editorials in influential newspapers have contained \"straight Communist textbook material,\" according to the American Embassy in Phnom Penh. Peiping, meanwhile, has given Cambodia powerful transmitters, is training two Cambodian radio supervisors in China, and is sending several technicians to Cambodia.",
+    "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 16,
+    "line_end_1based": 22,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      11,
+      288,
+      534,
+      407
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      276,
+      586,
+      419
+    ],
+    "crop_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The leftist trend has been accelerated recently by Communist exploitation of Cambodia's bitterness over Vietnamese and Thai involvement in plotting against the Sihanouk government, and Phnom Penh's attendant suspicion of American motives. In addition to an important asset in the person of crypto-Communist Secretary of State for Information Tim Dong, the Communists also benefit the Cambodian bureaucracy.",
+    "ocr_text_path": "outputs/examples_ocr2/48_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

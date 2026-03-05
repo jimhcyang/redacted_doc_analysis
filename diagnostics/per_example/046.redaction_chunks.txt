@@ -1,0 +1,45 @@
+Example ID: 46
+Stem: 46
+Redacted OCR file: outputs/examples_ocr2/46_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/46_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=45..47, len=3)
+Predicted chunk text: the frequently reported
+Unredacted context: be part of [UNRED_ONLY: the frequently reported] plans of roberto
+Redacted anchor context: to be part [L@44:of] [RED_GAP:<empty>] [R@45:plans] of roberto arias
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.5 exact=False
+  -> GT text: The
+  -> Word metrics: recall=0.333333 precision=1.0 f1=0.5 matched=1
+Relaxed best GT candidate: GT[0] best_f1=0.5 joined_pred_chunks=0..0
+  -> GT text: The
+  -> Relaxed best pred text: the frequently reported
+  -> Relaxed word metrics: recall=1.0 precision=0.333333 f1=0.5
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=261..280, len=20)
+Predicted chunk text: revolutionary plans appear to call for its dispersal to various remote areas by scattered uprisings and reports of landings the
+Unredacted context: oust him the [UNRED_ONLY: revolutionary plans appear to call for its dispersal to various remote areas by scattered uprisings and reports of landings the] newly appointed minister
+Redacted anchor context: to oust him [L@257:the] [RED_GAP:<empty>] [R@258:newly] appointed minister of
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=337..337, len=1)
+Predicted chunk text: secret
+Unredacted context: of american states [UNRED_ONLY: secret]
+Redacted anchor context: [L_ANCHOR_ONLY @ 313] organization of american states
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

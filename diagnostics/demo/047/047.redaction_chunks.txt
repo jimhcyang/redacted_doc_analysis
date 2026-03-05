@@ -1,0 +1,48 @@
+Example ID: 47
+Stem: 47
+Redacted OCR file: outputs/examples_ocr2/47_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/47_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 0
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=1..1, len=1)
+Predicted chunk text: officers
+Unredacted context: tunisian [UNRED_ONLY: officers] are disarming concern
+Redacted anchor context: on algerian border [L@7:tunisian] [RED_GAP:officials] [R@9:are] displaying concern over
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:officials]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=3..3, len=1)
+Predicted chunk text: disarming
+Unredacted context: tunisian officers are [UNRED_ONLY: disarming] concern over what
+Redacted anchor context: border tunisian officials [L@9:are] [RED_GAP:displaying] [R@11:concern] over what appears
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:displaying]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=31..82, len=52)
+Predicted chunk text: following a series of such incidents last month including one in which a six-vehicle convoy of french troops penetrated tunisian territory to a depth of about 25 miles tunisian foreign secretary mokaddem expressed fear on 27 april that the french military might be building up to a concentration of hostility against tunisia
+Unredacted context: based in algeria [UNRED_ONLY: following a series of such incidents last month including one in which a six-vehicle convoy of french troops penetrated tunisian territory to a depth of about 25 miles tunisian foreign secretary mokaddem expressed fear on 27 april that the french military might be building up to a concentration of hostility against tunisia] while there is
+Redacted anchor context: forces based in [L@37:algeria] [RED_GAP:<empty>] [R@38:while] there is no
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=272..272, len=1)
+Predicted chunk text: material
+Unredacted context: suffer from serious [UNRED_ONLY: material] and logistic difficulties
+Redacted anchor context: still suffer from [L@226:serious] [RED_GAP:materiel] [R@228:and] logistic difficulties on
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:materiel]
+Strict GT match: NO
+Relaxed best GT candidate: none

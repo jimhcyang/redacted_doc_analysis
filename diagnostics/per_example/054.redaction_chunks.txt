@@ -1,0 +1,39 @@
+Example ID: 54
+Stem: 54
+Redacted OCR file: outputs/examples_ocr2/54_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/54_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..3, len=4)
+Predicted chunk text: ignore repeat line breaks
+Unredacted context: [UNRED_ONLY: ignore repeat line breaks] new soviet proposal
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] new soviet proposal for
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[1] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: prevent agreement on an all-German peace treaty
+  -> Relaxed best pred text: ignore repeat line breaks
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=116..130, len=15)
+Predicted chunk text: confusion and bitterness in west german politics resulting from adenauer's decision to remain as chancellor
+Unredacted context: the british government [UNRED_ONLY: confusion and bitterness in west german politics resulting from adenauer's decision to remain as chancellor] and the continued
+Redacted anchor context: on the british [L@111:government] [RED_GAP:<empty>] [R@112:and] the continued erosion
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: confusion and bitterness in West German politics resulting from Adenauer's decision to remain as chancellor,
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=15
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: confusion and bitterness in West German politics resulting from Adenauer's decision to remain as chancellor,
+  -> Relaxed best pred text: confusion and bitterness in west german politics resulting from adenauer's decision to remain as chancellor
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

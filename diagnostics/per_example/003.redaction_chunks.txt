@@ -1,0 +1,45 @@
+Example ID: 3
+Stem: 3
+Redacted OCR file: outputs/examples_ocr2/3_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/3_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=18..18, len=1)
+Predicted chunk text: as
+Unredacted context: but has not [UNRED_ONLY: as] yet indicated that
+Redacted anchor context: baghdadi but has [L@26:not] [RED_GAP:<empty>] [R@27:yet] indicated that he
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=65..65, len=1)
+Predicted chunk text: rumours
+Unredacted context: combined with present [UNRED_ONLY: rumours] of a serious
+Redacted anchor context: resignation combined with [L@72:present] [RED_GAP:rumors] [R@74:of] a serious misunderstanding
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:rumors]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=89..99, len=11)
+Predicted chunk text: egyptian marshal amir is reported attempting to bring about a reconciliation
+Unredacted context: to public discontent [UNRED_ONLY: egyptian marshal amir is reported attempting to bring about a reconciliation] differences between nasir
+Redacted anchor context: add to public [L@96:discontent] [RED_GAP:<empty>] [R@97:differences] between nasir and
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: Egyptian Marshal Amir is reported attempting to bring about a reconciliation.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=11
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=2..2
+  -> GT text: Egyptian Marshal Amir is reported attempting to bring about a reconciliation.
+  -> Relaxed best pred text: egyptian marshal amir is reported attempting to bring about a reconciliation
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

@@ -1,0 +1,117 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      14,
+      12,
+      525,
+      48
+    ],
+    "text": "New Afghan-Soviet Military Assistance Agreement May\nBe Concluded",
+    "expanded_crop_box_xyxy": [
+      0,
+      4,
+      576,
+      56
+    ],
+    "crop_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "New Afghan-Soviet Military Assistance Agreement May Be Concluded",
+    "ocr_text_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 10,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      70,
+      525,
+      190
+    ],
+    "text": "\nAfghan-Foreign Minister Naim, who left on 29 Decem-\nber for Moscow, apparently intends to conclude a new agree-\nment to expand the Soviet military assistance program in\nAfghanistan. The Afghan Government may regard such a\nmove as a calculated risk necessary to strengthen its posi-\ntion against what it regards as an increasingly unfavorable",
+    "expanded_crop_box_xyxy": [
+      0,
+      58,
+      576,
+      202
+    ],
+    "crop_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Afghan- Foreign Minister Naim, who left on 29 December for Moscow, apparently intends to conclude a new agreement to expand the Soviet military assistance program in Afghanistan. The Afghan Government may regard such a move as a calculated risk necessary to strengthen its position against what it regards as an increasingly unfavorable Western attitude toward Afghanistan.",
+    "ocr_text_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 12,
+    "line_end_1based": 16,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      217,
+      525,
+      359
+    ],
+    "text": "Western attitude toward Afghanistan.\n\nAfghanistan has been slow in training its troops to use\nSoviet weapons which have already been delivered. Any new\nmilitary assistance agreement will therefore probably include",
+    "expanded_crop_box_xyxy": [
+      0,
+      203,
+      576,
+      373
+    ],
+    "crop_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Afghanistan has been slow in training its troops to use Soviet weapons which have already been delivered. Any new military assistance agreement will therefore probably include an expanded training program, involving the use of additional Soviet military instructors. It would also provide for addition- al Soviet weapons, including heavy arms and more modern air- craft, The new agreement for a reported would prob-",
+    "ocr_text_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 18,
+    "line_end_1based": 23,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      362,
+      525,
+      466
+    ],
+    "text": "an expanded training program, involving the use of additional\nSoviet military instructors. It would also provide for addition-\nal Soviet weapons, including heavy arms and more modern air-\ncraft,\n\nThe new agreement for a reported ______ would prob-",
+    "expanded_crop_box_xyxy": [
+      0,
+      352,
+      576,
+      476
+    ],
+    "crop_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The new agreement for a reported would probably be financed by a long-term Soviet loan, ending the year-old Afghan policy of refusing to accept further loans in favor of grant aid. Because of discount prices, Afghanistan has apparently received bloc arms worth about under the Soviet arms-assistance agreement signed in 1956 and the Czech arms agreement of 1954.",
+    "ocr_text_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 25,
+    "line_end_1based": 25,
+    "line_count": 1,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      14,
+      470,
+      525,
+      504
+    ],
+    "text": "ably be financed by a long-term Soviet loan, ending the year-",
+    "expanded_crop_box_xyxy": [
+      0,
+      462,
+      576,
+      504
+    ],
+    "crop_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/10_redacted.paragraph_crops/paragraph_005.ocr.txt"
+  }
+]

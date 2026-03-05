@@ -1,0 +1,1446 @@
+{
+  "image": "inputs/images/16_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      323,
+      11,
+      569,
+      62
+    ],
+    [
+      155,
+      187,
+      269,
+      208
+    ],
+    [
+      294,
+      387,
+      544,
+      406
+    ],
+    [
+      6,
+      406,
+      547,
+      530
+    ],
+    [
+      385,
+      608,
+      540,
+      624
+    ],
+    [
+      9,
+      625,
+      540,
+      694
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    6,
+    5,
+    515,
+    699
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 129195,
+  "merged_region_nonzero_px": 125353,
+  "line_width_px": 509,
+  "line_count": 34,
+  "paragraph_crops_dir": "outputs/examples_ocr2/16_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/16_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/16_redacted.paragraphs.json",
+  "paragraph_count": 5,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        6,
+        27,
+        515,
+        40
+      ],
+      "text": "Spanish Aid to Moroccan Dissidents",
+      "expanded_crop_box_xyxy": [
+        0,
+        19,
+        566,
+        48
+      ],
+      "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Spanish Aid to Moroccan Dissidents",
+      "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 6,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        65,
+        515,
+        130
+      ],
+      "text": "\n[Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuations of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.]\n\n[Moroccan Vice Premier Bouabd, who with other officials recently inspected military activities in northern Morocco, stated] the Royal Army has proof that Spain has supplied arms and money to the Beni Ouraghel tribe. Bouabd also claimed he has discovered a definite separatist movement in the Rif and that the Beni Ouraghel--the tribe of Rifian warrior Abd-el-Krim who rebelled against Spain in the '1920s'--apparently are determined to set up a Rif republic.",
+      "expanded_crop_box_xyxy": [
+        0,
+        57,
+        566,
+        138
+      ],
+      "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuation of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.",
+      "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 8,
+      "line_end_1based": 16,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        155,
+        515,
+        312
+      ],
+      "text": "\n[The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.]\n\n[The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.]",
+      "expanded_crop_box_xyxy": [
+        0,
+        139,
+        566,
+        328
+      ],
+      "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The text in the image is a quote from a book.",
+      "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 18,
+      "line_end_1based": 27,
+      "line_count": 10,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        338,
+        515,
+        515
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        320,
+        566,
+        533
+      ],
+      "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.",
+      "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    },
+    {
+      "paragraph_1based": 5,
+      "line_start_1based": 29,
+      "line_end_1based": 34,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        6,
+        537,
+        515,
+        693
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        521,
+        566,
+        709
+      ],
+      "crop_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_005.png",
+      "ocr_text": "The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.",
+      "ocr_text_path": "outputs/examples_ocr2/16_redacted.paragraph_crops/paragraph_005.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 15.6765,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 9,
+  "row_scan_line_band_count": 24,
+  "row_scan_gap_band_count": 23,
+  "row_scan_linebreak_band_count": 19,
+  "row_scan_blankline_band_count": 4,
+  "row_scan_new_paragraph_count": 4,
+  "indentation_band_count": 4,
+  "gap_markers": [
+    {
+      "box": [
+        6,
+        41,
+        515,
+        64
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 1.7143,
+      "height_to_avg_full_line_ratio": 1.1692,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.3469,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        76,
+        515,
+        82
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        95,
+        515,
+        100
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.4286,
+      "height_to_avg_full_line_ratio": 0.2923,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        113,
+        515,
+        119
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        131,
+        515,
+        154
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 1.7143,
+      "height_to_avg_full_line_ratio": 1.1692,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        168,
+        515,
+        174
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        186,
+        515,
+        192
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1933,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        204,
+        515,
+        210
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1611,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        222,
+        515,
+        228
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        240,
+        515,
+        246
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        258,
+        515,
+        262
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.3571,
+      "height_to_avg_full_line_ratio": 0.2436,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        278,
+        515,
+        283
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.4286,
+      "height_to_avg_full_line_ratio": 0.2923,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        295,
+        515,
+        298
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.2857,
+      "height_to_avg_full_line_ratio": 0.1949,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        313,
+        515,
+        337
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 1.7857,
+      "height_to_avg_full_line_ratio": 1.2179,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        349,
+        515,
+        355
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        367,
+        515,
+        374
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5714,
+      "height_to_avg_full_line_ratio": 0.3897,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        385,
+        515,
+        392
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5714,
+      "height_to_avg_full_line_ratio": 0.3897,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3265,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        403,
+        515,
+        536
+      ],
+      "kind": "blankline",
+      "height_px": 134,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 9.5714,
+      "height_to_avg_full_line_ratio": 6.5282,
+      "blankline_line_slots": 6,
+      "paragraphblank_height_px": 21,
+      "remaining_blank_height_px": 113,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.9328,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        6,
+        550,
+        515,
+        556
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        568,
+        515,
+        574
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        586,
+        515,
+        592
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        604,
+        515,
+        610
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.5,
+      "height_to_avg_full_line_ratio": 0.341,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1101,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        6,
+        622,
+        515,
+        624
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.0,
+      "avg_linebreak_height_px": 6.5263,
+      "avg_full_line_height_px": 20.5263,
+      "height_to_avg_line_ratio": 0.2143,
+      "height_to_avg_full_line_ratio": 0.1462,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.2569,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 24,
+    "blankline": 6,
+    "paragraphblank": 4
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Spanish Aid to Moroccan Dissidents",
+      "char_len": 34,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        27,
+        515,
+        40
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        44,
+        515,
+        64
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        65,
+        515,
+        75
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "[Spanish involvement in the tribal dissidence in northern Morocco may cause Rabat to renew pressure for the evacuations of the 10,000 Spanish troops remaining in Morocco. Rabat has repeatedly protested Spanish complicity.]",
+      "char_len": 222,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        83,
+        515,
+        94
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        101,
+        515,
+        112
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "[Moroccan Vice Premier Bouabd, who with other officials recently inspected military activities in northern Morocco, stated] the Royal Army has proof that Spain has supplied arms and money to the Beni Ouraghel tribe. Bouabd also claimed he has discovered a definite separatist movement in the Rif and that the Beni Ouraghel--the tribe of Rifian warrior Abd-el-Krim who rebelled against Spain in the '1920s'--apparently are determined to set up a Rif republic.",
+      "char_len": 458,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        120,
+        515,
+        130
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "PB7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        134,
+        515,
+        154
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        155,
+        515,
+        167
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "[The Spanish ambassador in Rabat has admitted that some assistance to the Moroccan tribes may have come from local Spanish sources, but he has denied that Spain intends to make war on Morocco.]",
+      "char_len": 193,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        175,
+        515,
+        185
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        193,
+        515,
+        203
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "[The Spanish military governor of Melilla, one of five tiny Spanish-controlled points in northern Morocco, is reported to have granted asylum to Berber leader Lahcen Lyoussi, a former crown counselor who is being sought by government forces for involvement in tribal dissidence.]",
+      "char_len": 279,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        211,
+        515,
+        221
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        229,
+        515,
+        239
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        247,
+        515,
+        257
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        263,
+        515,
+        277
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        284,
+        515,
+        294
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        299,
+        515,
+        312
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "PB17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        317,
+        515,
+        337
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        338,
+        515,
+        348
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        356,
+        515,
+        366
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        375,
+        515,
+        384
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        393,
+        515,
+        402
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "BL22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        403,
+        515,
+        421
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "BL23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        422,
+        515,
+        440
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "BL24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        441,
+        515,
+        458
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "BL25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        459,
+        515,
+        477
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "BL26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        478,
+        515,
+        496
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "BL27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        6,
+        497,
+        515,
+        515
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "PB28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        6,
+        516,
+        515,
+        536
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        537,
+        515,
+        549
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        557,
+        515,
+        567
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        575,
+        515,
+        585
+      ]
+    },
+    {
+      "line_1based": 32,
+      "serial_label": "L32",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        593,
+        515,
+        603
+      ]
+    },
+    {
+      "line_1based": 33,
+      "serial_label": "L33",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        611,
+        515,
+        621
+      ]
+    },
+    {
+      "line_1based": 34,
+      "serial_label": "L34",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        6,
+        625,
+        515,
+        693
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 34,
+      "char_start": 21,
+      "char_end": 34,
+      "char_len": 13,
+      "full_line": false,
+      "bbox_xyxy": [
+        323,
+        11,
+        569,
+        62
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________]",
+      "layout_token_pixel": "[BOX1__192/503]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3817,
+      "clipped_span_px": 192,
+      "line_width_effective_px": 503,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 1,
+      "line_1based": 2,
+      "line_char_capacity": 458,
+      "char_start": 285,
+      "char_end": 458,
+      "char_len": 173,
+      "full_line": false,
+      "bbox_xyxy": [
+        323,
+        11,
+        569,
+        62
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________________]",
+      "layout_token_pixel": "[BOX1__192/509]",
+      "line_overlap_ratio": 0.9048,
+      "line_cover_ratio_x": 0.3772,
+      "clipped_span_px": 192,
+      "line_width_effective_px": 509,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 10,
+      "line_char_capacity": 458,
+      "char_start": 134,
+      "char_end": 237,
+      "char_len": 103,
+      "full_line": false,
+      "bbox_xyxy": [
+        155,
+        187,
+        269,
+        208
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2_________]",
+      "layout_token_pixel": "[BOX2__114/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.224,
+      "clipped_span_px": 114,
+      "line_width_effective_px": 509,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 3,
+      "line_1based": 21,
+      "line_char_capacity": 458,
+      "char_start": 259,
+      "char_end": 458,
+      "char_len": 199,
+      "full_line": false,
+      "bbox_xyxy": [
+        294,
+        387,
+        544,
+        406
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3_______________________]",
+      "layout_token_pixel": "[BOX3__221/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4342,
+      "clipped_span_px": 221,
+      "line_width_effective_px": 509,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 22,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 0.8421,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 23,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 24,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 25,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 26,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 27,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 4,
+      "line_1based": 28,
+      "line_char_capacity": 458,
+      "char_start": 0,
+      "char_end": 458,
+      "char_len": 458,
+      "full_line": true,
+      "bbox_xyxy": [
+        6,
+        406,
+        547,
+        530
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4___________________________________________________________]",
+      "layout_token_pixel": "[BOX4__509/509]",
+      "line_overlap_ratio": 0.7143,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 509,
+      "line_width_effective_px": 509,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 5,
+      "line_1based": 33,
+      "line_char_capacity": 458,
+      "char_start": 341,
+      "char_end": 458,
+      "char_len": 117,
+      "full_line": false,
+      "bbox_xyxy": [
+        385,
+        608,
+        540,
+        624
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5___________]",
+      "layout_token_pixel": "[BOX5__130/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2554,
+      "clipped_span_px": 130,
+      "line_width_effective_px": 509,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 6,
+      "line_1based": 34,
+      "line_char_capacity": 458,
+      "char_start": 3,
+      "char_end": 458,
+      "char_len": 455,
+      "full_line": false,
+      "bbox_xyxy": [
+        9,
+        625,
+        540,
+        694
+      ],
+      "placeholder_token": "[REDACTED_6]",
+      "layout_token_underscore": "[BOX6___________________________________________________________]",
+      "layout_token_pixel": "[BOX6__506/509]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.9941,
+      "clipped_span_px": 506,
+      "line_width_effective_px": 509,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

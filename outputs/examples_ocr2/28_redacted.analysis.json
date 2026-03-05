@@ -1,0 +1,1295 @@
+{
+  "image": "inputs/images/28_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      26,
+      8,
+      275,
+      45
+    ],
+    [
+      13,
+      97,
+      565,
+      138
+    ],
+    [
+      14,
+      138,
+      105,
+      156
+    ],
+    [
+      8,
+      229,
+      71,
+      297
+    ],
+    [
+      71,
+      229,
+      111,
+      297
+    ],
+    [
+      259,
+      554,
+      549,
+      575
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    13,
+    0,
+    563,
+    674
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 130649,
+  "merged_region_nonzero_px": 127772,
+  "line_width_px": 550,
+  "line_count": 29,
+  "paragraph_crops_dir": "outputs/examples_ocr2/28_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/28_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/28_redacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        13,
+        47,
+        563,
+        79
+      ],
+      "text": "Ignore line breaks for input.",
+      "expanded_crop_box_xyxy": [
+        0,
+        39,
+        589,
+        87
+      ],
+      "crop_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 13,
+      "line_count": 11,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        85,
+        563,
+        285
+      ],
+      "text": "\n\n\n---\n\n# The Guatemalan political situation continues to deteriorate.\n\nThis, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up.",
+      "expanded_crop_box_xyxy": [
+        0,
+        65,
+        589,
+        305
+      ],
+      "crop_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The Guatemalan political situation continues to deteriorate.",
+      "ocr_text_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 15,
+      "line_end_1based": 19,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        304,
+        563,
+        387
+      ],
+      "text": "\n---\n\nVidgoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"track down in a dictatorial manner.\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.",
+      "expanded_crop_box_xyxy": [
+        0,
+        296,
+        589,
+        395
+      ],
+      "crop_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The text in the image is a quote from a US ambassador discussing the danger of the US ambassador on February 18th.",
+      "ocr_text_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 21,
+      "line_end_1based": 29,
+      "line_count": 9,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        13,
+        413,
+        563,
+        569
+      ],
+      "text": "While there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Vidgoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.",
+      "expanded_crop_box_xyxy": [
+        0,
+        397,
+        589,
+        585
+      ],
+      "crop_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "No line breaks or punctuation marks should be altered or inserted.\nRepeated words, phrases, or sentences should be omitted.\nThe text should be rephrased (changed in meaning) while retaining the original meaning.\nDo not forget to use the CITE or Reference section in the event of ambiguity or confusion.\nDo not forget to includeAPA citation format.\nWhile there appears to be no immediate danger of a coup,\nsince various opposition leaders are believed to be working at\ncross-purposes and the army remains loyal to the President,\ncontinuation of the present trend could within a relatively short\ntime lead to his ouster. Key army officers, the ultimate locus\nof political power, have proven responsive to public pressure in\nthe past, and their support of Ydigoras would probably be with-\ndrawn if they became convinced that the President had lost his\npolitical and public backing.",
+      "ocr_text_path": "outputs/examples_ocr2/28_redacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.9655,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 13,
+  "row_scan_line_band_count": 21,
+  "row_scan_gap_band_count": 20,
+  "row_scan_linebreak_band_count": 17,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        13,
+        80,
+        563,
+        84
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.407,
+      "height_to_avg_full_line_ratio": 0.2617,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 5,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        96,
+        563,
+        139
+      ],
+      "kind": "blankline",
+      "height_px": 44,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 3.5814,
+      "height_to_avg_full_line_ratio": 2.3026,
+      "blankline_line_slots": 2,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 44,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.9545,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        151,
+        563,
+        157
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1431,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        169,
+        563,
+        176
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.6512,
+      "height_to_avg_full_line_ratio": 0.4186,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        188,
+        563,
+        194
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        206,
+        563,
+        212
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        224,
+        563,
+        303
+      ],
+      "kind": "blankline",
+      "height_px": 80,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 6.5116,
+      "height_to_avg_full_line_ratio": 4.1865,
+      "blankline_line_slots": 3,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 62,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0924,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        315,
+        563,
+        321
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        333,
+        563,
+        339
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        351,
+        563,
+        358
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.6512,
+      "height_to_avg_full_line_ratio": 0.4186,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        369,
+        563,
+        373
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.407,
+      "height_to_avg_full_line_ratio": 0.2617,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        388,
+        563,
+        412
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 2.0349,
+      "height_to_avg_full_line_ratio": 1.3083,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        13,
+        424,
+        563,
+        430
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        442,
+        563,
+        449
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.6512,
+      "height_to_avg_full_line_ratio": 0.4186,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        461,
+        563,
+        467
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        479,
+        563,
+        485
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        497,
+        563,
+        503
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        515,
+        563,
+        521
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.5698,
+      "height_to_avg_full_line_ratio": 0.3663,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        533,
+        563,
+        540
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.6512,
+      "height_to_avg_full_line_ratio": 0.4186,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        13,
+        552,
+        563,
+        555
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.2857,
+      "avg_linebreak_height_px": 6.8235,
+      "avg_full_line_height_px": 19.1092,
+      "height_to_avg_line_ratio": 0.3256,
+      "height_to_avg_full_line_ratio": 0.2093,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.2641,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 21,
+    "blankline": 5,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Ignore line breaks for input.",
+      "char_len": 29,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        47,
+        563,
+        79
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        80,
+        563,
+        84
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        85,
+        563,
+        95
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "BL4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        13,
+        96,
+        563,
+        117
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "BL5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        13,
+        118,
+        563,
+        139
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        140,
+        563,
+        150
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        158,
+        563,
+        168
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "# The Guatemalan political situation continues to deteriorate.",
+      "char_len": 62,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        177,
+        563,
+        187
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        195,
+        563,
+        205
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "This, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up.",
+      "char_len": 249,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        213,
+        563,
+        223
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "BL11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        13,
+        224,
+        563,
+        244
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "BL12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        13,
+        245,
+        563,
+        264
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "BL13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        13,
+        265,
+        563,
+        285
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "PB14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        286,
+        563,
+        303
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        304,
+        563,
+        314
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        322,
+        563,
+        332
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        340,
+        563,
+        350
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "Vidgoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"track down in a dictatorial manner.\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.",
+      "char_len": 270,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        359,
+        563,
+        368
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        374,
+        563,
+        387
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "PB20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        13,
+        395,
+        563,
+        412
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "While there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Vidgoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.",
+      "char_len": 528,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        413,
+        563,
+        423
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        431,
+        563,
+        441
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        450,
+        563,
+        460
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        468,
+        563,
+        478
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        486,
+        563,
+        496
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        504,
+        563,
+        514
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        522,
+        563,
+        532
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        541,
+        563,
+        551
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        13,
+        556,
+        563,
+        569
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 29,
+      "char_start": 0,
+      "char_end": 14,
+      "char_len": 14,
+      "full_line": false,
+      "bbox_xyxy": [
+        26,
+        8,
+        275,
+        45
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________________________]",
+      "layout_token_pixel": "[BOX1__249/545]",
+      "line_overlap_ratio": 0.0,
+      "line_cover_ratio_x": 0.4569,
+      "clipped_span_px": 249,
+      "line_width_effective_px": 545,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 4,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 528,
+      "char_len": 528,
+      "full_line": true,
+      "bbox_xyxy": [
+        13,
+        97,
+        565,
+        138
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__550/550]",
+      "line_overlap_ratio": 0.9545,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 550,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 5,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 528,
+      "char_len": 528,
+      "full_line": true,
+      "bbox_xyxy": [
+        13,
+        97,
+        565,
+        138
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________________________]",
+      "layout_token_pixel": "[BOX2__550/550]",
+      "line_overlap_ratio": 0.9545,
+      "line_cover_ratio_x": 1.0,
+      "clipped_span_px": 550,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 6,
+      "line_char_capacity": 3,
+      "char_start": 0,
+      "char_end": 1,
+      "char_len": 1,
+      "full_line": false,
+      "bbox_xyxy": [
+        14,
+        138,
+        105,
+        156
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3______]",
+      "layout_token_pixel": "[BOX3__91/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1655,
+      "clipped_span_px": 91,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 11,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 56,
+      "char_len": 56,
+      "full_line": false,
+      "bbox_xyxy": [
+        8,
+        229,
+        71,
+        297
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4__]",
+      "layout_token_pixel": "[BOX4__58/550]",
+      "line_overlap_ratio": 0.7619,
+      "line_cover_ratio_x": 0.1055,
+      "clipped_span_px": 58,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 5,
+      "line_1based": 11,
+      "line_char_capacity": 528,
+      "char_start": 56,
+      "char_end": 94,
+      "char_len": 38,
+      "full_line": false,
+      "bbox_xyxy": [
+        71,
+        229,
+        111,
+        297
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5__]",
+      "layout_token_pixel": "[BOX5__40/550]",
+      "line_overlap_ratio": 0.7619,
+      "line_cover_ratio_x": 0.0727,
+      "clipped_span_px": 40,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 12,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 56,
+      "char_len": 56,
+      "full_line": false,
+      "bbox_xyxy": [
+        8,
+        229,
+        71,
+        297
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4__]",
+      "layout_token_pixel": "[BOX4__58/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1055,
+      "clipped_span_px": 58,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 5,
+      "line_1based": 12,
+      "line_char_capacity": 528,
+      "char_start": 56,
+      "char_end": 94,
+      "char_len": 38,
+      "full_line": false,
+      "bbox_xyxy": [
+        71,
+        229,
+        111,
+        297
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5__]",
+      "layout_token_pixel": "[BOX5__40/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0727,
+      "clipped_span_px": 40,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 13,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 56,
+      "char_len": 56,
+      "full_line": false,
+      "bbox_xyxy": [
+        8,
+        229,
+        71,
+        297
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4__]",
+      "layout_token_pixel": "[BOX4__58/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1055,
+      "clipped_span_px": 58,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 5,
+      "line_1based": 13,
+      "line_char_capacity": 528,
+      "char_start": 56,
+      "char_end": 94,
+      "char_len": 38,
+      "full_line": false,
+      "bbox_xyxy": [
+        71,
+        229,
+        111,
+        297
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5__]",
+      "layout_token_pixel": "[BOX5__40/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.0727,
+      "clipped_span_px": 40,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 14,
+      "line_char_capacity": 528,
+      "char_start": 0,
+      "char_end": 56,
+      "char_len": 56,
+      "full_line": false,
+      "bbox_xyxy": [
+        8,
+        229,
+        71,
+        297
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4__]",
+      "layout_token_pixel": "[BOX4__58/550]",
+      "line_overlap_ratio": 0.6667,
+      "line_cover_ratio_x": 0.1055,
+      "clipped_span_px": 58,
+      "line_width_effective_px": 550,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 5,
+      "line_1based": 14,
+      "line_char_capacity": 528,
+      "char_start": 56,
+      "char_end": 94,
+      "char_len": 38,
+      "full_line": false,
+      "bbox_xyxy": [
+        71,
+        229,
+        111,
+        297
+      ],
+      "placeholder_token": "[REDACTED_5]",
+      "layout_token_underscore": "[BOX5__]",
+      "layout_token_pixel": "[BOX5__40/550]",
+      "line_overlap_ratio": 0.6667,
+      "line_cover_ratio_x": 0.0727,
+      "clipped_span_px": 40,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 6,
+      "line_1based": 29,
+      "line_char_capacity": 528,
+      "char_start": 236,
+      "char_end": 515,
+      "char_len": 279,
+      "full_line": false,
+      "bbox_xyxy": [
+        259,
+        554,
+        549,
+        575
+      ],
+      "placeholder_token": "[REDACTED_6]",
+      "layout_token_underscore": "[BOX6_____________________________]",
+      "layout_token_pixel": "[BOX6__290/550]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.5273,
+      "clipped_span_px": 290,
+      "line_width_effective_px": 550,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 43,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

@@ -1,0 +1,24 @@
+Example ID: 43
+Stem: 43
+Redacted OCR file: outputs/examples_ocr2/43_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/43_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=176..178, len=3)
+Predicted chunk text: in off-the-record comments
+Unredacted context: indonesia and said [UNRED_ONLY: in off-the-record comments] that popular and
+Redacted anchor context: to indonesia and [L@175:said] [RED_GAP:<empty>] [R@176:that] popular and parliamentary
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: Dutch
+  -> Relaxed best pred text: in off-the-record comments
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0

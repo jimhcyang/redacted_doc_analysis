@@ -1,0 +1,45 @@
+Example ID: 13
+Stem: 13
+Redacted OCR file: outputs/examples_ocr2/13_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/13_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=0..4, len=5)
+Predicted chunk text: consider the following excerpt from
+Unredacted context: [UNRED_ONLY: consider the following excerpt from] a baghdad according
+Redacted anchor context: [R_ANCHOR_ONLY @ 5] aid to iraq a delegation of soviet
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=123..126, len=4)
+Predicted chunk text: 170 000 000 arms
+Unredacted context: already concluded a [UNRED_ONLY: 170 000 000 arms] deal and has
+Redacted anchor context: has already concluded [L@129:a] [RED_GAP:<empty>] [R@130:deal] and has delivered
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.888889 exact=False
+  -> GT text: $170,000,-000 arms deal
+  -> Word metrics: recall=1.0 precision=0.8 f1=0.888889 matched=4
+Relaxed best GT candidate: GT[0] best_f1=0.888889 joined_pred_chunks=1..1
+  -> GT text: $170,000,-000 arms deal
+  -> Relaxed best pred text: 170 000 000 arms
+  -> Relaxed word metrics: recall=0.8 precision=1.0 f1=0.888889
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=132..132, len=1)
+Predicted chunk text: shiploads
+Unredacted context: has delivered three [UNRED_ONLY: shiploads] of military equipment
+Redacted anchor context: and has delivered [L@134:three] [RED_GAP:shipments] [R@136:of] military equipment to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:shipments]
+Strict GT match: NO
+Relaxed best GT candidate: none

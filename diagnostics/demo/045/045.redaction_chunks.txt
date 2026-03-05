@@ -1,0 +1,45 @@
+Example ID: 45
+Stem: 45
+Redacted OCR file: outputs/examples_ocr2/45_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/45_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=26..26, len=1)
+Predicted chunk text: heretofore
+Unredacted context: resident diplomatic missions [UNRED_ONLY: heretofore] diplomatic contact has
+Redacted anchor context: exchange resident diplomatic [L@25:missions] [RED_GAP:hereinafter] [R@27:diplomatic] contact has been
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:hereinafter]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=65..95, len=31)
+Predicted chunk text: ponomarenko informed the indian government on 20 april that such a move was pending and that the ussr had responded to nepali overtures an apparent effort to minimize new delhi's reaction
+Unredacted context: from new delhi [UNRED_ONLY: ponomarenko informed the indian government on 20 april that such a move was pending and that the ussr had responded to nepali overtures an apparent effort to minimize new delhi's reaction] the ussr is
+Redacted anchor context: diplomats from new [L@64:delhi] [RED_GAP:<empty>] [R@65:the] ussr is breaking
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: (Ponomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to "Nepali overtures"--an apparent effort to minimize New Delhi's reaction.)
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=31
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: (Ponomarenko informed the Indian Government on 20 April that such a move was pending and that the USSR had responded to "Nepali overtures"--an apparent effort to minimize New Delhi's reaction.)
+  -> Relaxed best pred text: ponomarenko informed the indian government on 20 april that such a move was pending and that the ussr had responded to nepali overtures an apparent effort to minimize new delhi's reaction
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=229..229, len=1)
+Predicted chunk text: 25-26
+Unredacted context: week end of [UNRED_ONLY: 25-26] april at which
+Redacted anchor context: the week end [L@197:of] [RED_GAP:25 26] [R@200:april] at which time
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:25 26]
+Strict GT match: NO
+Relaxed best GT candidate: none

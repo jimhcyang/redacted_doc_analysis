@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 10,
+    "line_count": 10,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      40,
+      15,
+      557,
+      410
+    ],
+    "text": "Morocco Indicates Desire to Purchase US Arms\n\nMoroccan Defense Minister Mohamed Aouad inquired on\n23 March whether the United States would supply some\n$19,000,000 to $23,000,000 worth of military equipment to\nmodernize Morocco’s 31,000-man army. Aouad said Morocco\nwants tanks, trucks, communications equipment, machine guns,\nsubmachine guns and ammunition, fighter and observation air-\ncraft, and helicopters. He implied that the King is under con-\nsiderable pressure--presumably from the left-wing members",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      600,
+      450
+    ],
+    "crop_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is a screenshot of a document.",
+    "ocr_text_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 12,
+    "line_end_1based": 16,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      40,
+      429,
+      557,
+      626
+    ],
+    "text": "of the Ibrahim government--to continue to procure arms from\nthe Soviet bloc, and indicated that the government has made a\nfirm decision not to rely any longer on France as its primary\nsource of materiel.",
+    "expanded_crop_box_xyxy": [
+      0,
+      409,
+      600,
+      646
+    ],
+    "crop_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The text in the image is a quote from a book.",
+    "ocr_text_path": "outputs/examples_ocr2/38_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

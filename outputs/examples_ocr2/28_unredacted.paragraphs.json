@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 28,
+    "line_count": 28,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      36,
+      0,
+      548,
+      521
+    ],
+    "text": "Position of Guatemalan President Weakening\n\n\nThe Guatemalan political situation continues to deteriorate. The extreme venality among President Ydígoras' closest advisers, including members of his family, is receiving increasing public attention. This, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up. Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March.\n\nYdígoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"crack down in a dictatorial manner.\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.\n\nWhile there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Ydígoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      594,
+      534
+    ],
+    "crop_path": "outputs/examples_ocr2/28_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text in the image is a screenshot of a document. The document is titled \"Position of Guatemalan President Weakening\". The text is written in black and is in a Times New Roman font. The text is organized into paragraphs, with the first paragraph being the largest and the last paragraph being the smallest. The text is written in a formal style, and the tone is serious.",
+    "ocr_text_path": "outputs/examples_ocr2/28_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

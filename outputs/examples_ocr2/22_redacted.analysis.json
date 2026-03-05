@@ -1,0 +1,634 @@
+{
+  "image": "inputs/images/22_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      144,
+      58,
+      493,
+      80
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    21,
+    0,
+    522,
+    371
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 109634,
+  "merged_region_nonzero_px": 108839,
+  "line_width_px": 501,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/22_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/22_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/22_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 16,
+      "line_count": 16,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        21,
+        9,
+        522,
+        368
+      ],
+      "text": "The Saudi Arabian Government's difficulties in strengthening its finances are likely to result in increased pressure on the Arabian-American Oil Company (ARAMCO) to step up production to furnish additional revenues. Abdulla Tariki, the strongly nationalist director of petroleum affairs, has already indicated a desire to secure changes in the concession agreement, which he charged was \"rigged\" to maximize profits for ARAMCO's four parent companies in the United States which really make ARAMCO's policies. Tariki also indicated that he was considering opening discussions with German and Italian oil companies for concessions in the highly promising preferential zone, implying suspicion that ARAMCO's parent companies had discouraged other American oil companies from showing interest in meeting Saudi terms for concessions in this area. He added that the results of Venezuelan efforts to extract better terms from foreign oil companies would strongly influence the action of Arab countries.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        542,
+        371
+      ],
+      "crop_path": "outputs/examples_ocr2/22_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The Saudi Arabian Government's difficulties in strengthening its finances are likely to result in increased pressure on the Arabian-American Oil Company (ARAMCO) to step up production to furnish additional revenues. Abdulla Tariki, the strongly nationalist director of petroleum affairs, has already indicated a desire to secure changes in the concession agreement, which he charged was \"rigged\" to maximize profits for ARAMCO's four parent companies in the United States which really make ARAMCO's policies. Tariki also indicated that he was considering opening discussions with German and Italian oil companies for concessions in the highly promising preferential zone, implying suspicion that ARAMCO's parent companies had discouraged other American oil companies from showing interest in meeting Saudi terms for concessions in this area. He added that the results of Venezuelan efforts to extract better terms from foreign oil companies would strongly influence the action of Arab countries.",
+      "ocr_text_path": "outputs/examples_ocr2/22_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 19.375,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 1,
+  "row_scan_line_band_count": 16,
+  "row_scan_gap_band_count": 15,
+  "row_scan_linebreak_band_count": 15,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        21,
+        29,
+        522,
+        37
+      ],
+      "kind": "linebreak",
+      "height_px": 9,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.4645,
+      "height_to_avg_full_line_ratio": 0.3963,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 9,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        59,
+        522,
+        60
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.6972,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        77,
+        522,
+        78
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.6972,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        95,
+        522,
+        96
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        114,
+        522,
+        115
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        131,
+        522,
+        134
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.2065,
+      "height_to_avg_full_line_ratio": 0.1761,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        149,
+        522,
+        151
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1548,
+      "height_to_avg_full_line_ratio": 0.1321,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        167,
+        522,
+        168
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        204,
+        522,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1548,
+      "height_to_avg_full_line_ratio": 0.1321,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        241,
+        522,
+        242
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        259,
+        522,
+        261
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1548,
+      "height_to_avg_full_line_ratio": 0.1321,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        277,
+        522,
+        280
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.2065,
+      "height_to_avg_full_line_ratio": 0.1761,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        314,
+        522,
+        315
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1032,
+      "height_to_avg_full_line_ratio": 0.0881,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        332,
+        522,
+        334
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.1548,
+      "height_to_avg_full_line_ratio": 0.1321,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        21,
+        350,
+        522,
+        356
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 19.375,
+      "avg_linebreak_height_px": 3.3333,
+      "avg_full_line_height_px": 22.7083,
+      "height_to_avg_line_ratio": 0.3613,
+      "height_to_avg_full_line_ratio": 0.3083,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 16,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "The Saudi Arabian Government's difficulties in strengthening its finances are likely to result in increased pressure on the Arabian-American Oil Company (ARAMCO) to step up production to furnish additional revenues. Abdulla Tariki, the strongly nationalist director of petroleum affairs, has already indicated a desire to secure changes in the concession agreement, which he charged was \"rigged\" to maximize profits for ARAMCO's four parent companies in the United States which really make ARAMCO's policies. Tariki also indicated that he was considering opening discussions with German and Italian oil companies for concessions in the highly promising preferential zone, implying suspicion that ARAMCO's parent companies had discouraged other American oil companies from showing interest in meeting Saudi terms for concessions in this area. He added that the results of Venezuelan efforts to extract better terms from foreign oil companies would strongly influence the action of Arab countries.",
+      "char_len": 995,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        9,
+        522,
+        28
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        38,
+        522,
+        58
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        61,
+        522,
+        76
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        79,
+        522,
+        94
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        97,
+        522,
+        113
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        116,
+        522,
+        130
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        135,
+        522,
+        148
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        152,
+        522,
+        166
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        169,
+        522,
+        203
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        207,
+        522,
+        240
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        243,
+        522,
+        258
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        262,
+        522,
+        276
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        281,
+        522,
+        313
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        316,
+        522,
+        331
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        335,
+        522,
+        349
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        21,
+        357,
+        522,
+        368
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 3,
+      "line_char_capacity": 995,
+      "char_start": 244,
+      "char_end": 937,
+      "char_len": 693,
+      "full_line": false,
+      "bbox_xyxy": [
+        144,
+        58,
+        493,
+        80
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________________________________________]",
+      "layout_token_pixel": "[BOX1__349/501]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.6966,
+      "clipped_span_px": 349,
+      "line_width_effective_px": 501,
+      "touches_left_border": false,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

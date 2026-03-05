@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      11,
+      3,
+      539,
+      20
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      549,
+      28
+    ],
+    "crop_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The Caribbean Crisis",
+    "ocr_text_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 16,
+    "line_count": 14,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      11,
+      42,
+      539,
+      289
+    ],
+    "text": "\n\nThe determination of leftists and liberals led by the Fidel Castro government of Cuba\n\nto overthrow the Trujillo dictatorship in the Dominican Republic and the Somoza regime in Nicaragua has brought the contenders close to war. The situation also seriously threatens other governments, particularly the weak unpopular regime in Haiti. Military action has thus far been confined to rebel incursions into Nicaragua and the Dominican Republic, but may extend to counteraction by the beleaguered regimes against governments supporting the insurgents. Generalissimo Trujillo told the American ambassador on 20 June that \"defensive military action\" agains Cuba will become \"imperative\" in the event of further insurgent landings. The armed forces chief of Nicaragua has also considered action against the hostile governments.\n\nLatin American Communists, who are particularly influential among the Cuban-backed rebel groups, would probably win influence in any postrevolutionary governments. The Communists are exploiting anti-dictator sentiment in the area and charge the US with attempting to crush popular democratic movements.\n\nThe Organization of American States (OAS) faces the most serious crisis in its history. President Betancourt told the American ambassador on 23 June that the only alternative to war in the Caribbean and a fiasco for the OAS is the elimination of Trujillo. Venezuela, he said, will oppose any OAS consideration of the situation which, he feels, could only aid Trujillo.\n\nSince 14 June, the Dominican Republic's 29-year-old Trujillo dictatorship has been staggered by three Cuban-based rebel incursions, which appear to have involved up to 200 insurgents. Dominican officials privately admit \"substantial\" army losses. There are indications of collaboration with the rebels by local civilians and there may have been some army defections. Even if the initial incursions fail, as Trujillo",
+    "expanded_crop_box_xyxy": [
+      0,
+      17,
+      549,
+      314
+    ],
+    "crop_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The determination of leftists and liberals led by the Fidel Castro government of Cuba to overthrow the Trujillo dictatorship in the Dominican Republic and the Somoza regime in Nicaragua has brought the contenders close to war. The situation also seriously threatens other governments, particularly the weak unpopular regime in Haiti. Military action has thus far been confined to rebel incursions into Nicaragua and the Dominican Republic, but may extend to counteraction by the beleaguered regimes against governments supporting the insurgents. Generalissimo Trujillo told the American ambassador on 20 June that \"defensive military action\" against Cuba will become \"imperative\" in the event of further insurgent landings. The armed forces chief of Nicaragua has also considered action against the hostile governments.",
+    "ocr_text_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 18,
+    "line_end_1based": 39,
+    "line_count": 22,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      11,
+      315,
+      539,
+      746
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      272,
+      549,
+      769
+    ],
+    "crop_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "**Do not attempt to remove the line breaks or the punctuation.**\n---\n**The Organization of American States (OAS) faces the most serious crisis in its history. President Betancourt told the American ambassador on 23 June that the only alternative to war in the Caribbean and a fiasco for the OAS is the elimination of Trujillo. Venezuela, he said, will oppose any OAS consideration of the situation which, he feels, could only aid Trujillo.**\n---\nSince 14 June, the Dominican Republic's 29-year-old Trujillo dictatorship has been staggered by three Cuban-posed rebel incursions, which appear to have involved up to 200 insurgents. Dominican officials privately admit \"substantial\" army losses. There are indications of collaboration with the rebels by local civilians and there may have been some army defections. Even if the initial incursions fail, as Trujillo",
+    "ocr_text_path": "outputs/examples_ocr2/59_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

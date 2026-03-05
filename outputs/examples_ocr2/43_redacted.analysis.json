@@ -1,0 +1,1053 @@
+{
+  "image": "inputs/images/43_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      167,
+      381,
+      408,
+      402
+    ],
+    [
+      442,
+      577,
+      550,
+      600
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    7,
+    0,
+    505,
+    609
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 177143,
+  "merged_region_nonzero_px": 176293,
+  "line_width_px": 498,
+  "line_count": 28,
+  "paragraph_crops_dir": "outputs/examples_ocr2/43_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/43_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/43_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 22,
+      "line_count": 22,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        7,
+        7,
+        505,
+        471
+      ],
+      "text": "New Dutch Government Expected Soon\n\nA new Dutch coalition government, including Catholic, Protestant, and Liberal parties and headed by Catholic Prof. J. Dequay, is expected to be installed within the next week after over a month of negotiations. The Labor party, which precipitated the 12 March national elections by withdrawing from Prime Minister Drees' cabinet in December, now will be in the opposition. The new government will be further to the right than the Drees cabinet, in which elements of the Labor party exercised a moderating influence, and is even more deeply committed to Dutch retention of West New Guinea. It is prepared, if necessary, to weaken the Netherlands' contribution to NATO to support this stand and will probably protest more strongly against arms sales to Indonesia by the United States and other NATO countries.\n\nThe Dutch representative at a NATO committee meeting in Paris on 14 April, in fact, warned of severe political repercussions in The Hague if the United States proceeds with projected shipments of C-130-B transports and other arms to Indonesia and said, \"that popular and parliamentary support for NATO would inevitably deteriorate. Defense build-up in West New Guinea, he said, would have to be at the expense of Dutch NATO commitments, since over-all defense expenditures are not likely to be increased.\"\n\nFurther expression of Dutch resentment over Western deliveries of military items to Indonesia may be expected at the next NATO committee meeting on 21 April. As evidence of the danger of Indonesian aggression, the Dutch may produce a list of military items including parachutes, for which Jakarta is reported to have been shopping \"all over the world.\"",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        553,
+        517
+      ],
+      "crop_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Incorrectly, a\nNew Dutch coalition government, including Catholic,\nProtestant, and Liberal parties and headed by Catholic Prof.\nJ. Dequay, is expected to be installed within the next week\nafter over a month of negotiations. The Labor party, which\nprecipitated the 12 March national elections by withdrawing\nfrom Prime Minister Drees' cabinet in December, now will\nbe in the opposition. The new government will be further to\nthe right than the Drees cabinet, in which elements of the\nLabor party exercised a moderating influence, and is even\nmore deeply committed to Dutch retention of West New Guinea.\nIt is prepared, if necessary, to weaken the Netherlands' con-\ntribution to NATO to support this stand and will probably pro-\ntest more strongly against arms sales to Indonesia by the\nUnited States and other NATO countries.\nThe Dutch representative at a NATO committee meeting\nin Paris on 14 April, in fact, warned of severe political reper-\ncussions in The Hague if the United States proceeds with pro-\njected shipments of C-130-B transports and other arms to\nIndonesia and said, \"I think popular\nand parliamentary support for NATO would inevitably deterio-\norate. Defense build-up in West New Guinea, he said, would\nhave to be at the expense of Dutch NATO commitments, since\nover-all defense expenditures are not likely to be increased.\nFurther expression of Dutch resentment over Western de-",
+      "ocr_text_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 24,
+      "line_end_1based": 28,
+      "line_count": 5,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        7,
+        492,
+        505,
+        598
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        481,
+        553,
+        609
+      ],
+      "crop_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Further expression of Dutch resentment over Western de-",
+      "ocr_text_path": "outputs/examples_ocr2/43_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 18.8214,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 26,
+  "row_scan_gap_band_count": 25,
+  "row_scan_linebreak_band_count": 23,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        7,
+        34,
+        505,
+        38
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.2669,
+      "height_to_avg_full_line_ratio": 0.2319,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        55,
+        505,
+        56
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        74,
+        505,
+        76
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        93,
+        505,
+        94
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        111,
+        505,
+        113
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        129,
+        505,
+        130
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        164,
+        505,
+        166
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        182,
+        505,
+        185
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.2136,
+      "height_to_avg_full_line_ratio": 0.1856,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        219,
+        505,
+        220
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        237,
+        505,
+        239
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        255,
+        505,
+        256
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        272,
+        505,
+        277
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.3203,
+      "height_to_avg_full_line_ratio": 0.2783,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        291,
+        505,
+        310
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 1.0678,
+      "height_to_avg_full_line_ratio": 0.9278,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 20,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        327,
+        505,
+        329
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        345,
+        505,
+        346
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        363,
+        505,
+        365
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        381,
+        505,
+        383
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.485,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        400,
+        505,
+        401
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.485,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        418,
+        505,
+        419
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        454,
+        505,
+        455
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        472,
+        505,
+        491
+      ],
+      "kind": "blankline",
+      "height_px": 20,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 1.0678,
+      "height_to_avg_full_line_ratio": 0.9278,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        7,
+        508,
+        505,
+        509
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        526,
+        505,
+        527
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1068,
+      "height_to_avg_full_line_ratio": 0.0928,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        543,
+        505,
+        545
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.1602,
+      "height_to_avg_full_line_ratio": 0.1392,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        7,
+        580,
+        505,
+        583
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 18.7308,
+      "avg_linebreak_height_px": 2.8261,
+      "avg_full_line_height_px": 21.5569,
+      "height_to_avg_line_ratio": 0.2136,
+      "height_to_avg_full_line_ratio": 0.1856,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1283,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 26,
+    "blankline": 1,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "New Dutch Government Expected Soon",
+      "char_len": 34,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        7,
+        505,
+        33
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        39,
+        505,
+        54
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "A new Dutch coalition government, including Catholic, Protestant, and Liberal parties and headed by Catholic Prof. J. Dequay, is expected to be installed within the next week after over a month of negotiations. The Labor party, which precipitated the 12 March national elections by withdrawing from Prime Minister Drees' cabinet in December, now will be in the opposition. The new government will be further to the right than the Drees cabinet, in which elements of the Labor party exercised a moderating influence, and is even more deeply committed to Dutch retention of West New Guinea. It is prepared, if necessary, to weaken the Netherlands' contribution to NATO to support this stand and will probably protest more strongly against arms sales to Indonesia by the United States and other NATO countries.",
+      "char_len": 807,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        57,
+        505,
+        73
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        77,
+        505,
+        92
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "The Dutch representative at a NATO committee meeting in Paris on 14 April, in fact, warned of severe political repercussions in The Hague if the United States proceeds with projected shipments of C-130-B transports and other arms to Indonesia and said, \"that popular and parliamentary support for NATO would inevitably deteriorate. Defense build-up in West New Guinea, he said, would have to be at the expense of Dutch NATO commitments, since over-all defense expenditures are not likely to be increased.\"",
+      "char_len": 505,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        95,
+        505,
+        110
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        114,
+        505,
+        128
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "Further expression of Dutch resentment over Western deliveries of military items to Indonesia may be expected at the next NATO committee meeting on 21 April. As evidence of the danger of Indonesian aggression, the Dutch may produce a list of military items including parachutes, for which Jakarta is reported to have been shopping \"all over the world.\"",
+      "char_len": 352,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        131,
+        505,
+        163
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        167,
+        505,
+        181
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        186,
+        505,
+        218
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        221,
+        505,
+        236
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        240,
+        505,
+        254
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        257,
+        505,
+        271
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        278,
+        505,
+        290
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "BL14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        7,
+        291,
+        505,
+        310
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        311,
+        505,
+        326
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        330,
+        505,
+        344
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        347,
+        505,
+        362
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        366,
+        505,
+        380
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        384,
+        505,
+        399
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        402,
+        505,
+        417
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        420,
+        505,
+        453
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        456,
+        505,
+        471
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "PB23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        7,
+        472,
+        505,
+        491
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        492,
+        505,
+        507
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        510,
+        505,
+        525
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        528,
+        505,
+        542
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        546,
+        505,
+        579
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        7,
+        584,
+        505,
+        598
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 19,
+      "line_char_capacity": 807,
+      "char_start": 259,
+      "char_end": 650,
+      "char_len": 391,
+      "full_line": false,
+      "bbox_xyxy": [
+        167,
+        381,
+        408,
+        402
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1__________________________]",
+      "layout_token_pixel": "[BOX1__241/498]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4839,
+      "clipped_span_px": 241,
+      "line_width_effective_px": 498,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 28,
+      "line_char_capacity": 807,
+      "char_start": 705,
+      "char_end": 807,
+      "char_len": 102,
+      "full_line": false,
+      "bbox_xyxy": [
+        442,
+        577,
+        550,
+        600
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___]",
+      "layout_token_pixel": "[BOX2__63/498]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.1265,
+      "clipped_span_px": 63,
+      "line_width_effective_px": 498,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

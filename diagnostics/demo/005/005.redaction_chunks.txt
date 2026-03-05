@@ -1,0 +1,42 @@
+Example ID: 5
+Stem: 5
+Redacted OCR file: outputs/examples_ocr2/5_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/5_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=54..54, len=1)
+Predicted chunk text: uar's
+Unredacted context: time of the [UNRED_ONLY: uar's] formation last february
+Redacted anchor context: the time of [L@53:the] [RED_GAP:uar s] [R@56:formation] last february barzani
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:uar s]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: Mukhitdinov
+  -> Relaxed best pred text: uar's
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=58..65, len=8)
+Predicted chunk text: he reportedly returned to damascus on 5 october
+Unredacted context: formation last february [UNRED_ONLY: he reportedly returned to damascus on 5 october] barzani who returned
+Redacted anchor context: s formation last [L@58:february] [RED_GAP:<empty>] [R@59:barzani] who returned to
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=134..149, len=16)
+Predicted chunk text: nasir is reported recently to have expressed fear of such sabotage to soviet presidium member mukhcidinov
+Unredacted context: and their followers [UNRED_ONLY: nasir is reported recently to have expressed fear of such sabotage to soviet presidium member mukhcidinov] the syrian communists
+Redacted anchor context: barzani and their [L@126:followers] [RED_GAP:<empty>] [R@127:the] syrian communists are
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

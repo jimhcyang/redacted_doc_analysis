@@ -1,0 +1,66 @@
+Example ID: 59
+Stem: 59
+Redacted OCR file: outputs/examples_ocr2/59_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/59_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+Ground-truth redactions: 3
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=14..18, len=5)
+Predicted chunk text: and president betancourt of venezuela
+Unredacted context: government of cuba [UNRED_ONLY: and president betancourt of venezuela] to overthrow the
+Redacted anchor context: castro government of [L@19:cuba] [RED_GAP:<empty>] [R@20:to] overthrow the trujillo
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=True
+  -> GT text: and President Betancourt of Venezuela
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=5
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=0..0
+  -> GT text: and President Betancourt of Venezuela
+  -> Relaxed best pred text: and president betancourt of venezuela
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=98..98, len=1)
+Predicted chunk text: against
+Unredacted context: defensive military action [UNRED_ONLY: against] cuba will become
+Redacted anchor context: that defensive military [L@98:action] [RED_GAP:agains] [R@100:cuba] will become imperative
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:agains]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=164..203, len=40)
+Predicted chunk text: former costa rican president figueres who backed the abortive july 1 attack on nicaragua led by anti-communists now feels that all is lost to communism in nicaragua as the anti-somoza forces turn to cuba for support and accept communist backing
+Unredacted context: popular democratic movements [UNRED_ONLY: former costa rican president figueres who backed the abortive july 1 attack on nicaragua led by anti-communists now feels that all is lost to communism in nicaragua as the anti-somoza forces turn to cuba for support and accept communist backing] the organization of
+Redacted anchor context: crush popular democratic [L@164:movements] [RED_GAP:<empty>] [R@165:the] organization of american
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=0.95 exact=False
+  -> GT text: Former Costa Rican President Figueres, who backed the abortive early June attack on Nicaragua led by anti-Communists, now feels that "all is lost to Communism" in Nicaragua as the anti-Somoza forces turn to Cuba for support and accept Communist backing.
+  -> Word metrics: recall=0.95 precision=0.95 f1=0.95 matched=38
+Relaxed best GT candidate: GT[1] best_f1=0.95 joined_pred_chunks=2..2
+  -> GT text: Former Costa Rican President Figueres, who backed the abortive early June attack on Nicaragua led by anti-Communists, now feels that "all is lost to Communism" in Nicaragua as the anti-Somoza forces turn to Cuba for support and accept Communist backing.
+  -> Relaxed best pred text: former costa rican president figueres who backed the abortive july 1 attack on nicaragua led by anti-communists now feels that all is lost to communism in nicaragua as the anti-somoza forces turn to cuba for support and accept communist backing
+  -> Relaxed word metrics: recall=0.95 precision=0.95 f1=0.95
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=274..277, len=4)
+Predicted chunk text: the hemisphere's most ruthless
+Unredacted context: 29-year-old trujillo dictatorship [UNRED_ONLY: the hemisphere's most ruthless] has been staggered
+Redacted anchor context: republic's 29-year-old trujillo [L@234:dictatorship] [RED_GAP:<empty>] [R@235:has] been staggered by
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[2] score_f1=1.0 exact=False
+  -> GT text: --the hemisphere's most ruthless--
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=4
+Relaxed best GT candidate: GT[2] best_f1=1.0 joined_pred_chunks=3..3
+  -> GT text: --the hemisphere's most ruthless--
+  -> Relaxed best pred text: the hemisphere's most ruthless
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

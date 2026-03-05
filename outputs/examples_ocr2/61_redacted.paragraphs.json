@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      35,
+      13,
+      553,
+      29
+    ],
+    "text": "Afghanistan and the USSR on 18 July announced a new agreement under which Soviet technicians are to assist in the construction of three motor-road bridges in the eastern province of Nignarhar, near the Pakistani frontier. This activity would place Soviet personnel in the region opposite the Pakistani states of Chitral and Dir, which are subject to only limited and indirect control by Karachi, and near the sensitive Mohmand tribal area which lies astride the Afghan-Pakistani border.",
+    "expanded_crop_box_xyxy": [
+      0,
+      5,
+      581,
+      37
+    ],
+    "crop_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 10,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      35,
+      48,
+      553,
+      187
+    ],
+    "text": "\nThe projected bridges apparently are part of an Afghan Government program for road development in this region. This program is probably partly intended to facilitate the development of mineral and forest resources in the province. The restive local tribes have opposed this construction because such road development facilitates the extension of central government control in their territory. An Afghan district official was murdered in this area last December by Mohmands, one of the Pushtu tribes, and Kabul sent troops which suppressed the agitation and arrested a number of Mohmand leaders. **Afghan Prime Minister Daud**\n\nHe may intend the new agreement as a show of confidence in his ability to control the local tribes.",
+    "expanded_crop_box_xyxy": [
+      0,
+      34,
+      581,
+      201
+    ],
+    "crop_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Afghanistan and the USSR on 18 July announced a new agreement under which Soviet technicians are to assist in the construction of three motor-road bridges in the eastern province of Ningraharr, near the Pakistani frontier. This activity would place Soviet personnel in the region opposite the Pakistani states of Chitral and Dir, which are subject to only limited and indirect control by Karachi, and near the sensitive Mohmand tribal area which lies astride the Afghan-Pakistani border.",
+    "ocr_text_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 12,
+    "line_end_1based": 24,
+    "line_count": 13,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      35,
+      213,
+      553,
+      448
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      189,
+      581,
+      472
+    ],
+    "crop_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The projecte",
+    "ocr_text_path": "outputs/examples_ocr2/61_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

@@ -1,0 +1,778 @@
+{
+  "image": "inputs/images/2_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    31,
+    9,
+    428,
+    325
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 66277,
+  "merged_region_nonzero_px": 66277,
+  "line_width_px": 397,
+  "line_count": 21,
+  "paragraph_crops_dir": "outputs/examples_ocr2/2_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/2_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/2_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        31,
+        12,
+        428,
+        28
+      ],
+      "text": "Do not remove the line breaks.",
+      "expanded_crop_box_xyxy": [
+        0,
+        4,
+        448,
+        36
+      ],
+      "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The correct answer is ' Iraq's power structure.",
+      "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 9,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        31,
+        44,
+        428,
+        142
+      ],
+      "text": "\n---\n\n### Iraqi Struggle for Power Breaks Into Open\n\nThe removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Airif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+      "expanded_crop_box_xyxy": [
+        0,
+        34,
+        448,
+        152
+      ],
+      "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Arif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+      "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 11,
+      "line_end_1based": 13,
+      "line_count": 3,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        31,
+        148,
+        428,
+        189
+      ],
+      "text": "Arif was planning a coup against Prime Minister Qasim, who may have learned of Arif's plans and moved first.\n\nNasir has indicated his support of Arif and will probably be alarmed that he is apparently losing ground. He may contend that the removal of Arif, whom he claims to be the only Iraqi capable of combating Communist influence, is a victory for the pro-Soviet and anti-UAR faction. This claim could serve Nasir as an excuse for active interference in Iraqi affairs.",
+      "expanded_crop_box_xyxy": [
+        0,
+        140,
+        448,
+        197
+      ],
+      "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Prime Minister Qasim, who may have learned of Arif's plans and moved first.",
+      "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 15,
+      "line_end_1based": 21,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        31,
+        208,
+        428,
+        306
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        198,
+        448,
+        316
+      ],
+      "crop_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The text in the image is a quote from Nasir.",
+      "ocr_text_path": "outputs/examples_ocr2/2_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 10.8095,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 11,
+  "row_scan_line_band_count": 18,
+  "row_scan_gap_band_count": 17,
+  "row_scan_linebreak_band_count": 15,
+  "row_scan_blankline_band_count": 2,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        31,
+        29,
+        428,
+        43
+      ],
+      "kind": "blankline",
+      "height_px": 15,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 1.4136,
+      "height_to_avg_full_line_ratio": 0.9776,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 15,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        31,
+        54,
+        428,
+        57
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.377,
+      "height_to_avg_full_line_ratio": 0.2607,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        68,
+        428,
+        72
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        84,
+        428,
+        87
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.377,
+      "height_to_avg_full_line_ratio": 0.2607,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        98,
+        428,
+        102
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        113,
+        428,
+        117
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        128,
+        428,
+        132
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        143,
+        428,
+        147
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 5,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        31,
+        157,
+        428,
+        162
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.5654,
+      "height_to_avg_full_line_ratio": 0.391,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        173,
+        428,
+        177
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        190,
+        428,
+        207
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 1.6963,
+      "height_to_avg_full_line_ratio": 1.1731,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 16,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        31,
+        217,
+        428,
+        222
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.5654,
+      "height_to_avg_full_line_ratio": 0.391,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        232,
+        428,
+        237
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.5654,
+      "height_to_avg_full_line_ratio": 0.391,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        249,
+        428,
+        251
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.2827,
+      "height_to_avg_full_line_ratio": 0.1955,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        262,
+        428,
+        265
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.377,
+      "height_to_avg_full_line_ratio": 0.2607,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        277,
+        428,
+        281
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.4712,
+      "height_to_avg_full_line_ratio": 0.3259,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        31,
+        292,
+        428,
+        294
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 10.6111,
+      "avg_linebreak_height_px": 4.7333,
+      "avg_full_line_height_px": 15.3444,
+      "height_to_avg_line_ratio": 0.2827,
+      "height_to_avg_full_line_ratio": 0.1955,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 18,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Do not remove the line breaks.",
+      "char_len": 30,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        12,
+        428,
+        28
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        31,
+        29,
+        428,
+        43
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        44,
+        428,
+        53
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "---",
+      "char_len": 3,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        58,
+        428,
+        67
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        73,
+        428,
+        83
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "### Iraqi Struggle for Power Breaks Into Open",
+      "char_len": 45,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        88,
+        428,
+        97
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        103,
+        428,
+        112
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "The removal of pro-Nasir Vice Premier Arif from his post as deputy commander of the Iraqi armed forces appears to be the first overt move in the power struggle between pro-Airif and pro-Qasim factions in the ruling clique. Arif, who still retains his posts as deputy premier and minister of interior, presumably has been effectively cut off from the direct chain of command in the army.",
+      "char_len": 386,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        118,
+        428,
+        127
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        133,
+        428,
+        142
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "PB10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        31,
+        143,
+        428,
+        147
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "Arif was planning a coup against Prime Minister Qasim, who may have learned of Arif's plans and moved first.",
+      "char_len": 108,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        148,
+        428,
+        156
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        163,
+        428,
+        172
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "Nasir has indicated his support of Arif and will probably be alarmed that he is apparently losing ground. He may contend that the removal of Arif, whom he claims to be the only Iraqi capable of combating Communist influence, is a victory for the pro-Soviet and anti-UAR faction. This claim could serve Nasir as an excuse for active interference in Iraqi affairs.",
+      "char_len": 362,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        178,
+        428,
+        189
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "PB14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        31,
+        192,
+        428,
+        207
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        208,
+        428,
+        216
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        223,
+        428,
+        231
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        238,
+        428,
+        248
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        252,
+        428,
+        261
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        266,
+        428,
+        276
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        282,
+        428,
+        291
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        31,
+        295,
+        428,
+        306
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 31,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

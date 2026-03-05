@@ -1,0 +1,140 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      38,
+      6,
+      581,
+      24
+    ],
+    "text": "PATCHES: torch.Size([6, 144, 1280])",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      614,
+      32
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 13,
+    "line_count": 11,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      38,
+      41,
+      581,
+      236
+    ],
+    "text": "\n\nPanama Asks for US Help to Combat Invasion\n\nThe Panamanian Government has requested US assistance against an armed invasion in a remote jungle area east of the northern entrance to the canal. The invasion appears to be part of plans of Roberto Arias, former ambassador to Britain, and Ruban Miro, implicated in the unsolved assassination of former President Remon, to oust President de la Guardia. They are believed to have recruited armed mercenaries in Cuba, although the Cuban Government assured De la Guardia it would not permit an expedition against him from its territory. Two of the invaders caught by the Panamanian National Guard were Cubans.\n\nParticipants in other recent abortive revolts in Panama appear to have been in contact with Arias, who is accused of landing arms near Panama City on 20 April. He has taken asylum in the Brazilian Embassy in Panama City and may be given safe conduct out of the country. Miro was reported still to be trying to raise money and support in Cuba and the United States on 25 April. The revolutionary activities of their supporters may encourage some of De la Guardia's numerous other opponents, most of whom possess arms, to revolt. Political tension is already high over the imminent choice of 1960 presidential candidates, and rival cliques within the oligarchy have in the past manipulated dissident groups to help them gain the presidency.\n\nThe guard, Panama's only armed force, has been De la Guardia's chief support against several previous attempts to oust him.\n\nThe newly appointed minister of the interior can be expected to use the guard as effectively as possible, but it is primarily a poorly armed and trained urban police force which would be ineffective in jungle fighting.",
+    "expanded_crop_box_xyxy": [
+      0,
+      21,
+      614,
+      256
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The Panamanian Government has requested US assistance against an armed invasion in a remote jungle area east of the northern entrance to the canal. The invasion appears to be part of plans of Roberto Arias, former ambassador to Britain, and Ruban Miro, implicated in the unsolved assassination of former President Remon, to oust President de la Guardia. They are believed to have recruited armed mercenaries in Cuba, although the Cuban Government assured De la Guardia it would not permit an expedition against him from its territory. Two of the invaders caught by the Panamanian National Guard were Cubans.",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 15,
+    "line_end_1based": 24,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      38,
+      256,
+      581,
+      470
+    ],
+    "text": "\nPanama's ambassador in Washington has been instructed to be prepared to submit the matter to the Organization of American States.\n\nApproved For Release 2002/10/21 - CIA RDP 79-00975A004400380001-1",
+    "expanded_crop_box_xyxy": [
+      0,
+      234,
+      614,
+      492
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Participants in other recent abortive revolts in Panama appear to have been in contact with Arias, who is accused of landing arms near Panama City on 20 April. He has taken asylum in the Brazilian Embassy in Panama City and may be given safe conduct out of the country. Miro was reported still to be trying to raise money and support in Cuba and the United States on 25 April. The revolutionary activities of their supporters may encourage some of De la Guardia's numerous other opponents, most of whom possess arms, to revolt. Political tension is already high over the imminent choice of 1960 presidential candidates, and rival cliques within the oligarchy have in the past manipulated dissident groups to help them gain the presidency.",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 26,
+    "line_end_1based": 27,
+    "line_count": 2,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      38,
+      486,
+      581,
+      530
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      478,
+      614,
+      538
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The guard, Panama's only armed force, has been De la Guardia's chief support against several previous attempts to oust him.",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 29,
+    "line_end_1based": 32,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      38,
+      538,
+      581,
+      636
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      528,
+      614,
+      646
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "The newly appointed minister of the interior can be expected to use the guard as effectively as possible, but it is primarily a poorly armed and trained urban police force which would be ineffective in jungle fighting.",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_005.ocr.txt"
+  },
+  {
+    "paragraph_1based": 6,
+    "line_start_1based": 34,
+    "line_end_1based": 41,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      38,
+      652,
+      581,
+      802
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      637,
+      614,
+      804
+    ],
+    "crop_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_006.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/46_redacted.paragraph_crops/paragraph_006.ocr.txt"
+  }
+]

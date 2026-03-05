@@ -1,0 +1,982 @@
+{
+  "image": "inputs/images/32_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    43,
+    5,
+    539,
+    517
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 128525,
+  "merged_region_nonzero_px": 128525,
+  "line_width_px": 496,
+  "line_count": 27,
+  "paragraph_crops_dir": "outputs/examples_ocr2/32_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/32_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/32_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        43,
+        10,
+        539,
+        28
+      ],
+      "text": "USSR - East Germany",
+      "expanded_crop_box_xyxy": [
+        0,
+        2,
+        589,
+        36
+      ],
+      "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 9,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        43,
+        45,
+        539,
+        163
+      ],
+      "text": "\nKhrushchev, during his visit to Berlin and Leipzig this week, will probably seek to use discussion on a separate peace treaty with East Germany to increase pressure for East-West summit talks on a peace treaty with both German states. The Soviet press attached in East Berlin, an official who is sometimes used to plant information, has stated that a separate treaty would be negotiated but not signed during Khrushchev's visit.\n\nThe East German news agency has reported that Ambassador Pervukhin on 1 March discussed the question of a peace treaty and the Berlin problem with Ulbricht and Grotewohl. The Kremlin has warned repeatedly since early February that it would conclude a separate treaty with the East German regime if no agreement were reached with the West on a treaty with the two Germans. First Deputy Premier Mikoyan declared on 26 February that \"if the Western powers will not conclude a peace treaty with Germany, which would also solve the question of West Berlin as a free city,\" the Soviet Union and other countries \"will be compelled to sign a peace treaty\" with East Germany.\n\nWhile in Germany, Khrushchev will probably also discuss the transfer of Soviet quadripartite responsibilities in Berlin to the East Germans, particularly control over Allied military access to West Berlin.",
+      "expanded_crop_box_xyxy": [
+        0,
+        33,
+        589,
+        175
+      ],
+      "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Khrushchev, during his visit to Berlin and Leipzig this week, will probably seek to use discussion on a separate peace treaty with East Germany to increase pressure for East-West summit talks on a peace treaty with both German states. The Soviet press attaché in East Berlin, an official who is sometimes used to plant information, has stated that a separate treaty would be negotiated but not signed during Khrushchev's visit.",
+      "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 11,
+      "line_end_1based": 22,
+      "line_count": 12,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        43,
+        187,
+        539,
+        395
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        166,
+        589,
+        416
+      ],
+      "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "The East German news agency has reported that Ambassador Pervukhin on 1 March discussed the question of a peace treaty and the Berlin problem with Ulbricht and Grotewohl. The Kremlin has warned repeatedly since early February that it would conclude a separate treaty with the East German regime if no agreement were reached with the West on a treaty with the two Germans. First Deputy Premier Mikoyan declared on 26 February that \"if the Western powers will not conclude a peace treaty with Germany, which would also solve the question of West Berlin as a free city,\" the Soviet Union and other countries \"will be compelled to sign a peace treaty\" with East Germany.",
+      "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 24,
+      "line_end_1based": 27,
+      "line_count": 4,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        43,
+        418,
+        539,
+        483
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        410,
+        589,
+        491
+      ],
+      "crop_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "While in Germany, Khrushchev will probably also discuss the transfer of Soviet quadripartite responsibilities in Berlin to the East Germans, particularly control over Allied military access to West Berlin.",
+      "ocr_text_path": "outputs/examples_ocr2/32_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.963,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 24,
+  "row_scan_gap_band_count": 23,
+  "row_scan_linebreak_band_count": 20,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        43,
+        29,
+        539,
+        44
+      ],
+      "kind": "blankline",
+      "height_px": 16,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 1.1963,
+      "height_to_avg_full_line_ratio": 0.8901,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 16,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        43,
+        58,
+        539,
+        62
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        76,
+        539,
+        80
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        93,
+        539,
+        97
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        111,
+        539,
+        115
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        129,
+        539,
+        133
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        146,
+        539,
+        150
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        164,
+        539,
+        186
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 1.7196,
+      "height_to_avg_full_line_ratio": 1.2796,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        43,
+        199,
+        539,
+        204
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.4486,
+      "height_to_avg_full_line_ratio": 0.3338,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        217,
+        539,
+        218
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.1495,
+      "height_to_avg_full_line_ratio": 0.1113,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        236,
+        539,
+        239
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.2991,
+      "height_to_avg_full_line_ratio": 0.2225,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        253,
+        539,
+        257
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        271,
+        539,
+        275
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        290,
+        539,
+        292
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.2243,
+      "height_to_avg_full_line_ratio": 0.1669,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        306,
+        539,
+        310
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        325,
+        539,
+        328
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.2991,
+      "height_to_avg_full_line_ratio": 0.2225,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        342,
+        539,
+        346
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.3738,
+      "height_to_avg_full_line_ratio": 0.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        363,
+        539,
+        364
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.1495,
+      "height_to_avg_full_line_ratio": 0.1113,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        377,
+        539,
+        384
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.5981,
+      "height_to_avg_full_line_ratio": 0.4451,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        396,
+        539,
+        417
+      ],
+      "kind": "blankline",
+      "height_px": 22,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 1.6449,
+      "height_to_avg_full_line_ratio": 1.2239,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 20,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        43,
+        430,
+        539,
+        431
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.1495,
+      "height_to_avg_full_line_ratio": 0.1113,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        449,
+        539,
+        451
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.2243,
+      "height_to_avg_full_line_ratio": 0.1669,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        43,
+        466,
+        539,
+        473
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 13.375,
+      "avg_linebreak_height_px": 4.6,
+      "avg_full_line_height_px": 17.975,
+      "height_to_avg_line_ratio": 0.5981,
+      "height_to_avg_full_line_ratio": 0.4451,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 24,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "USSR - East Germany",
+      "char_len": 19,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        10,
+        539,
+        28
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        43,
+        29,
+        539,
+        44
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        45,
+        539,
+        57
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Khrushchev, during his visit to Berlin and Leipzig this week, will probably seek to use discussion on a separate peace treaty with East Germany to increase pressure for East-West summit talks on a peace treaty with both German states. The Soviet press attached in East Berlin, an official who is sometimes used to plant information, has stated that a separate treaty would be negotiated but not signed during Khrushchev's visit.",
+      "char_len": 428,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        63,
+        539,
+        75
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        81,
+        539,
+        92
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "The East German news agency has reported that Ambassador Pervukhin on 1 March discussed the question of a peace treaty and the Berlin problem with Ulbricht and Grotewohl. The Kremlin has warned repeatedly since early February that it would conclude a separate treaty with the East German regime if no agreement were reached with the West on a treaty with the two Germans. First Deputy Premier Mikoyan declared on 26 February that \"if the Western powers will not conclude a peace treaty with Germany, which would also solve the question of West Berlin as a free city,\" the Soviet Union and other countries \"will be compelled to sign a peace treaty\" with East Germany.",
+      "char_len": 666,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        98,
+        539,
+        110
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        116,
+        539,
+        128
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "While in Germany, Khrushchev will probably also discuss the transfer of Soviet quadripartite responsibilities in Berlin to the East Germans, particularly control over Allied military access to West Berlin.",
+      "char_len": 205,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        134,
+        539,
+        145
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        151,
+        539,
+        163
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "PB10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        43,
+        167,
+        539,
+        186
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        187,
+        539,
+        198
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        205,
+        539,
+        216
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        219,
+        539,
+        235
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        240,
+        539,
+        252
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        258,
+        539,
+        270
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        276,
+        539,
+        289
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        293,
+        539,
+        305
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        311,
+        539,
+        324
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        329,
+        539,
+        341
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        347,
+        539,
+        362
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        365,
+        539,
+        376
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        385,
+        539,
+        395
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "PB23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        43,
+        398,
+        539,
+        417
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        418,
+        539,
+        429
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        432,
+        539,
+        448
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        452,
+        539,
+        465
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        43,
+        474,
+        539,
+        483
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

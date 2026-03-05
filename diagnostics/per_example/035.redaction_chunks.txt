@@ -1,0 +1,27 @@
+Example ID: 35
+Stem: 35
+Redacted OCR file: outputs/examples_ocr2/35_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/35_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=164..166, len=3)
+Predicted chunk text: additional reports say
+Unredacted context: flee to damascus [UNRED_ONLY: additional reports say] the arrests have
+Redacted anchor context: to flee to [L@170:damascus] [RED_GAP:<empty>] [R@171:the] arrests have been
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=0.428571 exact=False
+  -> GT text: Additional reports say the arrests have been extended to the army.]
+  -> Word metrics: recall=1.0 precision=0.272727 f1=0.428571 matched=3
+Relaxed best GT candidate: GT[1] best_f1=0.428571 joined_pred_chunks=0..0
+  -> GT text: Additional reports say the arrests have been extended to the army.]
+  -> Relaxed best pred text: additional reports say
+  -> Relaxed word metrics: recall=0.272727 precision=1.0 f1=0.428571

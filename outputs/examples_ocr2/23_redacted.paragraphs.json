@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      22,
+      4,
+      527,
+      42
+    ],
+    "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      552,
+      50
+    ],
+    "crop_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+    "ocr_text_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 12,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      22,
+      59,
+      527,
+      218
+    ],
+    "text": "A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.\n\nThe only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+    "expanded_crop_box_xyxy": [
+      0,
+      43,
+      552,
+      229
+    ],
+    "crop_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+    "ocr_text_path": "outputs/examples_ocr2/23_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

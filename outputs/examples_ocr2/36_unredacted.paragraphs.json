@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 38,
+    "line_count": 38,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      20,
+      11,
+      532,
+      714
+    ],
+    "text": "Overt French Military and Rightist Opposition to De Gaulle\nOn Algeria Likely\n\n\n[There are indications that some die-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first 'political speech' in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes many\" and referred pointedly to the integration of Algeria with France as one of its objectives. Air Force Chief of Staff General Jouhouad, who was born in Algeria and played a leading role in the revolt, is reported to have made more visits to Algeria recently than his position warrants. There have been numerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"]\n\n[French military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as 'abandonment,' are probably being spurred toward early action by leaks of De Gaulle's previously reported intention to hold a referendum in France on the question of continuing the war. There is increasing evidence that a majority of the public wants an end to the war and would probably support a 'liberal' solution if De Gaulle proposed one. Rumors of secret French-rebel contacts also have upset these military and rightist circles]\n\n[Extremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle, and are regrouping as a result of the government's clemency measures toward Algerian rebels and of the announcement that the municipal elections in April will be conducted under a new law favoring Moslem candidates. Although De Gaulle's steps to split the military-settler front of 1958 had appeared successful, the settlers are continuing their efforts to regain military support and are likely to stage a major demonstration in Algiers on 22 March when Jouhouad decorates air force reservists there]",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      583,
+      755
+    ],
+    "crop_path": "outputs/examples_ocr2/36_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "French Military and Rightist Opposition to De Gaulle\nOn Algeria Likely\nThere are indications that some die-hard elements in the\nFrench armed forces may join rightist civilian groups in openly\nopposing De Gaulle's Algerian policy. Army General Massu on\n1 March, in his first \"political speech\" in recent months, described the May 1958 revolt by French military leaders in Algeria as \"an event of profound significance which still escapes\nmany\" and referred pointedly to the integration of Algeria with\nFrance as one of its objectives. Air Force Chief of Staff General Jouhad, who was born in Algeria and played a leading\nrole in the revolt, is reported to have made more visits to Algeria recently than his position warrants. There have been\nnumerous army complaints recently that efforts to win the support of the mass of the Moslem population are severely handicapped by De Gaulle's continued refusal to espouse \"integration.\"\nFrench military and rightist groups, who regard any proposed settlement of the Algerian problem short of complete victory as \"abandonment,\" are probably being spurred toward early\naction by leaks of De Gaulle's previously reported intention to\nhold a referendum in France on the question of continuing the\nwar. There is increasing evidence that a majority of the public\nwants an end to the war and would probably support a \"liberal\"\nsolution if De Gaulle proposed one. Rumors of secret Frenchrebel contacts also have upset these military and rightist circles.\nExtremist European settlers in Algeria, particularly veterans' organizations, have become openly hostile to De Gaulle,\nand are regrouping as a result of the government's clemency\nmeasures toward Algerian rebels and of the announcement that\nthe municipal elections in April will be conducted under a new\nlaw favoring Moslem candidates. Although De Gaulle's steps to\nsplit the military-settler front of 1958 had appeared successful,\nthe settlers are continuing their efforts to regain military support\nand are likely to stage a major demonstration in Algiers on 22\nMarch when Jouhad decorates air force reservists there.",
+    "ocr_text_path": "outputs/examples_ocr2/36_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

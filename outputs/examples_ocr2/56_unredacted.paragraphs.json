@@ -1,0 +1,163 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 2,
+    "line_count": 2,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      29,
+      0,
+      555,
+      34
+    ],
+    "text": "Cuban Air Force Purge Coincides With Rising Opposition To Regime",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      600,
+      42
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The correct answer is ' The Purge cooperates with the government.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 4,
+    "line_end_1based": 7,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      55,
+      555,
+      119
+    ],
+    "text": "Major Raul Castro, brother of the prime minister and chief of the Cuban armed forces, was responsible for the drastic air force purge which resulted in the dismissal of most of the force's rated pilots.\n\nThe purge, which became public knowledge on 18 June, also resulted in the replacement of Major Pedro Diaz Lanz as air force chief.",
+    "expanded_crop_box_xyxy": [
+      0,
+      47,
+      600,
+      127
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Major Raul Castro, brother of the prime minister and chief of the Cuban armed forces, was responsible for the drastic air force purge which resulted in the dismissal of most of the force's rated pilots.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 9,
+    "line_end_1based": 11,
+    "line_count": 3,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      128,
+      555,
+      174
+    ],
+    "text": "Diaz Lanz, who was prominent among those officers seriously preoccupied with Communist penetration of the armed forces, is believed to have been particularly worried about the Communist influence in the recently established schools that have been giving six-week courses in political indoctrination to many Cuban military personnel. Diaz Lanz' half brother approached the US Embassy on 1 June for an opinion as to whether anti-Communist Cuban officers should go into exile or remain to resist Raul Castro's policies favoring the Communists.\n\nThe air force purge follows an important shake-up in army commands and reports of the discharge of army officers in several parts of the country. These moves reflect the regime's efforts to remove potential dissidents from the military.",
+    "expanded_crop_box_xyxy": [
+      0,
+      120,
+      600,
+      182
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The purge, which became public knowledge on 18 June, also resulted in the replacement of Major Pedro Diaz Lanz as air force chief.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 13,
+    "line_end_1based": 21,
+    "line_count": 9,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      200,
+      555,
+      355
+    ],
+    "text": "\nRising opposition to the regime among other groups led during the week to the first significant wave of antigovernment terrorism since the fall of Batista last January and to increasing evidence of government fear of an imminent counterrevolutionary effort.\n\nThe American army attaché in Cuba believes Raul Castro's frequent trips to eastern Cuba during the week may be related to fear of an attack from the Dominican Republic in retaliation for probable Cuban support of the 14 June rebel landings in that country. A knowledgeable Cuban exile in the Dominican Republic told an American Embassy officer in that country on 18 June that an armed Cuban exile force there was nearly ready to attack Cuba, but that he believes the attempt will probably fail.",
+    "expanded_crop_box_xyxy": [
+      0,
+      184,
+      600,
+      371
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Diaz Lanz, who was prominent among those officers seriously preoccupied with Communist penetration of the armed forces, is believed to have been particularly worried about the Communist influence in the recently established schools that have been giving six-week courses in political indoctrination to many Cuban military personnel. Diaz Lanz' half brother approached the US Embassy on 1 June for an opinion as to whether anti-Communist Cuban officers should go into exile or remain to resist Raul Castro's policies favoring the Communists.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 23,
+    "line_end_1based": 26,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      382,
+      555,
+      446
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      374,
+      600,
+      454
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "The air force purge follows an important shake-up in army commands and reports of the discharge of army officers in several parts of the country. These moves reflect the regime's efforts to remove potential dissidents from the military.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_005.ocr.txt"
+  },
+  {
+    "paragraph_1based": 6,
+    "line_start_1based": 28,
+    "line_end_1based": 32,
+    "line_count": 5,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      473,
+      555,
+      555
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      465,
+      600,
+      563
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_006.png",
+    "ocr_text": "Rising opposition to the regime among other groups led during the week to the first significant wave of antigovernment terrorism since the fall of Batista last January and to increasing evidence of government fear of an imminent counterrevolutionary effort.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_006.ocr.txt"
+  },
+  {
+    "paragraph_1based": 7,
+    "line_start_1based": 34,
+    "line_end_1based": 41,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      29,
+      581,
+      555,
+      718
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      567,
+      600,
+      732
+    ],
+    "crop_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_007.png",
+    "ocr_text": "The American army attaché in Cuba believes Raul Castro's frequent trips to eastern Cuba during the week may be related to fear of an attack from the Dominican Republic in retaliation for probable Cuban support of the 14 June rebel landings in that country. A knowledgeable Cuban exile in the Dominican Republic told an American Embassy officer in that country on 18 June that an armed Cuban exile force there was nearly ready to attack Cuba, but that he believes the attempt will probably fail.",
+    "ocr_text_path": "outputs/examples_ocr2/56_unredacted.paragraph_crops/paragraph_007.ocr.txt"
+  }
+]

@@ -1,0 +1,989 @@
+{
+  "image": "inputs/images/28_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    36,
+    0,
+    548,
+    534
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 149470,
+  "merged_region_nonzero_px": 149470,
+  "line_width_px": 512,
+  "line_count": 28,
+  "paragraph_crops_dir": "outputs/examples_ocr2/28_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/28_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/28_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 28,
+      "line_count": 28,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        36,
+        0,
+        548,
+        521
+      ],
+      "text": "Position of Guatemalan President Weakening\n\n\nThe Guatemalan political situation continues to deteriorate. The extreme venality among President Ydígoras' closest advisers, including members of his family, is receiving increasing public attention. This, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up. Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March.\n\nYdígoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"crack down in a dictatorial manner.\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.\n\nWhile there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Ydígoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        594,
+        534
+      ],
+      "crop_path": "outputs/examples_ocr2/28_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text in the image is a screenshot of a document. The document is titled \"Position of Guatemalan President Weakening\". The text is written in black and is in a Times New Roman font. The text is organized into paragraphs, with the first paragraph being the largest and the last paragraph being the smallest. The text is written in a formal style, and the tone is serious.",
+      "ocr_text_path": "outputs/examples_ocr2/28_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 12.8929,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 27,
+  "row_scan_gap_band_count": 26,
+  "row_scan_linebreak_band_count": 25,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        36,
+        18,
+        548,
+        29
+      ],
+      "kind": "blankline",
+      "height_px": 12,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.9284,
+      "height_to_avg_full_line_ratio": 0.6196,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 12,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        34,
+        548,
+        38
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3868,
+      "height_to_avg_full_line_ratio": 0.2582,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        50,
+        548,
+        56
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        68,
+        548,
+        74
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        86,
+        548,
+        92
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        104,
+        548,
+        111
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.6189,
+      "height_to_avg_full_line_ratio": 0.4131,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        123,
+        548,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        141,
+        548,
+        147
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        159,
+        548,
+        165
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        178,
+        548,
+        184
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        198,
+        548,
+        202
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3868,
+      "height_to_avg_full_line_ratio": 0.2582,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        214,
+        548,
+        218
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3868,
+      "height_to_avg_full_line_ratio": 0.2582,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        253,
+        548,
+        256
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3095,
+      "height_to_avg_full_line_ratio": 0.2065,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        268,
+        548,
+        274
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        286,
+        548,
+        292
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        304,
+        548,
+        311
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.6189,
+      "height_to_avg_full_line_ratio": 0.4131,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        323,
+        548,
+        327
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3868,
+      "height_to_avg_full_line_ratio": 0.2582,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        362,
+        548,
+        365
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3095,
+      "height_to_avg_full_line_ratio": 0.2065,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        377,
+        548,
+        383
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        395,
+        548,
+        401
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        413,
+        548,
+        420
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.6189,
+      "height_to_avg_full_line_ratio": 0.4131,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        432,
+        548,
+        438
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        450,
+        548,
+        456
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        468,
+        548,
+        474
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        486,
+        548,
+        492
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.5415,
+      "height_to_avg_full_line_ratio": 0.3615,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        36,
+        505,
+        548,
+        508
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.9259,
+      "avg_linebreak_height_px": 6.44,
+      "avg_full_line_height_px": 19.3659,
+      "height_to_avg_line_ratio": 0.3095,
+      "height_to_avg_full_line_ratio": 0.2065,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 27,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Position of Guatemalan President Weakening",
+      "char_len": 42,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        0,
+        548,
+        17
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "BL2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        36,
+        18,
+        548,
+        29
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        30,
+        548,
+        33
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "The Guatemalan political situation continues to deteriorate. The extreme venality among President Ydígoras' closest advisers, including members of his family, is receiving increasing public attention. This, combined with the President's recent political blunders and a worsening economic situation due in part to a decline in income from coffee exports, has so weakened his position that his government may fall unless he acts quickly to clean it up. Plotting to oust him is increasing among several groups ranging from the extreme right to the moderate left and now appears more widespread than at any time since he assumed office last March.",
+      "char_len": 643,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        39,
+        548,
+        49
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        57,
+        548,
+        67
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "Ydígoras apparently realizes his danger and told the US ambassador on 18 February that he may have to \"crack down in a dictatorial manner.\" He also indicated that he intends to reshuffle his cabinet, dropping some of the members most identified by the public with graft.",
+      "char_len": 270,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        75,
+        548,
+        85
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        93,
+        548,
+        103
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "While there appears to be no immediate danger of a coup, since various opposition leaders are believed to be working at cross-purposes and the army remains loyal to the President, continuation of the present trend could within a relatively short time lead to his ouster. Key army officers, the ultimate locus of political power, have proven responsive to public pressure in the past, and their support of Ydígoras would probably be withdrawn if they became convinced that the President had lost his political and public backing.",
+      "char_len": 528,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        112,
+        548,
+        122
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        130,
+        548,
+        140
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        148,
+        548,
+        158
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        166,
+        548,
+        177
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        185,
+        548,
+        197
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        203,
+        548,
+        213
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        219,
+        548,
+        252
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        257,
+        548,
+        267
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        275,
+        548,
+        285
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        293,
+        548,
+        303
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        312,
+        548,
+        322
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        328,
+        548,
+        361
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        366,
+        548,
+        376
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        384,
+        548,
+        394
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        402,
+        548,
+        412
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "L23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        421,
+        548,
+        431
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        439,
+        548,
+        449
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        457,
+        548,
+        467
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        475,
+        548,
+        485
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        493,
+        548,
+        504
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        36,
+        509,
+        548,
+        521
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

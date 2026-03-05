@@ -1,0 +1,94 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      30,
+      8,
+      554,
+      24
+    ],
+    "text": "**Soviet Views of Macmillan's Visit to Moscow**",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      582,
+      32
+    ],
+    "crop_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "Soviet Views of Macmillan's Visit to Moscow",
+    "ocr_text_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 12,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      44,
+      554,
+      220
+    ],
+    "text": "\nThe Soviet leaders apparently believe that British views on Berlin and Germany and the likelihood of British elections this year can be exploited to weaken Western unity. The first secretary of the Soviet Embassy in Bonn implied that the USSR considers Britain in the \"weakest link\" in the Western front and may drive a \"hard bargain\" during Prime Minister Macmillan's visit. He hinted that the USSR might suggest withdrawing its Berlin demands in exchange for cancellation of plans for West German nuclear rearmament.\n\nMoscow probably feels that Macmillan's desire for a \"peacemaker\" role, together with the pressure of British public opinion for a lessening of East-West tensions, makes him particularly vulnerable on the German issue.\n\nThe Soviet leaders, reminded of the benefits former Prime Minister Eden derived in his 1955 election campaign from having advocated a summit meeting, may seek to obtain at least a tacit endorsement from Macmillan of the desirability of another heads-of-government conference and favorable reference to European security measures such as a nonaggression pact or a reduction of foreign forces in Germany. Soviet propaganda is stressing the British people's concern over trends in West Germany and their desire for a policy \"independent of that imposed by the Adenauer-Dulles partnership.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      26,
+      582,
+      238
+    ],
+    "crop_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The Soviet leaders apparently believe that British views on Berlin and Germany and the likelihood of British elections this year can be exploited to weaken Western unity. The first secretary of the Soviet Embassy in Bonn implied that the USSR considers Britain the \"weakest link\" in the Western front and may drive a \"hard bargain\" during Prime Minister Macmillan's visit. He hinted that the USSR might suggest withdrawing its Berlin demands in exchange for cancellation of plans for West German nuclear rearmament.",
+    "ocr_text_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 14,
+    "line_end_1based": 20,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      245,
+      554,
+      371
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      232,
+      582,
+      384
+    ],
+    "crop_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Moscow probably feels that Macmillan's desire for a \"peace-maker\" role, together with the pressure of British public opinion for a lessening of East-West tensions, makes him particularly vulnerable on the German issue.",
+    "ocr_text_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 22,
+    "line_end_1based": 31,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      30,
+      391,
+      554,
+      566
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      373,
+      582,
+      572
+    ],
+    "crop_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "The Soviet leaders, reminded of the benefits former Prime Minister Eden derived in his 1955 election campaign from having advocated a summit meeting, may seek to obtain at least a tacit endorsement from Macmillan of the desirability of another heads-of-government conference and favorable reference to European security measures such as a nonaggression pact or a reduction of foreign forces in Germany. Soviet propaganda is stressing the British people's concern over trends in West Germany and their desire for a policy \"independent of that imposed by the Adenauer-Dulles partnership.\"",
+    "ocr_text_path": "outputs/examples_ocr2/26_redacted.paragraph_crops/paragraph_004.ocr.txt"
+  }
+]

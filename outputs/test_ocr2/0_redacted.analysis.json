@@ -1,0 +1,489 @@
+{
+  "image": "example_batch/0_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      48,
+      4,
+      378,
+      33
+    ],
+    [
+      446,
+      43,
+      542,
+      62
+    ],
+    [
+      11,
+      62,
+      190,
+      104
+    ],
+    [
+      190,
+      62,
+      542,
+      85
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    11,
+    3,
+    518,
+    176
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 40904,
+  "merged_region_nonzero_px": 38852,
+  "line_width_px": 507,
+  "line_count": 9,
+  "paragraph_crops_dir": "outputs/test_ocr2/0_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/test_ocr2/0_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/test_ocr2/0_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 9,
+      "line_count": 9,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        11,
+        11,
+        518,
+        172
+      ],
+      "text": "Katay D. Sasorith\nis the most powerful individual in the cabinet.\nHe is vice pre-\n\nmier and holds both Defense and Interior portfolios.\n\njudging from his past performance, he\nis unlikely to undertake a vigorous reform of the security\nforces and provincial administration.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        551,
+        183
+      ],
+      "crop_path": "outputs/test_ocr2/0_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text in the image is a quote from Katay D. Sasorith.",
+      "ocr_text_path": "outputs/test_ocr2/0_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.3333,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 11,
+  "row_scan_line_band_count": 8,
+  "row_scan_gap_band_count": 7,
+  "row_scan_linebreak_band_count": 6,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        11,
+        25,
+        518,
+        30
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.4571,
+      "height_to_avg_full_line_ratio": 0.3221,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.6516,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        45,
+        518,
+        50
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.4571,
+      "height_to_avg_full_line_ratio": 0.3221,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1437,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        62,
+        518,
+        85
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 1.8286,
+      "height_to_avg_full_line_ratio": 1.2886,
+      "blankline_line_slots": 1,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 24,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.6476,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        98,
+        518,
+        104
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.5333,
+      "height_to_avg_full_line_ratio": 0.3758,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.3543,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        118,
+        518,
+        122
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.381,
+      "height_to_avg_full_line_ratio": 0.2685,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        136,
+        518,
+        138
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.2286,
+      "height_to_avg_full_line_ratio": 0.1611,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        11,
+        155,
+        518,
+        160
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 13.125,
+      "avg_linebreak_height_px": 5.5,
+      "avg_full_line_height_px": 18.625,
+      "height_to_avg_line_ratio": 0.4571,
+      "height_to_avg_full_line_ratio": 0.3221,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 8,
+    "blankline": 1,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Katay D. Sasorith",
+      "char_len": 17,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        11,
+        518,
+        24
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "is the most powerful individual in the cabinet.",
+      "char_len": 47,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        31,
+        518,
+        44
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "He is vice pre-",
+      "char_len": 15,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        51,
+        518,
+        61
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "BL4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "blankline",
+      "line_box_xyxy": [
+        11,
+        62,
+        518,
+        85
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "mier and holds both Defense and Interior portfolios.",
+      "char_len": 52,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        86,
+        518,
+        97
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        105,
+        518,
+        117
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "judging from his past performance, he",
+      "char_len": 37,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        123,
+        518,
+        135
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "is unlikely to undertake a vigorous reform of the security",
+      "char_len": 58,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        139,
+        518,
+        154
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "forces and provincial administration.",
+      "char_len": 37,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        11,
+        161,
+        518,
+        172
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 1,
+      "line_char_capacity": 17,
+      "char_start": 0,
+      "char_end": 12,
+      "char_len": 12,
+      "full_line": false,
+      "bbox_xyxy": [
+        48,
+        4,
+        378,
+        33
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1________________________________________]",
+      "layout_token_pixel": "[BOX1__323/463]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.6976,
+      "clipped_span_px": 323,
+      "line_width_effective_px": 463,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 3,
+      "line_char_capacity": 15,
+      "char_start": 13,
+      "char_end": 15,
+      "char_len": 2,
+      "full_line": false,
+      "bbox_xyxy": [
+        446,
+        43,
+        542,
+        62
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2____]",
+      "layout_token_pixel": "[BOX2__72/507]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.142,
+      "clipped_span_px": 72,
+      "line_width_effective_px": 507,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 4,
+      "line_char_capacity": 58,
+      "char_start": 0,
+      "char_end": 20,
+      "char_len": 20,
+      "full_line": false,
+      "bbox_xyxy": [
+        11,
+        62,
+        190,
+        104
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3__________________]",
+      "layout_token_pixel": "[BOX3__179/507]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3531,
+      "clipped_span_px": 179,
+      "line_width_effective_px": 507,
+      "touches_left_border": true,
+      "touches_right_border": false
+    },
+    {
+      "id": 4,
+      "line_1based": 4,
+      "line_char_capacity": 58,
+      "char_start": 20,
+      "char_end": 58,
+      "char_len": 38,
+      "full_line": false,
+      "bbox_xyxy": [
+        190,
+        62,
+        542,
+        85
+      ],
+      "placeholder_token": "[REDACTED_4]",
+      "layout_token_underscore": "[BOX4____________________________________]",
+      "layout_token_pixel": "[BOX4__328/507]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.6469,
+      "clipped_span_px": 328,
+      "line_width_effective_px": 507,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 3,
+      "line_1based": 5,
+      "line_char_capacity": 52,
+      "char_start": 0,
+      "char_end": 18,
+      "char_len": 18,
+      "full_line": false,
+      "bbox_xyxy": [
+        11,
+        62,
+        190,
+        104
+      ],
+      "placeholder_token": "[REDACTED_3]",
+      "layout_token_underscore": "[BOX3__________________]",
+      "layout_token_pixel": "[BOX3__179/507]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.3531,
+      "clipped_span_px": 179,
+      "line_width_effective_px": 507,
+      "touches_left_border": true,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

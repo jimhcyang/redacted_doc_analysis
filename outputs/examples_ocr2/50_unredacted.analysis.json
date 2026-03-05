@@ -1,0 +1,1118 @@
+{
+  "image": "inputs/images/50_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    18,
+    13,
+    504,
+    586
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 155292,
+  "merged_region_nonzero_px": 155292,
+  "line_width_px": 486,
+  "line_count": 31,
+  "paragraph_crops_dir": "outputs/examples_ocr2/50_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/50_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/50_unredacted.paragraphs.json",
+  "paragraph_count": 4,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        18,
+        19,
+        504,
+        49
+      ],
+      "text": "Indonesian Prime Minister Makes Thinly Veiled Threat of Army Coup",
+      "expanded_crop_box_xyxy": [
+        0,
+        11,
+        531,
+        57
+      ],
+      "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Indonesian Prime Minister Makes Thingly Veiled Threat of Army Coup",
+      "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 14,
+      "line_count": 11,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        76,
+        504,
+        266
+      ],
+      "text": "Indonesia's Constituent Assembly, meeting in Bandung, was warned by Prime Minister Djuanda on 27 May that failure to readout the 1945 constitution was likely to precipitate an army coup. The 1945 constitution strengthened the executive branch of government at the expense of the legislative, which is in line with Sukarno's concept of \"guided democracy.\" Although the necessary two-thirds majority in the Constituent Assembly is still uncertain, indidations are increasing that the substantial and hitherto uncommitted vote--chiefly composed of the Moslem Nahdlatul Ulama--may support the government. A final vote is expected on 29 or 30 May.\n\nIn addition to Djuanda's statement, army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution. Army Chief of Staff General Nasution held a national military conference during the final stages of debate, presumably to influence the assembly and possibly also to determine the support of regional commanders should extreme measures be required.\n\nThe American Embassy notes that most civilian leaders of the government are absent from Djakarta. President Sukarno, Acting President Sartono, the prime minister, all three deputy prime ministers, and more than half a dozen cabinet ministers, including some of the most important, are away on missions, either within Indonesia or abroad. General Nasution and the principal army leaders, however, are on hand.",
+      "expanded_crop_box_xyxy": [
+        0,
+        57,
+        531,
+        285
+      ],
+      "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "The text in the image is a quote from a speech by the Indonesian President, \"The 1945 constitution strengthened the executive branch of government at the expense of the legislative, which is in line with Sukarno's concept of 'guided democracy.'\"",
+      "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 16,
+      "line_end_1based": 22,
+      "line_count": 7,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        292,
+        504,
+        412
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        280,
+        531,
+        424
+      ],
+      "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "In addition to Djuanda's statement, army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution. Army Chief of Staff General Nasution held a national military conference during the final stages of debate, presumably to influence the assembly and possibly also to determine the support of regional commanders should extreme measures be required.",
+      "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    },
+    {
+      "paragraph_1based": 4,
+      "line_start_1based": 24,
+      "line_end_1based": 31,
+      "line_count": 8,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        18,
+        436,
+        504,
+        572
+      ],
+      "text": "",
+      "expanded_crop_box_xyxy": [
+        0,
+        422,
+        531,
+        586
+      ],
+      "crop_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_004.png",
+      "ocr_text": "The American Embassy notes that most civilian leaders of the government are absent from Djakarta. President Sukarno, Acting President Sartono, the prime minister, all three deputy prime ministers, and more than half a dozen cabinet ministers, including some of the most important, are away on missions, either within Indonesia or abroad. General Nusution and the principal army leaders, however, are on hand.",
+      "ocr_text_path": "outputs/examples_ocr2/50_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 12.6129,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 7,
+  "row_scan_line_band_count": 28,
+  "row_scan_gap_band_count": 27,
+  "row_scan_linebreak_band_count": 24,
+  "row_scan_blankline_band_count": 3,
+  "row_scan_new_paragraph_count": 3,
+  "indentation_band_count": 3,
+  "gap_markers": [
+    {
+      "box": [
+        18,
+        32,
+        504,
+        33
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.1662,
+      "height_to_avg_full_line_ratio": 0.1111,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        50,
+        504,
+        75
+      ],
+      "kind": "blankline",
+      "height_px": 26,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 2.1602,
+      "height_to_avg_full_line_ratio": 1.4449,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        87,
+        504,
+        91
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4154,
+      "height_to_avg_full_line_ratio": 0.2779,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        105,
+        504,
+        111
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        123,
+        504,
+        129
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        141,
+        504,
+        147
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        159,
+        504,
+        165
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        177,
+        504,
+        183
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        196,
+        504,
+        201
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        213,
+        504,
+        219
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        232,
+        504,
+        237
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        250,
+        504,
+        255
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        267,
+        504,
+        291
+      ],
+      "kind": "blankline",
+      "height_px": 25,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 2.0772,
+      "height_to_avg_full_line_ratio": 1.3893,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        303,
+        504,
+        309
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        322,
+        504,
+        327
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        340,
+        504,
+        342
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.2493,
+      "height_to_avg_full_line_ratio": 0.1667,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        358,
+        504,
+        362
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4154,
+      "height_to_avg_full_line_ratio": 0.2779,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        376,
+        504,
+        381
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        394,
+        504,
+        399
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        413,
+        504,
+        435
+      ],
+      "kind": "blankline",
+      "height_px": 23,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 1.911,
+      "height_to_avg_full_line_ratio": 1.2782,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        18,
+        448,
+        504,
+        453
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        466,
+        504,
+        471
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        484,
+        504,
+        489
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        502,
+        504,
+        507
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4985,
+      "height_to_avg_full_line_ratio": 0.3334,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        520,
+        504,
+        526
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        538,
+        504,
+        544
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.5816,
+      "height_to_avg_full_line_ratio": 0.389,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        18,
+        557,
+        504,
+        561
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.0357,
+      "avg_linebreak_height_px": 5.9583,
+      "avg_full_line_height_px": 17.994,
+      "height_to_avg_line_ratio": 0.4154,
+      "height_to_avg_full_line_ratio": 0.2779,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 28,
+    "blankline": 0,
+    "paragraphblank": 3
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Indonesian Prime Minister Makes Thinly Veiled Threat of Army Coup",
+      "char_len": 65,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        19,
+        504,
+        31
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        34,
+        504,
+        49
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        58,
+        504,
+        75
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Indonesia's Constituent Assembly, meeting in Bandung, was warned by Prime Minister Djuanda on 27 May that failure to readout the 1945 constitution was likely to precipitate an army coup. The 1945 constitution strengthened the executive branch of government at the expense of the legislative, which is in line with Sukarno's concept of \"guided democracy.\" Although the necessary two-thirds majority in the Constituent Assembly is still uncertain, indidations are increasing that the substantial and hitherto uncommitted vote--chiefly composed of the Moslem Nahdlatul Ulama--may support the government. A final vote is expected on 29 or 30 May.",
+      "char_len": 642,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        76,
+        504,
+        86
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        92,
+        504,
+        104
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "In addition to Djuanda's statement, army leaders have hinted throughout the period of debate that if necessary they would take action to impose the constitution. Army Chief of Staff General Nasution held a national military conference during the final stages of debate, presumably to influence the assembly and possibly also to determine the support of regional commanders should extreme measures be required.",
+      "char_len": 409,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        112,
+        504,
+        122
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        130,
+        504,
+        140
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "The American Embassy notes that most civilian leaders of the government are absent from Djakarta. President Sukarno, Acting President Sartono, the prime minister, all three deputy prime ministers, and more than half a dozen cabinet ministers, including some of the most important, are away on missions, either within Indonesia or abroad. General Nasution and the principal army leaders, however, are on hand.",
+      "char_len": 408,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        148,
+        504,
+        158
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        166,
+        504,
+        176
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        184,
+        504,
+        195
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        202,
+        504,
+        212
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        220,
+        504,
+        231
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        238,
+        504,
+        249
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        256,
+        504,
+        266
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "PB15",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        274,
+        504,
+        291
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        292,
+        504,
+        302
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        310,
+        504,
+        321
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        328,
+        504,
+        339
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        343,
+        504,
+        357
+      ]
+    },
+    {
+      "line_1based": 20,
+      "serial_label": "L20",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        363,
+        504,
+        375
+      ]
+    },
+    {
+      "line_1based": 21,
+      "serial_label": "L21",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        382,
+        504,
+        393
+      ]
+    },
+    {
+      "line_1based": 22,
+      "serial_label": "L22",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        400,
+        504,
+        412
+      ]
+    },
+    {
+      "line_1based": 23,
+      "serial_label": "PB23",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        18,
+        418,
+        504,
+        435
+      ]
+    },
+    {
+      "line_1based": 24,
+      "serial_label": "L24",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        436,
+        504,
+        447
+      ]
+    },
+    {
+      "line_1based": 25,
+      "serial_label": "L25",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        454,
+        504,
+        465
+      ]
+    },
+    {
+      "line_1based": 26,
+      "serial_label": "L26",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        472,
+        504,
+        483
+      ]
+    },
+    {
+      "line_1based": 27,
+      "serial_label": "L27",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        490,
+        504,
+        501
+      ]
+    },
+    {
+      "line_1based": 28,
+      "serial_label": "L28",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        508,
+        504,
+        519
+      ]
+    },
+    {
+      "line_1based": 29,
+      "serial_label": "L29",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        527,
+        504,
+        537
+      ]
+    },
+    {
+      "line_1based": 30,
+      "serial_label": "L30",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        545,
+        504,
+        556
+      ]
+    },
+    {
+      "line_1based": 31,
+      "serial_label": "L31",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        18,
+        562,
+        504,
+        572
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 38,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

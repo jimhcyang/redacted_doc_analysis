@@ -1,0 +1,14 @@
+Example ID: 4
+Doc stem: 4
+Date: October 7, 1958
+doc_id_r: CIA-RDP79T00975A004000220001-2
+doc_id_u: 3003300
+
+=== CONTEXT (WITH <redaction n> TAGS) ===
+Taiwan Strait Situation Chinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. <redaction 1> Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as "purely international propaganda."
+
+=== REDACTIONS ===
+[redaction 1] One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault.
+
+=== CONTEXT (REDACTIONS FILLED) ===
+Taiwan Strait Situation Chinese Nationalist officials are making every effort to offset the effects of Communist China's cease-fire offer. One ranking Nationalist leader told an American official on 6 October that his government views the move as a threefold attempt to divide Taipei and Washington, to weaken the morale of the troops on Chinmen, and to provide a means to charge the United States with forcing hostilities, possibly as a prelude to a major assault. Chiang Kai-shek told British newsmen on 6 October that the Warsaw talks should be broken off to test Peiping's reaction. A Nationalist military spokesman publicly dismissed the Communist offer to suspend shelling for a week as "purely international propaganda."

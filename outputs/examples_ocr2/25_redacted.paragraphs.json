@@ -1,0 +1,25 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 7,
+    "line_count": 7,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      31,
+      0,
+      557,
+      490
+    ],
+    "text": "Ignore any obsolete or crossed lines.\n\nFrance to Propose Extension of NATO Area to Include Sahara\n\n\nThe French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara,\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      589,
+      496
+    ],
+    "crop_path": "outputs/examples_ocr2/25_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The French Foreign and Defense ministries have drafted a proposal to extend the NATO area of responsibility to include the \"whole of the Sahara.\"",
+    "ocr_text_path": "outputs/examples_ocr2/25_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  }
+]

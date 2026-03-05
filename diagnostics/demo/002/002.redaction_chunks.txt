@@ -1,0 +1,36 @@
+Example ID: 2
+Stem: 2
+Redacted OCR file: outputs/examples_ocr2/2_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/2_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=37..37, len=1)
+Predicted chunk text: pro-airif
+Unredacted context: power struggle between [UNRED_ONLY: pro-airif] and pro-qasim factions
+Redacted anchor context: the power struggle [L@41:between] [RED_GAP:pro-arif] [R@43:and] pro-qasim factions in
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pro-arif]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=73..91, len=19)
+Predicted chunk text: arif was planning a coup against prime minister qasim who may have learned of arif's plans and moved first
+Unredacted context: in the army [UNRED_ONLY: arif was planning a coup against prime minister qasim who may have learned of arif's plans and moved first] nasir has indicated
+Redacted anchor context: command in the [L@77:army] [RED_GAP:<empty>] [R@78:nasir] has indicated his
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.923077 exact=False
+  -> GT text: Arif was planning a coup against Prime Minister Qasim, who may have learned of Arif’s plans and moved first.
+  -> Word metrics: recall=0.947368 precision=0.9 f1=0.923077 matched=18
+Relaxed best GT candidate: GT[0] best_f1=0.923077 joined_pred_chunks=1..1
+  -> GT text: Arif was planning a coup against Prime Minister Qasim, who may have learned of Arif’s plans and moved first.
+  -> Relaxed best pred text: arif was planning a coup against prime minister qasim who may have learned of arif's plans and moved first
+  -> Relaxed word metrics: recall=0.9 precision=0.947368 f1=0.923077

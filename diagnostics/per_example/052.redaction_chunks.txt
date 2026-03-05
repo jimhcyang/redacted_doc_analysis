@@ -1,0 +1,48 @@
+Example ID: 52
+Stem: 52
+Redacted OCR file: outputs/examples_ocr2/52_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/52_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 4
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=13..13, len=1)
+Predicted chunk text: oust
+Unredacted context: major drive to [UNRED_ONLY: oust] communist government in
+Redacted anchor context: plans major drive [L@17:to] [RED_GAP:cust] [R@19:communist] government in kerala
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:cust]
+Strict GT match: NO
+Relaxed best GT candidate: GT[1] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: Prime Minister Nehru
+  -> Relaxed best pred text: oust
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=114..148, len=35)
+Predicted chunk text: the national leadership of the congress party has instructed the kerala branch not to participate officially in the school demonstrations but has consented to the opposition front's political agitation on condition that it remain nonviolent
+Unredacted context: under their control [UNRED_ONLY: the national leadership of the congress party has instructed the kerala branch not to participate officially in the school demonstrations but has consented to the opposition front's political agitation on condition that it remain nonviolent] prime minister nehru
+Redacted anchor context: schools under their [L@118:control] [RED_GAP:<empty>] [R@119:prime] minister nehru has
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.292683 joined_pred_chunks=1..1
+  -> GT text: national leadership of the Congress party
+  -> Relaxed best pred text: the national leadership of the congress party has instructed the kerala branch not to participate officially in the school demonstrations but has consented to the opposition front's political agitation on condition that it remain nonviolent
+  -> Relaxed word metrics: recall=1.0 precision=0.171429 f1=0.292683
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=228..286, len=59)
+Predicted chunk text: section of the national communist leadership reportedly argued at a recent party conclave in kerala in favor of resignation of the communist government on grounds that its conduct had already had a detrimental effect on the party in the rest of india and that the forceful measures needed to contain the coming agitation would further damage communist prestige a
+Unredacted context: an emergency a [UNRED_ONLY: section of the national communist leadership reportedly argued at a recent party conclave in kerala in favor of resignation of the communist government on grounds that its conduct had already had a detrimental effect on the party in the rest of india and that the forceful measures needed to contain the coming agitation would further damage communist prestige a] showdown in kerala
+Redacted anchor context: in an emergency [L@197:a] [RED_GAP:<empty>] [R@198:showdown] in kerala seems
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[3] best_f1=0.063492 joined_pred_chunks=2..2
+  -> GT text: parliamentary government in Kerala
+  -> Relaxed best pred text: section of the national communist leadership reportedly argued at a recent party conclave in kerala in favor of resignation of the communist government on grounds that its conduct had already had a detrimental effect on the party in the rest of india and that the forceful measures needed to contain the coming agitation would further damage communist prestige a
+  -> Relaxed word metrics: recall=0.5 precision=0.033898 f1=0.063492

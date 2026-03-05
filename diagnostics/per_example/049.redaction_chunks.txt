@@ -1,0 +1,24 @@
+Example ID: 49
+Stem: 49
+Redacted OCR file: outputs/examples_ocr2/49_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/49_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=41..52, len=12)
+Predicted chunk text: but a medical specialist has been called in from the united states
+Unredacted context: the president's illness [UNRED_ONLY: but a medical specialist has been called in from the united states] opposition elements which
+Redacted anchor context: minimized the president's [L@40:illness] [RED_GAP:<empty>] [R@41:opposition] elements which have
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.0 joined_pred_chunks=0..0
+  -> GT text: together if Duvalier's illness should spark serious disorders
+  -> Relaxed best pred text: but a medical specialist has been called in from the united states
+  -> Relaxed word metrics: recall=0.0 precision=0.0 f1=0.0

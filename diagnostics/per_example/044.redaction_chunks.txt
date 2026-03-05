@@ -1,0 +1,33 @@
+Example ID: 44
+Stem: 44
+Redacted OCR file: outputs/examples_ocr2/44_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/44_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+Ground-truth redactions: 1
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=27..27, len=1)
+Predicted chunk text: bloc
+Unredacted context: flow of soviet [UNRED_ONLY: bloc] arms to guinea
+Redacted anchor context: the flow of [L@26:soviet] [RED_GAP:block] [R@28:arms] to guinea and
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:block]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=83..297, len=215)
+Predicted chunk text: for operations against neighboring states of the french community high paris officials in arguing for closer western policy coordination have cited guinea as a focal point for communist penetration of africa and as a potential security threat to its neighbors in the tripartite talks french representatives have characterized the area from france's southern coast to the equator as a single strategic zone of vital importance to french national interests an initial gift shipment of military materiel from czechoslovakia arrived in conakry aboard a polish ship on 18 march it was reliably reported to include 8 000 rifles 3 000 revolvers 30 machine guns 12 antitank guns two armored cars up to 60 000 grenades and 50 bazookas 42 field radio sets and approximately 150 tons of ammunition a subsequent czech shipment including two or three light tanks and some army field kitchens presumably part of the same gift arrangement reportedly arrived late last week also via a polish vessel in addition to re-equipping and perhaps expanding guinea's present 2 000-man security force toure may assign some of this materiel to militant members of guinea's single political party any western interference with bloc shipments consigned to guinea would be bitterly resented and vehemently protested by toure and might make him even more receptive to close ties
+Unredacted context: arming guerrilla bands [UNRED_ONLY: for operations against neighboring states of the french community high paris officials in arguing for closer western policy coordination have cited guinea as a focal point for communist penetration of africa and as a potential security threat to its neighbors in the tripartite talks french representatives have characterized the area from france's southern coast to the equator as a single strategic zone of vital importance to french national interests an initial gift shipment of military materiel from czechoslovakia arrived in conakry aboard a polish ship on 18 march it was reliably reported to include 8 000 rifles 3 000 revolvers 30 machine guns 12 antitank guns two armored cars up to 60 000 grenades and 50 bazookas 42 field radio sets and approximately 150 tons of ammunition a subsequent czech shipment including two or three light tanks and some army field kitchens presumably part of the same gift arrangement reportedly arrived late last week also via a polish vessel in addition to re-equipping and perhaps expanding guinea's present 2 000-man security force toure may assign some of this materiel to militant members of guinea's single political party any western interference with bloc shipments consigned to guinea would be bitterly resented and vehemently protested by toure and might make him even more receptive to close ties]
+Redacted anchor context: [L_ANCHOR_ONLY @ 82] is arming guerrilla bands
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: GT[0] best_f1=0.307087 joined_pred_chunks=1..1
+  -> GT text: It was reliably reported to include 8,000 rifles, 3,000 revolvers, 30 machine guns, 12 antitank guns, two armored cars, up to 60,000 grenades and 50 bazookas, 42 field radio sets, and approximately 150 tons of ammunition.
+  -> Relaxed best pred text: for operations against neighboring states of the french community high paris officials in arguing for closer western policy coordination have cited guinea as a focal point for communist penetration of africa and as a potential security threat to its neighbors in the tripartite talks french representatives have characterized the area from france's southern coast to the equator as a single strategic zone of vital importance to french national interests an initial gift shipment of military materiel from czechoslovakia arrived in conakry aboard a polish ship on 18 march it was reliably reported to include 8 000 rifles 3 000 revolvers 30 machine guns 12 antitank guns two armored cars up to 60 000 grenades and 50 bazookas 42 field radio sets and approximately 150 tons of ammunition a subsequent czech shipment including two or three light tanks and some army field kitchens presumably part of the same gift arrangement reportedly arrived late last week also via a polish vessel in addition to re-equipping and perhaps expanding guinea's present 2 000-man security force toure may assign some of this materiel to militant members of guinea's single political party any western interference with bloc shipments consigned to guinea would be bitterly resented and vehemently protested by toure and might make him even more receptive to close ties
+  -> Relaxed word metrics: recall=1.0 precision=0.181395 f1=0.307087

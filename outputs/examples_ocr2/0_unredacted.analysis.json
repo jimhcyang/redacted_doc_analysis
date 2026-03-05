@@ -1,0 +1,364 @@
+{
+  "image": "inputs/images/0_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    14,
+    8,
+    513,
+    175
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 52109,
+  "merged_region_nonzero_px": 52109,
+  "line_width_px": 499,
+  "line_count": 9,
+  "paragraph_crops_dir": "outputs/examples_ocr2/0_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/0_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/0_unredacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 9,
+      "line_count": 9,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        14,
+        10,
+        513,
+        171
+      ],
+      "text": "The notoriously corrupt and discredited Katay D. Sasorith is the most powerful individual in the cabinet. He is vice premier and holds both Defense and Interior portfolios. His leading role associates the new government with the corruption of its predecessor and, judging from his past performance, he is unlikely to undertake a vigorous reform of the security forces and provincial administration. He opposes a drastic monetary reform desired by the United States and will be able to exert heavy pressure during negotiations.",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        528,
+        178
+      ],
+      "crop_path": "outputs/examples_ocr2/0_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The notoriouly corrupt and discredited Katay D. Sasorith is the most powerful individual in the cabinet. He is vice pre- mier and holds both Defense and Interior portfolios. His lead- ing role associates the new government with the corruption of its predecessor and, judging from his past performance, he is unlikely to undertake a vigorous reform of the security forces and provincial administration. He opposes a drastic monetary reform desired by the United States and will be able to exert heavy pressure during negotiations.",
+      "ocr_text_path": "outputs/examples_ocr2/0_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.2222,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 1,
+  "row_scan_line_band_count": 9,
+  "row_scan_gap_band_count": 8,
+  "row_scan_linebreak_band_count": 8,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        14,
+        26,
+        513,
+        30
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.3516,
+      "height_to_avg_full_line_ratio": 0.2707,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        45,
+        513,
+        48
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.2812,
+      "height_to_avg_full_line_ratio": 0.2165,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        65,
+        513,
+        67
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.2109,
+      "height_to_avg_full_line_ratio": 0.1624,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        83,
+        513,
+        85
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.2109,
+      "height_to_avg_full_line_ratio": 0.1624,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        99,
+        513,
+        103
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.3516,
+      "height_to_avg_full_line_ratio": 0.2707,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        117,
+        513,
+        121
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.3516,
+      "height_to_avg_full_line_ratio": 0.2707,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        136,
+        513,
+        138
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.2109,
+      "height_to_avg_full_line_ratio": 0.1624,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        154,
+        513,
+        159
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.2222,
+      "avg_linebreak_height_px": 4.25,
+      "avg_full_line_height_px": 18.4722,
+      "height_to_avg_line_ratio": 0.4219,
+      "height_to_avg_full_line_ratio": 0.3248,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 9,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "The notoriously corrupt and discredited Katay D. Sasorith is the most powerful individual in the cabinet. He is vice premier and holds both Defense and Interior portfolios. His leading role associates the new government with the corruption of its predecessor and, judging from his past performance, he is unlikely to undertake a vigorous reform of the security forces and provincial administration. He opposes a drastic monetary reform desired by the United States and will be able to exert heavy pressure during negotiations.",
+      "char_len": 526,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        10,
+        513,
+        25
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        31,
+        513,
+        44
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        49,
+        513,
+        64
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        68,
+        513,
+        82
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        86,
+        513,
+        98
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        104,
+        513,
+        116
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        122,
+        513,
+        135
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        139,
+        513,
+        153
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        160,
+        513,
+        171
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

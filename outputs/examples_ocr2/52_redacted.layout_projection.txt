@@ -1,0 +1,31 @@
+PATCHES: torch.Size([6, 144, 1280])
+Ignore text in the image.
+
+
+# Indian Congress Party Plans Major Drive to Cust Communist Government in Kerala
+
+The Congress party branch in Kerala State plans, in co-operation with other groups opposing the Communist government there, to launch a major campaign on 12 June aimed at eventually forcing the Communists out of office. This drive is expected to tie in with separate agitation planned by the Hindu Nair and Catholic communities to begin on 15 June to protest the Communists' unpopular education policies. Leaders of these groups decided some time ago that when the annual school vacation ends in June they would refuse to reopen the large number of private schools under their control.
+
+---
+
+**Prime Minister Nehru has had some misgivings about the campaign, apparently because there is little assurance that the Congress party is strong enough to win the elections which would eventually follow ouster of the Communist government.**
+
+(Communist leaders have also shown growing concern over the planned demonstrations. They have put off the reopening date for schools from 1 June to 15 June and have appealed--apparently without success--for additional standby army contingents for use in an emergency.)
+[BOX1___________________________________________________________]
+[BOX1___________________________________________________________]
+---
+
+A showdown in Kerala seems likely in the near future. Continued demonstrations by various groups may lead to violence, particularly if extremist agitators provoke Communist police units into using force. Serious disturbances could lead New Delhi to suspend parliamentary government in Kerala and invoke President's Rule.
+
+
+
+
+
+
+
+
+
+
+
+
+[BOX2_________________________]

@@ -1,0 +1,51 @@
+Example ID: 19
+Stem: 19
+Redacted OCR file: outputs/examples_ocr2/19_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/19_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 3
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=44..48, len=5)
+Predicted chunk text: it is also reported that
+Unredacted context: ruling military group [UNRED_ONLY: it is also reported that] dissatisfaction is increasing
+Redacted anchor context: the ruling military [L@43:group] [RED_GAP:<empty>] [R@44:dissatisfaction] is increasing throughout
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=0.714286 exact=False
+  -> GT text: the ruling military group. It is also reported that 
+  -> Word metrics: recall=1.0 precision=0.555556 f1=0.714286 matched=5
+Relaxed best GT candidate: GT[0] best_f1=0.714286 joined_pred_chunks=0..0
+  -> GT text: the ruling military group. It is also reported that 
+  -> Relaxed best pred text: it is also reported that
+  -> Relaxed word metrics: recall=0.555556 precision=1.0 f1=0.714286
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=127..162, len=36)
+Predicted chunk text: they may however feel forced to move against sarit in self-defense recently he is reported to have drawn up orders for the arrest of thanom and prapat only to tear them up a few minutes later
+Unredacted context: give up power [UNRED_ONLY: they may however feel forced to move against sarit in self-defense recently he is reported to have drawn up orders for the arrest of thanom and prapat only to tear them up a few minutes later] he has apparently
+Redacted anchor context: to give up [L@121:power] [RED_GAP:<empty>] [R@122:he] has apparently been
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: They may, however, feel forced to move against Sarit in self-defense. Recently he is reported to have drawn up orders for the arrest of Thanom and Prapat, only to tear them up a few minutes later.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=36
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=1..1
+  -> GT text: They may, however, feel forced to move against Sarit in self-defense. Recently he is reported to have drawn up orders for the arrest of Thanom and Prapat, only to tear them up a few minutes later.
+  -> Relaxed best pred text: they may however feel forced to move against sarit in self-defense recently he is reported to have drawn up orders for the arrest of thanom and prapat only to tear them up a few minutes later
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=167..167, len=1)
+Predicted chunk text: piqued
+Unredacted context: has apparently been [UNRED_ONLY: piqued] because they questioned
+Redacted anchor context: he has apparently [L@125:been] [RED_GAP:pieced] [R@127:because] they questioned certain
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:pieced]
+Strict GT match: NO
+Relaxed best GT candidate: none

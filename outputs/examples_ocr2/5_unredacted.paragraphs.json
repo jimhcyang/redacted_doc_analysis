@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      33,
+      32,
+      548,
+      46
+    ],
+    "text": "Communist-indoctrinated Leaders Return to Syria and Iraq",
+    "expanded_crop_box_xyxy": [
+      0,
+      24,
+      600,
+      54
+    ],
+    "crop_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 12,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      33,
+      66,
+      548,
+      244
+    ],
+    "text": "\nSyrian Communist leader Khalid Bakdash and Iraqi Kurdish dissident Mulla Mustafa Barzani have returned from the Soviet bloc. Bakdash, who like Barzani is of Kurdish origin, led his party in opposition to Egyptian-Syrian union and left Syria. For Prague and the USSR at the time of the UAR's formation last February. He reportedly returned to Damascus on 5 October. Barzani, who returned to Baghdad on 6 October, had been in the USSR since leading an unsuccessful Kurdish rebellion against Iraq and Iran in 1946. He stopped first at Cairo on 3 October, where he met with Nasir.\n\nNasir's current efforts to strengthen his control over Syrian affairs and to bring Iraq into the UAR orbit could be sabotaged by the activities of Bakdash, Barzani, and their followers. Nasir is reported recently to have expressed fear of such sabotage to Soviet presidium member Mukhcidinov. The Syrian Communists are encouraging anti-UAR feeling within Syria and are probably in contact with the Iraqi Communists, who are also opposing Cairo's influence. The large Kurdish minorities in Iraq and Syria may be brought into opposition to the UAR by the promise of an independent Kurdish state, and Barzani's presence will probably heighten such feeling. Nasir, nevertheless, may hesitate to move directly against men of the stature of Bakdash and Barzani.",
+    "expanded_crop_box_xyxy": [
+      0,
+      48,
+      600,
+      262
+    ],
+    "crop_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "Syrian Communist leader Khalid Bakdash and Iraqi Kurdish dissident Mulla Mustafa Barzani have returned from the Soviet bloc. Bakdash, who like Barzani is of Kurdish origin, led his party in opposition to Egyptian-Syrian union and left Syria. For Prague and the USSR at the time of the UAR's formation last February. He reportedly returned to Damascus on 5 October. Barzani, who returned to Baghdad on 6 October, had been in the USSR since leading an unsuccessful Kurdish rebellion against Iraq and Iran in 1946. He stopped first at Cairo on 3 October, where he met with Nasir.",
+    "ocr_text_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 14,
+    "line_end_1based": 26,
+    "line_count": 13,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      33,
+      267,
+      548,
+      498
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      244,
+      600,
+      507
+    ],
+    "crop_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "The text in the image is written in a sans-serif font, and is black. The background is white.",
+    "ocr_text_path": "outputs/examples_ocr2/5_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

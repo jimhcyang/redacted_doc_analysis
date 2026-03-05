@@ -1,0 +1,48 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      45,
+      9,
+      521,
+      25
+    ],
+    "text": "Overwrite \"Tunis Blames France for Jamming Broadcasts\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      1,
+      569,
+      33
+    ],
+    "crop_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The text is \"Tunis Blames France for Jamming Broadcasts\".",
+    "ocr_text_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 12,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      45,
+      46,
+      521,
+      220
+    ],
+    "text": "\nThe jamming station which is interfering with Arab-language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria.\n\nThe French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+    "expanded_crop_box_xyxy": [
+      0,
+      28,
+      569,
+      228
+    ],
+    "crop_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The jamming station which is interfering with Arab language broadcasts of Radio Tunis has been pinpointed at Collo, near Philippeville in eastern Algeria, The French Embassy in Tunis denies that France is responsible, but French military authorities in eastern Algeria may be conducting a local operation to prevent Algerians--and consequently other listeners--from receiving this station. In accordance with Tunisia's policy, its broadcasts support Algerian independence, the National Liberation Front, and the provisional government.",
+    "ocr_text_path": "outputs/examples_ocr2/7_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  }
+]

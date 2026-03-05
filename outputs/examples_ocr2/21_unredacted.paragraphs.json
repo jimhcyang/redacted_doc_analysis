@@ -1,0 +1,117 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 1,
+    "line_count": 1,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      6,
+      9,
+      503,
+      28
+    ],
+    "text": "Nehru's Daughter Elected President of Indian Congress Party",
+    "expanded_crop_box_xyxy": [
+      0,
+      1,
+      541,
+      36
+    ],
+    "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "",
+    "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 3,
+    "line_end_1based": 9,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      42,
+      503,
+      168
+    ],
+    "text": "\nThe election on 2 February of Prime Minister Nehru's 42-year-old daughter Indira Gandhi as president of the Congress party is unlikely to assure India's ruling political organization of the strong leadership it needs. The party lacks discipline and vitality at a time when implementation of India's development program and increasing competition from the Communist party demand its utmost effort.\n\nMrs. Gandhi, wife of Parliament member Firoze Gandhi, apparently was supported by the Congress high command as well as by many regional party units. However, her election probably resulted less from enthusiasm for Mrs. Gandhi than from fear of displeasing Nehru and from lack of an alternative choice acceptable to all sections of the party. A few top leaders apparently did oppose her selection.\n\nMrs. Gandhi has been actively associated with the \"ginger group\" in the party, which has been working, probably with Nehru's blessing, to revive the party's socialist ideology. The high command's somewhat surprising decision has the dual purpose of injecting \"young blood\" into the party leadership and checking the \"drift toward a rightist trend of thought.\"",
+    "expanded_crop_box_xyxy": [
+      0,
+      29,
+      541,
+      181
+    ],
+    "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "The election on 2 February of Prime Minister Nehru's 42-year-old daughter Indira Gandhi as president of the Congress party is unlikely to assure India's ruling political organization of the strong leadership it needs. The party lacks discipline and vitality at a time when implementation of India's development program and increasing competition from the Communist party demand its utmost effort.",
+    "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 11,
+    "line_end_1based": 17,
+    "line_count": 7,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      191,
+      503,
+      314
+    ],
+    "text": "The naming of Indira Gandhi, however, could well have the opposite effect. She lacks both the experience and the political leadership necessary for such a big job. Old-line Congress bosses at the head of various regional party machines are not likely to be brought into line easily by Mrs. Gandhi, active in the high command only during the past few years, despite her unique position as Nehru's closest confidant. In addition, her identification with the party's left wing may alienate the more conservative elements and increase the possibility of an eventual party split.",
+    "expanded_crop_box_xyxy": [
+      0,
+      179,
+      541,
+      326
+    ],
+    "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "Mrs. Gandhi, wife of Parliament member Firoze Gandhi, apparently was supported by the Congress high command as well as by many regional party units. However, her election probably resulted less from enthusiasm for Mrs. Gandhi than from fear of displeasing Nehru and from lack of an alternative choice acceptable to all sections of the party. A few top leaders apparently did oppose her selection.",
+    "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+  },
+  {
+    "paragraph_1based": 4,
+    "line_start_1based": 19,
+    "line_end_1based": 24,
+    "line_count": 6,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      337,
+      503,
+      442
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      326,
+      541,
+      453
+    ],
+    "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_004.png",
+    "ocr_text": "Mrs. Gandhi has been actively associated with the \"ginger group\" in the party, which has been working, probably with Nehru's blessing, to revive the party's socialist ideology. The high command's somewhat surprising decision has the dual purpose of injecting \"young blood\" into the party leadership and checking the \"drift toward a rightist trend of thought.\"",
+    "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_004.ocr.txt"
+  },
+  {
+    "paragraph_1based": 5,
+    "line_start_1based": 26,
+    "line_end_1based": 35,
+    "line_count": 10,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      6,
+      465,
+      503,
+      641
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      447,
+      541,
+      656
+    ],
+    "crop_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_005.png",
+    "ocr_text": "The naming of Indira Gandhi, however, could well have the opposite effect. She lacks both the experience and the political leadership necessary for such a big job. Old-line Congress bosses at the head of various regional party machines are not likely to be brought into line easily by Mrs. Gandhi, active in the high command only during the past few years, despite her unique position as Nehru's closest confidant. In addition, her identification with the party's left wing may alienate the more conservative elements and increase the possibility of an eventual party split.",
+    "ocr_text_path": "outputs/examples_ocr2/21_unredacted.paragraph_crops/paragraph_005.ocr.txt"
+  }
+]

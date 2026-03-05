@@ -1,0 +1,71 @@
+[
+  {
+    "paragraph_1based": 1,
+    "line_start_1based": 1,
+    "line_end_1based": 18,
+    "line_count": 18,
+    "starts_with_paragraph_marker": false,
+    "paragraph_box_xyxy": [
+      47,
+      19,
+      549,
+      366
+    ],
+    "text": "The Lebanese Situation\n\n\nThe continued Moslem-Christian tension, which erupted in violent rioting in Beirut on 22 and 27 February, has brought Lebanon to the point where another incident could cause widespread civil disorders. The recent murder of three Christians may lead to reprisals by the Christian community unless the government promptly prosecutes the culprits.\n\nMembers of the extreme Moslem Najjada and the \"Popular Resistance,\" are likely to create additional incidents which will further inflame the populace and might break up the cabinet. The Christian Phalange, whose leader Pierre Jumayyil is a member of the four-man cabinet, may feel obliged to retaliate. Former President Chamoun, still the acknowledged leader of the Christians in time of crisis, is probably seeking to exploit the situation, and his political enemy, Minister of Interior Edde, is likely to lose stature.\n\nPresident Shihab has endeavored to shift responsibility for the security situation to the cabinet, but the cabinet's sectarian balance (2 Moslems and 2 Christians) may force him to make decisions he would like to avoid.\n\nWhile the Lebanese security forces are numerically strong enough to suppress any disorders, they are divided along the same religious lines as the rest of the country. Despite President Shihab's belief that a \"reorganization\" of the security forces is the solution to the critical threat to internal security, it is doubtful that any amount of \"reorganization\" would create the will among security personnel to carry out vigorous action against their co-religionists.",
+    "expanded_crop_box_xyxy": [
+      0,
+      0,
+      599,
+      401
+    ],
+    "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_001.png",
+    "ocr_text": "The Lebanese Situation",
+    "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_001.ocr.txt"
+  },
+  {
+    "paragraph_1based": 2,
+    "line_start_1based": 20,
+    "line_end_1based": 23,
+    "line_count": 4,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      47,
+      390,
+      549,
+      478
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      381,
+      599,
+      487
+    ],
+    "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_002.png",
+    "ocr_text": "President Shihab has endeavored to shift responsibility for the security situation to the cabinet, but the cabinet's security situation to the cabinet, but the cabinet's security situation to the cabinet, but the cabinet'se",
+    "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_002.ocr.txt"
+  },
+  {
+    "paragraph_1based": 3,
+    "line_start_1based": 25,
+    "line_end_1based": 32,
+    "line_count": 8,
+    "starts_with_paragraph_marker": true,
+    "paragraph_box_xyxy": [
+      47,
+      481,
+      549,
+      621
+    ],
+    "text": "",
+    "expanded_crop_box_xyxy": [
+      0,
+      467,
+      599,
+      623
+    ],
+    "crop_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_003.png",
+    "ocr_text": "While the Lebanese security forces are numerically strong enough to suppress any disorders, they are divided along the same religious lines as the rest of the country. Despite President Shihab's belief that a \"reorganization\" of the security forces is the solution to the critical threat to internal security, it is doubtful that any amount of \"reorganization\" would create the will among security personnel to carry out vigorous action against their co-religionists.",
+    "ocr_text_path": "outputs/examples_ocr2/34_redacted.paragraph_crops/paragraph_003.ocr.txt"
+  }
+]

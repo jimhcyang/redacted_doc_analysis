@@ -1,0 +1,27 @@
+Example ID: 56
+Stem: 56
+Redacted OCR file: outputs/examples_ocr2/56_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/56_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+Ground-truth redactions: 2
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=115..148, len=34)
+Predicted chunk text: diaz lanz half brother approached the us embassy on 1 june for an opinion as to whether anti-communist cuban officers should go into exile or remain to resist raul castro's policies favoring the communists
+Unredacted context: cuban military personnel [UNRED_ONLY: diaz lanz half brother approached the us embassy on 1 june for an opinion as to whether anti-communist cuban officers should go into exile or remain to resist raul castro's policies favoring the communists] the air force
+Redacted anchor context: many cuban military [L@114:personnel] [RED_GAP:<empty>] [R@115:the] air force purge
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[1] score_f1=1.0 exact=False
+  -> GT text: Diaz Lanz' half brother approached the US Embassy on 1 June for an opinion as to whether anti-Communist Cuban officers should go into exile or remain to resist Raul Castro's policies favoring the Communists.
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=34
+Relaxed best GT candidate: GT[1] best_f1=1.0 joined_pred_chunks=0..0
+  -> GT text: Diaz Lanz' half brother approached the US Embassy on 1 June for an opinion as to whether anti-Communist Cuban officers should go into exile or remain to resist Raul Castro's policies favoring the Communists.
+  -> Relaxed best pred text: diaz lanz half brother approached the us embassy on 1 june for an opinion as to whether anti-communist cuban officers should go into exile or remain to resist raul castro's policies favoring the communists
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0

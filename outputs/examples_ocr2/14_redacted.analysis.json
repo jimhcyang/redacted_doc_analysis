@@ -1,0 +1,766 @@
+{
+  "image": "inputs/images/14_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      159,
+      115,
+      368,
+      137
+    ],
+    [
+      147,
+      371,
+      558,
+      410
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    22,
+    0,
+    527,
+    413
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 112772,
+  "merged_region_nonzero_px": 111332,
+  "line_width_px": 505,
+  "line_count": 19,
+  "paragraph_crops_dir": "outputs/examples_ocr2/14_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/14_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/14_redacted.paragraphs.json",
+  "paragraph_count": 1,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 19,
+      "line_count": 19,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        22,
+        7,
+        527,
+        367
+      ],
+      "text": "Nasi'r's Anti-Communist Campaign\n\nNasi'r's campaign against Communists throughout the UAR\nhas reached major proportions. This campaign, unlike pre-\nvious ones, has included arrests of prominent party members,\nand it would appear that Communist leadership has been se-\nverely crippled. ______ about 550 members\nhave been arrested in Syria, including Mustafa Amin, one of\nthe highest in the party. Also reportedly picked up was Abd\nal-Majid Jamal al-Din, a leader of the Syrian-Lebanese Com-\nmunist party and head of the Syrian passports and immigration\ndepartment. Khalid Bakdash, the Arab world's number-one\nCommunist, reportedly has fled from Damascus to Baghdad.\n\n______ in Egypt, where Cairo newspapers are keeping up a con-\nstant barrage of criticism of Iraqi Communist activity, the num-\nber of arrests has exceeded 200, including several central com-\nmittee members of Egypt's three Communist factions, as well as\nCommunist members of the staff of the extreme leftist Cairo",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        565,
+        403
+      ],
+      "crop_path": "outputs/examples_ocr2/14_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "The text in the image is a newspaper article.",
+      "ocr_text_path": "outputs/examples_ocr2/14_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 14.3684,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 20,
+  "row_scan_line_band_count": 19,
+  "row_scan_gap_band_count": 18,
+  "row_scan_linebreak_band_count": 18,
+  "row_scan_blankline_band_count": 0,
+  "row_scan_new_paragraph_count": 0,
+  "indentation_band_count": 0,
+  "gap_markers": [
+    {
+      "box": [
+        22,
+        41,
+        527,
+        46
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.4176,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        62,
+        527,
+        64
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.2088,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        78,
+        527,
+        82
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        97,
+        527,
+        100
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.2784,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        114,
+        527,
+        118
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.332,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        133,
+        527,
+        137
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.415,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        151,
+        527,
+        155
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        169,
+        527,
+        171
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.2088,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        187,
+        527,
+        191
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        205,
+        527,
+        210
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.4176,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        224,
+        527,
+        228
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        241,
+        527,
+        245
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        258,
+        527,
+        265
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.5568,
+      "height_to_avg_full_line_ratio": 0.4154,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        278,
+        527,
+        282
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        296,
+        527,
+        301
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.4176,
+      "height_to_avg_full_line_ratio": 0.3116,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        315,
+        527,
+        319
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.348,
+      "height_to_avg_full_line_ratio": 0.2596,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        334,
+        527,
+        337
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.2784,
+      "height_to_avg_full_line_ratio": 0.2077,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        22,
+        351,
+        527,
+        353
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.3684,
+      "avg_linebreak_height_px": 4.8889,
+      "avg_full_line_height_px": 19.2573,
+      "height_to_avg_line_ratio": 0.2088,
+      "height_to_avg_full_line_ratio": 0.1558,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 19,
+    "blankline": 0,
+    "paragraphblank": 0
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Nasi'r's Anti-Communist Campaign",
+      "char_len": 32,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        7,
+        527,
+        40
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        47,
+        527,
+        61
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "Nasi'r's campaign against Communists throughout the UAR",
+      "char_len": 55,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        65,
+        527,
+        77
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "has reached major proportions. This campaign, unlike pre-",
+      "char_len": 57,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        83,
+        527,
+        96
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "vious ones, has included arrests of prominent party members,",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        101,
+        527,
+        113
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "and it would appear that Communist leadership has been se-",
+      "char_len": 58,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        119,
+        527,
+        132
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "verely crippled. ______ about 550 members",
+      "char_len": 41,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        138,
+        527,
+        150
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "have been arrested in Syria, including Mustafa Amin, one of",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        156,
+        527,
+        168
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "the highest in the party. Also reportedly picked up was Abd",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        172,
+        527,
+        186
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "al-Majid Jamal al-Din, a leader of the Syrian-Lebanese Com-",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        192,
+        527,
+        204
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "munist party and head of the Syrian passports and immigration",
+      "char_len": 61,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        211,
+        527,
+        223
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "department. Khalid Bakdash, the Arab world's number-one",
+      "char_len": 55,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        229,
+        527,
+        240
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "Communist, reportedly has fled from Damascus to Baghdad.",
+      "char_len": 56,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        246,
+        527,
+        257
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        266,
+        527,
+        277
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "______ in Egypt, where Cairo newspapers are keeping up a con-",
+      "char_len": 61,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        283,
+        527,
+        295
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "stant barrage of criticism of Iraqi Communist activity, the num-",
+      "char_len": 64,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        302,
+        527,
+        314
+      ]
+    },
+    {
+      "line_1based": 17,
+      "serial_label": "L17",
+      "text": "ber of arrests has exceeded 200, including several central com-",
+      "char_len": 63,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        320,
+        527,
+        333
+      ]
+    },
+    {
+      "line_1based": 18,
+      "serial_label": "L18",
+      "text": "mittee members of Egypt's three Communist factions, as well as",
+      "char_len": 62,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        338,
+        527,
+        350
+      ]
+    },
+    {
+      "line_1based": 19,
+      "serial_label": "L19",
+      "text": "Communist members of the staff of the extreme leftist Cairo",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        22,
+        354,
+        527,
+        367
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 6,
+      "line_char_capacity": 58,
+      "char_start": 16,
+      "char_end": 40,
+      "char_len": 24,
+      "full_line": false,
+      "bbox_xyxy": [
+        159,
+        115,
+        368,
+        137
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1_____________________]",
+      "layout_token_pixel": "[BOX1__209/505]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.4139,
+      "clipped_span_px": 209,
+      "line_width_effective_px": 505,
+      "touches_left_border": false,
+      "touches_right_border": false
+    },
+    {
+      "id": 2,
+      "line_1based": 19,
+      "line_char_capacity": 59,
+      "char_start": 15,
+      "char_end": 59,
+      "char_len": 44,
+      "full_line": false,
+      "bbox_xyxy": [
+        147,
+        371,
+        558,
+        410
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2___________________________________________]",
+      "layout_token_pixel": "[BOX2__380/505]",
+      "line_overlap_ratio": 0.0,
+      "line_cover_ratio_x": 0.7525,
+      "clipped_span_px": 380,
+      "line_width_effective_px": 505,
+      "touches_left_border": false,
+      "touches_right_border": true
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

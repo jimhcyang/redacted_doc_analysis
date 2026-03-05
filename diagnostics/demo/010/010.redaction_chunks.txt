@@ -1,0 +1,90 @@
+Example ID: 10
+Stem: 10
+Redacted OCR file: outputs/examples_ocr2/10_redacted.raw_ocr.txt
+Unredacted OCR file: outputs/examples_ocr2/10_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 8
+Ground-truth redactions: 4
+
+========================================================================
+Chunk #1 (pred_index=0, token_span=15..15, len=1)
+Predicted chunk text: december
+Unredacted context: left on 29 [UNRED_ONLY: december] for moscow apparently
+Redacted anchor context: who left on [L@14:29] [RED_GAP:decem ber] [R@17:for] moscow apparently intends
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:decem ber]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #2 (pred_index=1, token_span=24..24, len=1)
+Predicted chunk text: agreement
+Unredacted context: conclude a new [UNRED_ONLY: agreement] to expand the
+Redacted anchor context: to conclude a [L@24:new] [RED_GAP:agree ment] [R@27:to] expand the soviet
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:agree ment]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #3 (pred_index=2, token_span=50..50, len=1)
+Predicted chunk text: position
+Unredacted context: to strengthen its [UNRED_ONLY: position] against what it
+Redacted anchor context: necessary to strengthen [L@51:its] [RED_GAP:posi tion] [R@54:against] what it regards
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:posi tion]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #4 (pred_index=3, token_span=106..106, len=1)
+Predicted chunk text: additional
+Unredacted context: also provide for [UNRED_ONLY: additional] soviet weapons including
+Redacted anchor context: would also provide [L@108:for] [RED_GAP:addition al] [R@111:soviet] weapons including heavy
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:addition al]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #5 (pred_index=4, token_span=115..115, len=1)
+Predicted chunk text: aircraft
+Unredacted context: and more modern [UNRED_ONLY: aircraft] the new agreement
+Redacted anchor context: arms and more [L@118:modern] [RED_GAP:air craft] [R@121:the] new agreement for
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:air craft]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #6 (pred_index=5, token_span=122..124, len=3)
+Predicted chunk text: 50 000 000
+Unredacted context: for a reported [UNRED_ONLY: 50 000 000] would probably be
+Redacted anchor context: agreement for a [L@126:reported] [RED_GAP:<empty>] [R@127:would] prob ably be
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: YES
+  -> GT[0] score_f1=1.0 exact=False
+  -> GT text: $50,000,000
+  -> Word metrics: recall=1.0 precision=1.0 f1=1.0 matched=3
+Relaxed best GT candidate: GT[0] best_f1=1.0 joined_pred_chunks=5..5
+  -> GT text: $50,000,000
+  -> Relaxed best pred text: 50 000 000
+  -> Relaxed word metrics: recall=1.0 precision=1.0 f1=1.0
+
+========================================================================
+Chunk #7 (pred_index=6, token_span=126..126, len=1)
+Predicted chunk text: probably
+Unredacted context: 000 000 would [UNRED_ONLY: probably] be financed by
+Redacted anchor context: for a reported [L@127:would] [RED_GAP:prob ably] [R@130:be] financed by a
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:prob ably]
+Strict GT match: NO
+Relaxed best GT candidate: none
+
+========================================================================
+Chunk #8 (pred_index=7, token_span=136..185, len=50)
+Predicted chunk text: year-old afghan policy of refusing to accept further loans in favor of grant aid because of discount prices afghanistan has apparently received bloc arms worth about 75 000 000 under the 25 000 000 soviet arms-assistance agreement signed in 1956 and the 7 000 000 czech arms agreement of 1954
+Unredacted context: loan ending the [UNRED_ONLY: year-old afghan policy of refusing to accept further loans in favor of grant aid because of discount prices afghanistan has apparently received bloc arms worth about 75 000 000 under the 25 000 000 soviet arms-assistance agreement signed in 1956 and the 7 000 000 czech arms agreement of 1954]
+Redacted anchor context: [L_ANCHOR_ONLY @ 138] soviet loan ending the year
+Diff interpretation: unredacted contains [UNRED_ONLY], while mapped redacted anchors show [RED_GAP:<empty>]
+Strict GT match: NO
+Relaxed best GT candidate: none

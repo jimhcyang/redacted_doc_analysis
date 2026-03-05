@@ -1,0 +1,6251 @@
+{
+  "example_id": 27,
+  "stem": "27",
+  "files": {
+    "redacted_raw_ocr": "outputs/examples_ocr2/27_redacted.raw_ocr.txt",
+    "unredacted_raw_ocr": "outputs/examples_ocr2/27_unredacted.raw_ocr.txt"
+  },
+  "noise_filtering": {
+    "strip_noise_lines": true,
+    "redacted_dropped_line_count": 0,
+    "unredacted_dropped_line_count": 0,
+    "redacted_dropped_lines": [],
+    "unredacted_dropped_lines": []
+  },
+  "structure": {
+    "redacted_raw_line_count": 14,
+    "unredacted_raw_line_count": 15,
+    "redacted_nonempty_line_count": 6,
+    "unredacted_nonempty_line_count": 6,
+    "line_count_ratio": 1.0,
+    "line_similarity": 0.666667,
+    "structure_preserved": true
+  },
+  "token_counts": {
+    "redacted": 323,
+    "unredacted": 367
+  },
+  "unredacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 44,
+    "chunk_count": 1,
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "start_token_idx_0based": 269,
+        "end_token_idx_0based": 312,
+        "token_count": 44,
+        "text": "karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause",
+        "tokens": [
+          "karamanlis",
+          "recently",
+          "stated",
+          "that",
+          "regardless",
+          "of",
+          "the",
+          "results",
+          "in",
+          "london",
+          "greece",
+          "intends",
+          "to",
+          "maintain",
+          "cordial",
+          "relations",
+          "with",
+          "turkey",
+          "will",
+          "order",
+          "the",
+          "return",
+          "of",
+          "the",
+          "greek",
+          "nato",
+          "contingent",
+          "withdrawn",
+          "from",
+          "izmir",
+          "last",
+          "june",
+          "and",
+          "will",
+          "announce",
+          "withdrawal",
+          "of",
+          "further",
+          "support",
+          "for",
+          "the",
+          "greek",
+          "cypriot",
+          "cause"
+        ]
+      }
+    ],
+    "word_pct_vs_unredacted": 0.119891
+  },
+  "redacted_only": {
+    "mask": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "word_count": 0,
+    "word_pct_vs_unredacted": 0.0
+  },
+  "mapping_unredacted_to_redacted": [
+    {
+      "unredacted_index_0based": 0,
+      "token": "patches",
+      "mapped_redacted_index_0based": 0,
+      "candidate_redacted_positions_0based": [
+        0
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 1,
+      "token": "torch",
+      "mapped_redacted_index_0based": 1,
+      "candidate_redacted_positions_0based": [
+        1
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 2,
+      "token": "size",
+      "mapped_redacted_index_0based": 2,
+      "candidate_redacted_positions_0based": [
+        2
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 3,
+      "token": "6",
+      "mapped_redacted_index_0based": 3,
+      "candidate_redacted_positions_0based": [
+        3
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 4,
+      "token": "144",
+      "mapped_redacted_index_0based": 4,
+      "candidate_redacted_positions_0based": [
+        4
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 5,
+      "token": "1280",
+      "mapped_redacted_index_0based": 5,
+      "candidate_redacted_positions_0based": [
+        5
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 6,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 6,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 7,
+      "token": "situation",
+      "mapped_redacted_index_0based": 7,
+      "candidate_redacted_positions_0based": [
+        7
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 8,
+      "token": "an",
+      "mapped_redacted_index_0based": 8,
+      "candidate_redacted_positions_0based": [
+        8,
+        40,
+        255
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 9,
+      "token": "emergency",
+      "mapped_redacted_index_0based": 9,
+      "candidate_redacted_positions_0based": [
+        9
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 10,
+      "token": "meeting",
+      "mapped_redacted_index_0based": 10,
+      "candidate_redacted_positions_0based": [
+        10,
+        45
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 11,
+      "token": "at",
+      "mapped_redacted_index_0based": 11,
+      "candidate_redacted_positions_0based": [
+        11,
+        109
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 12,
+      "token": "the",
+      "mapped_redacted_index_0based": 12,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 13,
+      "token": "foreign",
+      "mapped_redacted_index_0based": 13,
+      "candidate_redacted_positions_0based": [
+        13
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 14,
+      "token": "ministers",
+      "mapped_redacted_index_0based": 14,
+      "candidate_redacted_positions_0based": [
+        14
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 15,
+      "token": "level",
+      "mapped_redacted_index_0based": 15,
+      "candidate_redacted_positions_0based": [
+        15
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 16,
+      "token": "was",
+      "mapped_redacted_index_0based": 16,
+      "candidate_redacted_positions_0based": [
+        16
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 17,
+      "token": "called",
+      "mapped_redacted_index_0based": 17,
+      "candidate_redacted_positions_0based": [
+        17
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 18,
+      "token": "in",
+      "mapped_redacted_index_0based": 18,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 19,
+      "token": "london",
+      "mapped_redacted_index_0based": 19,
+      "candidate_redacted_positions_0based": [
+        19,
+        184,
+        240
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 20,
+      "token": "on",
+      "mapped_redacted_index_0based": 20,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 21,
+      "token": "the",
+      "mapped_redacted_index_0based": 21,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 22,
+      "token": "evening",
+      "mapped_redacted_index_0based": 22,
+      "candidate_redacted_positions_0based": [
+        22
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 23,
+      "token": "of",
+      "mapped_redacted_index_0based": 23,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 24,
+      "token": "18",
+      "mapped_redacted_index_0based": 24,
+      "candidate_redacted_positions_0based": [
+        24
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 25,
+      "token": "february",
+      "mapped_redacted_index_0based": 25,
+      "candidate_redacted_positions_0based": [
+        25,
+        71
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 26,
+      "token": "to",
+      "mapped_redacted_index_0based": 26,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 27,
+      "token": "prevent",
+      "mapped_redacted_index_0based": 27,
+      "candidate_redacted_positions_0based": [
+        27
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 28,
+      "token": "the",
+      "mapped_redacted_index_0based": 28,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 29,
+      "token": "threatened",
+      "mapped_redacted_index_0based": 29,
+      "candidate_redacted_positions_0based": [
+        29,
+        177
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 30,
+      "token": "collapse",
+      "mapped_redacted_index_0based": 30,
+      "candidate_redacted_positions_0based": [
+        30
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 31,
+      "token": "of",
+      "mapped_redacted_index_0based": 31,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 32,
+      "token": "the",
+      "mapped_redacted_index_0based": 32,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 33,
+      "token": "conference",
+      "mapped_redacted_index_0based": 33,
+      "candidate_redacted_positions_0based": [
+        33,
+        76,
+        241
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 34,
+      "token": "seeking",
+      "mapped_redacted_index_0based": 34,
+      "candidate_redacted_positions_0based": [
+        34
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 35,
+      "token": "agreement",
+      "mapped_redacted_index_0based": 35,
+      "candidate_redacted_positions_0based": [
+        35,
+        63,
+        150,
+        194
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 36,
+      "token": "on",
+      "mapped_redacted_index_0based": 36,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 37,
+      "token": "the",
+      "mapped_redacted_index_0based": 37,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 38,
+      "token": "terms",
+      "mapped_redacted_index_0based": 38,
+      "candidate_redacted_positions_0based": [
+        38,
+        93,
+        155
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 39,
+      "token": "for",
+      "mapped_redacted_index_0based": 39,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 40,
+      "token": "an",
+      "mapped_redacted_index_0based": 40,
+      "candidate_redacted_positions_0based": [
+        8,
+        40,
+        255
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 41,
+      "token": "independent",
+      "mapped_redacted_index_0based": 41,
+      "candidate_redacted_positions_0based": [
+        41
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 42,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 42,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 43,
+      "token": "the",
+      "mapped_redacted_index_0based": 43,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 44,
+      "token": "urgent",
+      "mapped_redacted_index_0based": 44,
+      "candidate_redacted_positions_0based": [
+        44
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 45,
+      "token": "meeting",
+      "mapped_redacted_index_0based": 45,
+      "candidate_redacted_positions_0based": [
+        10,
+        45
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 46,
+      "token": "follows",
+      "mapped_redacted_index_0based": 46,
+      "candidate_redacted_positions_0based": [
+        46
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 47,
+      "token": "reports",
+      "mapped_redacted_index_0based": 47,
+      "candidate_redacted_positions_0based": [
+        47
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 48,
+      "token": "that",
+      "mapped_redacted_index_0based": 48,
+      "candidate_redacted_positions_0based": [
+        48,
+        127
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 49,
+      "token": "archbishop",
+      "mapped_redacted_index_0based": 49,
+      "candidate_redacted_positions_0based": [
+        49,
+        224
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 50,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 50,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 51,
+      "token": "has",
+      "mapped_redacted_index_0based": 51,
+      "candidate_redacted_positions_0based": [
+        51
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 52,
+      "token": "broken",
+      "mapped_redacted_index_0based": 52,
+      "candidate_redacted_positions_0based": [
+        52
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 53,
+      "token": "with",
+      "mapped_redacted_index_0based": 53,
+      "candidate_redacted_positions_0based": [
+        53,
+        285
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 54,
+      "token": "the",
+      "mapped_redacted_index_0based": 54,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 55,
+      "token": "greek",
+      "mapped_redacted_index_0based": 55,
+      "candidate_redacted_positions_0based": [
+        55,
+        260,
+        282
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 56,
+      "token": "government",
+      "mapped_redacted_index_0based": 56,
+      "candidate_redacted_positions_0based": [
+        56,
+        203,
+        261
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 57,
+      "token": "and",
+      "mapped_redacted_index_0based": 57,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 58,
+      "token": "no",
+      "mapped_redacted_index_0based": 58,
+      "candidate_redacted_positions_0based": [
+        58
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 59,
+      "token": "longer",
+      "mapped_redacted_index_0based": 59,
+      "candidate_redacted_positions_0based": [
+        59
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 60,
+      "token": "accepts",
+      "mapped_redacted_index_0based": 60,
+      "candidate_redacted_positions_0based": [
+        60
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 61,
+      "token": "the",
+      "mapped_redacted_index_0based": 61,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 62,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 62,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 63,
+      "token": "agreement",
+      "mapped_redacted_index_0based": 63,
+      "candidate_redacted_positions_0based": [
+        35,
+        63,
+        150,
+        194
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 64,
+      "token": "reached",
+      "mapped_redacted_index_0based": 64,
+      "candidate_redacted_positions_0based": [
+        64
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 65,
+      "token": "between",
+      "mapped_redacted_index_0based": 65,
+      "candidate_redacted_positions_0based": [
+        65,
+        258,
+        272
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 66,
+      "token": "athens",
+      "mapped_redacted_index_0based": 66,
+      "candidate_redacted_positions_0based": [
+        66
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 67,
+      "token": "and",
+      "mapped_redacted_index_0based": 67,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 68,
+      "token": "ankara",
+      "mapped_redacted_index_0based": 68,
+      "candidate_redacted_positions_0based": [
+        68
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 69,
+      "token": "on",
+      "mapped_redacted_index_0based": 69,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 70,
+      "token": "11",
+      "mapped_redacted_index_0based": 70,
+      "candidate_redacted_positions_0based": [
+        70
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 71,
+      "token": "february",
+      "mapped_redacted_index_0based": 71,
+      "candidate_redacted_positions_0based": [
+        25,
+        71
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 72,
+      "token": "the",
+      "mapped_redacted_index_0based": 72,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 73,
+      "token": "future",
+      "mapped_redacted_index_0based": 73,
+      "candidate_redacted_positions_0based": [
+        73,
+        231
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 74,
+      "token": "of",
+      "mapped_redacted_index_0based": 74,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 75,
+      "token": "the",
+      "mapped_redacted_index_0based": 75,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 76,
+      "token": "conference",
+      "mapped_redacted_index_0based": 76,
+      "candidate_redacted_positions_0based": [
+        33,
+        76,
+        241
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 77,
+      "token": "now",
+      "mapped_redacted_index_0based": 77,
+      "candidate_redacted_positions_0based": [
+        77
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 78,
+      "token": "depends",
+      "mapped_redacted_index_0based": 78,
+      "candidate_redacted_positions_0based": [
+        78
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 79,
+      "token": "on",
+      "mapped_redacted_index_0based": 79,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 80,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 80,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 81,
+      "token": "as",
+      "mapped_redacted_index_0based": 81,
+      "candidate_redacted_positions_0based": [
+        81
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 82,
+      "token": "britain",
+      "mapped_redacted_index_0based": 82,
+      "candidate_redacted_positions_0based": [
+        82,
+        167
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 83,
+      "token": "greece",
+      "mapped_redacted_index_0based": 83,
+      "candidate_redacted_positions_0based": [
+        83,
+        145,
+        168
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 84,
+      "token": "turkey",
+      "mapped_redacted_index_0based": 84,
+      "candidate_redacted_positions_0based": [
+        84,
+        170
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 85,
+      "token": "and",
+      "mapped_redacted_index_0based": 85,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 86,
+      "token": "the",
+      "mapped_redacted_index_0based": 86,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 87,
+      "token": "turkish",
+      "mapped_redacted_index_0based": 87,
+      "candidate_redacted_positions_0based": [
+        87,
+        198
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 88,
+      "token": "cypriots",
+      "mapped_redacted_index_0based": 88,
+      "candidate_redacted_positions_0based": [
+        88
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 89,
+      "token": "have",
+      "mapped_redacted_index_0based": 89,
+      "candidate_redacted_positions_0based": [
+        89,
+        277
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 90,
+      "token": "agreed",
+      "mapped_redacted_index_0based": 90,
+      "candidate_redacted_positions_0based": [
+        90
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 91,
+      "token": "on",
+      "mapped_redacted_index_0based": 91,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 92,
+      "token": "the",
+      "mapped_redacted_index_0based": 92,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 93,
+      "token": "terms",
+      "mapped_redacted_index_0based": 93,
+      "candidate_redacted_positions_0based": [
+        38,
+        93,
+        155
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 94,
+      "token": "for",
+      "mapped_redacted_index_0based": 94,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 95,
+      "token": "a",
+      "mapped_redacted_index_0based": 95,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 96,
+      "token": "settlement",
+      "mapped_redacted_index_0based": 96,
+      "candidate_redacted_positions_0based": [
+        96,
+        246
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 97,
+      "token": "failure",
+      "mapped_redacted_index_0based": 97,
+      "candidate_redacted_positions_0based": [
+        97
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 98,
+      "token": "to",
+      "mapped_redacted_index_0based": 98,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 99,
+      "token": "secure",
+      "mapped_redacted_index_0based": 99,
+      "candidate_redacted_positions_0based": [
+        99
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 100,
+      "token": "the",
+      "mapped_redacted_index_0based": 100,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 101,
+      "token": "archbishop's",
+      "mapped_redacted_index_0based": 101,
+      "candidate_redacted_positions_0based": [
+        101
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 102,
+      "token": "approval",
+      "mapped_redacted_index_0based": 102,
+      "candidate_redacted_positions_0based": [
+        102
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 103,
+      "token": "would",
+      "mapped_redacted_index_0based": 103,
+      "candidate_redacted_positions_0based": [
+        103,
+        135,
+        276,
+        300
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 104,
+      "token": "eliminate",
+      "mapped_redacted_index_0based": 104,
+      "candidate_redacted_positions_0based": [
+        104
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 105,
+      "token": "hope",
+      "mapped_redacted_index_0based": 105,
+      "candidate_redacted_positions_0based": [
+        105
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 106,
+      "token": "for",
+      "mapped_redacted_index_0based": 106,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 107,
+      "token": "a",
+      "mapped_redacted_index_0based": 107,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 108,
+      "token": "solution",
+      "mapped_redacted_index_0based": 108,
+      "candidate_redacted_positions_0based": [
+        108
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 109,
+      "token": "at",
+      "mapped_redacted_index_0based": 109,
+      "candidate_redacted_positions_0based": [
+        11,
+        109
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 110,
+      "token": "present",
+      "mapped_redacted_index_0based": 110,
+      "candidate_redacted_positions_0based": [
+        110
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 111,
+      "token": "and",
+      "mapped_redacted_index_0based": 111,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 112,
+      "token": "could",
+      "mapped_redacted_index_0based": 112,
+      "candidate_redacted_positions_0based": [
+        112
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 113,
+      "token": "lead",
+      "mapped_redacted_index_0based": 113,
+      "candidate_redacted_positions_0based": [
+        113
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 114,
+      "token": "to",
+      "mapped_redacted_index_0based": 114,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 115,
+      "token": "a",
+      "mapped_redacted_index_0based": 115,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 116,
+      "token": "renewal",
+      "mapped_redacted_index_0based": 116,
+      "candidate_redacted_positions_0based": [
+        116
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 117,
+      "token": "of",
+      "mapped_redacted_index_0based": 117,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 118,
+      "token": "the",
+      "mapped_redacted_index_0based": 118,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 119,
+      "token": "struggle",
+      "mapped_redacted_index_0based": 119,
+      "candidate_redacted_positions_0based": [
+        119
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 120,
+      "token": "on",
+      "mapped_redacted_index_0based": 120,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 121,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 121,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 122,
+      "token": "the",
+      "mapped_redacted_index_0based": 122,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 123,
+      "token": "possibility",
+      "mapped_redacted_index_0based": 123,
+      "candidate_redacted_positions_0based": [
+        123
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 124,
+      "token": "cannot",
+      "mapped_redacted_index_0based": 124,
+      "candidate_redacted_positions_0based": [
+        124
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 125,
+      "token": "be",
+      "mapped_redacted_index_0based": 125,
+      "candidate_redacted_positions_0based": [
+        125,
+        181
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 126,
+      "token": "precluded",
+      "mapped_redacted_index_0based": 126,
+      "candidate_redacted_positions_0based": [
+        126
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 127,
+      "token": "that",
+      "mapped_redacted_index_0based": 127,
+      "candidate_redacted_positions_0based": [
+        48,
+        127
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 128,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 128,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 129,
+      "token": "is",
+      "mapped_redacted_index_0based": 129,
+      "candidate_redacted_positions_0based": [
+        129,
+        176,
+        266
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 130,
+      "token": "maneuvering",
+      "mapped_redacted_index_0based": 130,
+      "candidate_redacted_positions_0based": [
+        130
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 131,
+      "token": "for",
+      "mapped_redacted_index_0based": 131,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 132,
+      "token": "further",
+      "mapped_redacted_index_0based": 132,
+      "candidate_redacted_positions_0based": [
+        132
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 133,
+      "token": "concessions",
+      "mapped_redacted_index_0based": 133,
+      "candidate_redacted_positions_0based": [
+        133
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 134,
+      "token": "which",
+      "mapped_redacted_index_0based": 134,
+      "candidate_redacted_positions_0based": [
+        134
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 135,
+      "token": "would",
+      "mapped_redacted_index_0based": 135,
+      "candidate_redacted_positions_0based": [
+        103,
+        135,
+        276,
+        300
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 136,
+      "token": "also",
+      "mapped_redacted_index_0based": 136,
+      "candidate_redacted_positions_0based": [
+        136,
+        180
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 137,
+      "token": "enhance",
+      "mapped_redacted_index_0based": 137,
+      "candidate_redacted_positions_0based": [
+        137
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 138,
+      "token": "his",
+      "mapped_redacted_index_0based": 138,
+      "candidate_redacted_positions_0based": [
+        138,
+        309
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 139,
+      "token": "political",
+      "mapped_redacted_index_0based": 139,
+      "candidate_redacted_positions_0based": [
+        139,
+        283
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 140,
+      "token": "stature",
+      "mapped_redacted_index_0based": 140,
+      "candidate_redacted_positions_0based": [
+        140
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 141,
+      "token": "in",
+      "mapped_redacted_index_0based": 141,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 142,
+      "token": "both",
+      "mapped_redacted_index_0based": 142,
+      "candidate_redacted_positions_0based": [
+        142,
+        286
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 143,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 143,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 144,
+      "token": "and",
+      "mapped_redacted_index_0based": 144,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 145,
+      "token": "greece",
+      "mapped_redacted_index_0based": 145,
+      "candidate_redacted_positions_0based": [
+        83,
+        145,
+        168
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 146,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 146,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 147,
+      "token": "opposition",
+      "mapped_redacted_index_0based": 147,
+      "candidate_redacted_positions_0based": [
+        147,
+        290
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 148,
+      "token": "to",
+      "mapped_redacted_index_0based": 148,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 149,
+      "token": "the",
+      "mapped_redacted_index_0based": 149,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 150,
+      "token": "agreement",
+      "mapped_redacted_index_0based": 150,
+      "candidate_redacted_positions_0based": [
+        35,
+        63,
+        150,
+        194
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 151,
+      "token": "appears",
+      "mapped_redacted_index_0based": 151,
+      "candidate_redacted_positions_0based": [
+        151
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 152,
+      "token": "concentrated",
+      "mapped_redacted_index_0based": 152,
+      "candidate_redacted_positions_0based": [
+        152
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 153,
+      "token": "on",
+      "mapped_redacted_index_0based": 153,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 154,
+      "token": "the",
+      "mapped_redacted_index_0based": 154,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 155,
+      "token": "terms",
+      "mapped_redacted_index_0based": 155,
+      "candidate_redacted_positions_0based": [
+        38,
+        93,
+        155
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 156,
+      "token": "providing",
+      "mapped_redacted_index_0based": 156,
+      "candidate_redacted_positions_0based": [
+        156
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 157,
+      "token": "for",
+      "mapped_redacted_index_0based": 157,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 158,
+      "token": "british",
+      "mapped_redacted_index_0based": 158,
+      "candidate_redacted_positions_0based": [
+        158,
+        216
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 159,
+      "token": "base",
+      "mapped_redacted_index_0based": 159,
+      "candidate_redacted_positions_0based": [
+        159
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 160,
+      "token": "rights",
+      "mapped_redacted_index_0based": 160,
+      "candidate_redacted_positions_0based": [
+        160
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 161,
+      "token": "on",
+      "mapped_redacted_index_0based": 161,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 162,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 162,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 163,
+      "token": "and",
+      "mapped_redacted_index_0based": 163,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 164,
+      "token": "the",
+      "mapped_redacted_index_0based": 164,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 165,
+      "token": "right",
+      "mapped_redacted_index_0based": 165,
+      "candidate_redacted_positions_0based": [
+        165
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 166,
+      "token": "of",
+      "mapped_redacted_index_0based": 166,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 167,
+      "token": "britain",
+      "mapped_redacted_index_0based": 167,
+      "candidate_redacted_positions_0based": [
+        82,
+        167
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 168,
+      "token": "greece",
+      "mapped_redacted_index_0based": 168,
+      "candidate_redacted_positions_0based": [
+        83,
+        145,
+        168
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 169,
+      "token": "and",
+      "mapped_redacted_index_0based": 169,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 170,
+      "token": "turkey",
+      "mapped_redacted_index_0based": 170,
+      "candidate_redacted_positions_0based": [
+        84,
+        170
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 171,
+      "token": "to",
+      "mapped_redacted_index_0based": 171,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 172,
+      "token": "intervene",
+      "mapped_redacted_index_0based": 172,
+      "candidate_redacted_positions_0based": [
+        172
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 173,
+      "token": "if",
+      "mapped_redacted_index_0based": 173,
+      "candidate_redacted_positions_0based": [
+        173,
+        238
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 174,
+      "token": "cypriot",
+      "mapped_redacted_index_0based": 174,
+      "candidate_redacted_positions_0based": [
+        174,
+        199,
+        264
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 175,
+      "token": "independence",
+      "mapped_redacted_index_0based": 175,
+      "candidate_redacted_positions_0based": [
+        175
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 176,
+      "token": "is",
+      "mapped_redacted_index_0based": 176,
+      "candidate_redacted_positions_0based": [
+        129,
+        176,
+        266
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 177,
+      "token": "threatened",
+      "mapped_redacted_index_0based": 177,
+      "candidate_redacted_positions_0based": [
+        29,
+        177
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 178,
+      "token": "there",
+      "mapped_redacted_index_0based": 178,
+      "candidate_redacted_positions_0based": [
+        178
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 179,
+      "token": "may",
+      "mapped_redacted_index_0based": 179,
+      "candidate_redacted_positions_0based": [
+        179
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 180,
+      "token": "also",
+      "mapped_redacted_index_0based": 180,
+      "candidate_redacted_positions_0based": [
+        136,
+        180
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 181,
+      "token": "be",
+      "mapped_redacted_index_0based": 181,
+      "candidate_redacted_positions_0based": [
+        125,
+        181
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 182,
+      "token": "problems",
+      "mapped_redacted_index_0based": 182,
+      "candidate_redacted_positions_0based": [
+        182
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 183,
+      "token": "in",
+      "mapped_redacted_index_0based": 183,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 184,
+      "token": "london",
+      "mapped_redacted_index_0based": 184,
+      "candidate_redacted_positions_0based": [
+        19,
+        184,
+        240
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 185,
+      "token": "regarding",
+      "mapped_redacted_index_0based": 185,
+      "candidate_redacted_positions_0based": [
+        185
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 186,
+      "token": "the",
+      "mapped_redacted_index_0based": 186,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 187,
+      "token": "timing",
+      "mapped_redacted_index_0based": 187,
+      "candidate_redacted_positions_0based": [
+        187
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 188,
+      "token": "and",
+      "mapped_redacted_index_0based": 188,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 189,
+      "token": "method",
+      "mapped_redacted_index_0based": 189,
+      "candidate_redacted_positions_0based": [
+        189
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 190,
+      "token": "of",
+      "mapped_redacted_index_0based": 190,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 191,
+      "token": "execution",
+      "mapped_redacted_index_0based": 191,
+      "candidate_redacted_positions_0based": [
+        191
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 192,
+      "token": "of",
+      "mapped_redacted_index_0based": 192,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 193,
+      "token": "the",
+      "mapped_redacted_index_0based": 193,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 194,
+      "token": "agreement",
+      "mapped_redacted_index_0based": 194,
+      "candidate_redacted_positions_0based": [
+        35,
+        63,
+        150,
+        194
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 195,
+      "token": "the",
+      "mapped_redacted_index_0based": 195,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 196,
+      "token": "degree",
+      "mapped_redacted_index_0based": 196,
+      "candidate_redacted_positions_0based": [
+        196
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 197,
+      "token": "of",
+      "mapped_redacted_index_0based": 197,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 198,
+      "token": "turkish",
+      "mapped_redacted_index_0based": 198,
+      "candidate_redacted_positions_0based": [
+        87,
+        198
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 199,
+      "token": "cypriot",
+      "mapped_redacted_index_0based": 199,
+      "candidate_redacted_positions_0based": [
+        174,
+        199,
+        264
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 200,
+      "token": "participation",
+      "mapped_redacted_index_0based": 200,
+      "candidate_redacted_positions_0based": [
+        200
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 201,
+      "token": "in",
+      "mapped_redacted_index_0based": 201,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 202,
+      "token": "the",
+      "mapped_redacted_index_0based": 202,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 203,
+      "token": "government",
+      "mapped_redacted_index_0based": 203,
+      "candidate_redacted_positions_0based": [
+        56,
+        203,
+        261
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 204,
+      "token": "and",
+      "mapped_redacted_index_0based": 204,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 205,
+      "token": "the",
+      "mapped_redacted_index_0based": 205,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 206,
+      "token": "question",
+      "mapped_redacted_index_0based": 206,
+      "candidate_redacted_positions_0based": [
+        206
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 207,
+      "token": "of",
+      "mapped_redacted_index_0based": 207,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 208,
+      "token": "whether",
+      "mapped_redacted_index_0based": 208,
+      "candidate_redacted_positions_0based": [
+        208
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 209,
+      "token": "or",
+      "mapped_redacted_index_0based": 209,
+      "candidate_redacted_positions_0based": [
+        209
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 210,
+      "token": "not",
+      "mapped_redacted_index_0based": 210,
+      "candidate_redacted_positions_0based": [
+        210
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 211,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 211,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 212,
+      "token": "will",
+      "mapped_redacted_index_0based": 212,
+      "candidate_redacted_positions_0based": [
+        212
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 213,
+      "token": "remain",
+      "mapped_redacted_index_0based": 213,
+      "candidate_redacted_positions_0based": [
+        213
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 214,
+      "token": "within",
+      "mapped_redacted_index_0based": 214,
+      "candidate_redacted_positions_0based": [
+        214
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 215,
+      "token": "the",
+      "mapped_redacted_index_0based": 215,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 216,
+      "token": "british",
+      "mapped_redacted_index_0based": 216,
+      "candidate_redacted_positions_0based": [
+        158,
+        216
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 217,
+      "token": "commonwealth",
+      "mapped_redacted_index_0based": 217,
+      "candidate_redacted_positions_0based": [
+        217
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 218,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 218,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 219,
+      "token": "advisers",
+      "mapped_redacted_index_0based": 219,
+      "candidate_redacted_positions_0based": [
+        219
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 220,
+      "token": "reportedly",
+      "mapped_redacted_index_0based": 220,
+      "candidate_redacted_positions_0based": [
+        220
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 221,
+      "token": "are",
+      "mapped_redacted_index_0based": 221,
+      "candidate_redacted_positions_0based": [
+        221
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 222,
+      "token": "pressuring",
+      "mapped_redacted_index_0based": 222,
+      "candidate_redacted_positions_0based": [
+        222
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 223,
+      "token": "the",
+      "mapped_redacted_index_0based": 223,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 224,
+      "token": "archbishop",
+      "mapped_redacted_index_0based": 224,
+      "candidate_redacted_positions_0based": [
+        49,
+        224
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 225,
+      "token": "to",
+      "mapped_redacted_index_0based": 225,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 226,
+      "token": "submit",
+      "mapped_redacted_index_0based": 226,
+      "candidate_redacted_positions_0based": [
+        226
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 227,
+      "token": "any",
+      "mapped_redacted_index_0based": 227,
+      "candidate_redacted_positions_0based": [
+        227
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 228,
+      "token": "plan",
+      "mapped_redacted_index_0based": 228,
+      "candidate_redacted_positions_0based": [
+        228
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 229,
+      "token": "for",
+      "mapped_redacted_index_0based": 229,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 230,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 230,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 231,
+      "token": "future",
+      "mapped_redacted_index_0based": 231,
+      "candidate_redacted_positions_0based": [
+        73,
+        231
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 232,
+      "token": "to",
+      "mapped_redacted_index_0based": 232,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 233,
+      "token": "a",
+      "mapped_redacted_index_0based": 233,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 234,
+      "token": "plebiscite",
+      "mapped_redacted_index_0based": 234,
+      "candidate_redacted_positions_0based": [
+        234
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 235,
+      "token": "on",
+      "mapped_redacted_index_0based": 235,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 236,
+      "token": "the",
+      "mapped_redacted_index_0based": 236,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 237,
+      "token": "island",
+      "mapped_redacted_index_0based": 237,
+      "candidate_redacted_positions_0based": [
+        237
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 238,
+      "token": "if",
+      "mapped_redacted_index_0based": 238,
+      "candidate_redacted_positions_0based": [
+        173,
+        238
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 239,
+      "token": "the",
+      "mapped_redacted_index_0based": 239,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 240,
+      "token": "london",
+      "mapped_redacted_index_0based": 240,
+      "candidate_redacted_positions_0based": [
+        19,
+        184,
+        240
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 241,
+      "token": "conference",
+      "mapped_redacted_index_0based": 241,
+      "candidate_redacted_positions_0based": [
+        33,
+        76,
+        241
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 242,
+      "token": "fails",
+      "mapped_redacted_index_0based": 242,
+      "candidate_redacted_positions_0based": [
+        242
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 243,
+      "token": "to",
+      "mapped_redacted_index_0based": 243,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 244,
+      "token": "achieve",
+      "mapped_redacted_index_0based": 244,
+      "candidate_redacted_positions_0based": [
+        244
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 245,
+      "token": "a",
+      "mapped_redacted_index_0based": 245,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 246,
+      "token": "settlement",
+      "mapped_redacted_index_0based": 246,
+      "candidate_redacted_positions_0based": [
+        96,
+        246
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 247,
+      "token": "of",
+      "mapped_redacted_index_0based": 247,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 248,
+      "token": "the",
+      "mapped_redacted_index_0based": 248,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 249,
+      "token": "cyprus",
+      "mapped_redacted_index_0based": 249,
+      "candidate_redacted_positions_0based": [
+        6,
+        42,
+        62,
+        121,
+        143,
+        162,
+        211,
+        230,
+        249
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 250,
+      "token": "issue",
+      "mapped_redacted_index_0based": 250,
+      "candidate_redacted_positions_0based": [
+        250
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 251,
+      "token": "because",
+      "mapped_redacted_index_0based": 251,
+      "candidate_redacted_positions_0based": [
+        251
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 252,
+      "token": "of",
+      "mapped_redacted_index_0based": 252,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 253,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 253,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 254,
+      "token": "objections",
+      "mapped_redacted_index_0based": 254,
+      "candidate_redacted_positions_0based": [
+        254
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 255,
+      "token": "an",
+      "mapped_redacted_index_0based": 255,
+      "candidate_redacted_positions_0based": [
+        8,
+        40,
+        255
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 256,
+      "token": "open",
+      "mapped_redacted_index_0based": 256,
+      "candidate_redacted_positions_0based": [
+        256
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 257,
+      "token": "break",
+      "mapped_redacted_index_0based": 257,
+      "candidate_redacted_positions_0based": [
+        257,
+        271
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 258,
+      "token": "between",
+      "mapped_redacted_index_0based": 258,
+      "candidate_redacted_positions_0based": [
+        65,
+        258,
+        272
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 259,
+      "token": "the",
+      "mapped_redacted_index_0based": 259,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 260,
+      "token": "greek",
+      "mapped_redacted_index_0based": 260,
+      "candidate_redacted_positions_0based": [
+        55,
+        260,
+        282
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 261,
+      "token": "government",
+      "mapped_redacted_index_0based": 261,
+      "candidate_redacted_positions_0based": [
+        56,
+        203,
+        261
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 262,
+      "token": "and",
+      "mapped_redacted_index_0based": 262,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 263,
+      "token": "the",
+      "mapped_redacted_index_0based": 263,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 264,
+      "token": "cypriot",
+      "mapped_redacted_index_0based": 264,
+      "candidate_redacted_positions_0based": [
+        174,
+        199,
+        264
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 265,
+      "token": "ethnarchy",
+      "mapped_redacted_index_0based": 265,
+      "candidate_redacted_positions_0based": [
+        265
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 266,
+      "token": "is",
+      "mapped_redacted_index_0based": 266,
+      "candidate_redacted_positions_0based": [
+        129,
+        176,
+        266
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 267,
+      "token": "virtually",
+      "mapped_redacted_index_0based": 267,
+      "candidate_redacted_positions_0based": [
+        267
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 268,
+      "token": "certain",
+      "mapped_redacted_index_0based": 268,
+      "candidate_redacted_positions_0based": [
+        268
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 269,
+      "token": "karamanlis",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        273,
+        296
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 270,
+      "token": "recently",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 271,
+      "token": "stated",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 272,
+      "token": "that",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        48,
+        127
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 273,
+      "token": "regardless",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 274,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 275,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 276,
+      "token": "results",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 277,
+      "token": "in",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 278,
+      "token": "london",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        19,
+        184,
+        240
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 279,
+      "token": "greece",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        83,
+        145,
+        168
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 280,
+      "token": "intends",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 281,
+      "token": "to",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 282,
+      "token": "maintain",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 283,
+      "token": "cordial",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 284,
+      "token": "relations",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 285,
+      "token": "with",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        53,
+        285
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 286,
+      "token": "turkey",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        84,
+        170
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 287,
+      "token": "will",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        212
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 288,
+      "token": "order",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 289,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 290,
+      "token": "return",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 291,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 292,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 293,
+      "token": "greek",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        55,
+        260,
+        282
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 294,
+      "token": "nato",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 295,
+      "token": "contingent",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 296,
+      "token": "withdrawn",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 297,
+      "token": "from",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 298,
+      "token": "izmir",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 299,
+      "token": "last",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 300,
+      "token": "june",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 301,
+      "token": "and",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 302,
+      "token": "will",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        212
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 303,
+      "token": "announce",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 304,
+      "token": "withdrawal",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 305,
+      "token": "of",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 306,
+      "token": "further",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        132
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 307,
+      "token": "support",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 308,
+      "token": "for",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        39,
+        94,
+        106,
+        131,
+        157,
+        229
+      ],
+      "candidate_count": 6
+    },
+    {
+      "unredacted_index_0based": 309,
+      "token": "the",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 310,
+      "token": "greek",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        55,
+        260,
+        282
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 311,
+      "token": "cypriot",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [
+        174,
+        199,
+        264
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 312,
+      "token": "cause",
+      "mapped_redacted_index_0based": -1,
+      "candidate_redacted_positions_0based": [],
+      "candidate_count": 0
+    },
+    {
+      "unredacted_index_0based": 313,
+      "token": "a",
+      "mapped_redacted_index_0based": 269,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 314,
+      "token": "final",
+      "mapped_redacted_index_0based": 270,
+      "candidate_redacted_positions_0based": [
+        270
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 315,
+      "token": "break",
+      "mapped_redacted_index_0based": 271,
+      "candidate_redacted_positions_0based": [
+        257,
+        271
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 316,
+      "token": "between",
+      "mapped_redacted_index_0based": 272,
+      "candidate_redacted_positions_0based": [
+        65,
+        258,
+        272
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 317,
+      "token": "karamanlis",
+      "mapped_redacted_index_0based": 273,
+      "candidate_redacted_positions_0based": [
+        273,
+        296
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 318,
+      "token": "and",
+      "mapped_redacted_index_0based": 274,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 319,
+      "token": "makarios",
+      "mapped_redacted_index_0based": 275,
+      "candidate_redacted_positions_0based": [
+        50,
+        80,
+        128,
+        146,
+        218,
+        253,
+        275
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 320,
+      "token": "would",
+      "mapped_redacted_index_0based": 276,
+      "candidate_redacted_positions_0based": [
+        103,
+        135,
+        276,
+        300
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 321,
+      "token": "have",
+      "mapped_redacted_index_0based": 277,
+      "candidate_redacted_positions_0based": [
+        89,
+        277
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 322,
+      "token": "serious",
+      "mapped_redacted_index_0based": 278,
+      "candidate_redacted_positions_0based": [
+        278
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 323,
+      "token": "consequences",
+      "mapped_redacted_index_0based": 279,
+      "candidate_redacted_positions_0based": [
+        279
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 324,
+      "token": "on",
+      "mapped_redacted_index_0based": 280,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 325,
+      "token": "the",
+      "mapped_redacted_index_0based": 281,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 326,
+      "token": "greek",
+      "mapped_redacted_index_0based": 282,
+      "candidate_redacted_positions_0based": [
+        55,
+        260,
+        282
+      ],
+      "candidate_count": 3
+    },
+    {
+      "unredacted_index_0based": 327,
+      "token": "political",
+      "mapped_redacted_index_0based": 283,
+      "candidate_redacted_positions_0based": [
+        139,
+        283
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 328,
+      "token": "scene",
+      "mapped_redacted_index_0based": 284,
+      "candidate_redacted_positions_0based": [
+        284
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 329,
+      "token": "with",
+      "mapped_redacted_index_0based": 285,
+      "candidate_redacted_positions_0based": [
+        53,
+        285
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 330,
+      "token": "both",
+      "mapped_redacted_index_0based": 286,
+      "candidate_redacted_positions_0based": [
+        142,
+        286
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 331,
+      "token": "communist",
+      "mapped_redacted_index_0based": 287,
+      "candidate_redacted_positions_0based": [
+        287
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 332,
+      "token": "and",
+      "mapped_redacted_index_0based": 288,
+      "candidate_redacted_positions_0based": [
+        57,
+        67,
+        85,
+        111,
+        144,
+        163,
+        169,
+        188,
+        204,
+        262,
+        274,
+        288
+      ],
+      "candidate_count": 12
+    },
+    {
+      "unredacted_index_0based": 333,
+      "token": "nationalist",
+      "mapped_redacted_index_0based": 289,
+      "candidate_redacted_positions_0based": [
+        289
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 334,
+      "token": "opposition",
+      "mapped_redacted_index_0based": 290,
+      "candidate_redacted_positions_0based": [
+        147,
+        290
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 335,
+      "token": "parties",
+      "mapped_redacted_index_0based": 291,
+      "candidate_redacted_positions_0based": [
+        291
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 336,
+      "token": "demanding",
+      "mapped_redacted_index_0based": 292,
+      "candidate_redacted_positions_0based": [
+        292
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 337,
+      "token": "the",
+      "mapped_redacted_index_0based": 293,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 338,
+      "token": "government's",
+      "mapped_redacted_index_0based": 294,
+      "candidate_redacted_positions_0based": [
+        294
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 339,
+      "token": "resignation",
+      "mapped_redacted_index_0based": 295,
+      "candidate_redacted_positions_0based": [
+        295
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 340,
+      "token": "karamanlis",
+      "mapped_redacted_index_0based": 296,
+      "candidate_redacted_positions_0based": [
+        273,
+        296
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 341,
+      "token": "ability",
+      "mapped_redacted_index_0based": 297,
+      "candidate_redacted_positions_0based": [
+        297
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 342,
+      "token": "to",
+      "mapped_redacted_index_0based": 298,
+      "candidate_redacted_positions_0based": [
+        26,
+        98,
+        114,
+        148,
+        171,
+        225,
+        232,
+        243,
+        298
+      ],
+      "candidate_count": 9
+    },
+    {
+      "unredacted_index_0based": 343,
+      "token": "survive",
+      "mapped_redacted_index_0based": 299,
+      "candidate_redacted_positions_0based": [
+        299
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 344,
+      "token": "would",
+      "mapped_redacted_index_0based": 300,
+      "candidate_redacted_positions_0based": [
+        103,
+        135,
+        276,
+        300
+      ],
+      "candidate_count": 4
+    },
+    {
+      "unredacted_index_0based": 345,
+      "token": "depend",
+      "mapped_redacted_index_0based": 301,
+      "candidate_redacted_positions_0based": [
+        301
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 346,
+      "token": "on",
+      "mapped_redacted_index_0based": 302,
+      "candidate_redacted_positions_0based": [
+        20,
+        36,
+        69,
+        79,
+        91,
+        120,
+        153,
+        161,
+        235,
+        280,
+        302
+      ],
+      "candidate_count": 11
+    },
+    {
+      "unredacted_index_0based": 347,
+      "token": "the",
+      "mapped_redacted_index_0based": 303,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 348,
+      "token": "loyalty",
+      "mapped_redacted_index_0based": 304,
+      "candidate_redacted_positions_0based": [
+        304
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 349,
+      "token": "of",
+      "mapped_redacted_index_0based": 305,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 350,
+      "token": "the",
+      "mapped_redacted_index_0based": 306,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 351,
+      "token": "members",
+      "mapped_redacted_index_0based": 307,
+      "candidate_redacted_positions_0based": [
+        307
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 352,
+      "token": "of",
+      "mapped_redacted_index_0based": 308,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 353,
+      "token": "his",
+      "mapped_redacted_index_0based": 309,
+      "candidate_redacted_positions_0based": [
+        138,
+        309
+      ],
+      "candidate_count": 2
+    },
+    {
+      "unredacted_index_0based": 354,
+      "token": "own",
+      "mapped_redacted_index_0based": 310,
+      "candidate_redacted_positions_0based": [
+        310
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 355,
+      "token": "party",
+      "mapped_redacted_index_0based": 311,
+      "candidate_redacted_positions_0based": [
+        311
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 356,
+      "token": "in",
+      "mapped_redacted_index_0based": 312,
+      "candidate_redacted_positions_0based": [
+        18,
+        141,
+        183,
+        201,
+        312
+      ],
+      "candidate_count": 5
+    },
+    {
+      "unredacted_index_0based": 357,
+      "token": "the",
+      "mapped_redacted_index_0based": 313,
+      "candidate_redacted_positions_0based": [
+        12,
+        21,
+        28,
+        32,
+        37,
+        43,
+        54,
+        61,
+        72,
+        75,
+        86,
+        92,
+        100,
+        118,
+        122,
+        149,
+        154,
+        164,
+        186,
+        193,
+        195,
+        202,
+        205,
+        215,
+        223,
+        236,
+        239,
+        248,
+        259,
+        263,
+        281,
+        293
+      ],
+      "candidate_count": 35
+    },
+    {
+      "unredacted_index_0based": 358,
+      "token": "chamber",
+      "mapped_redacted_index_0based": 314,
+      "candidate_redacted_positions_0based": [
+        314
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 359,
+      "token": "of",
+      "mapped_redacted_index_0based": 315,
+      "candidate_redacted_positions_0based": [
+        23,
+        31,
+        74,
+        117,
+        166,
+        190,
+        192,
+        197,
+        207,
+        247,
+        252,
+        305,
+        308,
+        315
+      ],
+      "candidate_count": 14
+    },
+    {
+      "unredacted_index_0based": 360,
+      "token": "deputies",
+      "mapped_redacted_index_0based": 316,
+      "candidate_redacted_positions_0based": [
+        316
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 361,
+      "token": "where",
+      "mapped_redacted_index_0based": 317,
+      "candidate_redacted_positions_0based": [
+        317
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 362,
+      "token": "he",
+      "mapped_redacted_index_0based": 318,
+      "candidate_redacted_positions_0based": [
+        318
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 363,
+      "token": "enjoys",
+      "mapped_redacted_index_0based": 319,
+      "candidate_redacted_positions_0based": [
+        319
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 364,
+      "token": "a",
+      "mapped_redacted_index_0based": 320,
+      "candidate_redacted_positions_0based": [
+        95,
+        107,
+        115,
+        233,
+        245,
+        269,
+        320
+      ],
+      "candidate_count": 7
+    },
+    {
+      "unredacted_index_0based": 365,
+      "token": "small",
+      "mapped_redacted_index_0based": 321,
+      "candidate_redacted_positions_0based": [
+        321
+      ],
+      "candidate_count": 1
+    },
+    {
+      "unredacted_index_0based": 366,
+      "token": "majority",
+      "mapped_redacted_index_0based": 322,
+      "candidate_redacted_positions_0based": [
+        322
+      ],
+      "candidate_count": 1
+    }
+  ],
+  "ground_truth": {
+    "has_ground_truth": true,
+    "context_compact": "Cyprus Situation (If the London conference fails to achieve a settlement of the Cyprus issue because of Makarios' objections, an open break between the Greek Government and the Cypriot Ethnarchy is virtually certain. Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey, will order the return of the Greek NATO contingent, withdrawn from Izmir last June, and will announce withdrawal of further support for the Greek Cypriot cause.) (A final break between Karamanlis and Makarios would have serious consequences on the Greek political scene, with both Communist and nationalist opposition parties demanding the government's resignation. Karamanlis' ability to survive would depend on the loyalty of the members of his own party in the Chamber of Deputies, where he enjoys a small majority.)",
+    "redactions": [
+      "Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,"
+    ]
+  },
+  "full_context_vs_truth": {
+    "reference_token_total": 131,
+    "hypothesis_token_total": 367,
+    "matched_tokens": 131,
+    "missing_tokens": 0,
+    "hallucinated_tokens": 236,
+    "recall": 1.0,
+    "precision": 0.356948,
+    "f1": 0.526104,
+    "net_recovery_minus_hallucination": -0.801527
+  },
+  "redaction_eval": {
+    "truth_redaction_count": 1,
+    "predicted_redaction_count": 1,
+    "correctly_found_redactions": 1,
+    "missed_redactions": 0,
+    "hallucinated_redactions": 0,
+    "perfect_text_match_count": 0,
+    "perfect_text_match_rate_on_correct": 0.0,
+    "strict_avg_pair_f1_on_correct": 0.580645,
+    "matched_word_recall": 1.0,
+    "matched_word_precision": 0.409091,
+    "relaxed_gt_found_count": 1,
+    "relaxed_gt_found_rate": 1.0,
+    "relaxed_avg_best_f1_over_gt": 0.580645,
+    "relaxed_exact_text_match_count": 0,
+    "relaxed_exact_text_match_rate": 0.0,
+    "matched_pairs": [
+      {
+        "pred_chunk_id": 1,
+        "pred_index_0based": 0,
+        "gt_index_0based": 0,
+        "score_f1": 0.580645,
+        "exact_text_match": false,
+        "pred_text": "karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause",
+        "gt_text": "Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,",
+        "word_metrics": {
+          "reference_token_total": 44,
+          "hypothesis_token_total": 18,
+          "matched_tokens": 18,
+          "missing_tokens": 26,
+          "hallucinated_tokens": 0,
+          "recall": 0.409091,
+          "precision": 1.0,
+          "f1": 0.580645,
+          "net_recovery_minus_hallucination": 0.409091
+        }
+      }
+    ],
+    "best_match_per_gt": [
+      {
+        "gt_index_0based": 0,
+        "gt_text": "Karamanlis recently stated that regardless of the results in London, Greece intends to maintain cordial relations with Turkey,",
+        "best_score_f1": 0.580645,
+        "best_chunk_start_0based": 0,
+        "best_chunk_end_0based": 0,
+        "best_joined_chunk_count": 1,
+        "best_pred_text": "karamanlis recently stated that regardless of the results in london greece intends to maintain cordial relations with turkey will order the return of the greek nato contingent withdrawn from izmir last june and will announce withdrawal of further support for the greek cypriot cause",
+        "best_exact_text_match": false,
+        "best_word_metrics": {
+          "reference_token_total": 18,
+          "hypothesis_token_total": 44,
+          "matched_tokens": 18,
+          "missing_tokens": 0,
+          "hallucinated_tokens": 26,
+          "recall": 1.0,
+          "precision": 0.409091,
+          "f1": 0.580645,
+          "net_recovery_minus_hallucination": -0.444444
+        }
+      }
+    ]
+  }
+}

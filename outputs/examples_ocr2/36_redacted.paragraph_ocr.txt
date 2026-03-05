@@ -1,0 +1,5 @@
+Incorrectlyphrased phrases like 'Army General Massu on 1 March,' are treated as stop words and not considered relevant for this task.
+Overt French Military and Rightist Opposition to De Gaulle On Algeria Likely
+[There are indications that some die-hard elements in the French armed forces may join rightist civilian groups in openly opposing De Gaulle's Algerian policy. Army General Massu on 1 March, in his first 'political speech' in recent months, described the May 1958 revolt by French military leaders in Algeria as 'an event of profound significance which still escapes many' and referred pointedly to the integration of Algeria with France as one of its objectives.]
+
+The image is a photograph of a newspaper article. The article is about the Algerian war and the French military and rightist groups. The article is written in a formal style and uses a lot of technical language. The article is written in English.

@@ -1,0 +1,666 @@
+{
+  "image": "inputs/images/8_redacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [
+    [
+      396,
+      58,
+      526,
+      74
+    ],
+    [
+      9,
+      79,
+      134,
+      95
+    ]
+  ],
+  "text_region_percentile_xyxy": [
+    19,
+    2,
+    525,
+    297
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 86517,
+  "merged_region_nonzero_px": 85897,
+  "line_width_px": 506,
+  "line_count": 16,
+  "paragraph_crops_dir": "outputs/examples_ocr2/8_redacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/8_redacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/8_redacted.paragraphs.json",
+  "paragraph_count": 2,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 1,
+      "line_count": 1,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        19,
+        7,
+        525,
+        18
+      ],
+      "text": "Burmese Army's Political Activities and Plans",
+      "expanded_crop_box_xyxy": [
+        0,
+        0,
+        562,
+        26
+      ],
+      "crop_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 3,
+      "line_end_1based": 16,
+      "line_count": 14,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        19,
+        43,
+        525,
+        292
+      ],
+      "text": "\nCol. Maung Maung, an influential army officer who is one\nof General Ne Win's closest political advisers, [ ]\nstated recently that six months was too short a\ntime in which to establish stability in Burma, and that it would\nbe impossible to hold elections before 1960. Maung Maung in-\ndicated that the army was searching for \"constitutional\" means\nof extending the tenure of the Ne Win government beyond the\nsix-month period stipulated under the terms of the \"transfer\nof power\" agreement which enabled Ne Win to come to power\nwith a semblance of constitutionality in late October. The\ngeneral tenor of Maung Maung's remarks suggests that the a2-\nmy is determined to remain in power indefinitely beyond the\nachievement of its stated objectives of pacifying the country and",
+      "expanded_crop_box_xyxy": [
+        0,
+        18,
+        562,
+        298
+      ],
+      "crop_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "Col. Maung Maung, an influential army officer who is one of General Ne Win's closest political advisers, [ ] stated recently that six months was too short a time in which to establish stability in Burma, and that it would be impossible to hold elections before 1960. Maung Maung indicated that the army was searching for \"constitutional\" means of extending the tenure of the Ne Win government beyond the six-month period stipulated under the terms of the \"transfer of power\" agreement which enabled Ne Win to come to power with a semblance of constitutionality in late October. The general tenor of Maung Maung's remarks suggests that the a2-my is determined to remain in power indefinitely beyond the achievement of its stated objectives of pacifying the country and limiting the Communist threat.",
+      "ocr_text_path": "outputs/examples_ocr2/8_redacted.paragraph_crops/paragraph_002.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.1875,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 16,
+  "row_scan_line_band_count": 15,
+  "row_scan_gap_band_count": 14,
+  "row_scan_linebreak_band_count": 13,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 1,
+  "indentation_band_count": 1,
+  "gap_markers": [
+    {
+      "box": [
+        19,
+        19,
+        525,
+        42
+      ],
+      "kind": "blankline",
+      "height_px": 24,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 1.875,
+      "height_to_avg_full_line_ratio": 1.3198,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 19,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        19,
+        55,
+        525,
+        61
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.5469,
+      "height_to_avg_full_line_ratio": 0.3849,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1465,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        73,
+        525,
+        79
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.5469,
+      "height_to_avg_full_line_ratio": 0.3849,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0733,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        91,
+        525,
+        96
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.4688,
+      "height_to_avg_full_line_ratio": 0.3299,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.1907,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        110,
+        525,
+        114
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        129,
+        525,
+        133
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        147,
+        525,
+        151
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        165,
+        525,
+        170
+      ],
+      "kind": "linebreak",
+      "height_px": 6,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.4688,
+      "height_to_avg_full_line_ratio": 0.3299,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 6,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        184,
+        525,
+        188
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        202,
+        525,
+        206
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        221,
+        525,
+        224
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3125,
+      "height_to_avg_full_line_ratio": 0.22,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        240,
+        525,
+        242
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.2344,
+      "height_to_avg_full_line_ratio": 0.165,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        256,
+        525,
+        260
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.3906,
+      "height_to_avg_full_line_ratio": 0.275,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        19,
+        274,
+        525,
+        280
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 12.8,
+      "avg_linebreak_height_px": 5.3846,
+      "avg_full_line_height_px": 18.1846,
+      "height_to_avg_line_ratio": 0.5469,
+      "height_to_avg_full_line_ratio": 0.3849,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 15,
+    "blankline": 0,
+    "paragraphblank": 1
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Burmese Army's Political Activities and Plans",
+      "char_len": 45,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        7,
+        525,
+        18
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "PB2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        19,
+        24,
+        525,
+        42
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "L3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        43,
+        525,
+        54
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Col. Maung Maung, an influential army officer who is one",
+      "char_len": 56,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        62,
+        525,
+        72
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "of General Ne Win's closest political advisers, [ ]",
+      "char_len": 51,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        80,
+        525,
+        90
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "stated recently that six months was too short a",
+      "char_len": 47,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        97,
+        525,
+        109
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "L7",
+      "text": "time in which to establish stability in Burma, and that it would",
+      "char_len": 64,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        115,
+        525,
+        128
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "be impossible to hold elections before 1960. Maung Maung in-",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        134,
+        525,
+        146
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "dicated that the army was searching for \"constitutional\" means",
+      "char_len": 62,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        152,
+        525,
+        164
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "of extending the tenure of the Ne Win government beyond the",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        171,
+        525,
+        183
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "six-month period stipulated under the terms of the \"transfer",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        189,
+        525,
+        201
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "of power\" agreement which enabled Ne Win to come to power",
+      "char_len": 57,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        207,
+        525,
+        220
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "with a semblance of constitutionality in late October. The",
+      "char_len": 58,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        225,
+        525,
+        239
+      ]
+    },
+    {
+      "line_1based": 14,
+      "serial_label": "L14",
+      "text": "general tenor of Maung Maung's remarks suggests that the a2-",
+      "char_len": 60,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        243,
+        525,
+        255
+      ]
+    },
+    {
+      "line_1based": 15,
+      "serial_label": "L15",
+      "text": "my is determined to remain in power indefinitely beyond the",
+      "char_len": 59,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        261,
+        525,
+        273
+      ]
+    },
+    {
+      "line_1based": 16,
+      "serial_label": "L16",
+      "text": "achievement of its stated objectives of pacifying the country and",
+      "char_len": 65,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        19,
+        281,
+        525,
+        292
+      ]
+    }
+  ],
+  "redaction_line_spans": [
+    {
+      "id": 1,
+      "line_1based": 4,
+      "line_char_capacity": 56,
+      "char_start": 42,
+      "char_end": 56,
+      "char_len": 14,
+      "full_line": false,
+      "bbox_xyxy": [
+        396,
+        58,
+        526,
+        74
+      ],
+      "placeholder_token": "[REDACTED_1]",
+      "layout_token_underscore": "[BOX1___________]",
+      "layout_token_pixel": "[BOX1__129/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2549,
+      "clipped_span_px": 129,
+      "line_width_effective_px": 506,
+      "touches_left_border": false,
+      "touches_right_border": true
+    },
+    {
+      "id": 2,
+      "line_1based": 5,
+      "line_char_capacity": 51,
+      "char_start": 0,
+      "char_end": 12,
+      "char_len": 12,
+      "full_line": false,
+      "bbox_xyxy": [
+        9,
+        79,
+        134,
+        95
+      ],
+      "placeholder_token": "[REDACTED_2]",
+      "layout_token_underscore": "[BOX2__________]",
+      "layout_token_pixel": "[BOX2__115/506]",
+      "line_overlap_ratio": 1.0,
+      "line_cover_ratio_x": 0.2273,
+      "clipped_span_px": 115,
+      "line_width_effective_px": 506,
+      "touches_left_border": true,
+      "touches_right_border": false
+    }
+  ],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 40,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}

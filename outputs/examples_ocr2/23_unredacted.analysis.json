@@ -1,0 +1,504 @@
+{
+  "image": "inputs/images/23_unredacted.png",
+  "model": "deepseek-ai/DeepSeek-OCR-2",
+  "prompt": "<image>\nFree OCR. Preserve original line breaks.",
+  "redaction_boxes_xyxy": [],
+  "text_region_percentile_xyxy": [
+    14,
+    15,
+    509,
+    234
+  ],
+  "percentile_q_x": 0.5,
+  "percentile_q_y": 0.0,
+  "region_masking": "percentile computed from merged_text minus structural_lines_mask",
+  "merged_nonzero_px": 58534,
+  "merged_region_nonzero_px": 58534,
+  "line_width_px": 495,
+  "line_count": 13,
+  "paragraph_crops_dir": "outputs/examples_ocr2/23_unredacted.paragraph_crops",
+  "paragraph_ocr_txt_path": "outputs/examples_ocr2/23_unredacted.paragraph_ocr.txt",
+  "paragraph_json_path": "outputs/examples_ocr2/23_unredacted.paragraphs.json",
+  "paragraph_count": 3,
+  "paragraph_blocks": [
+    {
+      "paragraph_1based": 1,
+      "line_start_1based": 1,
+      "line_end_1based": 2,
+      "line_count": 2,
+      "starts_with_paragraph_marker": false,
+      "paragraph_box_xyxy": [
+        14,
+        19,
+        509,
+        55
+      ],
+      "text": "Consider adding a period at the end of each sentence.",
+      "expanded_crop_box_xyxy": [
+        0,
+        11,
+        526,
+        63
+      ],
+      "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_001.png",
+      "ocr_text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival.",
+      "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_001.ocr.txt"
+    },
+    {
+      "paragraph_1based": 2,
+      "line_start_1based": 4,
+      "line_end_1based": 6,
+      "line_count": 3,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        14,
+        74,
+        509,
+        123
+      ],
+      "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival\n\nA concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.",
+      "expanded_crop_box_xyxy": [
+        0,
+        66,
+        526,
+        131
+      ],
+      "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_002.png",
+      "ocr_text": "",
+      "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_002.ocr.txt"
+    },
+    {
+      "paragraph_1based": 3,
+      "line_start_1based": 8,
+      "line_end_1based": 13,
+      "line_count": 6,
+      "starts_with_paragraph_marker": true,
+      "paragraph_box_xyxy": [
+        14,
+        126,
+        509,
+        232
+      ],
+      "text": "**only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.** The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+      "expanded_crop_box_xyxy": [
+        0,
+        115,
+        526,
+        243
+      ],
+      "crop_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_003.png",
+      "ocr_text": "Drimmel favored a ban on the festival when it was discussed\nat a cabinet meeting on 3 February, and further government\nconsideration is unlikely. The only remaining possibility of\npreventing the Vienna meeting is to maneuver the preparatory\ncommittee itself into withdrawing.",
+      "ocr_text_path": "outputs/examples_ocr2/23_unredacted.paragraph_crops/paragraph_003.ocr.txt"
+    }
+  ],
+  "avg_line_height_px": 13.6154,
+  "ocr_line_source": "row_scan_bands",
+  "raw_ocr_source": "line_model",
+  "raw_ocr_full_image_line_count": 6,
+  "row_scan_line_band_count": 11,
+  "row_scan_gap_band_count": 10,
+  "row_scan_linebreak_band_count": 9,
+  "row_scan_blankline_band_count": 1,
+  "row_scan_new_paragraph_count": 2,
+  "indentation_band_count": 2,
+  "gap_markers": [
+    {
+      "box": [
+        14,
+        33,
+        509,
+        36
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.2803,
+      "height_to_avg_full_line_ratio": 0.215,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        56,
+        509,
+        73
+      ],
+      "kind": "blankline",
+      "height_px": 18,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 1.2611,
+      "height_to_avg_full_line_ratio": 0.9674,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 18,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        14,
+        87,
+        509,
+        88
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.1401,
+      "height_to_avg_full_line_ratio": 0.1075,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 2,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        106,
+        509,
+        109
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.2803,
+      "height_to_avg_full_line_ratio": 0.215,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        124,
+        509,
+        125
+      ],
+      "kind": "linebreak",
+      "height_px": 2,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.1401,
+      "height_to_avg_full_line_ratio": 0.1075,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 2,
+      "remaining_blank_height_px": 0,
+      "next_line_indented": true,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": true
+    },
+    {
+      "box": [
+        14,
+        139,
+        509,
+        146
+      ],
+      "kind": "linebreak",
+      "height_px": 8,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.5605,
+      "height_to_avg_full_line_ratio": 0.43,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 8,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        162,
+        509,
+        164
+      ],
+      "kind": "linebreak",
+      "height_px": 3,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.2102,
+      "height_to_avg_full_line_ratio": 0.1612,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 3,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        178,
+        509,
+        181
+      ],
+      "kind": "linebreak",
+      "height_px": 4,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.2803,
+      "height_to_avg_full_line_ratio": 0.215,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 4,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        196,
+        509,
+        200
+      ],
+      "kind": "linebreak",
+      "height_px": 5,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.3503,
+      "height_to_avg_full_line_ratio": 0.2687,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 5,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    },
+    {
+      "box": [
+        14,
+        214,
+        509,
+        220
+      ],
+      "kind": "linebreak",
+      "height_px": 7,
+      "avg_text_line_height_px": 14.2727,
+      "avg_linebreak_height_px": 4.3333,
+      "avg_full_line_height_px": 18.6061,
+      "height_to_avg_line_ratio": 0.4904,
+      "height_to_avg_full_line_ratio": 0.3762,
+      "blankline_line_slots": 0,
+      "paragraphblank_height_px": 0,
+      "remaining_blank_height_px": 7,
+      "next_line_indented": false,
+      "redaction_overlap_ratio": 0.0,
+      "new_paragraph": false
+    }
+  ],
+  "line_kind_counts": {
+    "text_line": 11,
+    "blankline": 0,
+    "paragraphblank": 2
+  },
+  "lines": [
+    {
+      "line_1based": 1,
+      "serial_label": "L1",
+      "text": "Consider adding a period at the end of each sentence.",
+      "char_len": 53,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        19,
+        509,
+        32
+      ]
+    },
+    {
+      "line_1based": 2,
+      "serial_label": "L2",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        37,
+        509,
+        55
+      ]
+    },
+    {
+      "line_1based": 3,
+      "serial_label": "PB3",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        14,
+        56,
+        509,
+        73
+      ]
+    },
+    {
+      "line_1based": 4,
+      "serial_label": "L4",
+      "text": "Austrian Cabinet Declines Bid to Ban Communist-Front World Youth Festival",
+      "char_len": 73,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        74,
+        509,
+        86
+      ]
+    },
+    {
+      "line_1based": 5,
+      "serial_label": "L5",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        89,
+        509,
+        105
+      ]
+    },
+    {
+      "line_1based": 6,
+      "serial_label": "L6",
+      "text": "A concerted effort to persuade the Austrian Government to withdraw its permission for the Communist-front World Youth Festival to convene in Vienna next July apparently has failed.",
+      "char_len": 180,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        110,
+        509,
+        123
+      ]
+    },
+    {
+      "line_1based": 7,
+      "serial_label": "PB7",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "paragraphblank",
+      "line_box_xyxy": [
+        14,
+        124,
+        509,
+        125
+      ]
+    },
+    {
+      "line_1based": 8,
+      "serial_label": "L8",
+      "text": "**only Minister of Education Drimmel favored a ban on the festival when it was discussed at a cabinet meeting on 3 February, and further government consideration is unlikely.** The only remaining possibility of preventing the Vienna meeting is to maneuver the preparatory committee itself into withdrawing.",
+      "char_len": 306,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        126,
+        509,
+        138
+      ]
+    },
+    {
+      "line_1based": 9,
+      "serial_label": "L9",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        147,
+        509,
+        161
+      ]
+    },
+    {
+      "line_1based": 10,
+      "serial_label": "L10",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        165,
+        509,
+        177
+      ]
+    },
+    {
+      "line_1based": 11,
+      "serial_label": "L11",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        182,
+        509,
+        195
+      ]
+    },
+    {
+      "line_1based": 12,
+      "serial_label": "L12",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        201,
+        509,
+        213
+      ]
+    },
+    {
+      "line_1based": 13,
+      "serial_label": "L13",
+      "text": "",
+      "char_len": 0,
+      "line_kind": "text_line",
+      "line_box_xyxy": [
+        14,
+        221,
+        509,
+        232
+      ]
+    }
+  ],
+  "redaction_line_spans": [],
+  "params": {
+    "line_coverage_min": 0.5,
+    "paragraphblank_min_height_multiplier": 1.5,
+    "row_ink_threshold": 0.15900000000000003,
+    "row_ink_indentation_px": 39,
+    "tiny_line_merge_ratio_of_median": 0.3333333333333333,
+    "first_line_indent_spaces": 5,
+    "box_label_mode": "underscore",
+    "box_line_chars": 64
+  },
+  "note": "line model uses row-scan bands over text_pixels (01-02-12), maps full-image OCR lines onto bands, serializes linebreak/blankline/paragraphblank slots, and splits paragraphs at PB midpoints"
+}
