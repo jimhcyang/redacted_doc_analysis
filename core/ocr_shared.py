@@ -40,6 +40,10 @@ def clean_ds_output(raw) -> str:
     s = str(raw)
     s = re.sub(r"<\|ref\|>.*?<\|/ref\|>", "", s, flags=re.DOTALL)
     s = re.sub(r"<\|det\|>.*?<\|/det\|>", "", s, flags=re.DOTALL)
+    s = re.sub(r"(?im)^\s*patches:\s*.*$", "", s)
+    s = re.sub(r"(?im)^\s*base:\s*.*$", "", s)
+    s = re.sub(r"(?im)^\s*no\s+patches\s*$", "", s)
+    s = re.sub(r"\n{3,}", "\n\n", s)
     return s.strip()
 
 
