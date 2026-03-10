@@ -1,0 +1,10 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0007
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 0

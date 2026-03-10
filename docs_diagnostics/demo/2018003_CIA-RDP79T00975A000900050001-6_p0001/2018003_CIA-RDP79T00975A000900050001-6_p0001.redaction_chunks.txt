@@ -1,0 +1,24 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0001
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=16..18, len=3)
+Predicted chunk text: ts s c
+Unredacted context: class changed to [UNRED_ONLY: ts s c] next review date
+Redacted anchor context: declassified class changed [L@25:to] [RED_GAP:tssc] [R@27:next] review date 2029
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:tssc]
+
+========================================================================
+Chunk #2 (token_span=27..28, len=2)
+Predicted chunk text: da 79
+Unredacted context: 70-2 date 18 [UNRED_ONLY: da 79] reviewer office of
+Redacted anchor context: hr 70-2 date [L@35:18] [RED_GAP:04 29] [R@38:reviewer] office of current
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:04 29]

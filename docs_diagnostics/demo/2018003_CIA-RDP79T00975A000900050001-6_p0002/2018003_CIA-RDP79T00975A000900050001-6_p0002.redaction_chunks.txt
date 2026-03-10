@@ -1,0 +1,38 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0002
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+
+========================================================================
+Chunk #1 (token_span=0..20, len=21)
+Predicted chunk text: su m m a r y far east 1 north korean aircraft vacate combat airfields in yalu river complex page 3
+Unredacted context: [UNRED_ONLY: su m m a r y far east 1 north korean aircraft vacate combat airfields in yalu river complex page 3] southeast asia 2
+Redacted anchor context: [R_ANCHOR_ONLY @ 7] 5a000090050001-6 25x1a summary southeast asia 2 french
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=38..47, len=10)
+Predicted chunk text: 3 ibn saud opposes withdrawing troops from burami page 4
+Unredacted context: near east africa [UNRED_ONLY: 3 ibn saud opposes withdrawing troops from burami page 4] 4 change in
+Redacted anchor context: 3 near east [L@23:africa] [RED_GAP:<empty>] [R@24:4] change in egyptian
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #3 (token_span=52..53, len=2)
+Predicted chunk text: re gency
+Unredacted context: change in egyptian [UNRED_ONLY: re gency] council emphasizes army's
+Redacted anchor context: 4 change in [L@27:egyptian] [RED_GAP:regency] [R@29:council] emphasizes army's strength
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:regency]
+
+========================================================================
+Chunk #4 (token_span=73..85, len=13)
+Predicted chunk text: 6 french report west berliners shifting in favor of four-power talks page 5
+Unredacted context: 5 western europe [UNRED_ONLY: 6 french report west berliners shifting in favor of four-power talks page 5] 7 prospects for
+Redacted anchor context: page 5 western [L@47:europe] [RED_GAP:<empty>] [R@48:7] prospects for belgian
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]

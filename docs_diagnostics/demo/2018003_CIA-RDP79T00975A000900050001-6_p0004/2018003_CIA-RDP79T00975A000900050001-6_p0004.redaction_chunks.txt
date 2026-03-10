@@ -1,0 +1,24 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0004
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=21..65, len=45)
+Predicted chunk text: 3 3 h ibn saud opposes withdrawing troops from buraimi comment although the american consul at dhahran believes that the situation is improved for the moment the king's adamant attitude on withdrawing troops from buraimi may encourage the outbreak of further incidents in the area
+Unredacted context: near east africa [UNRED_ONLY: 3 3 h ibn saud opposes withdrawing troops from buraimi comment although the american consul at dhahran believes that the situation is improved for the moment the king's adamant attitude on withdrawing troops from buraimi may encourage the outbreak of further incidents in the area] change in egyptian
+Redacted anchor context: winter near east [L@33:africa] [RED_GAP:<empty>] [R@34:change] in egyptian regency
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=169..169, len=1)
+Predicted chunk text: 4
+Unredacted context: the brotherhood's influence [UNRED_ONLY: 4]
+Redacted anchor context: [L_ANCHOR_ONLY @ 136] curb the brotherhood's influence
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]

@@ -1,0 +1,174 @@
+===== PAGE 0001 | 2018003_CIA-RDP79T00975A000900050001-6_p0001 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0001
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=16..18, len=3)
+Predicted chunk text: ts s c
+Unredacted context: class changed to [UNRED_ONLY: ts s c] next review date
+Redacted anchor context: declassified class changed [L@25:to] [RED_GAP:tssc] [R@27:next] review date 2029
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:tssc]
+
+========================================================================
+Chunk #2 (token_span=27..28, len=2)
+Predicted chunk text: da 79
+Unredacted context: 70-2 date 18 [UNRED_ONLY: da 79] reviewer office of
+Redacted anchor context: hr 70-2 date [L@35:18] [RED_GAP:04 29] [R@38:reviewer] office of current
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:04 29]
+
+===== PAGE 0002 | 2018003_CIA-RDP79T00975A000900050001-6_p0002 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0002
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 4
+
+========================================================================
+Chunk #1 (token_span=0..20, len=21)
+Predicted chunk text: su m m a r y far east 1 north korean aircraft vacate combat airfields in yalu river complex page 3
+Unredacted context: [UNRED_ONLY: su m m a r y far east 1 north korean aircraft vacate combat airfields in yalu river complex page 3] southeast asia 2
+Redacted anchor context: [R_ANCHOR_ONLY @ 7] 5a000090050001-6 25x1a summary southeast asia 2 french
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=38..47, len=10)
+Predicted chunk text: 3 ibn saud opposes withdrawing troops from burami page 4
+Unredacted context: near east africa [UNRED_ONLY: 3 ibn saud opposes withdrawing troops from burami page 4] 4 change in
+Redacted anchor context: 3 near east [L@23:africa] [RED_GAP:<empty>] [R@24:4] change in egyptian
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #3 (token_span=52..53, len=2)
+Predicted chunk text: re gency
+Unredacted context: change in egyptian [UNRED_ONLY: re gency] council emphasizes army's
+Redacted anchor context: 4 change in [L@27:egyptian] [RED_GAP:regency] [R@29:council] emphasizes army's strength
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:regency]
+
+========================================================================
+Chunk #4 (token_span=73..85, len=13)
+Predicted chunk text: 6 french report west berliners shifting in favor of four-power talks page 5
+Unredacted context: 5 western europe [UNRED_ONLY: 6 french report west berliners shifting in favor of four-power talks page 5] 7 prospects for
+Redacted anchor context: page 5 western [L@47:europe] [RED_GAP:<empty>] [R@48:7] prospects for belgian
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+===== PAGE 0003 | 2018003_CIA-RDP79T00975A000900050001-6_p0003 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0003
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=0..51, len=52)
+Predicted chunk text: far east 1 north korean aircraft vacate combat airfields in yalu river complex comment these transfers will practically empty the airfields in yalu river complex of north korean air units still largely in a training phase the move may be designed to provide facilities for additional trained soviet or chinese combat units
+Unredacted context: [UNRED_ONLY: far east 1 north korean aircraft vacate combat airfields in yalu river complex comment these transfers will practically empty the airfields in yalu river complex of north korean air units still largely in a training phase the move may be designed to provide facilities for additional trained soviet or chinese combat units] southeast asia 2
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] southeast asia 2 french
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=127..156, len=30)
+Predicted chunk text: comment viet minh offensive operations would be initiated during the latter part of october it is not yet possible to determine whether the french action may have forced a postponement
+Unredacted context: of coolie labor [UNRED_ONLY: comment viet minh offensive operations would be initiated during the latter part of october it is not yet possible to determine whether the french action may have forced a postponement]
+Redacted anchor context: [L_ANCHOR_ONLY @ 74] shortage of coolie labor
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+===== PAGE 0004 | 2018003_CIA-RDP79T00975A000900050001-6_p0004 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0004
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=21..65, len=45)
+Predicted chunk text: 3 3 h ibn saud opposes withdrawing troops from buraimi comment although the american consul at dhahran believes that the situation is improved for the moment the king's adamant attitude on withdrawing troops from buraimi may encourage the outbreak of further incidents in the area
+Unredacted context: near east africa [UNRED_ONLY: 3 3 h ibn saud opposes withdrawing troops from buraimi comment although the american consul at dhahran believes that the situation is improved for the moment the king's adamant attitude on withdrawing troops from buraimi may encourage the outbreak of further incidents in the area] change in egyptian
+Redacted anchor context: winter near east [L@33:africa] [RED_GAP:<empty>] [R@34:change] in egyptian regency
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=169..169, len=1)
+Predicted chunk text: 4
+Unredacted context: the brotherhood's influence [UNRED_ONLY: 4]
+Redacted anchor context: [L_ANCHOR_ONLY @ 136] curb the brotherhood's influence
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+===== PAGE 0005 | 2018003_CIA-RDP79T00975A000900050001-6_p0005 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0005
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=165..168, len=4)
+Predicted chunk text: 3 3 h 2
+Unredacted context: concessions from epek [UNRED_ONLY: 3 3 h 2] western europe french
+Redacted anchor context: extracting concessions from [L@165:epek] [RED_GAP:<empty>] [R@166:western] europe
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=171..206, len=36)
+Predicted chunk text: french report west berliners shifting in favor of four-power talks a result of the initiative of the german democratic republic in mid-september public opinion in berlin has clearly shifted in favor of negotiations with the ussr
+Unredacted context: 2 western europe [UNRED_ONLY: french report west berliners shifting in favor of four-power talks a result of the initiative of the german democratic republic in mid-september public opinion in berlin has clearly shifted in favor of negotiations with the ussr]
+Redacted anchor context: [L_ANCHOR_ONLY @ 167] from epek western europe
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+===== PAGE 0006 | 2018003_CIA-RDP79T00975A000900050001-6_p0006 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0006
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+
+========================================================================
+Chunk #1 (token_span=0..130, len=131)
+Predicted chunk text: west berliners led by mayor reuter have regarded past soviet and east german unity offers as propaganda but are taking the latest overtures seriously they feel that the germans may have a chance for unity if they sacrifice the polish-administered territory east of the oder-neisse line they believe that the ussr has abandoned the idea of a neutral germany and now simply requires guarantees concerning the german army and relinquishment by germany of the polish-administered territory comment sentiment for four-power talks is widespread in west germany although there are no other reports of its extent in west berlin although there is no evidence that the ussr would permit the unification of germany on the terms described certain west german circles believe that a soviet policy shift in that direction is imminent
+Unredacted context: [UNRED_ONLY: west berliners led by mayor reuter have regarded past soviet and east german unity offers as propaganda but are taking the latest overtures seriously they feel that the germans may have a chance for unity if they sacrifice the polish-administered territory east of the oder-neisse line they believe that the ussr has abandoned the idea of a neutral germany and now simply requires guarantees concerning the german army and relinquishment by germany of the polish-administered territory comment sentiment for four-power talks is widespread in west germany although there are no other reports of its extent in west berlin although there is no evidence that the ussr would permit the unification of germany on the terms described certain west german circles believe that a soviet policy shift in that direction is imminent] prospects for belgian
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] prospects for belgian ratification
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+===== PAGE 0007 | 2018003_CIA-RDP79T00975A000900050001-6_p0007 =====
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0007
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 0

@@ -1,0 +1,24 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0005
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=165..168, len=4)
+Predicted chunk text: 3 3 h 2
+Unredacted context: concessions from epek [UNRED_ONLY: 3 3 h 2] western europe french
+Redacted anchor context: extracting concessions from [L@165:epek] [RED_GAP:<empty>] [R@166:western] europe
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=171..206, len=36)
+Predicted chunk text: french report west berliners shifting in favor of four-power talks a result of the initiative of the german democratic republic in mid-september public opinion in berlin has clearly shifted in favor of negotiations with the ussr
+Unredacted context: 2 western europe [UNRED_ONLY: french report west berliners shifting in favor of four-power talks a result of the initiative of the german democratic republic in mid-september public opinion in berlin has clearly shifted in favor of negotiations with the ussr]
+Redacted anchor context: [L_ANCHOR_ONLY @ 167] from epek western europe
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]

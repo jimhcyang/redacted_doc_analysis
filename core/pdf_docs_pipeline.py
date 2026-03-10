@@ -5,6 +5,7 @@ import csv
 import json
 import re
 import shutil
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -59,6 +60,30 @@ class PDFPair:
     unredacted_pdf: Path
 
 
+@dataclass
+class PairCollectionStats:
+    rows_total: int = 0
+    rows_missing_required_fields: int = 0
+    rows_invalid_unredacted_id_format: int = 0
+    rows_missing_redacted_pdf: int = 0
+    rows_missing_unredacted_pdf: int = 0
+    rows_duplicate_unredacted_id: int = 0
+    rows_duplicate_redacted_id: int = 0
+    rows_valid: int = 0
+
+    def as_dict(self) -> dict[str, int]:
+        return {
+            "rows_total": int(self.rows_total),
+            "rows_missing_required_fields": int(self.rows_missing_required_fields),
+            "rows_invalid_unredacted_id_format": int(self.rows_invalid_unredacted_id_format),
+            "rows_missing_redacted_pdf": int(self.rows_missing_redacted_pdf),
+            "rows_missing_unredacted_pdf": int(self.rows_missing_unredacted_pdf),
+            "rows_duplicate_unredacted_id": int(self.rows_duplicate_unredacted_id),
+            "rows_duplicate_redacted_id": int(self.rows_duplicate_redacted_id),
+            "rows_valid": int(self.rows_valid),
+        }
+
+
 def _normalize_csv_row(row: list[str], width: int = 11) -> list[str]:
     out = list(row)
     if len(out) < width:
@@ -66,14 +91,112 @@ def _normalize_csv_row(row: list[str], width: int = 11) -> list[str]:
     return out
 
 
-def _unredacted_candidates(unredacted_id: str, unredacted_dir: Path) -> list[Path]:
-    files = []
-    uid_int = _safe_int(unredacted_id, default=-1)
-    if uid_int >= 0:
-        files.append(unredacted_dir / f"cib_{uid_int:08d}.pdf")
-        files.append(unredacted_dir / f"{uid_int}.pdf")
-    files.append(unredacted_dir / f"{unredacted_id}.pdf")
-    return files
+def _parse_unredacted_id(raw: str) -> int | None:
+    s = str(raw).strip()
+    if not s or (not s.isdigit()):
+        return None
+    # User rule: keep digit IDs that are at most 8 digits; left-pad to 8 for filename.
+    if len(s) > 8:
+        return None
+    try:
+        return int(s)
+    except Exception:
+        return None
+
+
+def _canonical_unredacted_pdf_path(unredacted_id_int: int, unredacted_dir: Path) -> Path:
+    return unredacted_dir / f"cib_{unredacted_id_int:08d}.pdf"
+
+
+def _progress_iter(
+    iterable: Iterable[Any],
+    *,
+    total: int | None,
+    desc: str,
+    leave: bool = False,
+) -> Iterable[Any]:
+    try:
+        from tqdm import tqdm  # type: ignore
+    except Exception:
+        return iterable
+    return tqdm(
+        iterable,
+        total=total,
+        desc=desc,
+        leave=leave,
+        dynamic_ncols=True,
+        mininterval=0.2,
+    )
+
+
+def collect_pdf_pairs_with_stats(
+    csv_path: Path,
+    redacted_dir: Path,
+    unredacted_dir: Path,
+    max_pairs: int | None = None,
+) -> tuple[list[PDFPair], PairCollectionStats]:
+    pairs: list[PDFPair] = []
+    stats = PairCollectionStats()
+    seen_unred_ids: set[str] = set()
+    seen_red_ids: set[str] = set()
+
+    with csv_path.open("r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        for i, raw_row in enumerate(reader, start=1):
+            stats.rows_total += 1
+            row = _normalize_csv_row(raw_row)
+            unred_id_raw = str(row[1]).strip()
+            red_doc_id = str(row[5]).strip()
+
+            if not unred_id_raw or not red_doc_id:
+                stats.rows_missing_required_fields += 1
+                continue
+
+            unred_id_int = _parse_unredacted_id(unred_id_raw)
+            if unred_id_int is None:
+                stats.rows_invalid_unredacted_id_format += 1
+                continue
+
+            unred_id_norm = str(unred_id_int)
+            if unred_id_norm in seen_unred_ids:
+                stats.rows_duplicate_unredacted_id += 1
+                continue
+            if red_doc_id in seen_red_ids:
+                stats.rows_duplicate_redacted_id += 1
+                continue
+
+            red_pdf = redacted_dir / f"{red_doc_id}.pdf"
+            if not red_pdf.exists():
+                stats.rows_missing_redacted_pdf += 1
+                continue
+
+            # Strict mapping rule: only cib_<8_digit_number>.pdf is valid.
+            unred_pdf = _canonical_unredacted_pdf_path(unred_id_int, unredacted_dir)
+            if not unred_pdf.exists():
+                stats.rows_missing_unredacted_pdf += 1
+                continue
+
+            seen_unred_ids.add(unred_id_norm)
+            seen_red_ids.add(red_doc_id)
+
+            pair_key = _clean_filename_component(f"{unred_id_norm}__{red_doc_id}")
+            pairs.append(
+                PDFPair(
+                    pair_key=pair_key,
+                    unredacted_numeric_id=unred_id_norm,
+                    redacted_doc_id=red_doc_id,
+                    row=row,
+                    row_index_1based=i,
+                    redacted_pdf=red_pdf,
+                    unredacted_pdf=unred_pdf,
+                )
+            )
+            stats.rows_valid += 1
+
+            if max_pairs is not None and len(pairs) >= max_pairs:
+                break
+
+    return pairs, stats
 
 
 def collect_pdf_pairs(
@@ -82,44 +205,12 @@ def collect_pdf_pairs(
     unredacted_dir: Path,
     max_pairs: int | None = None,
 ) -> list[PDFPair]:
-    pairs: list[PDFPair] = []
-    with csv_path.open("r", encoding="utf-8") as f:
-        reader = csv.reader(f)
-        for i, raw_row in enumerate(reader, start=1):
-            row = _normalize_csv_row(raw_row)
-            unred_id = str(row[1]).strip()
-            red_doc_id = str(row[5]).strip()
-            if not unred_id or not red_doc_id:
-                continue
-
-            red_pdf = redacted_dir / f"{red_doc_id}.pdf"
-            if not red_pdf.exists():
-                continue
-
-            unred_pdf = None
-            for c in _unredacted_candidates(unred_id, unredacted_dir):
-                if c.exists():
-                    unred_pdf = c
-                    break
-            if unred_pdf is None:
-                continue
-
-            pair_key = _clean_filename_component(f"{unred_id}__{red_doc_id}")
-            pairs.append(
-                PDFPair(
-                    pair_key=pair_key,
-                    unredacted_numeric_id=unred_id,
-                    redacted_doc_id=red_doc_id,
-                    row=row,
-                    row_index_1based=i,
-                    redacted_pdf=red_pdf,
-                    unredacted_pdf=unred_pdf,
-                )
-            )
-
-            if max_pairs is not None and len(pairs) >= max_pairs:
-                break
-
+    pairs, _ = collect_pdf_pairs_with_stats(
+        csv_path=csv_path,
+        redacted_dir=redacted_dir,
+        unredacted_dir=unredacted_dir,
+        max_pairs=max_pairs,
+    )
     return pairs
 
 
@@ -304,6 +395,63 @@ def preprocess_page_for_ocr(
         "upscale": float(upscale),
         "autocontrast_cutoff": int(autocontrast_cutoff),
         "used_trim": bool(used_trim),
+    }
+
+
+def crop_page_fixed_margins(
+    src_path: Path,
+    dst_path: Path,
+    *,
+    left_ratio: float,
+    right_ratio: float,
+    top_ratio: float,
+    bottom_ratio: float,
+) -> dict[str, object]:
+    img = Image.open(src_path).convert("RGB")
+    w, h = img.size
+    if w <= 1 or h <= 1:
+        dst_path.parent.mkdir(parents=True, exist_ok=True)
+        img.save(dst_path)
+        return {
+            "src_size_wh": [int(w), int(h)],
+            "crop_size_wh": [int(w), int(h)],
+            "crop_xyxy": [0, 0, max(0, w - 1), max(0, h - 1)],
+            "ratios": {
+                "left": float(left_ratio),
+                "right": float(right_ratio),
+                "top": float(top_ratio),
+                "bottom": float(bottom_ratio),
+            },
+        }
+
+    left_ratio = max(0.0, min(0.49, float(left_ratio)))
+    right_ratio = max(0.0, min(0.49, float(right_ratio)))
+    top_ratio = max(0.0, min(0.49, float(top_ratio)))
+    bottom_ratio = max(0.0, min(0.49, float(bottom_ratio)))
+
+    x1 = int(round(w * left_ratio))
+    x2 = int(round(w * (1.0 - right_ratio)))
+    y1 = int(round(h * top_ratio))
+    y2 = int(round(h * (1.0 - bottom_ratio)))
+
+    x1 = max(0, min(w - 1, x1))
+    y1 = max(0, min(h - 1, y1))
+    x2 = max(x1 + 1, min(w, x2))
+    y2 = max(y1 + 1, min(h, y2))
+
+    crop = img.crop((x1, y1, x2, y2))
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+    crop.save(dst_path)
+    return {
+        "src_size_wh": [int(w), int(h)],
+        "crop_size_wh": [int(crop.width), int(crop.height)],
+        "crop_xyxy": [int(x1), int(y1), int(x2 - 1), int(y2 - 1)],
+        "ratios": {
+            "left": float(left_ratio),
+            "right": float(right_ratio),
+            "top": float(top_ratio),
+            "bottom": float(bottom_ratio),
+        },
     }
 
 
@@ -542,6 +690,10 @@ def run_pdf_docs_pipeline(
     content_pad_ratio: float,
     ocr_upscale: float,
     autocontrast_cutoff: int,
+    crop_left_ratio: float,
+    crop_right_ratio: float,
+    crop_top_ratio: float,
+    crop_bottom_ratio: float,
 ) -> None:
     docs_root = docs_root.resolve()
     csv_path = docs_root / csv_name
@@ -561,11 +713,31 @@ def run_pdf_docs_pipeline(
     demo_dir.mkdir(parents=True, exist_ok=True)
     rendered_dir.mkdir(parents=True, exist_ok=True)
 
-    pairs = collect_pdf_pairs(
+    all_pairs, pair_stats = collect_pdf_pairs_with_stats(
         csv_path=csv_path,
         redacted_dir=redacted_dir,
         unredacted_dir=unredacted_dir,
-        max_pairs=max_pairs,
+        max_pairs=None,
+    )
+    if max_pairs is None:
+        pairs = all_pairs
+    else:
+        pairs = all_pairs[: max(0, int(max_pairs))]
+
+    dropped_rows = max(0, pair_stats.rows_total - pair_stats.rows_valid)
+    print(
+        "[PAIRING] "
+        f"rows_total={pair_stats.rows_total} valid_pairs={pair_stats.rows_valid} "
+        f"dropped_rows={dropped_rows} selected_pairs={len(pairs)}"
+    )
+    print(
+        "[PAIRING] dropped_detail "
+        f"missing_required={pair_stats.rows_missing_required_fields} "
+        f"invalid_unredacted_id={pair_stats.rows_invalid_unredacted_id_format} "
+        f"missing_redacted_pdf={pair_stats.rows_missing_redacted_pdf} "
+        f"missing_unredacted_pdf={pair_stats.rows_missing_unredacted_pdf} "
+        f"duplicate_unredacted_id={pair_stats.rows_duplicate_unredacted_id} "
+        f"duplicate_redacted_id={pair_stats.rows_duplicate_redacted_id}"
     )
     if not pairs:
         raise SystemExit("No PDF pairs found from CSV + local files.")
@@ -583,11 +755,17 @@ def run_pdf_docs_pipeline(
     manifest_rows: list[dict[str, object]] = []
     total_pages = 0
 
-    for pair_idx, pair in enumerate(pairs, start=1):
+    pair_iter = _progress_iter(
+        pairs,
+        total=len(pairs),
+        desc="PDF pairs",
+        leave=False,
+    )
+    for pair_idx, pair in enumerate(pair_iter, start=1):
         pair_render_dir = rendered_dir / pair.pair_key
         red_img_dir = pair_render_dir / "redacted"
         unred_img_dir = pair_render_dir / "unredacted"
-        preproc_dir = pair_render_dir / "preprocessed"
+        crop_dir = pair_render_dir / "cropped"
         if pair_render_dir.exists():
             shutil.rmtree(pair_render_dir)
         pair_render_dir.mkdir(parents=True, exist_ok=True)
@@ -611,13 +789,13 @@ def run_pdf_docs_pipeline(
         if page_count <= 0:
             continue
 
-        red_pdf_text_pages: list[str] = []
-        unred_pdf_text_pages: list[str] = []
-        if (not skip_ocr) and use_pdf_text_layer:
-            red_pdf_text_pages = extract_pdf_text_by_page(pair.redacted_pdf, max_pages=max_pages)
-            unred_pdf_text_pages = extract_pdf_text_by_page(pair.unredacted_pdf, max_pages=max_pages)
-
-        for page_i in range(page_count):
+        page_iter = _progress_iter(
+            range(page_count),
+            total=page_count,
+            desc=f"{pair.pair_key} pages",
+            leave=False,
+        )
+        for page_i in page_iter:
             page_no = page_i + 1
             total_pages += 1
             page_key = _clean_filename_component(f"{pair.pair_key}__p{page_no:04d}")
@@ -626,8 +804,26 @@ def run_pdf_docs_pipeline(
                 shutil.rmtree(doc_demo_dir)
             doc_demo_dir.mkdir(parents=True, exist_ok=True)
 
-            red_img_src = red_pages[page_i]
-            unred_img_src = unred_pages[page_i]
+            red_img_full = red_pages[page_i]
+            unred_img_full = unred_pages[page_i]
+            red_img_src = crop_dir / f"{page_key}_redacted.crop.png"
+            unred_img_src = crop_dir / f"{page_key}_unredacted.crop.png"
+            red_crop_meta = crop_page_fixed_margins(
+                src_path=red_img_full,
+                dst_path=red_img_src,
+                left_ratio=crop_left_ratio,
+                right_ratio=crop_right_ratio,
+                top_ratio=crop_top_ratio,
+                bottom_ratio=crop_bottom_ratio,
+            )
+            unred_crop_meta = crop_page_fixed_margins(
+                src_path=unred_img_full,
+                dst_path=unred_img_src,
+                left_ratio=crop_left_ratio,
+                right_ratio=crop_right_ratio,
+                top_ratio=crop_top_ratio,
+                bottom_ratio=crop_bottom_ratio,
+            )
             red_img_dst = doc_demo_dir / f"{page_key}_redacted.png"
             unred_img_dst = doc_demo_dir / f"{page_key}_unredacted.png"
             shutil.copy2(red_img_src, red_img_dst)
@@ -635,20 +831,15 @@ def run_pdf_docs_pipeline(
 
             red_raw_path = doc_demo_dir / f"{page_key}_redacted.raw_ocr.txt"
             unred_raw_path = doc_demo_dir / f"{page_key}_unredacted.raw_ocr.txt"
-            red_ocr_meta: dict[str, object] = {"selected_source": "skipped", "candidates": []}
-            unred_ocr_meta: dict[str, object] = {"selected_source": "skipped", "candidates": []}
-            red_pre_meta: dict[str, object] | None = None
-            unred_pre_meta: dict[str, object] | None = None
+            red_ocr_meta: dict[str, object] = {"selected_source": "skipped"}
+            unred_ocr_meta: dict[str, object] = {"selected_source": "skipped"}
 
             if skip_ocr:
                 red_raw = "[OCR_SKIPPED]"
                 unred_raw = "[OCR_SKIPPED]"
             else:
                 assert llm is not None
-                red_candidates: list[tuple[str, str]] = []
-                unred_candidates: list[tuple[str, str]] = []
-
-                red_raw_candidate = ocr_with_model(
+                red_raw = ocr_with_model(
                     llm=llm,
                     image_path=red_img_src,
                     prompt=prompt,
@@ -657,9 +848,7 @@ def run_pdf_docs_pipeline(
                     ngram_size=ngram_size,
                     window_size=window_size,
                 )
-                red_candidates.append(("ocr_rendered_raw", red_raw_candidate))
-
-                unred_raw_candidate = ocr_with_model(
+                unred_raw = ocr_with_model(
                     llm=llm,
                     image_path=unred_img_src,
                     prompt=prompt,
@@ -668,63 +857,8 @@ def run_pdf_docs_pipeline(
                     ngram_size=ngram_size,
                     window_size=window_size,
                 )
-                unred_candidates.append(("ocr_rendered_raw", unred_raw_candidate))
-
-                if page_preprocess:
-                    red_pre_img = preproc_dir / f"{page_key}_redacted.preproc.png"
-                    unred_pre_img = preproc_dir / f"{page_key}_unredacted.preproc.png"
-
-                    red_pre_meta = preprocess_page_for_ocr(
-                        src_path=red_img_src,
-                        dst_path=red_pre_img,
-                        trim_border_ratio=trim_border_ratio,
-                        content_pad_ratio=content_pad_ratio,
-                        upscale=ocr_upscale,
-                        autocontrast_cutoff=autocontrast_cutoff,
-                    )
-                    unred_pre_meta = preprocess_page_for_ocr(
-                        src_path=unred_img_src,
-                        dst_path=unred_pre_img,
-                        trim_border_ratio=trim_border_ratio,
-                        content_pad_ratio=content_pad_ratio,
-                        upscale=ocr_upscale,
-                        autocontrast_cutoff=autocontrast_cutoff,
-                    )
-
-                    red_pre_text = ocr_with_model(
-                        llm=llm,
-                        image_path=red_pre_img,
-                        prompt=prompt,
-                        max_tokens=max_tokens,
-                        temperature=temperature,
-                        ngram_size=ngram_size,
-                        window_size=window_size,
-                    )
-                    unred_pre_text = ocr_with_model(
-                        llm=llm,
-                        image_path=unred_pre_img,
-                        prompt=prompt,
-                        max_tokens=max_tokens,
-                        temperature=temperature,
-                        ngram_size=ngram_size,
-                        window_size=window_size,
-                    )
-                    red_candidates.append(("ocr_preprocessed", red_pre_text))
-                    unred_candidates.append(("ocr_preprocessed", unred_pre_text))
-
-                if use_pdf_text_layer and page_i < len(red_pdf_text_pages):
-                    text_layer = red_pdf_text_pages[page_i]
-                    if _is_usable_pdf_text_layer(text_layer, min_tokens=min_pdf_text_tokens):
-                        red_candidates.append(("pdf_text_layer", text_layer))
-                if use_pdf_text_layer and page_i < len(unred_pdf_text_pages):
-                    text_layer = unred_pdf_text_pages[page_i]
-                    if _is_usable_pdf_text_layer(text_layer, min_tokens=min_pdf_text_tokens):
-                        unred_candidates.append(("pdf_text_layer", text_layer))
-
-                red_source, red_raw, red_details = _pick_best_text_candidate(red_candidates)
-                unred_source, unred_raw, unred_details = _pick_best_text_candidate(unred_candidates)
-                red_ocr_meta = {"selected_source": red_source, "candidates": red_details}
-                unred_ocr_meta = {"selected_source": unred_source, "candidates": unred_details}
+                red_ocr_meta = {"selected_source": "ocr_cropped_fixed_margin"}
+                unred_ocr_meta = {"selected_source": "ocr_cropped_fixed_margin"}
 
             red_raw_path.write_text(red_raw.rstrip() + "\n", encoding="utf-8")
             unred_raw_path.write_text(unred_raw.rstrip() + "\n", encoding="utf-8")
@@ -784,19 +918,18 @@ def run_pdf_docs_pipeline(
                     "unredacted": unred_ocr_meta,
                 },
                 "preprocess": {
-                    "enabled": bool(page_preprocess),
-                    "trim_border_ratio": float(trim_border_ratio),
-                    "content_pad_ratio": float(content_pad_ratio),
-                    "ocr_upscale": float(ocr_upscale),
-                    "autocontrast_cutoff": int(autocontrast_cutoff),
-                    "redacted_preprocess_meta": red_pre_meta,
-                    "unredacted_preprocess_meta": unred_pre_meta,
+                    "enabled": False,
+                    "mode": "fixed_margin_crop_only",
+                    "crop_left_ratio": float(crop_left_ratio),
+                    "crop_right_ratio": float(crop_right_ratio),
+                    "crop_top_ratio": float(crop_top_ratio),
+                    "crop_bottom_ratio": float(crop_bottom_ratio),
+                    "redacted_crop_meta": red_crop_meta,
+                    "unredacted_crop_meta": unred_crop_meta,
                 },
             }
             manifest_rows.append(manifest)
-            red_src = str(red_ocr_meta.get("selected_source", "n/a"))
-            unred_src = str(unred_ocr_meta.get("selected_source", "n/a"))
-            print(f"[PAGE] {page_key} chunks={len(chunks)} src(red/unred)={red_src}/{unred_src} demo={doc_demo_dir}")
+            # Keep console output clean: tqdm progress bars + final summaries only.
 
     manifest_jsonl = out_dir / "docs_manifest.jsonl"
     manifest_json = out_dir / "docs_manifest.json"
@@ -822,18 +955,10 @@ def main() -> None:
     parser.add_argument("--max_pairs", type=int, default=None, help="Optional cap on PDF pairs")
     parser.add_argument("--max_pages", type=int, default=None, help="Optional cap on pages per PDF")
     parser.add_argument("--skip_ocr", action="store_true", help="Skip OCR calls and write placeholder text")
-    parser.add_argument("--no_pdf_text_layer", action="store_true", help="Disable PDF text-layer candidate extraction")
-    parser.add_argument(
-        "--min_pdf_text_tokens",
-        type=int,
-        default=20,
-        help="Minimum token count required to accept a PDF text-layer page as OCR candidate",
-    )
-    parser.add_argument("--no_page_preprocess", action="store_true", help="Disable preprocessed OCR candidate")
-    parser.add_argument("--trim_border_ratio", type=float, default=0.01, help="Ignore this outer ratio before content crop")
-    parser.add_argument("--content_pad_ratio", type=float, default=0.015, help="Padding ratio added around detected content box")
-    parser.add_argument("--ocr_upscale", type=float, default=1.35, help="Upscale factor for preprocessed OCR candidate")
-    parser.add_argument("--autocontrast_cutoff", type=int, default=1, help="Autocontrast cutoff percent for preprocessed OCR")
+    parser.add_argument("--crop_left_ratio", type=float, default=0.15, help="Fixed left crop ratio per page")
+    parser.add_argument("--crop_right_ratio", type=float, default=0.10, help="Fixed right crop ratio per page")
+    parser.add_argument("--crop_top_ratio", type=float, default=0.10, help="Fixed top crop ratio per page")
+    parser.add_argument("--crop_bottom_ratio", type=float, default=0.10, help="Fixed bottom crop ratio per page")
 
     parser.add_argument("--model", default=MODEL_ID, help="Model id or local path")
     parser.add_argument("--prompt", default=PROMPT_FREE_OCR, help="OCR prompt")
@@ -868,13 +993,17 @@ def main() -> None:
         max_pairs=args.max_pairs,
         max_pages=args.max_pages,
         skip_ocr=bool(args.skip_ocr),
-        use_pdf_text_layer=not bool(args.no_pdf_text_layer),
-        min_pdf_text_tokens=args.min_pdf_text_tokens,
-        page_preprocess=not bool(args.no_page_preprocess),
-        trim_border_ratio=args.trim_border_ratio,
-        content_pad_ratio=args.content_pad_ratio,
-        ocr_upscale=args.ocr_upscale,
-        autocontrast_cutoff=args.autocontrast_cutoff,
+        use_pdf_text_layer=False,
+        min_pdf_text_tokens=0,
+        page_preprocess=False,
+        trim_border_ratio=0.0,
+        content_pad_ratio=0.0,
+        ocr_upscale=1.0,
+        autocontrast_cutoff=0,
+        crop_left_ratio=args.crop_left_ratio,
+        crop_right_ratio=args.crop_right_ratio,
+        crop_top_ratio=args.crop_top_ratio,
+        crop_bottom_ratio=args.crop_bottom_ratio,
     )
 
 

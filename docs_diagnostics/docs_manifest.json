@@ -1,0 +1,562 @@
+[
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 1,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0001",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/2018003_CIA-RDP79T00975A000900050001-6_p0001.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0001/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 2,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3088
+        ],
+        "crop_size_wh": [
+          1908,
+          2470
+        ],
+        "crop_xyxy": [
+          382,
+          309,
+          2289,
+          2778
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 2,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0002",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/2018003_CIA-RDP79T00975A000900050001-6_p0002.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0002/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 4,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3083
+        ],
+        "crop_size_wh": [
+          1908,
+          2467
+        ],
+        "crop_xyxy": [
+          382,
+          308,
+          2289,
+          2774
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 3,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0003",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 2,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3088
+        ],
+        "crop_size_wh": [
+          1908,
+          2470
+        ],
+        "crop_xyxy": [
+          382,
+          309,
+          2289,
+          2778
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 4,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0004",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/2018003_CIA-RDP79T00975A000900050001-6_p0004.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0004/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 2,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3080
+        ],
+        "crop_size_wh": [
+          1908,
+          2464
+        ],
+        "crop_xyxy": [
+          382,
+          308,
+          2289,
+          2771
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 5,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0005",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/2018003_CIA-RDP79T00975A000900050001-6_p0005.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0005/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 2,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3090
+        ],
+        "crop_size_wh": [
+          1908,
+          2472
+        ],
+        "crop_xyxy": [
+          382,
+          309,
+          2289,
+          2780
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 6,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0006",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 1,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3093
+        ],
+        "crop_size_wh": [
+          1908,
+          2475
+        ],
+        "crop_xyxy": [
+          382,
+          309,
+          2289,
+          2783
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  },
+  {
+    "pair_index_1based": 1,
+    "page_no_1based": 7,
+    "page_key": "2018003_CIA-RDP79T00975A000900050001-6_p0007",
+    "pair_key": "2018003_CIA-RDP79T00975A000900050001-6",
+    "redacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf",
+    "unredacted_pdf": "/home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf",
+    "demo_folder": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007",
+    "files": {
+      "redacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_redacted.png",
+      "unredacted_png": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_unredacted.png",
+      "redacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_redacted.raw_ocr.txt",
+      "unredacted_raw_ocr": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007_unredacted.raw_ocr.txt",
+      "redaction_chunks_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007.redaction_chunks.txt",
+      "unredacted_bracketed_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/2018003_CIA-RDP79T00975A000900050001-6_p0007.unredacted_bracketed.txt",
+      "mapping_ground_truth_txt": "docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0007/_ground_truth.txt"
+    },
+    "predicted_chunk_count": 0,
+    "skip_ocr": false,
+    "ocr_selection": {
+      "redacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      },
+      "unredacted": {
+        "selected_source": "ocr_cropped_fixed_margin"
+      }
+    },
+    "preprocess": {
+      "enabled": false,
+      "mode": "fixed_margin_crop_only",
+      "crop_left_ratio": 0.15,
+      "crop_right_ratio": 0.1,
+      "crop_top_ratio": 0.1,
+      "crop_bottom_ratio": 0.1,
+      "redacted_crop_meta": {
+        "src_size_wh": [
+          2550,
+          3301
+        ],
+        "crop_size_wh": [
+          1913,
+          2641
+        ],
+        "crop_xyxy": [
+          382,
+          330,
+          2294,
+          2970
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      },
+      "unredacted_crop_meta": {
+        "src_size_wh": [
+          2544,
+          3075
+        ],
+        "crop_size_wh": [
+          1908,
+          2460
+        ],
+        "crop_xyxy": [
+          382,
+          308,
+          2289,
+          2767
+        ],
+        "ratios": {
+          "left": 0.15,
+          "right": 0.1,
+          "top": 0.1,
+          "bottom": 0.1
+        }
+      }
+    }
+  }
+]

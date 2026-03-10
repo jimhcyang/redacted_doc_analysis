@@ -1,0 +1,17 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0006
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0006/2018003_CIA-RDP79T00975A000900050001-6_p0006_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 1
+
+========================================================================
+Chunk #1 (token_span=0..130, len=131)
+Predicted chunk text: west berliners led by mayor reuter have regarded past soviet and east german unity offers as propaganda but are taking the latest overtures seriously they feel that the germans may have a chance for unity if they sacrifice the polish-administered territory east of the oder-neisse line they believe that the ussr has abandoned the idea of a neutral germany and now simply requires guarantees concerning the german army and relinquishment by germany of the polish-administered territory comment sentiment for four-power talks is widespread in west germany although there are no other reports of its extent in west berlin although there is no evidence that the ussr would permit the unification of germany on the terms described certain west german circles believe that a soviet policy shift in that direction is imminent
+Unredacted context: [UNRED_ONLY: west berliners led by mayor reuter have regarded past soviet and east german unity offers as propaganda but are taking the latest overtures seriously they feel that the germans may have a chance for unity if they sacrifice the polish-administered territory east of the oder-neisse line they believe that the ussr has abandoned the idea of a neutral germany and now simply requires guarantees concerning the german army and relinquishment by germany of the polish-administered territory comment sentiment for four-power talks is widespread in west germany although there are no other reports of its extent in west berlin although there is no evidence that the ussr would permit the unification of germany on the terms described certain west german circles believe that a soviet policy shift in that direction is imminent] prospects for belgian
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] prospects for belgian ratification
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]

@@ -5,6 +5,7 @@ import csv
 import json
 import random
 import shutil
+from collections.abc import Iterable
 from collections import defaultdict
 from pathlib import Path
 import sys
@@ -13,7 +14,12 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from core.pdf_docs_pipeline import PDFPair, collect_pdf_pairs, run_pdf_docs_pipeline
+from core.pdf_docs_pipeline import (
+    PDFPair,
+    PairCollectionStats,
+    collect_pdf_pairs_with_stats,
+    run_pdf_docs_pipeline,
+)
 
 
 def _canonical_unredacted_name(unredacted_id: str, fallback_name: str) -> str:
@@ -21,6 +27,15 @@ def _canonical_unredacted_name(unredacted_id: str, fallback_name: str) -> str:
         return f"cib_{int(unredacted_id):08d}.pdf"
     except Exception:
         return fallback_name
+
+
+def _progress_iter(iterable: Iterable[PDFPair], *, desc: str) -> Iterable[PDFPair]:
+    try:
+        from tqdm import tqdm  # type: ignore
+    except Exception:
+        return iterable
+    total = len(iterable) if hasattr(iterable, "__len__") else None
+    return tqdm(iterable, total=total, desc=desc, leave=False, dynamic_ncols=True, mininterval=0.2)
 
 
 def sample_pairs(
@@ -31,12 +46,13 @@ def sample_pairs(
     unredacted_dir_name: str,
     sample_size: int,
     seed: int,
-) -> tuple[list[PDFPair], int]:
+    all_valid_rows: bool,
+) -> tuple[list[PDFPair], int, PairCollectionStats]:
     csv_path = source_root / csv_name
     red_dir = source_root / redacted_dir_name
     unred_dir = source_root / unredacted_dir_name
 
-    all_pairs = collect_pdf_pairs(
+    all_pairs, stats = collect_pdf_pairs_with_stats(
         csv_path=csv_path,
         redacted_dir=red_dir,
         unredacted_dir=unred_dir,
@@ -45,7 +61,7 @@ def sample_pairs(
     if not all_pairs:
         raise SystemExit(f"No valid PDF pairs found in source root: {source_root}")
 
-    if sample_size <= 0 or sample_size >= len(all_pairs):
+    if all_valid_rows or sample_size <= 0 or sample_size >= len(all_pairs):
         selected = list(all_pairs)
     else:
         rng = random.Random(seed)
@@ -53,7 +69,7 @@ def sample_pairs(
 
     # Stable output ordering for easier inspection.
     selected.sort(key=lambda p: p.row_index_1based)
-    return selected, len(all_pairs)
+    return selected, len(all_pairs), stats
 
 
 def populate_docs_example(
@@ -85,7 +101,7 @@ def populate_docs_example(
 
     with csv_path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        for pair in selected_pairs:
+        for pair in _progress_iter(selected_pairs, desc="Copy sampled PDFs"):
             # Redacted PDF copied under canonical doc-id name.
             red_dst = red_dir / f"{pair.redacted_doc_id}.pdf"
             shutil.copy2(pair.redacted_pdf, red_dst)
@@ -208,7 +224,8 @@ def main() -> None:
     parser.add_argument("--csv_name", default="cibcia.csv", help="CSV file name in source/target docs roots")
     parser.add_argument("--redacted_dir_name", default="redacted_pdfs", help="Redacted PDF folder name")
     parser.add_argument("--unredacted_dir_name", default="unredacted_pdfs", help="Unredacted PDF folder name")
-    parser.add_argument("--sample_size", type=int, default=100, help="Number of rows/pairs to sample")
+    parser.add_argument("--sample_size", type=int, default=10, help="Number of valid rows/pairs to sample")
+    parser.add_argument("--all_valid_rows", action="store_true", help="Use all valid CSV rows (ignores --sample_size)")
     parser.add_argument("--seed", type=int, default=42, help="Sampling random seed")
     parser.add_argument("--no_clean_target", action="store_true", help="Do not clear target docs root before copying sampled files")
 
@@ -228,13 +245,10 @@ def main() -> None:
     parser.add_argument("--hf_attn_implementation", default="eager", help="HF attention implementation")
     parser.add_argument("--hf_dtype", default="bfloat16", help="HF dtype for OCR backend hf")
 
-    parser.add_argument("--no_pdf_text_layer", action="store_true", help="Disable PDF text-layer candidate extraction")
-    parser.add_argument("--min_pdf_text_tokens", type=int, default=20, help="Minimum tokens for PDF text-layer candidate")
-    parser.add_argument("--no_page_preprocess", action="store_true", help="Disable preprocessed OCR candidate")
-    parser.add_argument("--trim_border_ratio", type=float, default=0.01, help="Outer border ratio to ignore before content crop")
-    parser.add_argument("--content_pad_ratio", type=float, default=0.015, help="Padding ratio around detected content")
-    parser.add_argument("--ocr_upscale", type=float, default=1.35, help="Upscale factor for preprocessed OCR candidate")
-    parser.add_argument("--autocontrast_cutoff", type=int, default=1, help="Autocontrast cutoff percent")
+    parser.add_argument("--crop_left_ratio", type=float, default=0.15, help="Fixed left crop ratio per page")
+    parser.add_argument("--crop_right_ratio", type=float, default=0.10, help="Fixed right crop ratio per page")
+    parser.add_argument("--crop_top_ratio", type=float, default=0.10, help="Fixed top crop ratio per page")
+    parser.add_argument("--crop_bottom_ratio", type=float, default=0.10, help="Fixed bottom crop ratio per page")
 
     args = parser.parse_args()
 
@@ -242,15 +256,35 @@ def main() -> None:
     target_root = Path(args.target_docs_root)
     out_dir = Path(args.out)
 
-    selected_pairs, total_available = sample_pairs(
+    selected_pairs, total_available, pair_stats = sample_pairs(
         source_root=source_root,
         csv_name=args.csv_name,
         redacted_dir_name=args.redacted_dir_name,
         unredacted_dir_name=args.unredacted_dir_name,
         sample_size=int(args.sample_size),
         seed=int(args.seed),
+        all_valid_rows=bool(args.all_valid_rows),
     )
-    print(f"[SAMPLE] valid pairs available={total_available} selected={len(selected_pairs)} seed={args.seed}")
+    dropped_rows = max(0, pair_stats.rows_total - pair_stats.rows_valid)
+    mode = "all_valid_rows" if args.all_valid_rows else "sample"
+    print(
+        "[CSV] "
+        f"rows_total={pair_stats.rows_total} valid_pairs={pair_stats.rows_valid} "
+        f"dropped_rows={dropped_rows} mode={mode} selected={len(selected_pairs)} seed={args.seed}"
+    )
+    print(
+        "[CSV] dropped_detail "
+        f"missing_required={pair_stats.rows_missing_required_fields} "
+        f"invalid_unredacted_id={pair_stats.rows_invalid_unredacted_id_format} "
+        f"missing_redacted_pdf={pair_stats.rows_missing_redacted_pdf} "
+        f"missing_unredacted_pdf={pair_stats.rows_missing_unredacted_pdf} "
+        f"duplicate_unredacted_id={pair_stats.rows_duplicate_unredacted_id} "
+        f"duplicate_redacted_id={pair_stats.rows_duplicate_redacted_id}"
+    )
+    print(
+        "[SAMPLE] "
+        f"valid_pairs_available={total_available} selected={len(selected_pairs)}"
+    )
 
     populate_stats = populate_docs_example(
         selected_pairs=selected_pairs,
@@ -285,13 +319,17 @@ def main() -> None:
         max_pairs=None,
         max_pages=args.max_pages,
         skip_ocr=bool(args.skip_ocr),
-        use_pdf_text_layer=not bool(args.no_pdf_text_layer),
-        min_pdf_text_tokens=int(args.min_pdf_text_tokens),
-        page_preprocess=not bool(args.no_page_preprocess),
-        trim_border_ratio=float(args.trim_border_ratio),
-        content_pad_ratio=float(args.content_pad_ratio),
-        ocr_upscale=float(args.ocr_upscale),
-        autocontrast_cutoff=int(args.autocontrast_cutoff),
+        use_pdf_text_layer=False,
+        min_pdf_text_tokens=0,
+        page_preprocess=False,
+        trim_border_ratio=0.0,
+        content_pad_ratio=0.0,
+        ocr_upscale=1.0,
+        autocontrast_cutoff=0,
+        crop_left_ratio=float(args.crop_left_ratio),
+        crop_right_ratio=float(args.crop_right_ratio),
+        crop_top_ratio=float(args.crop_top_ratio),
+        crop_bottom_ratio=float(args.crop_bottom_ratio),
     )
 
     agg_stats = aggregate_by_document(out_dir)
@@ -303,4 +341,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

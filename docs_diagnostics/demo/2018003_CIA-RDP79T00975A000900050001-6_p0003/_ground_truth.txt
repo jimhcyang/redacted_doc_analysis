@@ -1,0 +1,24 @@
+Pair key: 2018003_CIA-RDP79T00975A000900050001-6
+CSV row index (1-based): 1
+Page index (1-based): 3
+
+=== PDF MAPPING ===
+Unredacted numeric id: 2018003
+Redacted doc id: CIA-RDP79T00975A000900050001-6
+Unredacted PDF: /home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/unredacted_pdfs/cib_02018003.pdf
+Redacted PDF: /home/jimyh/DeepSeek-OCR/DeepSeek-OCR-master/DeepSeek-OCR-vllm/docs_example/redacted_pdfs/CIA-RDP79T00975A000900050001-6.pdf
+
+=== CSV FIELDS ===
+Collection: Current/Central Intelligence Bulletin Collection
+Unredacted id: 2018003
+Date label: October 16, 1952
+Unredacted PDF URL: https://www.cia.gov/readingroom/docs/CURRENT%20INTELLIGENCE%20BULL%5B15652968%5D.pdf
+Date numeric: 10/16/1952
+Redacted doc id: CIA-RDP79T00975A000900050001-6
+Redacted doc URL: https://www.cia.gov/readingroom/document/CIA-RDP79T00975A000900050001-6
+Meta: /meta-51400
+Title: CENTRAL INTELLIGENCE BULLETIN
+Year: 1952
+Flag: 
+
+Note: textual redaction ground-truth snippets are not provided in this CSV.

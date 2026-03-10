@@ -1,0 +1,24 @@
+Page Key: 2018003_CIA-RDP79T00975A000900050001-6_p0003
+Redacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_redacted.raw_ocr.txt
+Unredacted OCR file: docs_diagnostics/demo/2018003_CIA-RDP79T00975A000900050001-6_p0003/2018003_CIA-RDP79T00975A000900050001-6_p0003_unredacted.raw_ocr.txt
+
+Legend:
+- [UNRED_ONLY: ...] = tokens present in unredacted but unmatched in redacted mapping
+- [L@i:tok] and [R@j:tok] = nearest mapped anchors in redacted tokens
+- [RED_GAP: ...] = redacted-token segment between anchors
+
+Predicted redaction chunks: 2
+
+========================================================================
+Chunk #1 (token_span=0..51, len=52)
+Predicted chunk text: far east 1 north korean aircraft vacate combat airfields in yalu river complex comment these transfers will practically empty the airfields in yalu river complex of north korean air units still largely in a training phase the move may be designed to provide facilities for additional trained soviet or chinese combat units
+Unredacted context: [UNRED_ONLY: far east 1 north korean aircraft vacate combat airfields in yalu river complex comment these transfers will practically empty the airfields in yalu river complex of north korean air units still largely in a training phase the move may be designed to provide facilities for additional trained soviet or chinese combat units] southeast asia 2
+Redacted anchor context: [R_ANCHOR_ONLY @ 0] southeast asia 2 french
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
+
+========================================================================
+Chunk #2 (token_span=127..156, len=30)
+Predicted chunk text: comment viet minh offensive operations would be initiated during the latter part of october it is not yet possible to determine whether the french action may have forced a postponement
+Unredacted context: of coolie labor [UNRED_ONLY: comment viet minh offensive operations would be initiated during the latter part of october it is not yet possible to determine whether the french action may have forced a postponement]
+Redacted anchor context: [L_ANCHOR_ONLY @ 74] shortage of coolie labor
+Diff interpretation: [UNRED_ONLY] vs [RED_GAP:<empty>]
